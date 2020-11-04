@@ -2,6 +2,7 @@ import { SVG } from '../node_modules/@svgdotjs/svg.js/dist/svg.esm.js';
 import * as util from './util.js';
 import * as keys from './keys.js';
 import * as gui from './gui.js';
+import * as data_loader from './data.js';
 
 export const config = {
   WIDTH: 300,
@@ -13,6 +14,8 @@ export const params = {
   rect_height: 100,
   save_svg: save,
 };
+
+export let data;
 
 export const draw = SVG('#svg');
 
@@ -29,8 +32,14 @@ export function save() {
   util.saveSVG('#svg');
 }
 
-recreate();
 
-gui.create();
+(async function main() {
+  data = await data_loader.load();
+  console.log(data);
+  
+  recreate();
 
-keys.setup();
+  gui.create();
+
+  keys.setup();
+})();
