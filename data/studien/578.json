@@ -1,0 +1,3562 @@
+{
+  "name": "Master Erneuerbare Urbane Energiesysteme",
+  "url": "https://cis.technikum-wien.at/addons/lvinfo/export/export.php?studiengang_kz=578",
+  "studiengang_kz": "578",
+  "studienordnung_id": null,
+  "data": {
+    "studienordnung_id": "36",
+    "studienordnung_bezeichnung": "0578-MEE-WS2013",
+    "studienplan_id": "40",
+    "studienplan_bezeichnung": "0578-MEE-WS2013-BB",
+    "gueltig_von": "WS2013",
+    "gueltig_von_datum": "2013-09-01",
+    "regelstudiendauer": "4",
+    "lehrveranstaltungen": {
+      "1": [
+        {
+          "lehrveranstaltung_id": "32367",
+          "kurzbz": "MOD1",
+          "semester": "1",
+          "bezeichnung": "Modul 1 Basismodul Angewandte Regeltechnik und Netzwerktechnik",
+          "bezeichnung_englisch": "Module 1 Basismodul Angewandte Regeltechnik und Netzwerktechnik",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3933",
+              "kurzbz": "ART",
+              "semester": "1",
+              "bezeichnung": "Angewandte Regeltechnik",
+              "bezeichnung_englisch": "Applied Control Engineering",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The students will be introduced to the basics of applied control engineering. Existing projects in sustainable building control design are presented. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Lectures- Discussions- Exercises"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to design PID controllers using empricial methods",
+                      "to realise hydraulic control systems",
+                      "to select Hardware and Communication-Systems for control systems in applied practical cases in the energy sector"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Analysis, synthesis, identification of control systems",
+                      "Basic elements of block diagrams ",
+                      "Algebra of block diagrams",
+                      "Identification in time domain",
+                      "Building automation",
+                      "Control strategies for energy systems in buildings"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Mathematics (BSc-Level)- Basics of mechanical engineering (BSc-Level)- Basics of electrical engineering (BSc-Level)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Jan Lunze – Regelungstechnik 1",
+                      "Manfred Reuter, Serge Zacher – Regelungstechnik für Ingenieure"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Written exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "100% presence in lecture required"
+                  }
+                }
+              },
+              "lastupdate": "2017-09-04 16:54:14"
+            },
+            {
+              "lehrveranstaltung_id": "3934",
+              "kurzbz": "NW",
+              "semester": "1",
+              "bezeichnung": "Netzwerke",
+              "bezeichnung_englisch": "Networks",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course presents the fundamentals of computer networks, in particular with the focus on:- reference models (OSI, TCP/IP, IEC 61850)- addresses and protocols on different layers- applying these technologies to real world examples in the field of electrical power systems"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Two-stage lecture:1.) theoretical part to present the basic principles2.) application part where recent scientific papers are studied and presented by students"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain the tasks of different layers in the OSI and TCP/IP model",
+                      "explain how IP packets are forwarded and to identify all related protocols",
+                      "develop a protocol stack for real world examples in the field of electrical power systems"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Basic terms and definitions in computer networks with references to IEC 61850",
+                      "Ethernet",
+                      "IP addresses (IPv4 and IPv6)",
+                      "Protocols (IPv4, IPv6, ARP, ND, TCP, UDP)",
+                      "Domain name system"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Andrew S. Tanenbaum. Computer Networks: Fifth Edition. Prentice-Hall, Upper Saddle River, NJ, USA, 2010."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "regular homeworks",
+                      "presentation",
+                      "end exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "In the theory part there is mandatory attendance"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung beschäftigt sich mit den Grundlagen von Computernetzen, im Speziellen mit den Schwerpunkten:- Referenzmodelle (OSI, TCP/IP, IEC 61850)- Adressen und Protokolle auf unterschiedlichen Schichten- Anwendung dieser Technologien in konkreten praxisnahen Aufgabenstellungen aus dem Bereich der Stromnetze"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Zweistufige Vorlesung:1.) Theorie-Teil zur Vermittlung der Grundlagen2.) Anwendungs-Teil mit selbständiger Erarbeitung aktueller Forschungsthemen und Präsentation im Rahmen von Referaten"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Aufgaben der verschiedenen Schichten im OSI und TCPI/IP Modell zu erklären",
+                      "die Übertragung von IP-Paketen über die Grenzen von LANs hinweg zu erklären und die dabei verwendeten Protokolle zu benennen",
+                      "einen Protokollstack für konkrete Problemstellungen aus dem Bereich der Stromnetze zu entwickeln"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlegende Begriffe und Definitionen im Bereich der Computernetze mit Bezugnahme auf IEC 61850",
+                      "Ethernet",
+                      "IP Adressen (IPv4 und IPv6)",
+                      "Protokolle (IPv4, IPv6, ARP, ND, TCP, UDP)",
+                      "Domain Name System"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Andrew S. Tanenbaum. Computer Networks: Fifth Edition. Prentice-Hall, Upper Saddle River, NJ, USA, 2010."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "regelmäßige Hausübungen",
+                      "Präsentation",
+                      "Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Im Theorieteil besteht Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32370",
+          "kurzbz": "MOD4",
+          "semester": "1",
+          "bezeichnung": "Modul 4 Energieumwandlung und Verteilung",
+          "bezeichnung_englisch": "Module 4 Energieumwandlung und Verteilung",
+          "unterrichtssprache": "German",
+          "ects": "9.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3935",
+              "kurzbz": "EA",
+              "semester": "1",
+              "bezeichnung": "Erzeugungsanlagen",
+              "bezeichnung_englisch": "Generating Plants",
+              "unterrichtssprache": "German",
+              "ects": "4.50",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Übersichtsvorlesung zu Erzeugungsoptionen für Erneuerbare Energie ergänzt durch Informationen über den aktuellen Stand und neue Entwicklungen bei herkömmlichen Erzeugungsanlagen inklusive der Nuklearenergie"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorlesung mit Fernlehreanteil, Videounterstützt, einige Kleingruppendiskussionen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine Übersicht über relevante Energie-Erzeugungsanlagen zu geben und die Relevanz dieser für die Energiewende zu analysieren "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Update Energie Basiswissen - Photovoltaik und Wind - aktuelle Entwicklungen, - aktuelle Trends, Kleinwindkraft, Ozeanische Energie, Solare Power Electricity, Nuklearenergie - Basiswissen"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basiswissen über alle erneuerbare Energietechnologien und die konventionelle Stromerzeugung (Level Bachelor BEE)"
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grunlagentest (30% Gewichtung) - mündliche Prüfung (70% Gewichtung) - beide Teile müssen positiv absolviert werden"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "80% minimal erfoerlich"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-01 16:05:30"
+            },
+            {
+              "lehrveranstaltung_id": "3936",
+              "kurzbz": "NET",
+              "semester": "1",
+              "bezeichnung": "Netze",
+              "bezeichnung_englisch": "Power Lines",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Stromnetze und deren Herausforderungen durch den Einbau fluktuierender Erneuerbarer Energieträger sowie neuer Anforderungen (E-Mobilität, Heizungen, IKT,, Kühlung,...)"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorträge, Video-Beiträge, Diskussionen in Gruppen und im Plenum"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Umfassend beschreiben können, welche Gründe vorliegen, warum die Stromnetze vor fundamentalen Änderungen stehen ",
+                      "Die zentralen Herausforderungen beim verstärkten Einbau der volatilen Erneuerbaren (Wind, PV) in die Stromnetze analysieren zu können und die aktuellen Lösungsansätze darstellen zu können",
+                      "Den Technologie-Entwicklungspfad zu „Smart Grids“ aus der Geschichte heraus zu skizzieren und die Rolle aller wesentlichsten Akteure dabei beschreiben zu können",
+                      "Den Einfluss der weiteren Entwicklung bei Speichertechnologien auf die Stromnetze analysieren und diskutieren zu können"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Kurze Wiederholung, Historische Entwicklung, Rahmenbedingungen, ",
+                      "Aufbau elektrischer Netze in unterschiedlichen Ebenen ",
+                      "In den Übungen: (AIT) Lastflussberechnung Kurzschlussberechnung",
+                      "Fallbeispiele – nationale und internationale Smart Grids Projekte ",
+                      "Smart Grids im Mittelspannungsnetz Smart Grids im Niederspannungsnetz - Elektromobilität"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Bachelor VO Netze"
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Mündliche Prüfung + Übungsabgaben - beides positiv bewertet "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "80% bei VO, 100% bei Übungen"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "3937",
+              "kurzbz": "ESP",
+              "semester": "1",
+              "bezeichnung": "Energiespeicher",
+              "bezeichnung_englisch": "Energy Storage",
+              "unterrichtssprache": "German",
+              "ects": "1.50",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "FUV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Basics of energy storages: The lectures have the goal to give the students a basic understanding about the electric energy storage systems. Thelectures describe the main laws of the electric energy storage systems and their use for designing simple application."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrated lectures"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain the design and operation of differnt energy storages",
+                      "choose electrical energy storages for specific applications"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Explanation of the different chemistries (Lead Acid, Nickel Metal Hydride, • Lithium Ion, ect.).",
+                      "Identification of the requirements for each application.",
+                      "Safety.",
+                      "Battery selection and sizing.",
+                      "Battery monitoring and balancing.",
+                      "Modelling and parameter identification.",
+                      "Testing Methods."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic of electrical engineering.- Basics of physics and scholar understandings of chemistry."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Jossen A. und Weydanz W.: Moderne Akkumulatoren richtig einsetzen, Inge Richardt Verlag, 2019",
+                      "Sterner M. und Stadler I.: Energiespeicher – Bedarf, Technologien, Integration, Springer Vieweg, 2014",
+                      "Kurzweil P. und Dietlmeier O. K.: Elektrochemische Speicher, Springer Vieweg, 2015",
+                      "Bauer S.: AkkuWelt, Vogel Business Media, 2017"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Written exam"
+                    ]
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Energiespeicher: Die Lehrveranstaltung hat das Ziel, den Studierenden ein grundlegendes Verständnis der elektrischen Energiespeichersysteme zu vermitteln. Inhalte sind die wichtigsten Gesetze der elektrischen Energiespeichersysteme und deren Verwendung für das Design einfacher Anwendung."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrierte Lehrveranstaltung"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Aufbau und Funktionsweise verschiedener Energiespeichersysteme zu erklären",
+                      "Elektrische Energiespeicher für spezifische Anwendungen aus zu wählen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Erklärung der unterschiedlichen Chemie (Blei-Säure-, Nickel-Metallhydrid-, Lithium-Ionen, ect.)",
+                      "Identifizierung der Anforderungen für jede Anwendung.",
+                      "Sicherheit.",
+                      "Akku Auswahl und Dimensionierung.",
+                      "Batterieüberwachung und Balancing.",
+                      "Modellierung und Parameteridentifikation.",
+                      "Prüfverfahren."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Elektrotechnik.- Physikalische und chemische Grundkenntnisse."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Jossen A. und Weydanz W.: Moderne Akkumulatoren richtig einsetzen, Inge Richardt Verlag, 2019",
+                      "Sterner M. und Stadler I.: Energiespeicher – Bedarf, Technologien, Integration, Springer Vieweg, 2014",
+                      "Kurzweil P. und Dietlmeier O. K.: Elektrochemische Speicher, Springer Vieweg, 2015",
+                      "Bauer S.: AkkuWelt, Vogel Business Media, 2017"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftliche Prüfung"
+                    ]
+                  }
+                }
+              },
+              "lastupdate": "2020-10-10 09:06:36"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32371",
+          "kurzbz": "MOD5",
+          "semester": "1",
+          "bezeichnung": "Modul 5 Simulationstechnik",
+          "bezeichnung_englisch": "Module 5 Simulationstechnik",
+          "unterrichtssprache": "German",
+          "ects": "3.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3938",
+              "kurzbz": "TST",
+              "semester": "1",
+              "bezeichnung": "Theorie der Simulationstechnik",
+              "bezeichnung_englisch": "Theory of Simulation Technology",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course is about the general structure of a simulation study as well as the introduction on mathematical methods of modelling and simulation. The analysis of the function of particular energy relevant simulation tools is also a part of the course."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "PresentationCase studies, models and algorithms"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "select and apply numeric iteration methods for real concrete problems.",
+                      "select and apply numeric one step- and multiple step procedures for the numeric discretization of differential equations.",
+                      "evaluate possible procedual errors of numeric one step- and multiple step procedures."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Intro",
+                      "Definitions and terminology",
+                      "Basics of modelling and simulation",
+                      "Introduction to Numerical Methods",
+                      "Topic continuous simulation: Numerics ODEs/PDEs with examples",
+                      "Topic discrete event simulation:  - Prozess oriented Modelling (Production simulation)  - Event oriented Modelling (Failure simulation)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Continuous Simulation:- Analysis (Differential and Integral calculus)- Algebra (Matrices and Vectors, systems of equations)Discrete Event Simulation:- Statistics- StochasticComputer Basics, programming experience beneficial"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Continuous Simulation:",
+                      "Breitenecker, F. et al. (1993): Simulation mit ACSL, Vieweg+Teubner Verlag, ISBN-10: 3528063815, ISBN-13: 978-352806381",
+                      "Sauerbier, T. (1999): Theorie und Praxis von Simulationssystemen, Vieweg+Teubner Verlag, ISBN-10: 3528038667, ISBN-13: 978-3528038663",
+                      "Cellier, F. (2006): Continuous System Simulation, Springer US, ISBN-10: 0387261028, ISBN-13: 978-0387261027",
+                      "Bungartz, H.J., et al. (2009): Modellbildung und Simulation: Eine anwendungsorientierte Einführung, Springer Verlag, ISBN-10: 3540798099, ISBN-13: 978-3540798095",
+                      "Kramer, U. (1998): Simulationstechnik, Carl Hanser Verlag, ISBN-10: 3446192352, ISBN-13: 978-3446192355Discrete Event Simulation:",
+                      "Schriber, Thomas J. (1990): An Introduction to Simulation Using Gpss/H, John Wiley and Sons (WIE); 3. Auflage, ISBN-10: 0471043346, ISBN-13: 978-0471043348",
+                      "Law, A. / Kelton, W. (2000): Simulation Modeling and Analysis, McGrawHill Verlag, ISBN-10: 0070366985, ISBN-13: 978-0070366985",
+                      "Page, B. / Kreutzer, W. (2005): The Java Simulation Handbook: Simulating Discrete Event Systems with UML and Java, ISBN-10: 3832237712, ISBN-13: 978-3832237714"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Collaboration (20%)Written examination (80%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (100%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Vorlesung umfasst den  generellen Aufbau einer Simulationsstudie sowie die Einführung in die mathematischen Methoden der Modellbildung und Simulation. Die Funktion ausgewählter, in der Energietechnik relevanter Simulationstools wird  ebenso analysiert."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "PräsentationFallbeispiele / Demonstrationen von Modellen und Algorithmen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "numerische Iterationsverfahren für reale Problemstellungen auszuwählen und anwenden zu können.",
+                      "numerische Ein- und Mehrschrittverfahren für die numerische Diskretisierung von Differentialgleichungen auszuwählen und anwenden zu können.",
+                      "mögliche Verfahrensfehler der Ein- und Mehrschrittverfahren bewerten zu können. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Einführung",
+                      "Begriffsbestimmungen",
+                      "Grundlagen der Modellbildung und Simulation",
+                      "Einführung in Numerische Methoden",
+                      "Schwerpunkt kontinuierliche Simulation: Numerik gewöhnlicher und partieller Differentialgleichungen mit Anwendungsbeispielen",
+                      "Schwerpunkt diskrete Simulation:  - Prozessorientierte Modellierung (Produktionssimulation)  - Ereignisorientierte Modellierung (Ausfallssimulation)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Kontinuierlicher Teil:- Analysis (Differential und Integralrechnung)- Algebra (Matrizen und Vektoren, lineare Gleichungssysteme)Diskreter Teil:- Statistik- StochastikGrundlegende Computerkenntnisse, Programmiererfahrung von Vorteil"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Kontinuierliche Simulation:",
+                      "Breitenecker, F. et al. (1993): Simulation mit ACSL, Vieweg+Teubner Verlag, ISBN-10: 3528063815, ISBN-13: 978-352806381",
+                      "Sauerbier, T. (1999): Theorie und Praxis von Simulationssystemen, Vieweg+Teubner Verlag, ISBN-10: 3528038667, ISBN-13: 978-3528038663",
+                      "Cellier, F. (2006): Continuous System Simulation, Springer US, ISBN-10: 0387261028, ISBN-13: 978-0387261027",
+                      "Bungartz, H.J., et al. (2009): Modellbildung und Simulation: Eine anwendungsorientierte Einführung, Springer Verlag, ISBN-10: 3540798099, ISBN-13: 978-3540798095",
+                      "Kramer, U. (1998): Simulationstechnik, Carl Hanser Verlag, ISBN-10: 3446192352, ISBN-13: 978-3446192355Ereignisdiskrete Simulation:",
+                      "Schriber, Thomas J. (1990): An Introduction to Simulation Using Gpss/H, John Wiley and Sons (WIE); 3. Auflage, ISBN-10: 0471043346, ISBN-13: 978-0471043348",
+                      "Law, A. / Kelton, W. (2000): Simulation Modeling and Analysis, McGrawHill Verlag, ISBN-10: 0070366985, ISBN-13: 978-0070366985",
+                      "Page, B. / Kreutzer, W. (2005): The Java Simulation Handbook: Simulating Discrete Event Systems with UML and Java, ISBN-10: 3832237712, ISBN-13: 978-3832237714"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Mitarbeit während der LV (20%)Schriftliche Prüfung am Semesterende (80%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (100%)"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 11:16:28"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32372",
+          "kurzbz": "MOD6",
+          "semester": "1",
+          "bezeichnung": "Modul 6 Wahlmodul",
+          "bezeichnung_englisch": "Module 6 Wahlmodul",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3987",
+              "kurzbz": "WM",
+              "semester": "1",
+              "bezeichnung": "Wahlmodul/Energy Talks",
+              "bezeichnung_englisch": "Elective Courses/Energy Talks",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This lecture is twofold.\r\nThe obligatory part includes the application and writing of a conference contribution,\r\nfor the second part students can select an exercise referring to the research topics of the competence field \"Renewable Energy Systems\" (e.g. energy communities, sustainable urban districts, ethics....)"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Predominantly independent working, supported by presentations, discussions, interactive lectures, writing  exercises, mutual feedback"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "implement the main rules of scientific working",
+                      "develop questions and projects with support of lecturers",
+                      "answer a scientific question by adequate methods ",
+                      "write a report following the rules"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Basics of scientific working",
+                      "Scientific writing",
+                      "Write a review",
+                      "Referring to the choosen topics - see at moodle course"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Will be given in the corresponding documents"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Continous evaluation of submissions ",
+                      "Report"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Compulsory attendance "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung ist zweigeteilt.\r\nDer Pflichtteil umfasst eine Übung zur Einreichung und Verfassung von Konferenzbeiträgen, der zweite Teil ist eine zu wählende Übung, die jeweils aktuelle Forschungsthemen des  Kompetenzfeldes \"Renewable Energy Systems\" aufgreift (z. B. Energiegemeinschaften, nachhaltige Stadtquartiere, Ethik....)\r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Überwiegend selbständiges Arbeiten unterstützt durch \r\nPräsentationen, Diskussionen, Interaktive Lehre, Schreibübungen, und gegenseitiges Feedback"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die wichtigsten Regeln des wissenschaftlichen Arbeitens umzusetzen",
+                      "Fragestellungen und Projekte mit Unterstützung zu entwickeln",
+                      "eine wissenschaftliche Fragestellung mit adäquaten Methoden zu beantworten",
+                      "einen Bericht nach diesen Kriterien zu erstellen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen wissenschaftlichen Arbeitens ",
+                      "Erstellen von wissensschaftlichen Texten",
+                      "Erstellen von Reviews",
+                      "Abhängig von den jeweiligen gewählten Themen - siehe Moodle Kurs"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wird in den jeweiligen zur Verfügung gestellten Unterlagen bekannt gegeben"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Laufende Beurteilung diverser Abgaben",
+                      "Endbericht"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": "2020-09-01 18:11:01"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32373",
+          "kurzbz": "MOD7",
+          "semester": "1",
+          "bezeichnung": "Modul 7 Ökonomie",
+          "bezeichnung_englisch": "Module 7 Ökonomie",
+          "unterrichtssprache": "German",
+          "ects": "3.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3939",
+              "kurzbz": "FUM",
+              "semester": "1",
+              "bezeichnung": "Finanzierung und Marketing",
+              "bezeichnung_englisch": "Funding and Marketing",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "During the attendance period the theoretical principles/fundamentals which are necessary to understand the interplay between finance, strategy and strategic marketing will be taught in form of doctrinal discussions. In order to consolidate the acquired knowledge after every chapter there will be a brief dicussion about current business topics related to the course. Finally a competitve business game will take place, in which the students can practically apply what they have learned in the course so far."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture, discussion, solving case studies and business simulation"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "apply the methods of financial mathematics in accordance to the problems to be solved",
+                      "systematize the various types of financing and to assess the advantages and disadvantages of each type",
+                      "make long or short-term investment decisions based on existing financial restrictions",
+                      "make financing decisions by keeping in mind the rating of the own company in order to improve this credit rating",
+                      "explain (in accordance with marketing theory) the expected effects of the marketing decisions they have made in the business game",
+                      "analyze and interpret the reports of the external accounting (balance sheet, income statement, cash flow statement)"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "financial mathematics",
+                      "forms of financing and financial instruments",
+                      "leasing vs. loans",
+                      "controlling and cost accounting",
+                      "business valuation and value based management",
+                      "Shareholder Value vs. stakeholder Value",
+                      "strategic and operational marketing instruments"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "students will receive a set of slides for each chapter via the moodle platform"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "written exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "in this course attendance of 80 % is mandatory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen der LV werden die theoretischen Grundlagen, welche für das Be-greifen des Zusammenspiels von Finanzierung und Strategie sowie strateg-ischem Marketing notwendig sind, in Form von Lehrgesprächen erarbeitet. Um das auf diese Weise erlangte Wissen zu verfestigen wird im Anschluss jedes Kapitels ausreichend Raum für Diskussionen zu tagesaktuellen Gescheh¬nissen aus dem Stoffgebiet eingeräumt. Abschließend findet ein kompetitives Unternehmensplanspiel statt in welchem die Studierenden in Kleingruppen die praktische Anwendung des Gelernten üben können."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Diskussion, Lösen von Beispielen und Unternehmensplanspiel"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Finanzmathematische Rechenmethoden problemadäquat anzuwenden ",
+                      "Die verschiedenen Finanzierungsarten zu systematisieren und die Vor- bzw. Nachteile jeder einzelnen Art zu bewerten",
+                      "Lang- bzw. kurzfristige Investitionsentscheidungen aufgrund vorhandener finanzieller Restriktionen, zum richtigen Zeitpunkt, zu treffen",
+                      "Finanzierungs-Entscheidungen unter Berücksichtigung des eigenen Ratings zu treffen bzw. durch diese das eigene Rating zu verbessern",
+                      "Marketingentscheidungen (Marketingmix) für ein Unternehmen (in einer Spielsituation) zu treffen und deren erwartete Wirkungen in Bezug auf die Nachfrage theoriegestützt zu erläutern",
+                      "Die Berichte des externen Rechnungswesen (Bilanz, Gewinn- und Verlust-rechnung, Cashflow-Statement) zu analysieren und zu interpretieren "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Finanzmathematische Grundbegriffe",
+                      "Instrumente und Formen der Finanzierung",
+                      "Leasing vs. Kredit",
+                      "Controlling und Kostenrechnung",
+                      "Unternehmensbewertung und wertbasierte Unternehmensführung",
+                      "shareholder Value vs. stakeholder Value",
+                      "Instrumente des strategischen und operativen Marketings"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Den Studierenden wird zu jedem Fachgebiet eine Foliensammlung und/oder ein Skriptum in elektronischer Form via Moodle zur Verfügung gestellt."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftliche Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "in dieser LV ist 80% Anwesenheit verpflichtend"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-08 16:52:37"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34059",
+          "kurzbz": "MOD8",
+          "semester": "1",
+          "bezeichnung": "Modul 8 Soft Skills 1",
+          "bezeichnung_englisch": "Module 8 Soft Skills 1",
+          "unterrichtssprache": "German",
+          "ects": "3.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3940",
+              "kurzbz": "COA",
+              "semester": "1",
+              "bezeichnung": "Coaching",
+              "bezeichnung_englisch": "Coaching",
+              "unterrichtssprache": "German",
+              "ects": "1.50",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course introduces the students to the topic coaching."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain systemic coaching as a management tool and to describe its procedure.",
+                      "describe coaching tools (for example systemic questions, solution focusing) and to apply them in simple situations.",
+                      "analyze communication situations based on basic models of communication and conflict (for exmaple Schultz v. Thun, Korzybski, Berne, Glasl).",
+                      "analyze the attitude of a systemic coach in conversational situations and to implement it exemplarily."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Systemic coaching and applications as a leading instrument ",
+                      "Coaching: procedure and instruments",
+                      "The attitude of a systemic coach"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "König, Eckard/Volmer Gerda (2012): Handbuch systemisches Coaching, Weinheim: Beltz Verlag",
+                      "Müller, Gabriele (2006): Systemisches Coaching im Management, Landberg: Beltz-Verlag",
+                      "Radatz, Sonja (2008): Beratung ohne Ratschlag, Verlag Systemisches Management Wien"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case study (grade)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsary."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung stellt eine grundlegende Einführung ins Coaching dar."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "systemisches Coaching als Führungsinstrument zu erläutern und den Coachingprozess zu beschreiben.",
+                      "Coachingtools (z. B. systemische Fragen, Lösungsfokussierung) zu beschreiben und in Bezug auf einfache Situationen einzusetzen.",
+                      "Gesprächssituationen anhand von Grundmodellen der Kommunikation und des Konflikts (z. B. Schultz v. Thun, Korzybski, Berne, Glasl) zu analysieren.",
+                      " die Haltung eines systemischen Coach in Gesprächssituationen zu analysieren und beispielhaft umzusetzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Systemisches Coaching und dessen Einsatzmöglichkeiten als Führungsinstrument",
+                      "Coaching: Gesprächsablauf und -instrumente",
+                      "Die Haltung des systemischen Coachs"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "König, Eckard/Volmer Gerda (2012): Handbuch systemisches Coaching, Weinheim: Beltz Verlag",
+                      "Müller, Gabriele (2006): Systemisches Coaching im Management, Landberg: Beltz-Verlag",
+                      "Radatz, Sonja (2008): Beratung ohne Ratschlag, Verlag Systemisches Management Wien"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fallarbeit (Note)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-07-16 10:55:46"
+            },
+            {
+              "lehrveranstaltung_id": "3941",
+              "kurzbz": "EPT",
+              "semester": "1",
+              "bezeichnung": "Englisch - Presentation Techniques",
+              "bezeichnung_englisch": "English - Presentation Techniques",
+              "unterrichtssprache": "English",
+              "ects": "1.50",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "We jointly work on the basic principles, techniques and particular challenges in giving a presentation in English. Students are required to give at least one short and one longer presentation in class to apply these principles in practice"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "adapt the language and content to the target audience ",
+                      "use relevant presentation techniques using the persuasive model",
+                      "present fluently and confidently in English "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Checklist for presentations ",
+                      "Structuring persuasive presentations ",
+                      "Useful language for presentations ",
+                      "Presentation techniques ",
+                      "Visual aids ",
+                      "Body language ",
+                      "Dealing with questions and with nerves"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Common European Framework of Reference for Languages Level B2+"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Daly, K. & VanderHart, C. Skriptum   ",
+                      "Handouts",
+                      "Vocabulary Flashcards"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "active participation in class activities and timely completion of assignments"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                }
+              },
+              "lastupdate": "2017-07-11 10:40:55"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "lehrveranstaltung_id": "32369",
+          "kurzbz": "MOD2",
+          "semester": "2",
+          "bezeichnung": "Modul 2 Sozioökonomische und ökologische Bewertungen urbaner Energiesysteme",
+          "bezeichnung_englisch": "Module 2 Sozioökonomische und ökologische Bewertungen urbaner Energiesysteme",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4110",
+              "kurzbz": "BEV",
+              "semester": "2",
+              "bezeichnung": "Bewertungsverfahren",
+              "bezeichnung_englisch": "Evaluation Procedure",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "- Assessment of technological impact on environment, society and economy, as a base for planning processes- This lecture provides an overview on quantitative and qualitative assessment methods of social sciences and natural sciences"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Interactive lecture and practice"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "assess impacts of technology on environment and society ",
+                      "select and apply appropriate methods"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Quantitative and qualitative assessment methods",
+                      "Material flow analysis",
+                      "GEMIS",
+                      "Scenario method"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic knowledge on ecosystems and sustainability concepts from the lecture \"Ökologie und Gesellschaft\"."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grunwald, A. (2002). Technikfolgenabschätzung - eine Einführung. Berlin, edition sigma",
+                      "Grunwald, A. und J. Kopfmüller (2006). Nachhaltigkeit. Frankfurt, Campus Verlag",
+                      "Hochgerner, J. (1990). Soziale Grenzen des technischen Fortschritts. Vergleiche quer durch Europa. Wien, Falter Verlag.",
+                      "Kowalski, E. (2002). Technology Assessment. Suche nach Handlungsoptionen in der technischen Zivilisation. Zürich, Hochschulverlag AG an der ETH Zürich. "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Results of different exercises",
+                      "Written examination"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "- Die Bewertung von Technologien im weitesten Sinne hinsichtlich ihrer möglichen Auswirkungen auf Umwelt, Gesellschaft und Wirtschaft stellt eine wichtige Begleitmaßnahme von Planungsprozessen dar- Die Lehrveranstaltung bietet eine Überblick über quantitative und qualitative Methoden aus Naturwissenschaften und Sozialwissenschaften"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Interaktive Vorlesung und Übungen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Auswirkungen von Technologien auf Umwelt und Gesellschaft zu bewerten",
+                      "Geeignete Methoden zu wählen und anzuwenden"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Quantitative und qualitative Bewertungsmethoden",
+                      "Stoffstromanalyse",
+                      "Einsatz von GEMIS",
+                      "Szenariomethode"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Ökosystemlehre und Nachhaltigkeitskonzepte aus der Vorlesung \"Ökologie und Gesellschaft\"."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grunwald, A. (2002). Technikfolgenabschätzung - eine Einführung. Berlin, edition sigma",
+                      "Grunwald, A. und J. Kopfmüller (2006). Nachhaltigkeit. Frankfurt, Campus Verlag",
+                      "Hochgerner, J. (1990). Soziale Grenzen des technischen Fortschritts. Vergleiche quer durch Europa. Wien, Falter Verlag.",
+                      "Kowalski, E. (2002). Technology Assessment. Suche nach Handlungsoptionen in der technischen Zivilisation. Zürich, Hochschulverlag AG an der ETH Zürich. "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ergebnisse der Übungsaufgaben",
+                      "Schriftliche Prüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (80%)"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:21:21"
+            },
+            {
+              "lehrveranstaltung_id": "4111",
+              "kurzbz": "OEK",
+              "semester": "2",
+              "bezeichnung": "Ökologie und Gesellschaft",
+              "bezeichnung_englisch": "Ecology and Society",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "FUV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "- Basic knowledge of ecological interactions and interdependencies- Interdependencies between society and environment"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Interactive lectures- Discussions- Teamwork- Remote learning  - self elaborated contents- Deepening of knowledge by textual analyses and development of assessment criteria"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "identify and explain basic functions of ecosystems ",
+                      "identify and explain impacts of anthropogenic interventions ",
+                      "explain interactions between society and environment ... "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ecological interdependencies",
+                      "Knowledge of ecological and societal impact of technologies, easures, actions, ect",
+                      "Basic knowledge of social interdependencies",
+                      "Political framework",
+                      "Interdependencies between society and environment",
+                      "Environmental protection",
+                      "Sustainable development"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Baumgart, M., McDonough, W. (2008). Die nächste industrielle Revolution . Die Cradle to Cradle-Community. Hamburg, EVA-Europäische Verlagsanstalt",
+                      "Becker, A. (2001). Zukunftsfähige Politik. Volkswirtschaftliche, ökologische und soziale Aspekte vernetzt. München, oekom verlag.",
+                      "BMLFUW (2002). \"Die österreichische Strategie zur Nachhaltigen Entwicklung.\"Bundesministerium für Landu und Forstwirtschaft, Umwelt und Wasserwirtschaft, Wien",
+                      "Diekmann, A. und P. Preisendörfer (2001). Umweltsoziologie. Eine Einführung. Hamburg, Rowohlt Taschenbuch Verlag.",
+                      "Europäische Kommission (2002). Strategie der Europäischen Union für nachhaltige Entwicklung, Europäische Kommission: 134.",
+                      "Gleich, M., D. Maxeiner, et al. (2000). Life Counts. Eine globale Bilanz des Lebens. Berlin, BVT.",
+                      "Grunwald, A. und J. Kopfmüller (2006). Nachhaltigkeit. Frankfurt, Campus Verlag",
+                      "Jens, S. und A. Reller (2009). CO2. Lebenselexier und Klimakiller. München, oekom verlag",
+                      "Kopfmüller, J., V. Brand, et al. (2001). Nachhaltige Entwicklung integrativ betrachtet. Konstitutive Elemente, Regeln, Indikatoren. Berlin, edition sigma",
+                      "Küster, H. (1995). Geschichte der Landschaft in Mitteleuropa. Von der Eiszeit bis zur Gegenwart. München, C.H.Beck'sche Verlagsbuchhandlung.",
+                      "Küster, H. (1998). Geschichte des Waldes. Von der Urzeit bis zur Gegenwart. München, H.C.Beck'sche Verlangsbuchhandlung.",
+                      "Nentwig, W. (2005). Humanökologie. 2. Auflage. Berlin, Springer-Verlag."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "2 written examinations",
+                      "Results of remote work"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (50%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Inhalt der Vorlesung ist die Vermittlung eines Grundverständnisses ökologischer Zusammenhänge und Wechselwirkungen zwischen Umwelt und Gesellschaft."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- (interaktiver) Vortrag- Diskussion- (Klein)Gruppenarbeiten- Erarbeiten von Lehrinhalten im Rahmen der Fernlehre- Vertiefung von Inhalten durch Übungen wie Textinterpretationen oder der Entwicklung von Bewertungskriterien"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "grundlegende Ökosystemfunktionen zu erklären  ",
+                      "Zusammenhänge menschlicher Eingriffe auf die Umwelt zu erklären",
+                      "Wichtige Wechselwirkungen zwischen Umwelt und Gesellschaft zu erklären.. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "kologische Zusammenhänge",
+                      "Wissen über ökologische und gesellschaftliche Auswirkungen von Technikeinsatz, Maßnahmen, eigenem Handeln, usw.",
+                      "Basiswissen über gesellschaftliche Zusammenhänge und politische Rahmenbedingungen",
+                      "Wechselwirkungen zwischen Umwelt und Gesellschaft",
+                      "Umweltschutz",
+                      "Nachhaltige Entwicklung"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Baumgart, M., McDonough, W. (2008). Die nächste industrielle Revolution . Die Cradle to Cradle-Community. Hamburg, EVA-Europäische Verlagsanstalt",
+                      "Becker, A. (2001). Zukunftsfähige Politik. Volkswirtschaftliche, ökologische und soziale Aspekte vernetzt. München, oekom verlag.",
+                      "BMLFUW (2002). \"Die österreichische Strategie zur Nachhaltigen Entwicklung.\"Bundesministerium für Landu und Forstwirtschaft, Umwelt und Wasserwirtschaft, Wien",
+                      "Diekmann, A. und P. Preisendörfer (2001). Umweltsoziologie. Eine Einführung. Hamburg, Rowohlt Taschenbuch Verlag.",
+                      "Europäische Kommission (2002). Strategie der Europäischen Union für nachhaltige Entwicklung, Europäische Kommission: 134.",
+                      "Gleich, M., D. Maxeiner, et al. (2000). Life Counts. Eine globale Bilanz des Lebens. Berlin, BVT.",
+                      "Grunwald, A. und J. Kopfmüller (2006). Nachhaltigkeit. Frankfurt, Campus Verlag",
+                      "Jens, S. und A. Reller (2009). CO2. Lebenselexier und Klimakiller. München, oekom verlag",
+                      "Kopfmüller, J., V. Brand, et al. (2001). Nachhaltige Entwicklung integrativ betrachtet. Konstitutive Elemente, Regeln, Indikatoren. Berlin, edition sigma",
+                      "Küster, H. (1995). Geschichte der Landschaft in Mitteleuropa. Von der Eiszeit bis zur Gegenwart. München, C.H.Beck'sche Verlagsbuchhandlung.",
+                      "Küster, H. (1998). Geschichte des Waldes. Von der Urzeit bis zur Gegenwart. München, H.C.Beck'sche Verlangsbuchhandlung.",
+                      "Nentwig, W. (2005). Humanökologie. 2. Auflage. Berlin, Springer-Verlag."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "2 schriftliche Prüfungen",
+                      "Ergebnisse der Fernlehraufgaben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (50%)"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:22:19"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32374",
+          "kurzbz": "MOD8",
+          "semester": "2",
+          "bezeichnung": "Modul 8 Soft Skills 1",
+          "bezeichnung_englisch": "Module 8 Soft Skills 1",
+          "unterrichtssprache": "German",
+          "ects": "4.50",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4116",
+              "kurzbz": "ENG",
+              "semester": "2",
+              "bezeichnung": "English-Negotiating",
+              "bezeichnung_englisch": "English-Negotiating",
+              "unterrichtssprache": "English",
+              "ects": "1.50",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Students are taught the necessary principles to negotiate effectively using the Harvard Negotiation Model"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Negotiation case studies particular to your industry as well as video analysis are used."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "adapt the language and content to the negotiation partner ",
+                      "use relevant negotiation techniques and theory using the Harvard model",
+                      "negotiate fluently and confidently in English"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Checkliste for Negotiations",
+                      "Preparation and research methods",
+                      "Useful English phrases for meetings and negotiations",
+                      "Specific negotiation techniques",
+                      "External resources ",
+                      "Body language and interpersonal intelligence",
+                      "Dealing with obstacles"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Common European Framework of Reference for Languages Level B2+"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Daly, Kevin / VanderHart, Chanda (2011): Skriptum ",
+                      "Additional current handouts and audio-visual support"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "active participation in class ",
+                      "activities and timely completion of assignments"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Vermittlung der Prinzipen für erfolgreichen Verhandlungen nach der Harvard- Verhandlungsmodell"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Fallstudien zu Verhandlungen in ihrer speziellen Branche wie auch die Videoanalyse werden als Unterrichtsmaterial verwendet."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Verhandlung sprachlich und inhaltlich dem Verhandlungspartner anzupassen ",
+                      "Verhandlungstheorie und –techniken nach der Harvard Modell anzuwenden ",
+                      "fließend und selbstsicher in englischer Sprache zu verhandeln"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Checkliste für Verhandlungen",
+                      "Vorbereitungsmethoden ",
+                      "Englische Redewendungen für Verhandlungen und Meetings",
+                      "Verhandlungstechniken ",
+                      "Extern Hilfsmittel ",
+                      "Körpersprache und interpersonale Intelligenz",
+                      "Umgang mit Hindernisse"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Gemeinsamer europäischer Referenzrahmen für Sprachen Niveau B2+"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Daly, Kevin / VanderHart, Chanda (2011): Skriptum ",
+                      "Aktuelle Handouts und audiovisuelle Unterstützung "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "aktive Mitarbeit sowie zeitgerechte Erfüllung der gestellten Aufgaben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (80%)"
+                  }
+                }
+              },
+              "lastupdate": "2017-02-20 21:50:56"
+            },
+            {
+              "lehrveranstaltung_id": "4119",
+              "kurzbz": "MAN",
+              "semester": "2",
+              "bezeichnung": "Management",
+              "bezeichnung_englisch": "Management",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course provides an Introduction to standard management challenges and best practices to address them in today's enterprises and organizations. Special focus is given to Organizational Development Processes and Business Case Development. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Lecture- Discussion- Cases"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "identify standard management challenges and explain commonly used best practices. ",
+                      "develop business cases for routine tasks.",
+                      "analyze organizations as well as to exemplary design an organizational development process."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Management models",
+                      "Strategic and operative management",
+                      "Applying management concepts in day to day work (HSEQ, Knowledge Management, Innovation Management, Process Management, etc.)",
+                      "Elaboration of selected topics",
+                      "Development of Business Cases",
+                      "Organizational Development"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wohinz, J. (2003): Industrielles Management - Das Grazer Modell, NWV ",
+                      "Voigt, K.I. (2008): Industrielles Management, Springer Verlag",
+                      "Argyris, C. / Schön, D. A.:Organizational Learning: A Theory Of Action Perspective,  Reading, Mass.: Addison-Wesley, Neuauflage 1997."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "End Exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung werden typische Managementherausforderungen moderner Unternehmen und Organisationen sowie Standardansätze zu deren Lösung  behandelt. Besondere Schwerpunkte bilden \"Organisationsanalyse - und -entwicklung\" sowie die \"Entwicklung von Business Cases\" für Anwendungen im Bereich der erneuerbaren Energien."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Vortrag- Diskussion- Fallstudien"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "typische Managementherausforderungen zu benennen und dafür Standardlösungen zu erläutern.",
+                      "für einfache Aufgabenstellungen einen Business Case zu entwickeln.",
+                      "Organisationen zu analysieren und Organisations-Entwicklungsprozesse beispielhaft zu entwickeln."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Managementmodelle",
+                      "Strategisches, operatives Management",
+                      "Umsetzung der Managementansätze in die Praxis (HSEQ, Wissensmanagement, Innovationsmanagement, Prozessmanagement, etc.)",
+                      "Dualität von Managementsystemen",
+                      "Business Case Entwicklung",
+                      "Organisationsentwicklung"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wohinz, J. (2003): Industrielles Management - Das Grazer Modell, NWV ",
+                      "Voigt, K.I. (2008): Industrielles Management, Springer Verlag",
+                      "Argyris, C. / Schön, D. A.:Organizational Learning: A Theory Of Action Perspective,  Reading, Mass.: Addison-Wesley, Neuauflage 1997."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (80%)"
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32375",
+          "kurzbz": "MOD9",
+          "semester": "2",
+          "bezeichnung": "Modul 9 Energieeffizienz urbaner Energiesysteme",
+          "bezeichnung_englisch": "Module 9 Energieeffizienz urbaner Energiesysteme",
+          "unterrichtssprache": "German",
+          "ects": "4.50",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4117",
+              "kurzbz": "SDM",
+              "semester": "2",
+              "bezeichnung": "Supply and Demandside Management",
+              "bezeichnung_englisch": "Supply and Demandside Management",
+              "unterrichtssprache": "German",
+              "ects": "4.50",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The objective of the lesson „supply and demand side management is to present innovative concepts for the integration of renewable and distributed generation as well as flexible demand into the Austrian power market. As a basis we elaborate the fundamentals of liberalised liberalised power markets."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- (guest-)lectures- Excursion \"Wien Energie\""
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe fundamentals of liberalised power markets and the specific organisation of the Austrian power market ",
+                      "develop applications for Virtual Power Plants",
+                      "decribe Demand Response measures and preconditions for their realisation",
+                      "describe energy efficiency potentials in the power sector and measures for their realisation"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fundamentals of the Load-Frequency-Control",
+                      "Fundamentals of liberalised power markets",
+                      "Organisation of the Austrian power market",
+                      "Short-term forecasts of power demand and production",
+                      "Concepts and applications of Virtual Power Plants",
+                      "Demand Response measures and their applications",
+                      "Support schemes of renewable electricity in Austria",
+                      "Potentials and measures for energy efficiency in the power sector"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Fundamentals of Power Engineering"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "references will be provided in the lecture",
+                      "available for download"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "End exam (written)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (50%)"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Guest lectures, visit of dispatching center offered"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Ziel der Vorlesung \"Supply and Demand Side Management\" ist die Vermittlung von innovativen Konzepten zur Integration von erneuerbarer, dezentraler Stromerzeugung und flexibler Nachfrage im österr. Strommarkt. Als Basis dafür werden die Grundlagen der Funktion und der Organisation des liberalisierten Strommarktes erarbeitet."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Vorlesung mit Gastvorträgen aus der Praxis- Exkursion Wien Energie Energieleitstelle"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "technische, ökonomische und organisatorische Grundlagen der Funktion des österr. Strommarkts zu beschreiben ",
+                      "Anwendungsmöglichkeiten für Virtuelle Kraftwerke zu entwickeln",
+                      "Demand Response Maßnahmen zu beschreiben und Voraussetzungen für deren Umsetzung zu analysieren",
+                      "Energieeffizienzpotentiale im Strombereich und Maßnahmen zu deren Realisierung zu beschreibe"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Leistungsausgleich technisch und ökonomisch",
+                      "Grundlagen des liberalisierten Strommarkts",
+                      "Organisation des österr. Strommarktes",
+                      "Kurzfristprognosen der Stromerzeugung und des Stromverbrauchs",
+                      "Konzepte und Anwendungen von Virtuellen Kraftwerken",
+                      "Möglichkeiten der Nutzung von nachfrageseitiger Flexibilität",
+                      "kostromförderung in Österreich",
+                      "Energieeffizienzpotentiale und –maßnahmen im Strombereich"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Energietechnische Grundlagen"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wird in der Vorlesung bekanntgegeben",
+                      "Steht zum Download zur Verfügung"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlussprüfung (schriftlich)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (50%)"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Gastvorträge, Exkursion einer Energieleitstelle wird angeboten"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:22:22"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32376",
+          "kurzbz": "MOD10",
+          "semester": "2",
+          "bezeichnung": "Modul 10 Energierelevante Städteplanung",
+          "bezeichnung_englisch": "Module 10 Energierelevante Städteplanung",
+          "unterrichtssprache": "German",
+          "ects": "4.50",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4113",
+              "kurzbz": "EGK",
+              "semester": "2",
+              "bezeichnung": "Energetische Gebäudekonzepte",
+              "bezeichnung_englisch": "Energetic Building Design 1",
+              "unterrichtssprache": "German",
+              "ects": "2.25",
+              "sws": "1.50",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Development and assessment of sustainable building and energy concepts focusing on passive concepts, HVAC and the integration of renewable energy systems "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Combination of lectures and exercises; final group work with poster and presentation "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "optimize buildings with passive measures to „nearly zero energy buildings“ or passive houses ",
+                      "integrate HVAC-services and renewable energy systems in building structure to achieve high efficient building standards like zero emission-buildings or energy self-sufficient buildings"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Sustainable building and energy concepts"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic knowledge from Building Physics, HLK, HLK1, HLK2 from BEE as well as lectures in renewable energy technologies (PV, ST) from BEE"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "References will be provided in the lectures"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "50% Poster and Poster Presentation; 50% Oral ExamEach part has to be passed "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Entwicklung und Bewertung von nachhaltigen Gebäude- und Energiekonzepten mit Fokus auf passiven Konzepten, Haustechnik und Einbindung Erneuerbarer Energien "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Kombination aus Vorlesung und Übung; Abschluss mit einer Poster-Präsentation in Gruppenarbeit "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Gebäude mit passiven Maßnahmen zu „nearly zero energy buildings“, „Passivhäuser“ und besser zu optimieren ",
+                      "Haustechnik und erneuerbare Energietechnologien in Gebäude organisch zu  integrieren, um hocheffiziente Gebäudestandards wie „zero-emission“- und energieautarke Gebäude zu realisieren "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Nachhaltige Gebäude- und Energiekonzepte"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagenwissen aus Bauphysik, HLK, HLK1, HLK2 aus BEE sowie LVs zu erneuerbaren Energiesystemen (PV, ST) aus BEE"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Referenzen werden in den Unterrichtseinheiten zur Verfügung gestellt"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "50% Poster + Präsentation; 50% PrüfungJeder Teil ist positiv abzuschließen"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (80%)"
+                  }
+                }
+              },
+              "lastupdate": "2017-02-19 17:04:41"
+            },
+            {
+              "lehrveranstaltung_id": "4112",
+              "kurzbz": "EK",
+              "semester": "2",
+              "bezeichnung": "Energiekonzepte 1",
+              "bezeichnung_englisch": "Energy Concepts 1",
+              "unterrichtssprache": "German",
+              "ects": "2.25",
+              "sws": "1.50",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The lecture covers the preparation of regional / communal energy concepts, framework conditions, and relations between the stakeholders involved. It deals with the aspects which influence the urban energy system and the related impact. Focus is on teaching theory. This lecture builds the foundation for the applied part in Energy Concepts 2. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Lecture- Group discussion- Case study"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "assess regional / communal energy concepts regarding quality ",
+                      "understand relations between energy consumers' behaviour and decisions made concerning energy conversion with renewable energy technologies,",
+                      "to understand the aspects which influence the urban system and the significance of their impact."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Types of energy concepts",
+                      "Methods for energy concept preparation",
+                      "Demand side: Building stock and user behaviour ",
+                      "Life cycle cost analysis  "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- renewable energy technologies- energy efficient buildings "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Albers, G. und Wékel, J.: Stadtplanung. Eine illustrierte Einführung. Primus Verlag, 2. Auflage 2011. ",
+                      "Handbuch für kommunale und regionale Energieplanung – HANDBUCH KREP 2000. Graz: Joanneum Research Forschungsgesellschaft mbH, 2001.",
+                      "ISO 15686-5 Buildings and constructed assets – Service Life Planning – Part 5: Buildings and constructed assets -- Service life planning -- Part 5: Whole life costing (2008).",
+                      "Kaltschmitt, M.; Streicher, W. (Hrsg): Regenerative Energien in Österreich. Vieweg+Teubner, Wiesbaden: 2009.",
+                      "ROK: Energie- und Raumentwicklung – Räumliche Potenziale erneuerbarer Energieträger. Schriftenreihe Nr. 178, März 2009. ",
+                      "POST-OIL CITY. Institut für Auslandsbeziehungen e.V. in Kooperation mit ARCH+ Zeitschrift für Architektur und Städtebau 2011. ",
+                      "Petersdorff, C.; Everding D.; Wouters, F.: Solarer Städtebau – ein Weg zur Nachhaltigkeit. O.J., Ecofys GmbH - www.ecofys.de. ",
+                      "Reicher, C.: Städtebauliches Entwerfen. Vieweg+Teubner Verlag, 2012. ",
+                      "VDI 3807 Energie- und Wasserverbrauchskennwerte für Gebäude. Teilkennwerte elektrische Energie. Blatt 4, 2008.",
+                      "Further literature recommendations see course material"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Written examination: Case study "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung befasst sich mit der Erstellung von regionalen / kommunalen Energiekonzepten, den Rahmenbedingungen und den Zusammenhängen zwischen den Akteuren. Sie vermittelt die Einflussfaktoren auf das Energiesystem Stadt und die damit verbundenen Auswirkungen. Der Schwerpunkt liegt auf der Vermittlung von Theorie. Die Vorlesung bildet die Grundlage für den angewandten Teil in Energiekonzepte 2. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Vortrag- Gruppenarbeit- Fallstudie"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "regionale / kommunale Energiekonzepte hinsichtlich ihrer Qualität zu bewerten, ",
+                      "Zusammenhänge zwischen Verhalten der EnergieverbraucherInnen und Entscheidungen auf Ebene der Energieumwandlung mit erneuerbaren Energietechnologien zu analysieren und widerzugeben",
+                      "Einflüsse auf das Gesamtsystem Stadt und ihren Stellenwert zu erläutern"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Arten von Energiekonzepten",
+                      "Vorgangsweise bei der Erstellung von Energiekonzepten",
+                      "Die Nachfrageseite: Gebäudebestand und Nutzungsverhalten ",
+                      "Lebenszykluskosten "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- erneuerbare Energietechnologien- energieeffiziente Gebäude "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Albers, G. und Wékel, J.: Stadtplanung. Eine illustrierte Einführung. Primus Verlag, 2. Auflage 2011. ",
+                      "Handbuch für kommunale und regionale Energieplanung – HANDBUCH KREP 2000. Graz: Joanneum Research Forschungsgesellschaft mbH, 2001.",
+                      "ISO 15686-5 Buildings and constructed assets – Service Life Planning – Part 5: Buildings and constructed assets -- Service life planning -- Part 5: Whole life costing (2008).",
+                      "Kaltschmitt, M.; Streicher, W. (Hrsg): Regenerative Energien in Österreich. Vieweg+Teubner, Wiesbaden: 2009.",
+                      "ROK: Energie- und Raumentwicklung – Räumliche Potenziale erneuerbarer Energieträger. Schriftenreihe Nr. 178, März 2009. ",
+                      "POST-OIL CITY. Institut für Auslandsbeziehungen e.V. in Kooperation mit ARCH+ Zeitschrift für Architektur und Städtebau 2011. ",
+                      "Petersdorff, C.; Everding D.; Wouters, F.: Solarer Städtebau – ein Weg zur Nachhaltigkeit. O.J., Ecofys GmbH - www.ecofys.de. ",
+                      "Reicher, C.: Städtebauliches Entwerfen. Vieweg+Teubner Verlag, 2012. ",
+                      "VDI 3807 Energie- und Wasserverbrauchskennwerte für Gebäude. Teilkennwerte elektrische Energie. Blatt 4, 2008.",
+                      "Ausführliche Literaturhinweise im Rahmenskriptum "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftliche Prüfung: Ausarbeitung Fallbeispiel "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (80%)"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:21:36"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32377",
+          "kurzbz": "MOD11",
+          "semester": "2",
+          "bezeichnung": "Modul 11 Leittechnik",
+          "bezeichnung_englisch": "Module 11 Leittechnik",
+          "unterrichtssprache": "German",
+          "ects": "4.50",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4115",
+              "kurzbz": "GBT",
+              "semester": "2",
+              "bezeichnung": "Gebäudeleittechnik",
+              "bezeichnung_englisch": "Control Technology for Buildings",
+              "unterrichtssprache": "German",
+              "ects": "1.50",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Building controls deals with automation technology for the sake of optimizing the energy consumtion of a building. Special focus will be on the fundamentals for building automation."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      " •       select components of building automation ",
+                      " •       explain, how building automation improves energy efficiency",
+                      "• \tdescribe the building services "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "- Networks in buildings ",
+                      "- Bus systems",
+                      "- Building automation ",
+                      " - Energy efficiency based on building automation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- - - "
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "80%"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung „Gebäudetechnik“ behandelt, wie die Automationstechnik den Energieverbrauch eines Gebäudes beeinflussen kann. Besonderes Augenmerk wird dabei auf die Grundlagen der Gebäudeautomation gelegt. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "• \thaustechnische Anlagen zu beschreiben  ",
+                      "• \tKomponenten der Gebäudeautomatisierung auszuwählen  ",
+                      "• \tzu erklären, wie die Gebäudeautomatisierung die Energieeffizienz verbessert "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "- Netzwerke im Gebäude",
+                      " - Gebäudeautomatisierung",
+                      " - Bussysteme ",
+                      "- Energieeffizienz aufgrund von Gebäudeautomatisation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- - - "
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "80%"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "4118",
+              "kurzbz": "LAN",
+              "semester": "2",
+              "bezeichnung": "Leittechnik für Anlagen und Netze",
+              "bezeichnung_englisch": "Control Technology for Facilities and Power Lines",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "analyse needs and methods of active power/frequency and reactive power/voltage control in electric grids",
+                      "describe the need for short-circuit-power  in electric grids",
+                      "to describe the typical failure in a defective grid operation mode as well as to derive methods for selective detection and separation of damaged grid-structures in the bi-directional grid operation mode",
+                      "to analyse requirements for planning of a control system as well as to develop a control system from actor-sensor basis up to the process control system",
+                      "to evaluate the most important industrial bus-systems according to the required control technical features as well as their possible application",
+                      "to describe the electro-magnetic compatibility of industrial data-communication as well as to evaluate corrective measures in terms of the electro-magnetic compatibility"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Part 1: Typical grid structures and hierarchies",
+                      "Characteristic Grid-conditions in disturbed and undisturbed mode",
+                      "requirements for grid operation in disturbed and undisturbed mode",
+                      "Grid Control (active power/frequency and reactive power/voltage control)",
+                      "Principles of evaluation of the grid condition, fault detection, grid-protection in unidirectional and bidirectional grid operation",
+                      "shocrt circuit power  - needs and allocation",
+                      "requirements for decentral generationPart 2:",
+                      "requirements of the structure of a control-system incl. RI-Scheme,  Industrial Ethernet and standardised IEC-Protocols",
+                      "Composition of a process-close control station including sensors and actors for binary and analogue data",
+                      "advantages and disadvantages of different Bus-structures and bus medias in relation to different European standards"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basis (Bachelor) knowledge in - Electrical engineering- Measurement and control- Electronics (Micro-processors)- Electricity Generation systems and grids- Network engineering and data-communication incl. Ethernet and ISO/OSI-Modell- Electromagnetic compatibility and - interference"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Adolf J. Schwab: Elektroenergiesysteme - Erzeugung, Transport, Übertragung und Verteilung elektrischer Energie, Springer, 2006",
+                      "Knies, Wilfried: Elektrische Anlagentechnik : Kraftwerke, Netze, Schaltanlagen, Schutzeinrichtungen - 5. Aufl. . - Munchen ; Wien. ISBN 978-3-446-40574-5",
+                      "R. Flosdorff, G. Hilgarth: Elektrische Energieverteilung, Teubner 2006",
+                      "EN 50160 Merkmale der Spannung in öffentlichen Elektrizitätsversorgungsnetzen",
+                      "TOR D4: Parallelbetrieb von Erzeugungsanlagen mit Verteilernetzen und D2: Richtlinie zur Beurteilung von Netzrückwirkungen (http://www.e-control.at/de/marktteilnehmer/strom/marktregeln/tor)",
+                      "Erzeugungsanlagen am Mittelspannungsnetz (Richtlinie für Anschluss und Parallelbetrieb von Erzeugungsanlagen am Mittelspannungsnetz), 2008",
+                      "Adolf J. Schwab, Wolfgang Kürner: Elektromagnetische Verträglichkeit, Springer, ISBN 978-3-540-42004-0",
+                      "Dr.-Ing. Josef Börcsök: Netzwerke im industriellen Einsatz, VDE Verlag, ISBN 3-8007-2632-7",
+                      "Dietmar Reinert, Michael Schaefer: Sichere Bussysteme für die Automation, Hüthig, ISBN 3-7785-2797-5",
+                      "Frank J. Furrer: Ethernet-TCP-IP für die Industrieautomation, Hüthig, ISBN 3-7785-2779-7",
+                      "Harald Schumy, Rainer Ohl: Handbuch digitaler Schnittstellen, Vieweg, ISBN 3-528-004911-1"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Part 1: Written Exam",
+                      "Part 2: Written Exam",
+                      "Participation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (100%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "- Leit- und schutztechnische Anforderungen und Lösungsansätze für den Betrieb elektrischer Energiesysteme von der Nieder- bis zur Hochspannungsebene im ungestörten bzw. gestörten Zustand im unidirektionalem und - auf Grund zunehmender Durchdringung dezentraler Energieeinspeisung - bidirektionalem Netzbetrieb- Untergliederung der Lehrveranstaltung in:- Teil 1 (Hauer): Leittechnik aus dem Blickwinkel der Primärtechnik (ET)- Teil 2 (Dalder): Leittechnik aus dem Blickwinkel der Sekundär- und Tertiärtechnik (IT)"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Vortrag und Diskussion- Ausarbeitung von Referaten durch die Studierenden"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Notwendigkeit und Methoden der Wirkleistungs-/Frequenz- und Blindleistungs-Spannungs-Regelung in elektrischen Netzen wiederzugeben",
+                      "Notwendigkeit und Bereitstellung von Kurzschlussleistung in elektrischen Netzen zu beschreiben",
+                      "die im gestörten Netzbetrieb typischerweise auftretenden Fehlerfälle zu erläutern sowie Methoden zur selektiven Erkennung und Heraustrennung der fehlerbehafteten Netzabschnitte auch im bidirektional Netzbetrieb zu folgern",
+                      "die Anforderungen an ein zu planendes Leitsystem zu analysieren und eine leittechnische Struktur von der Aktor-Sensorebene bis zur Prozessleitebene zu entwickeln",
+                      "die gängigen industriellen Bussysteme im Hinblick auf die geforderten leittechnischen Eigenschaften zu evaluieren und deren Einsatzmöglichkeiten zu beurteilen",
+                      "die elektromagnetische Beeinflussung bei der industriellen Datenübertragung zu erklären und mögliche Abhilfemaßnahmen im Sinne der elektromagnetischen Verträglichkeit zu beurteilen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Teil 1:",
+                      "Typische Netzstrukturen und Netzhierarchien",
+                      "Charakteristische Netzzustände im ungestörten und gestörten Betrieb (Betriebs-, Fehlerfälle)",
+                      "Anforderungen an die Netzführung im ungestörten und gestörten Betrieb",
+                      "Netzregelung (Wirkleistungs-/Frequenz-, Blindleistungs-/Spannungsregelung)",
+                      "Prinzipien der Netzzustandserkennung, der Fehlererkennung, der Fehlerortung und des Netzschutzes im unidirektionalen und bidirektionalen Netzbetrieb",
+                      "Notwendigkeit und Bereitstellung von Kurzschlussleistung",
+                      "Anforderungen an dezentrale EinspeiserTeil 2:",
+                      "Anforderungen an die Struktur einer Leittechnik inkl. RI-Schema, Industrial Ethernet und genormter IEC-Protokolle",
+                      "Aufbau einer prozessnahem Leittechnikstation inkl. der Sensoren und Aktoren für binäre und analoge Messwerte",
+                      "Vor- und Nachteile verschiedener Busstrukturen (Stern, Ring, Linie) und Busmedien (Kabel, LWL, Funk) inkl. Bezugnahme auf europäische EN-Normen",
+                      "Entstehung elektromagnetischer Beeinflussungen und mögliche Abhilfemaßnahmen sowie die Sicherungsmechanismen bei der industriellen Datenübertragung"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlegende Kenntnisse Bachelor) in:- Elektrotechnik- Messtechnik (Messung elektrischer und nichtelektrischer Prozesswerte)- Elektronik (Speziell Mikroprozessortechnik)- Erzeugungsanlagen und Netze- Netzwerktechnik und Datenübertragung inkl. Ethernet und ISO/OSI-Modell- Elektromagnetische Beeinflussung bzw. Verträglichkeit (EMV)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Adolf J. Schwab: Elektroenergiesysteme - Erzeugung, Transport, Übertragung und Verteilung elektrischer Energie, Springer, 2006",
+                      "Knies, Wilfried: Elektrische Anlagentechnik : Kraftwerke, Netze, Schaltanlagen, Schutzeinrichtungen - 5. Aufl. . - Munchen ; Wien. ISBN 978-3-446-40574-5",
+                      "R. Flosdorff, G. Hilgarth: Elektrische Energieverteilung, Teubner 2006",
+                      "EN 50160 Merkmale der Spannung in öffentlichen Elektrizitätsversorgungsnetzen",
+                      "TOR D4: Parallelbetrieb von Erzeugungsanlagen mit Verteilernetzen und D2: Richtlinie zur Beurteilung von Netzrückwirkungen (http://www.e-control.at/de/marktteilnehmer/strom/marktregeln/tor)",
+                      "Erzeugungsanlagen am Mittelspannungsnetz (Richtlinie für Anschluss und Parallelbetrieb von Erzeugungsanlagen am Mittelspannungsnetz), 2008",
+                      "Adolf J. Schwab, Wolfgang Kürner: Elektromagnetische Verträglichkeit, Springer, ISBN 978-3-540-42004-0",
+                      "Dr.-Ing. Josef Börcsök: Netzwerke im industriellen Einsatz, VDE Verlag, ISBN 3-8007-2632-7",
+                      "Dietmar Reinert, Michael Schaefer: Sichere Bussysteme für die Automation, Hüthig, ISBN 3-7785-2797-5",
+                      "Frank J. Furrer: Ethernet-TCP-IP für die Industrieautomation, Hüthig, ISBN 3-7785-2779-7",
+                      "Harald Schumy, Rainer Ohl: Handbuch digitaler Schnittstellen, Vieweg, ISBN 3-528-004911-1"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Teil 1: Schriftliche Prüfung",
+                      "Teil 2: Schriftliche Prüfung",
+                      "Mitarbeit"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (100%)"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:22:00"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34058",
+          "kurzbz": "MOD5",
+          "semester": "2",
+          "bezeichnung": "Modul 5 Simulationstechnik",
+          "bezeichnung_englisch": "Module 5 Simulationstechnik",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4114",
+              "kurzbz": "AS",
+              "semester": "2",
+              "bezeichnung": "Anlagentechnik und Simulation",
+              "bezeichnung_englisch": "Systems Engineering and Simulation",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "PRJ",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The mathematical and physical basics of typical computer based Simulation-Tools (finite elements, CFD- simulation, buildings and systems/Grids) will be presented as well as their practical application in the field of renewable energy systemsAfter the theoretic basics, as well as a survey about the most important programs given in the first semester, the practical part will be offered in the 2nd semester by a concrete task (project) to be worked out with one of the offered commercial simulation programme "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "identify the most relevant simulation programs in the field of renewable energy for specific tasks",
+                      "learn to know one specific simulation program in more detail as well as to solve simpler Tasks by using it"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Theory as well as mathematical/physical background of a selected simulation program",
+                      "Practical experience by working out a concrete example"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Basics of simulation from 1st semester- Physical and mathematical basic knowledge- Energy know how (applied know-how)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Depending on simulation-program"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Working out of a simulation project",
+                      "Presentation at the final lecture"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (100%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "- Im Rahmen des Simulationstechnikmoduls sollen sowohl die mathematischen und physikalischen Grundlagen typischer computergestützter Simulationsverfahren (Finite Elemente Methoden, CFD-Numerische Strömungssimulation, Gebäude und Anlagen/Netzsimulation) vermittelt werden als auch die Basis für die praktische Anwendung im Bereich der Erneuerbaren Energien gelegt werden- Nach der Vermittlung der theoretischen Grundlagen und eines Überblicks über die wichtigsten Anwenderprogramme im ersten Semester wird im zweiten Teil anhand ausgewählter Projekte ein Einstieg in die praktische Anwendung durch Arbeit mit einem kommerziellen Simulationsprogramm geboten"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Praktisches Arbeiten mit einem Simulationsprorgamm."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Die wichtigsten Simulationsprogramme im Bereich der erneuerbaren Energie für spezifische Aufgabenstellungen zu identifizieren ",
+                      "Ein ausgewähltes Programm detailliert zu kennen und einfache Projektaufgaben damit zu lösen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Theorie und mathematisch/physikalischer Hintergrund eines ausgewählten Programms",
+                      "Praktische Umsetzung einer Übungsaufgabe"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Grundlagen der Simulationsprogramme aus dem ersten Semester- Physikalisches und mathematisches Basiswissen- Energie-Grund- und angewandtes Wissen"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Individuell je nach Simulations-Programm"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Programmieren von Übungsaufgaben",
+                      "Präsentation in der Abschluss-Session"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (100%)"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:21:14"
+            }
+          ]
+        }
+      ],
+      "3": [
+        {
+          "lehrveranstaltung_id": "32368",
+          "kurzbz": "MOD3",
+          "semester": "3",
+          "bezeichnung": "Modul 3 Städtische Energiewirtschaft",
+          "bezeichnung_englisch": "Module 3 Städtische Energiewirtschaft",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4257",
+              "kurzbz": "EWT",
+              "semester": "3",
+              "bezeichnung": "Energiewirtschaft",
+              "bezeichnung_englisch": "Energy Industry",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "FUV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course provides a clear understanding oft the principles of energy economics. Function and Objectives of energy economics on the national, international and global level are discussed, in particular concerning to climate change and energy security. Focus is on the application of economic assessment methods, that will be explained in the course and applied."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "The content will be developed in the lectures and deepened as part of distance education. The method for economic calculation is trained via group work in distance learning units and exercises and the results of the group work are presented at the end of the semester "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe and apply economic assessment methods and to compare different energy technologies from an economic perspective ",
+                      "interpret and analyse energy balances",
+                      "describe and analyse the functioning of energy markets ",
+                      "name the relative magnitude of energy consumption and supply in Austria, Europe and world wide and describe and analyse the challenges of energy policy  "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Foundations of energy economics",
+                      "Energy consumption and supply, institutional setting",
+                      "Energy statistics",
+                      "Energy prices and energy markets",
+                      "Greenhousegas-Emissions and climate change policies",
+                      "Instruments of energy policy",
+                      "economic assessment methods, e.g. cost-benefit analysis for different energy technologies"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Georg Erdmann/Peter Zweifel: Energieökonomik - Theorie und Anwendungen",
+                      "Kaltschmitt: Regenerative Energien in Österreich"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "course immanent assessment method ",
+                      "end exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt die Grundlagen der Energiewirtschaft. Aufgaben und Zielsetzungen der Energiewirtschaft auf nationaler, internationaler und globaler Ebene werden diskutiert, insbesondere vor dem Hintergrund des Klimawandels und der Versorgungssicherheit. Ein besonderer Schwerpunkt liegt bei der Anwendung wirtschaftlicher Bewertungsverfahren, anhand konkreter Energietechnologien werden die Verfahren der Wirtschaftlichkeitsrechnung erklärt und angewandt. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Die Inhalte werden in den Vorlesungen erarbeitet und im Rahmen der Fernlehre vertieft.  Die Verfahren zur Wirtschaftlichkeitsrechnung werden im Rahmen von Gruppenarbeiten in Fernlehreeinheiten und Übungen praktisch trainiert und die Ergebnisse der Gruppenarbeit werden am Ende des Semesters präsentiert. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Verfahren der Wirtschaftlichkeitsrechnung zu beschreiben und konkret anzuwenden und Energietechnologien hinsichtlich ökonomischer Gesichtspunkte zu vergleichen",
+                      "Energiebilanzen zu interpretieren und zu analysieren",
+                      "die Vorgänge auf Energiemärkten zu beschreiben und zu erläutern",
+                      "Instrumente der Energiepolitik zu benennen, zu erklären und ihre Wirkung zu analysieren",
+                      "die Größenordnungen des Energieverbrauchs und -aufkommens in Österreich, in Europa und Weltweit zu nennen und analysieren und die Herausforderungen für die Energiepolitik zu beschreiben. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen der Energiewirtschaft",
+                      "Energieaufkommen und -verwendung, Institutionen",
+                      "Energiestatistik",
+                      "Energiepreise und Energiemärkte",
+                      "Treibhausgasemissionen und Klimaschutz",
+                      "Instrumente der Energiepolitik",
+                      "ökonomische Bewertungsverfahren von Energiebereitstellungstechnologien, insbesondere Kosten-Nutzen-Analyse"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Georg Erdmann/Peter Zweifel: Energieökonomik - Theorie und Anwendungen",
+                      "Kaltschmitt: Regenerative Energien in Österreich"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung",
+                      "Abschlussprüfung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (80%)"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "4258",
+              "kurzbz": "ERT",
+              "semester": "3",
+              "bezeichnung": "Energierecht",
+              "bezeichnung_englisch": "Energy Law",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "FUV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Introduction and overview in important aspects of Austrian and European energy law. Content of European and national legislation will be analysed and application of law will be discussed. Focus is on legal acts in the field of renewable energy, energy efficiency, electricity and gas, environmental impact assessment and climate change."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "The content of the course is primarily communicated within the distance education units and elaborated by the students themselves. Literatur, documents, etc. are provided in Moodle and questions have to be answered. The lectures serve to answer any remaining issues."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "analyse legal acts (laws, regulations, directives, decisions)",
+                      "describe the main provisions of legal acts with regard to renewable energy, energy efficiency, electricity and gas, environmental impact assessment and climate change",
+                      "show the application of the before mentioned legal acts with concrete examples "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "European Directives",
+                      "Electricity and Gas Act in Austria",
+                      "Green Electricity Law",
+                      "Energy Subsidies and Taxes",
+                      "Environmental Impact Assessment",
+                      "Emissiontrading"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "legislative process in Austria and in the EU"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Raschauer Bernhard: Handbuch Energierecht, 2006, Springer, Wien New York, S. 254",
+                      "Achleitner Norbert: Österreichisches und Europäisches Energierecht, Einführung und Überblick, 2009, Verlag der Technischen Universität Graz, S. 218",
+                      "EU-Recht: www.eur-lex.euro",
+                      "Recht Österreich: www.ris.bka.gv.at"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "course immanent assessment method",
+                      "end exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Einführung und Überblick über wichtige Aspekte des österreichischen und europäischen Energierechts. Inhalte einschlägiger europäischer und nationaler Rechtstexte werden analysiert und die Rechtsanwendung diskutiert. Die Konzentration liegt auf Rechtsakten im Bereich erneuerbare Energie, Energieeffizienz, Elektrizitäts- und Gaswirtschaft, UVP und Klimaschutz. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Die Inhalte der Lehrveranstaltung werden primär im Rahmen der Fernlehreeinheiten von den Studierenden selbst erarbeitet. Dazu werden Unterlagen im Moodle bereitgestellt und zu beantwortende Fragen gestellt. Die Vorlesungen dienen der Beantwortung offen gebliebener Fragen."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Rechtstexte (Gesetze, Verordnungen, Bescheide, Richtlinien) zu analysieren",
+                      "die wesentlichen Bestimmungen einschlägiger Rechtsakte im Bereich Erneuerbare Energie, Energieeffizienz, Klimaschutz, UVP und Elektrizitäts- und Gaswirtschaftsrecht zu beschreiben ",
+                      "anhand von Anwendungsbeispielen die Anwendung der zuvor genannten Rechtsakte zu zeigen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Europäische Richtlinien",
+                      "ElWOG und GWG",
+                      "Ökostromgesetz",
+                      "Förderungen/Steuern",
+                      "Zertifizierung, UVP",
+                      "Emissionshandel"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Gesetzgebung in Österreich und EU-weit"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Raschauer Bernhard: Handbuch Energierecht, 2006, Springer, Wien New York, S. 254",
+                      "Achleitner Norbert: Österreichisches und Europäisches Energierecht, Einführung und Überblick, 2009, Verlag der Technischen Universität Graz, S. 218",
+                      "EU-Recht: www.eur-lex.euro",
+                      "Recht Österreich: www.ris.bka.gv.at"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung",
+                      "Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (80%)"
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32378",
+          "kurzbz": "MOD12",
+          "semester": "3",
+          "bezeichnung": "Modul 12 Aktuelle Themen der Erneuerbaren Urbanen Energiesysteme",
+          "bezeichnung_englisch": "Module 12 Aktuelle Themen der Erneuerbaren Urbanen Energiesysteme",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4262",
+              "kurzbz": "ATE",
+              "semester": "3",
+              "bezeichnung": "Aktuelle Themen der EUE",
+              "bezeichnung_englisch": "Current Topics in Renewable Energies",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Ehrgeizige Klima- und Energieziele, die Digitalisierung in der Energiebranche sowie die weltweit stark wachsende Nachfrage nach Erneuerbaren Energietechnologien sind Ausgangspunkt für neue, disruptive Geschäftsmodelle. Geschäftsmodellinnovation ist dabei als eigene Disziplin zu verstehen. Es braucht das richtige Handwerkszeug, also die neuesten Methoden und Tools, um erfolgreich neue Geschäftsideen zu entwickeln und in Folge auch umzusetzen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Nach Impulsvorträgen der Lektorin werden die Studierenden selbständig Probleme identifizieren, neue Geschäftsmodellideen entwickeln und testen, sowie abschließend eine Dokumentation (Video, Steckbrief) erarbeiten und präsentieren."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Geschäftsmodelle von Start-ups und von Unternehmen zu analysieren („durch die Geschäftsmodell-Brille betrachten“), neue Geschäftsideen mit der Business Model Canvas zu entwickeln, Design Thinking Mindset und Methoden anzuwenden und in gemischten Teams Lösungen für neue Herausforderungen zu erarbeiten. ",
+                      "Design Thinking: Grundlegendes über Methoden und Mindset zu erklären",
+                      "Business Design Prozess anhand der Double Loop zu erklären",
+                      "Business Model Canvas: Bausteine und ihre Bedeutung, Anwendungsmöglichkeiten zu erklären",
+                      "Minimum Viable Product zu erklären",
+                      "Geschäftsmodell-Muster zu erkennen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Business Model Innovation und Business Design",
+                      "Lean Startup Strategien",
+                      "Design Thinking"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Es sind keine Vorkenntnisse erforderlich. Die Studierenden sind jedoch aufgefordert, vor der ersten Vorlesung das Skriptum zu lesen sowie sich die Kurzvideo (siehe Literatur) anzuschauen."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Alexander Osterwalder, Yves Pigneur: Business Model Generation: Ein Handbuch für Visionäre, Spielveränderer und Herausforderer – Campus Verlag (8. August 2011)",
+                      "Patrick Van Der Pijl , Justin Lokitz, Lisa Kay Solomon, Erik van der Pluijm, Maarten van Lieshout; Design a Better Business: New Tools, Skills, and Mindset for Strategy and Innovation - John Wiley & Sons (14. Oktober 2016)",
+                      "Oliver Gassmann, Karolin Frankenberger, Michaela Csik: Geschäftsmodelle entwickeln: 55 innovative Konzepte mit dem St. Galler Business Model Navigator - Carl Hanser Verlag GmbH & Co. KG (6. Juni 2013)",
+                      "Design Thinking und Innovation Strategy: https://www.youtube.com/watch?v=ir3E-TEUk48 ",
+                      "Business Model Canvas: https://www.youtube.com/watch?v=RpFiL-1TVLw ",
+                      "Minimum Viable Product: https://www.youtube.com/watch?v=joNKkWPafZs"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "40 % Abschlusspräsentation",
+                      "30 % Video",
+                      "30 % praktische Arbeit in den Teams und Dokumentation als Steckbrief"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Die Anwesenheit der Studierenden ist an allen drei Terminen erforderlich."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32379",
+          "kurzbz": "MOD13",
+          "semester": "3",
+          "bezeichnung": "Modul 13 Spezialisierung",
+          "bezeichnung_englisch": "Module 13 Spezialisierung",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4263",
+              "kurzbz": "SPZ",
+              "semester": "3",
+              "bezeichnung": "Spezialisierung",
+              "bezeichnung_englisch": "Specialization:(Urban Energy Systems Techology or Socioeconomic, Ecological and Legal Surveys)",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "PRJ",
+              "lastupdate": "2020-09-21 21:04:38"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32380",
+          "kurzbz": "MOD14",
+          "semester": "3",
+          "bezeichnung": "Modul 14 Soft Skills 2",
+          "bezeichnung_englisch": "Module 14 Soft Skills 2",
+          "unterrichtssprache": "German",
+          "ects": "3.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4264",
+              "kurzbz": "LDS",
+              "semester": "3",
+              "bezeichnung": "Leadership",
+              "bezeichnung_englisch": "Leadership",
+              "unterrichtssprache": "German",
+              "ects": "1.50",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course provides an overview of both the latest practical and the current theoretical leadership theories. One of the course’s fundamental components will be the student’s reflection about particular issues concerning leadership."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "identify and to explain tasks and instruments of leadership (for example delegation,  agreement on objectives).",
+                      "explain classical management models (for example leading continuum, Maturity Model)  and to apply to practical examples",
+                      "describe different assumptions about human nature (for example  McGregor) and to derive the consequences for the leading of co-workers"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Leadership styles and instruments (for example staff appraisal)",
+                      "Motivation, promotion and development of employees",
+                      "Leadership functions versus professional tasks",
+                      "Consequence of “not leading”",
+                      "Role of the leader in a change process"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Blanchard, Kenneth H./Zigarmi, Patricia/Zigarmi, Drea (2009): Der MinutenManager: Führungsstile, 6. Auflage, Verlag Rowohlt, Reinbek bei Hamburg",
+                      "Goleman, Daniel/Boyatzis, Richard/McKee, Annie (2012): Emotionale Führung, 7. Auflage, Ullstein Verlag, Berlin",
+                      "Kasper, Helmut/Mayrhofer, Wolfgang (2009): Personalmanagement, Führung, Organisation, 4. Auflage, Verlag Linde, Wien",
+                      "Malik, Fredmund (2006): Führen, Leisten, Leben. Wirksames Management für eine neue Zeit, 13. Auflage,  Verlag Heyne, München",
+                      "Wunderer, Rolf (2007): Führung und Zusammenarbeit, 7. Auflage, Verlag Luchterhand, Köln"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case study (grade)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsary."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung gibt den Studierenden einen Überblick über den aktuellen Stand zum Thema Mitarbeiterführung sowohl hinsichtlich der Theorie als auch der Praxis. Ein wichtiger Teil der Lehrveranstaltung ist die eigene Reflexion der Studierenden zu ausgewählten Themenbereichen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Aufgaben und Instrumente von Führung (z. B. Delegation, Zielvereinbarung) zu benennen und zu erläutern.",
+                      "klassische Führungsmodelle (z. B. Führungskontinuum, Reifegradmodell) zu erläutern auf Praxisbeispiele anzuwenden.",
+                      "unterschiedliche Menschenbilder (z. B. McGregor) zu beschreiben und die Konsequenzen hinsichtlich der Führung von MitarbeiterInnen abzuleiten"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Führungsstile und Führungsinstrumente (z.B. MitarbeiterInnengespräch)",
+                      "Motivation, Förderung und Entwicklung von MitarbeiterInnen",
+                      "Führungsaufgaben vs. Fachaufgaben",
+                      "Konsequenzen des „Nicht-Führens“",
+                      "Rolle der Führungskraft bei Veränderungsprozessen"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Blanchard, Kenneth H./Zigarmi, Patricia/Zigarmi, Drea (2009): Der MinutenManager: Führungsstile, 6. Auflage, Verlag Rowohlt, Reinbek bei Hamburg",
+                      "Goleman, Daniel/Boyatzis, Richard/McKee, Annie (2012): Emotionale Führung, 7. Auflage, Ullstein Verlag, Berlin",
+                      "Kasper, Helmut/Mayrhofer, Wolfgang (2009): Personalmanagement, Führung, Organisation, 4. Auflage, Verlag Linde, Wien",
+                      "Malik, Fredmund (2006): Führen, Leisten, Leben. Wirksames Management für eine neue Zeit, 13. Auflage,  Verlag Heyne, München",
+                      "Wunderer, Rolf (2007): Führung und Zusammenarbeit, 7. Auflage, Verlag Luchterhand, Köln"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fallarbeit (Note)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-07-16 11:02:41"
+            },
+            {
+              "lehrveranstaltung_id": "4265",
+              "kurzbz": "ENG",
+              "semester": "3",
+              "bezeichnung": "English - Intercultural Communication",
+              "bezeichnung_englisch": "English - Intercultural Communication",
+              "unterrichtssprache": "English",
+              "ects": "1.50",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the 21st century, with globalisation having become a reality above all in science, technology and business, it is crucial that our graduates have a solid understanding of intercultural communication.\r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Interactive, multi-channel, real-life-based presentations and discussions, with an emphasis on student participation."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "function successfully in an intercultural, international business environment",
+                      "explain the key intercultural theories",
+                      "adapt their own cultural behaviour"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lecture modules on intercultural theory and key differences between cultures",
+                      "Presentations of real-life examples",
+                      "Exercises & discussions"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Completion of previous semester courses"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Trompenaars, F., and Hampden-Turner C., (1998) Riding the Waves of Culture, London: Nicholas Brealey ISBN 1-85788-176-1 (on CIS)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Class participation (including quizzes & discussions) (20%)",
+                      "Presentations (40%)",
+                      "Term Paper (40%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "For further details please see the semester plan on CIS"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Angesichts der fortschreitenden Globalisierung im 21. Jahrhundert, vor allem auch in der Wissenschaft, der Technik und in der Wirtschaft, ist es besonders wichtig, dass unsere Studierenden in der interkulturellen Kommunikation versiert sind."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Interaktive, multi-dimensionale, Präsentationen und Diskussionen mit einem direkten Praxisbezug und einem besonderen Augenmerk auf aktive Einbindung der Studierenden.\r\n"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "in einem interkulturellen , Interanational Geschäftsumfeld erfolgreich zu funktionieren",
+                      "erklären Haupt-interkulturellen Theorien",
+                      "ihre eigenen kulturellen Verhalten anpassen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV Module Intercultural Theorie, wichtige Unterschieden zwischen Kulturen",
+                      "Präsentationen zu Praxisbeispielen",
+                      "Übungen & Diskussionen"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Erfolgreicher Abschluss der Lehrveranstaltungen des Vorsemesters\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Trompenaars, F., and Hampden-Turner C., (1998) Riding the Waves of Culture, London: Nicholas Brealey ISBN 1-85788-176-1 (im CIS)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Mitarbeit (ggf. auch bei Tests & Diskussionen) (20%)",
+                      "Präsentationen (40%)",
+                      "Semesterarbeit (40%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht\r\n"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Für weitere Informationen beachten Sie den Semester Plan im CIS"
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34060",
+          "kurzbz": "MOD9",
+          "semester": "3",
+          "bezeichnung": "Modul 9 Energieeffizienz urbaner Energiesysteme",
+          "bezeichnung_englisch": "Module 9 Energieeffizienz urbaner Energiesysteme",
+          "unterrichtssprache": "German",
+          "ects": "4.50",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4259",
+              "kurzbz": "OPT",
+              "semester": "3",
+              "bezeichnung": "Prozessoptimierung",
+              "bezeichnung_englisch": "Process Optimization",
+              "unterrichtssprache": "German",
+              "ects": "4.50",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This lecture ist twofold\r\n1. Optimization of processes based on renewable energy with a focus on industrial applications and process heat\r\n2. Life Cycle Analysis (Methos di identify optimization potentials)"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Speech, toolhandling, presentations, project work, autonomous e-learning"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "o analyze modern technical processes in the area of ​​production, energy generation, storage and transmission and to describe their optimization",
+                      " to describe the relevance of modern processes in the field of energy generation, storage and transmission in relation to the optimization of the energy system",
+                      "conduct a sound data research over the whole lifecycle of a produkt or service",
+                      "conduct and interpret a life cycle assessment"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Overview of various applications of modern energy processes",
+                      " Integration of storages in energy processes",
+                      "System concepts with a focus on industrial applications",
+                      "use of  LCA sofware openLCA and ecoinvent database",
+                      "conducting a life cycle assessment"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Duffie, J.A., Beckman, W.: Solar Engineering of thermal processes, 1991",
+                      "Weiss, W., Mauthner, F.: Solar Heat Worldwide, edition 2010. www.iea-shc.org",
+                      "Div. publications of IEA SHC Task 33 s.: www.iea-shc.org"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "1. Project work - and presentation",
+                      "2. continous applications, presentations and report"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "compulsory attendance"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Vorlesung ist zweigeteilt:\r\n1. Optimierung von Prozessen  auf Basis erneuerbarer Energie mit Schwerpunkt auf industrielle Anwendungen und Prozesswärme.\r\n2. Lebenszyklusanalyse (Methode zur Identifikation von Optimierungspotenzialen)"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Toolhandling, Präsentationen, Projektarbeit, selbständiges eLearning"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "    moderne technische Prozesse im Bereich der Produktion, Energieerzeugung, -speicherung und – übertragung zu analysieren und deren Optimierung zu beschreiben",
+                      " die Relevanz moderner Prozesse im Bereich der Energieerzeugung –speicherung und – übertragung in Bezug auf die Optimierung im Energiesystem zu beschreiben",
+                      "eine fundierte Datenrecherche über den Lebenszyklus von Produkten und Dienstleistungen durchzuführen",
+                      "Eine Lebenszyklusanalyse druchzuführen und zu interpretieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      " Übersicht über div. Anwendungen moderner Energieprozesse",
+                      "Integration von Speichern in Energieprozessen",
+                      " Systemkonzepte mit Schwerpunkt auf industrielle Anwendungen",
+                      "Einführung in die  LCA SoftwareopenLCA und Datenbanknutzung ecoinvent",
+                      "Durchführung einer Lebenszyklusanalyse "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "  Duffie, J.A., Beckman, W.: Solar Engineering of thermal processes, 1991",
+                      "Weiss, W., Mauthner, F.: Solar Heat Worldwide, edition 2010. www.iea-shc.org",
+                      "Div. Veröffentlichungen des IEA SHC Task 33 s.: www.iea-shc.org"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "1. Projektarbeit und Präsentation",
+                      "2. Laufende Abgaben, Präsentationen und Endbericht"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht\r\n"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-08 20:21:26"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34061",
+          "kurzbz": "MOD10",
+          "semester": "3",
+          "bezeichnung": "Modul 10 Energierelevante Städteplanung",
+          "bezeichnung_englisch": "Module 10 Energierelevante Städteplanung",
+          "unterrichtssprache": "German",
+          "ects": "4.50",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4260",
+              "kurzbz": "EKO",
+              "semester": "3",
+              "bezeichnung": "Energiekonzepte 2",
+              "bezeichnung_englisch": "Energy Concepts 2",
+              "unterrichtssprache": "German",
+              "ects": "2.25",
+              "sws": "1.50",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Specific issues of developing and implementing regional / communal energy concepts: While Energy Concepts 1 focuses on theory necessary for developing regional / communal energy concepts, Energy Concepts 2 focuses on practical aspects and how to apply the acquired knowledge when developing a communal energy concept at the neighbourhood level in the smart city context.   "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "assess information and select relevant information, ",
+                      "understand complex interrelations and make use of it in applying the lessons learnt in practical examples,",
+                      "combine renewable energy technologies in a sustainable way, taking into account regional and spatial conditions as well as socio-economic aspects."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case studies of innovative energy concepts, case studies of smart city concepts, Smart City Strategy Vienna; development of energy concept including life cycle costing  "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Energy Concepts 1; renewable energy technologies; energy efficient buildings"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Magistrat der Stadt Wien: Smart City Wien Rahmenstrategie. Wien: 2014 ",
+                      "Magistrat der Stadt Wien: STEP 2025 Stadtentwicklungsplan Wien. Wien: 2014"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case study work"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Spezielle Aspekte der Entwicklung und Implementierung von regionalen / kommunalen Energiekonzepten: Während in EK1 die Vermittlung von grundlegender Theorie zur Erstellung von regionalen / kommunalen Energiekonzepten im Vordergrund steht, geht es in EK2 um praktische Aspekte und die Anwendung des gelernten Stoffs bei der Erstellung eines kommunalen Energiekonzepts auf Quartiersebene im Kontext des Smart City Konzepts. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Information zu bewerten und zu selektieren, ",
+                      "komplexe Zusammenhänge zu erläutern und Inhalte praktisch anzuwenden,",
+                      "erneuerbare Energietechnologien in regionalen, räumlichen Zusammenhängen unter Berücksichtigung sozioökonomischer Aspekte nachhaltig zu kombinieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fallstudien innovative Energiekonzepte, Fallstudien Smart City Konzepte, Smart City Rahmenstrategie Wien; Entwicklung eines Energiekonzepts unter Anwendung der Lebenszykluskostenanalyse   "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Energiekonzepte 1; erneuerbare Energietechnologien; energieeffiziente Gebäude"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Magistrat der Stadt Wien: Smart City Wien Rahmenstrategie. Wien: 2014 ",
+                      "Magistrat der Stadt Wien: STEP 2025 Stadtentwicklungsplan Wien. Wien: 2014",
+                      "Ausführliche Literaturhinweise im Rahmenskriptum"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ausarbeitung Fallbeispiel"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (80%)"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:22:52"
+            },
+            {
+              "lehrveranstaltung_id": "4261",
+              "kurzbz": "EGK",
+              "semester": "3",
+              "bezeichnung": "Energetische Gebäudekonzepte 2",
+              "bezeichnung_englisch": "Energetic Building Design 2",
+              "unterrichtssprache": "German",
+              "ects": "2.25",
+              "sws": "1.50",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Energetic building design 2 - Basics of draft an submission planning"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "The concept developed in the previous course \"Energetic building design 1\" should be evolved to the level of submission planning. In the lectures contents of submission planning in the field of electrical and hvac engineering and building physics are discussed, in the exercise part they are applied to the project."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "draft the submission project in the area building envelope (building physics, constructions for extracting renewable energy) for nearly zero energy buildings ",
+                      "draft the submission project in the area of HVAC and electrical planning especially with using renewable energy technologies for zero emission-buildings or energy self-sufficient buildings  "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Submission planning in the field of electrical and hvac engineering, building physics (heat, humidity, acoustics), geothermal power (water-legal permission), summer suitability of highly efficient buildings"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Knowledge on the project developed in the previous course, basic building physics and heating engineering, energy supply in buildings by renewable technologies"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "References will be provided in the lecture"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "50% written/oral examination (by means of 2 simple exercises calculated in writing before the oral part -  all course material is allowed to be used)10% documentation general part 40% documentation personalized part"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (80%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Energetische Gebäudekonzepte 2 - Grundlagen Entwurf/Einreichplanung"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Das Wettbewerbskonzept aus EGK 1 soll in Richtung \"Einreichung\"  in Gruppen weiterentwickelt werden. In der Vorlesung werden Themen zur Elektro-HLKS-Bauphysik Planung durchgenommen und im Übungsteil werden diese auf das Projekts angewendet."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine Einreichplanung im Bereich Gebäudehülle (Bauphysik, Bauteile für Energiegewinnung) in wesentlichen Schwerpunkten für hocheffiziente Gebäude aufzusetzen und in den wesentlichen Schwerpunkten umzusetzen ",
+                      "eine Einreichplanung im Bereich Gebäudetechnik und erneuerbare Energietechnologien im Bereich von hocheffizienten Gebäudestandards wie „zero-emission“- und energieautarke Gebäude aufzustellen und in einigen Schwerpunkten zu realisieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Einreichungsplanung in den Bereichen Elektroplanung, Geothermie (wasserrechtliche Genehmigung), Sommertauglichkeit, Bauphysik (Wärme, Feuchte, Schall), HLKS von hocheffizienten Gebäuden"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Kenntnisse zu dem vorhergegangenen Wettbewerbs-/Bauentwurf, Grundlagen der Bauphysik und HLK, Kenntnisse zu erneuerbaren Energie-Technologien in der Energieversorgung von Gebäuden (Solarthermie, Photovoltaik, Wärmepumpen, Biomasse-BHKW, Solare Kühlung, usw.)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Referenzen werden in den Unterrichtseinheiten zur Verfügung gestellt"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "50% schriftliche/mündliche Prüfung (anhand von 2 einfachen Beispielen, die vorher schriftlich zu lösen sind, alle Unterlagen verwendbar)10% Planungsmappe allgemein 40% Planungsmappe individuell"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (80%)"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:22:47"
+            }
+          ]
+        }
+      ],
+      "4": [
+        {
+          "lehrveranstaltung_id": "32381",
+          "kurzbz": "MOD15",
+          "semester": "4",
+          "bezeichnung": "Modul 15 Master Thesis ",
+          "bezeichnung_englisch": "Module 15 Master Thesis ",
+          "unterrichtssprache": "German",
+          "ects": "30.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4544",
+              "kurzbz": "DSEM",
+              "semester": "4",
+              "bezeichnung": "Masterthesis Seminar",
+              "bezeichnung_englisch": "Seminar for Master's Thesis",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": " - ",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Intermediate –feedback-Discussion according to the status of the master’s thesis"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "continue the master‘s thesis in an optimised way"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Depending on the topic"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Scientific working- Secific knowledge in the field oft he master‘s thesis"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Depending on the topic"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Evaluation by the supervisors"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory (100%)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Zwischen-Feedback-Diskussionen zum Status der Masterarbeit"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Master thesis in optimierter Weise fort zu setzen "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Je nach Aufgabenstellung."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Wissenschaftliches Arbeiten- Spezialkenntnisse im Themengebiet der Masterarbeit"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Je nach Aufgabenstellung"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Begutachtung durch die Diplomarbeitsbegutachter."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (100%)"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Durchführung in Deutsch oder Englisch möglich."
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:20:44"
+            },
+            {
+              "lehrveranstaltung_id": "4545",
+              "kurzbz": "DA",
+              "semester": "4",
+              "bezeichnung": "Masterthesis",
+              "bezeichnung_englisch": "Master's Thesis",
+              "unterrichtssprache": "German",
+              "ects": "24.00",
+              "sws": "0.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": " - ",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Master's Thesis"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "execute a scientific work according to the criteria of scientific working"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Depending on the topic"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "All Lectures, ILV and exercises of the Master-Degree Program"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Depending on the topic"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Evaluation of the master thesis"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "At the Seminars: 100%"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Master's Thesis"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine wissenschaftliche Arbeit nach den Kriterien des wissenschaftlichen Arbeitens auszuführen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Je nach Thema unterschiedlich"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Alle VO, ILV und Übung des Masterstudiums"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abhängig vom Thema"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Beurteilung der MT"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei den Diplomandenseminaren: 100%"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-10 12:17:12"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

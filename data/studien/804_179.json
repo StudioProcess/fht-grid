@@ -1,0 +1,2244 @@
+{
+  "name": "Master Maschinenbau",
+  "url": "https://cis.technikum-wien.at/addons/lvinfo/export/export.php?studiengang_kz=804&studienordnung_id=179",
+  "studiengang_kz": "804",
+  "studienordnung_id": "179",
+  "data": {
+    "studienordnung_id": "179",
+    "studienordnung_bezeichnung": "0804-MMB-WS2017",
+    "studienplan_id": "219",
+    "studienplan_bezeichnung": "0804-MMB-WS2017-VZ",
+    "gueltig_von": "WS2017",
+    "gueltig_von_datum": "2017-09-01",
+    "regelstudiendauer": "4",
+    "lehrveranstaltungen": {
+      "1": [
+        {
+          "lehrveranstaltung_id": "32209",
+          "kurzbz": "M12",
+          "semester": "1",
+          "bezeichnung": "Modul Aufbau und Funktionsweisen von Maschinen und Anlagen",
+          "bezeichnung_englisch": "Module Structure and Functionality of Machines and Installations",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36167",
+              "kurzbz": "KONZ",
+              "semester": "1",
+              "bezeichnung": "Strukturierte Konzeptionierung von Maschinen",
+              "bezeichnung_englisch": "Structured Conceptual Design of Machines",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course is divided into 2 parts:\r\n1) The basic principles for the structured conceptualization of technical things are presented in an overview.\r\n2) The second part focuses on the changes in the professional field of activity \"mechanical engineering\" through digitalization and simulation."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrated teaching"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "analyze technical systems in a structured way",
+                      "design technical systems in a methodological correct way",
+                      "apply basic principles of design & design guidelines",
+                      "define core tasks and core activities in the professional spectrum of conception, design & construction",
+                      "assess the personal status of the professional biography with view on future potential",
+                      "develop a personal activity profile for a future professional image in digitalized mechanical engineering"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "structurized analysis of technical systems",
+                      "methodology of step-by-step design",
+                      "solution definition & assessment",
+                      "basic principles of design & design guidelines",
+                      "core tasks and core activities in the professional spectrum",
+                      "functions, positions and competencies in digitalized mechanical engineering",
+                      "personal as-is professional biography & future-oriented activity profile"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "machine elements\r\nbasic principles of design"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "VDI 2221",
+                      "VDI 2222",
+                      "VDI 2223",
+                      "VDI 2206",
+                      "Pahl, Beitz, Feldhusen, Grote: Pahl/ Beitz Konstruktionslehre, Springer, 2006"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV immanent & working out a paper"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "mandatory attendance"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Diese LV teilt sich in 2 Teile:\r\n1) In einem Teil werden die wesentlichen Grundlagen zur strukturierten Konzeptionierung von technischen Dingen im Überblick vermittelt.\r\n2) Im Fokus des zweiten Teils stehen die Veränderungen des beruflichen Tätigkeitsfeldes „Maschinenbau“ durch Digitalisierung und Simulation. \r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrierte Lehrveranstaltung"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "technische Systeme strukturiert zu analysieren",
+                      "technische Systeme methodisch korrekt zu gestalten",
+                      "die wesentlichen Grundregeln der Gestaltung, Gestaltungsprinzipien, Gestaltungsrichtlinien anzuwenden",
+                      "Kernaufgaben und Kerntätigkeiten im beruflichen Spektrum von Konzeption und Design sowie Konstruktion und Auslegung zu erkennen",
+                      "den persönliche Ist-Stand in der Berufsbiografie schriftlich auf künftige Potenziale hin zu bilanzieren",
+                      "ein persönliches Tätigkeitsprofils für ein zukunftsfähiges Berufsbild im digitalisierten Maschinenbau systematisch zu entwickeln"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Strukturierte Analyse technischer Systeme",
+                      "Methodik des schrittweisen Gestaltens",
+                      "Lösungsfindung und Bewertung",
+                      "Grundregeln der Gestaltung, Gestaltungsprinzipien, Gestaltungsrichtlinien",
+                      "Kernaufgaben und Kerntätigkeiten im beruflichen Spektrum ",
+                      "Funktionen, Positionen und Kompetenzen im digitalisierten Maschinenbau ",
+                      "persönliche Ist-Stand in der Berufsbiografie & zukunftsfähiges Tätigkeitsprofils"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Maschinenelemente\r\nGrundlagen der Konstruktionslehre"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "VDI 2221",
+                      "VDI 2222",
+                      "VDI 2223",
+                      "VDI 2206",
+                      "Pahl, Beitz, Feldhusen, Grote: Pahl/ Beitz Konstruktionslehre, Springer, 2006"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-immanent & Ausarbeitung einer Arbeit"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36168",
+              "kurzbz": "PSYS",
+              "semester": "1",
+              "bezeichnung": "Automatisierte Produktionsanlagen und Fertigungsplanung",
+              "bezeichnung_englisch": "Automated Production Systems and Production Planning",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt Kenntnisse über die Automatisierung und Systemtechnik von Produktionsanlagen, einschließlich Fertigungskostenberechnung, sowie Grundlagen von REFA und MTM"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorlesung, Übung, Hausarbeit"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Die unterschiedlichen Konzepte/Typen von Fertigungsanlagen im Grundaufbau und\u000b-funktionen aus Sicht der Systemtechnik zu verstehen und zu beschreiben.",
+                      "Optimierungsmöglichkeiten in der mechanischen Fertigung zu erkennen und Ansätze zur Reduzierung der Fertigungszeit mit Anwendung von REFA Tools umzusetzen.",
+                      "Die Planung von Fertigungslinien (z.B. verkette Anlagen) mit unterschiedlichen Bearbeitungsaufgaben unter Berücksichtigung der Automatisierungstechnik zu realisieren.",
+                      "ie Fertigung unter Berücksichtigung von Werkstätten- Gruppen- und Fließfertigung zu planen",
+                      "Wirtschaftlichkeitsberechnung von Fertigungsverfahren durchzuführen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Systemtechnische und konstruktive Betrachtung von Werkzeugmaschinen",
+                      "Grundlagen REFA Zeitwirtschaft, MTM-Studie, Betriebsvereinbarung",
+                      "Flexible Automatisierung, Fertigungssysteme",
+                      "Fertigungskostenberechnung"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Lehrveranstaltung Fertigungsmaschinen und Produktionsanlage (FMPA) aus BMB5"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "CNC Handbuch, Hans B. Kief, Carl Hanser Verlag, ISBN 978-3-446-42594-1",
+                      "Einführung in die Steuerungstechnik, Günter Pritschow, Carl Hanser Verlag, ISBN 3-446-21422-4",
+                      "Automatisierungstechnik, Dietmar Schmid, Verlag Europa-Lehrmittel, ISBN 3-8085-5157-7",
+                      "Zerspantechnik, Paucksch/Holsten/Linß/Tikal,  Vieweg + Teubner Verlag, ISBN 978-3-8348-0279-8",
+                      "Arbeits- und Zeitwirtschaft verstehen. Von der Zeitstudie bis zur Abtaktung, Werner Fricke, BoD, Norderstedt, ISBN 9783743162983"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-immanent, schriftliche Abschlussprüfung",
+                      "Schriftliche Ausarbeitung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht "
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Die LV findet online synchron über MS-Teams statt. "
+                  }
+                }
+              },
+              "lastupdate": "2020-07-16 09:59:36"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36164",
+          "kurzbz": "M15",
+          "semester": "1",
+          "bezeichnung": "Modul Informatik im Maschinenbau",
+          "bezeichnung_englisch": "Module Informatics for Mechanical Engineering",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36169",
+              "kurzbz": "DAM",
+              "semester": "1",
+              "bezeichnung": "Datengenerierung und -analyse / Datamining im Maschinenbau",
+              "bezeichnung_englisch": "Data Generation and Analysis / Datamining for Mechanical Engineering",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Ability to analyze, model and visualize complex data sets from machine-built applications; specific focus on sensor systems for autonomous driving"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lectures and exercises."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "define and explain the relationships and differences between data mining and machine learning.",
+                      "define and explain terms of autonomous driving.",
+                      "define and explain sensor concepts of advanced imaging sensors used in autonomous vehicles, such as monochrome / color cameras, infrared cameras, ToF, stereo, ultrasound, GPS or LIDAR.",
+                      "discuss and evaluate the advantages and disadvantages of using a physical sensor system for an assistance system and to select and design a suitable system.",
+                      "analyze a given task in the team, to design a solution and to document and discuss the achieved results in a laboratory protocol."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Motivation",
+                      "Introduction Data Mining, Machine Learning",
+                      "Sensors for autonomous driving",
+                      "Principle of autonomous driving",
+                      "Overview of sensor concepts",
+                      "Deepening for selected sensors",
+                      "Laboratory exercise unit with LIDAR and imaging sensors",
+                      "Application examples"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Mathematics\r\n- Electrical engineering\r\n- Sensor technology and metrology\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Teschl, S., 2013. MATLAB -- Eine Einführung. [online] Wien: FH Technikum Wien.",
+                      "Azad, P., Gockel, T. & Dillmann, R., 2007. Computer Vision - Das Praxisbuch. Aachen: Elektor-Verlag.",
+                      "Hesse, S. & Malisa, V. (Hrsg.), 2010. Taschenbuch Robotik -- Montage -- Handhabung. München: Carl Hanser Verlag.",
+                      "Hesse, S. & Schnell, G., 2009. Sensoren für die Fabrikautomation, Funktion - Ausführung - Anwendung. 4.~Auflage. Wiesbaden: Vieweg+Teubner.",
+                      "Thrun, S.; Burgard, W.; Fox, D., 2006. Probabilistic Robotics, Cambridge: The MIT Press"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method, examination, exercises, laboratory exercise"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": ">=80%"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "None"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Fähigkeit aneignen, komplexe Datensätze aus maschinenbaulichen Anwendungen zu analysieren, zu modellieren und zu visualisieren; Spezieller Fokus auf Sensorik für Autonomes Fahren"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrierte Lehrveranstaltung mit Vorlesungs- und Übungsblöcken."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Zusammenhänge und Unterschiede zwischen Data-Mining und Maschinellem Lernen zu definieren und zu erklären.",
+                      "Begriffe des Autonomen Fahrens zu definieren und zu erklären.",
+                      "Sensorkonzepte der fortgeschrittenen bildgebenden Sensorik, die bei Autonomen Fahrzeugen vorkommt, wie Monochrom-/Farbkamera, Infrarotkamera, ToF, Stereo, Ultraschall, GPS oder LIDAR zu definieren und zu erklären.",
+                      "für ein Assistenzsystem die Vor- und Nachteile des Einsatzes eines physikalischen Sensorsystems zu diskutieren und zu bewerten und ein dafür passendes System auszuwählen und auszulegen.",
+                      "im Team eine vorgegebene Aufgabenstellung zu analysieren, einen Lösungsweg zu entwerfen und die erzielten Ergebnisse in einem Laborprotokoll zu dokumentieren und zu diskutieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Motivation",
+                      "Einführung Data-Mining, Maschinelles Lernen",
+                      "Sensorik für Autonomes Fahren",
+                      "Prinzip des Autonomen Fahrens",
+                      "Übersicht über Sensorkonzepte",
+                      "Vertiefung bei ausgewählten Sensoren",
+                      "Laborübungseinheit zu LIDAR und bildgebenden Sensoren",
+                      "Einsatzbeispiele"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Mathematik\r\n- Elektrotechnik\r\n- Sensorik und Messtechnik\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Teschl, S., 2013. MATLAB -- Eine Einführung. [online] Wien: FH Technikum Wien.",
+                      "Azad, P., Gockel, T. & Dillmann, R., 2007. Computer Vision - Das Praxisbuch. Aachen: Elektor-Verlag.",
+                      "Hesse, S. & Malisa, V. (Hrsg.), 2010. Taschenbuch Robotik -- Montage -- Handhabung. München: Carl Hanser Verlag",
+                      "Hesse, S. & Schnell, G., 2009. Sensoren für die Fabrikautomation, Funktion - Ausführung - Anwendung. 4.~Auflage. Wiesbaden: Vieweg+Teubner.",
+                      "Thrun, S.; Burgard, W.; Fox, D., 2006. Probabilistic Robotics, Cambridge: The MIT Press"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung, Klausur, Übungsbeispiele, Laborübung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mindestens 80%"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Keine"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36170",
+              "kurzbz": "PRG",
+              "semester": "1",
+              "bezeichnung": "Objektorientierte Programmiertechniken für Simulationstools",
+              "bezeichnung_englisch": "Object-oriented Programming for Simulation Tools",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Introduction to programming for mechanical engineers"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture and exercises"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "Develop Python scripts in order to access simulation tools and automate calculations",
+                      "develop classes (libraries) based on object orientated programming (OOP)"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Elements of Python Code",
+                      "Integrated development environment (IDE) i.e. PyCharm",
+                      "Programming in Python - variables, constants, data types",
+                      "Programming in Python -  expressions and instructions",
+                      "Programming in Python - program control",
+                      "Programming in Python - functions",
+                      "Programming in Python - arrays",
+                      "Object orientated programming in Python - Classes",
+                      "Scripting interfaces to connect simulation environments"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "None"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "see Moodle course"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Exercises and written exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "recommended"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Einführung in die Programmierung für Maschinenbauer"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag und Übungen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Python-Scripte zu entwickeln, um Simulationstools anzusprechen und Berechnungen zu automatisieren",
+                      "Klassen (Bibliotheken) auf Basis objektorientierter Programmierung (OOP) zu entwickeln"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Die Bestandteile eines Python-Programmes ",
+                      "Entwicklungsumgebungen (IDE'S) z.B. PyCharm",
+                      "Programmierung in Python - Variablen, Konstanten Datentypen",
+                      "Programmierung in Python - Ausdrücke und Anweisungen ",
+                      "Programmierung in Python - Programmsteuerung",
+                      "Programmierung in Python - Funktionen ",
+                      "Programmierung in Python - Arrays",
+                      "Objektorientierte Programmierung in Python - Klassen",
+                      "Scripting-Schnittstellen zu Simulationsumgebungen"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "siehe Moodle-Kurs"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Übungen und schriftliche Prüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "empfohlen"
+                  }
+                }
+              },
+              "lastupdate": "2020-07-27 12:17:18"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36163",
+          "kurzbz": "M14",
+          "semester": "1",
+          "bezeichnung": "Modul Konstruktion und Auslegung",
+          "bezeichnung_englisch": "Module Engineering and Dimension",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36201",
+              "kurzbz": "M3D",
+              "semester": "1",
+              "bezeichnung": "Methodische 3D-Konstruktion und Auslegung",
+              "bezeichnung_englisch": "Methodical 3D-Engineering and Dimensioning",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The students are working on a comprehensive design project in small groups. Based on a customer specification, the first steps in product development are made in the course Produktentwicklung und Konstruktion von Maschinen ILV. The further steps up to the drawing creation are processed in this course. \r\nThe second block of this LV is focused on the topic of preparation of technical drawings. The main point of attention is put on practice-relevant topics such as tolerances and their annotation."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "independent processing of the design project and support by the lecturer\r\nPresentations of the theoretical foundations\r\nself dependent applying of the theoretical contents in practical exercises"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "solve constructive problems methodically and independently",
+                      "consider economical aspects during the design process   ",
+                      "use 3D CAD software in the different phases of product development"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Applying the methodical approach during product development",
+                      "technical design of components",
+                      "3D CAD: component creation, assembly and drafting"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics in machine elements, engineering mechanics and mechanical design"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "j. Feldhusen, K.H. Grute; PahlBeitz/ Konstruktionslehre",
+                      "Wittel et al; Roloff/Matek Maschinenelmente",
+                      "R.C. Hibbeler; technische Mechanik 1 Statik",
+                      "R.C. Hibbeler; technische Mechanik 2 Festigkeislehre",
+                      "A. Böge, W. BÖge; Formeln und Tabellen Maschinenbau"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "presentation",
+                      "drawings: sketches and CAD drawings",
+                      "design calculation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "compulsory attendance"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Studierenden bearbeiten in Kleingruppen ein umfangreiches Konstruktionsprojekt. Ausgehend von einer Spezifikation des Kundens werden in der begleitenden Lehrveranstaltung Produktentwicklung und Entwurf von Maschinen ILV die ersten Schritte der Produktentwicklung durchlaufen. Darauf aufbauend werden in dieser LV die weiteren Schritte bis zur Erstellung von Zusammenstellungs- und Layoutzeichnungen abgearbeitet.\r\nDer zweite Block dieser LV widmet sich dem Gebeit der Zeichnugserstellung. Dabei wird das Hauptaugenmerk auf praxisrelevante Themen wie z.B: Toleranzen und deren Eintragung gelegt."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "eigenständige Bearbeitung des Konstruktionsprojektes und Betreuung durch den Lektor\r\nPräsentationen der theoretischen Grundlagen\r\nselbstsändiges Anwenden der theoretischen Inhalte in praktischen Übungsbeispielen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "methodisch und eigenständig konstruktive Problemstellungen zu lösen",
+                      "wirtschaftliche Aspekte der Produktentwicklung in den Designprozess mit einfließen zu lassen",
+                      "3D CAD Software in den verschiedenen Stadien der Produktentwiklung einzusetzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Anwendung der Methodisches Vorgehensweise bei der Produktentwicklung",
+                      "Auslegung von Bauteilen nach gültigen Normen und Richtlinien",
+                      "3D CAD: Bauteilerstellung, Zusammenbau und Zeichnungsableitung"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen in Maschinenelemente, Mechanik und Konstruktionslehre 3D CAD"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "j. Feldhusen, K.H. Grute; PahlBeitz/ Konstruktionslehre",
+                      "Wittel et al; Roloff/Matek Maschinenelmente",
+                      "R.C. Hibbeler; technische Mechanik 1 Statik",
+                      "R.C. Hibbeler; technische Mechanik 2 Festigkeislehre",
+                      "A. Böge, W. BÖge; Formeln und Tabellen Maschinenbau"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Präsentationen",
+                      "Zeichnungen: Handskizzen und CAD Zeichnungen",
+                      "Auslegungsrechnnugen"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-04 15:13:14"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36162",
+          "kurzbz": "M13",
+          "semester": "1",
+          "bezeichnung": "Modul Produktentwicklung und Entwurf",
+          "bezeichnung_englisch": "Module Product Development and Design",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36200",
+              "kurzbz": "PEM",
+              "semester": "1",
+              "bezeichnung": "Produktentwicklung und Entwurf von Maschinen",
+              "bezeichnung_englisch": "Product Development and Design of Machines",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The students get an overview over a complete design project. Here the focus will be on upstream-, associated and downstream-processes of the actual designing."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lectures, preparing exercises and a project over the whole semester"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "deal with technical problems systematically",
+                      "plan and initiate a design project properly",
+                      "know and understand the boundary conditions and external factors of a project",
+                      "document a technical product properly",
+                      "present a technical product"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Product development process",
+                      "Requiremensmanagement",
+                      "Design phases",
+                      "Digitalization",
+                      "Documentation of technical products"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics in machine elements and mechanical design"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lindemann, U., \"Methodische Entwicklung technischer Produkte\" Springer VDI",
+                      "Eigner, M.;Roubanov, D.; Zafiroc, R.: \"Modellbasierte virtuelle Produktentwicklung\", Springer Vieweg",
+                      "Feldhusen, J.;Grote, K.-H.: \"Pahl/Beitz Konstruktionslehre\", Springer Vieweg",
+                      "Ebert, C.: \"Systematisches Requirementsmanagement\", dpunkt.verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Assignments",
+                      "Collaboration",
+                      "Attendance"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Compulsory attendance"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Studierenden lernen einen Überblick über ein Konstruktionsprojekt kennen. Hierbei wird der Fokus auf vorgelagert, begleitende und nachgelagerte Prozesse des eigentlichen Konstruierens gelegt."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortag, Übung und Projekt über das gesamte Semester"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine technische Fragestellung systematisch zu bearbeiten",
+                      "ein Konstruktionsprojekt sinnvoll aufzusetzen und zu planen",
+                      "die Randbedingungen und äußeren Einflüße auf ein Projekt zu kennen und beurteilen zu können",
+                      "ein technisches Produkt ordnugsgemäß zu dokumentieren",
+                      "ein technisches Produkt zu präsentieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Produktentstehungsprozess",
+                      "Anforderungsmanagement",
+                      "Designphasen",
+                      "Digitalisierung",
+                      "Dokumentation technischer Produkte"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen Maschinenelemente und Konstruktionslehre."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lindemann, U., \"Methodische Entwicklung technischer Produkte\" Springer VDI",
+                      "Eigner, M.;Roubanov, D.; Zafiroc, R.: \"Modellbasierte virtuelle Produktentwicklung\", Springer Vieweg",
+                      "Feldhusen, J.;Grote, K.-H.: \"Pahl/Beitz Konstruktionslehre\", Springer Vieweg",
+                      "Ebert, C.: \"Systematisches Requirementsmanagement\", dpunkt.verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abgaben",
+                      "Mitarbeit",
+                      "Anwesenheit"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32205",
+          "kurzbz": "M11",
+          "semester": "1",
+          "bezeichnung": "Modul Simulationen: Voraussetzungen 1",
+          "bezeichnung_englisch": "Module Simulations: Preconditions 1",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36165",
+              "kurzbz": "BDS",
+              "semester": "1",
+              "bezeichnung": "Berechnungsmethoden für dynamische Simulation",
+              "bezeichnung_englisch": "Calculation Methods for Dynamic Simulations",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt Grundlagen der zeitkontinuierliche mathematischen Modellierung und Simulation mechanischer, elektrischer und hydraulischer Systeme mit kommerzieller Software MATLAB/Simulink, sowie die Analysemethoden zur Verifizierung und  Validierung der Modelle."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorlesung und begleitende Übungseispiele"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "... für die im Maschinenbau relevante Grundlagen der dynamischen Simulation mechanischer Systeme incl. wesentlicher  Prinzipien und Gesetze zu erläutern sowie entsprechende Anwendungsbeispiele zu beschreiben",
+                      "... lineare und nichtlineare Differentialgleichungen von dynamischen Systemen herzuleiten",
+                      "... lineare und nichtlineare Differentialgleichugssysteme in MATLAB zu programmieren",
+                      "... einfache Bewegungssimulationen mit kommerzieller Software durchzuführen (MATLAB/Simulink) ",
+                      "... den erforderlichen Rechenaufwand, benötigte Computerressourcen und Kosten für einfache Projekte abzuschätzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen der Dynamik für Ein- und Mehrkörpersysteme",
+                      "Lineare und nichtlineare Bewegungs-Differentialgleichungen mechanischer Systeme herleiten",
+                      "Simulation mechanischer nichtlinearer Bewegung (z.b. Doppelpendel)",
+                      "Linearisieren der hergeleiteten DGL",
+                      "Transformation von DGL n-ter Ordnung auf DGL-Systeme",
+                      "Stabilitätssatz für nichtlineare DGL Systeme",
+                      "Gleichgewichtslagen und Eigenwerte von nichtlinearen  DGL-Systemen bestimmen",
+                      "Numerische Lösung nichtlinearer DGL-Systeme incl praktischer Anwendung",
+                      "Anwendungsbeispiele mit MATLAB/Simulink:"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundkenntnisse Mechanik, Mathematik, Physik "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Sauer, T. (2006), Numerical Analysis, Pearson",
+                      "Bollhöfer, M./Mehrmann, V. (2004), Numerische Mathematik, Vieweg"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftliche Abschlussprüfung",
+                      "Simulationsprojekt (mit DGL 2. oder 3. Ordnung)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36166",
+              "kurzbz": "KIN",
+              "semester": "1",
+              "bezeichnung": "Kinematik und Kinetik für Mehrkörpersysteme",
+              "bezeichnung_englisch": "Kinematics and Kinetics for Multi-body Systems",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In der Vorlesung werden die mechanischen Grundlagen zur \"Kinematik und Kinetik von Mehrkörpersystemen\" behandelt und praktische Anwendungsbeispiele mit Bezug zum Maschinenbau berechnet. Nach einer kurzen Wiederholung der Grundlagen der Dynamik (Newton´sches Gesetz, d´Alembertsches Prinzip, Energieprinzipien, mathematisches und physikalisches Pendel, Massenträgheitsmoment, Rotationsträgheit, etc.) wird die Theorie zur Langrange´schen Gleichung 2. Art für die Aufstellung von Bewegungsgleichungen für Mehrkörpersysteme behandelt. Die Lagrange´sche Gleichung wird an unterschiedlichen Beispielen angewendet (Doppelpendel, Kraftfahrzeuge, Raumfahrtstrukturen, Schienenfahrzeuge, Seilbahnfahrzeuge, Schwingungsdämpfersysteme, etc.) und die physikalische Bedeutung der hergeleiteten nichtlinearen gekoppelten Bewegungsdifferentialgleichungen wird erläutert. In der Vorlesung \"Kinematik und Kinetik von Mehrkörpersystemen\" wird unter anderem auch die Überführung von realen Konstruktionen des Maschinenbaues in ein geeignetes mechanisches Modell behandelt. Die grundlegenden Phänomene von parametererregten und chaotischen Schwingungen werden ebenfalls behandelt. Die Vorlesung umfasst somit ein breites Spektrum, von der Entwicklung der mechanischen Modelle bis zur Formulierung der gekoppelten Bewegungsdifferentialgleichungen von Mehrkörpersystemen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Die Vorlesung wird in der folgenden Form abgehalten:\r\n\r\n1) Webinar - Alle Studierende: Für diese Form der Lehre verwende ich mein I-PAD und meinen privaten YouTube Kanal. Den Bildschirm des I-PADs spiegle ich in das Online-Meeting (üblicherweise GoToMeeting) und ich halte quasi eine Live Vorlesung. Diese Art der Vorlesung entspricht mehr oder weniger meinem Vortragsstil auf dem Whiteboard bei der Präsenzlehre. Es können jederzeit Fragen gestellt werden und ich versuche die theoretischen Grundlagen für jeden Studierenden verständlich zu erläutern.\r\n\r\n2) Präsenzlehre - im Gruppenverband: Lebhafte Vorlesung unter Verwendung des Whiteboards und vereinzelt Power Point Folien. Anwenden der im WEBINAR vermittelten theoretischen Grundlagen an einer Vielzahl von Übungsbeispielen."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Nichtlineare gekoppelte Bewegungsgleichungen von Mehrkörpersystemen herzuleiten",
+                      "Die Komplexität von Mehrkörpersystemen und deren zum Teil chaotische Bewegungsvorgänge zu verstehen",
+                      "Komplexe reale Konstruktionen des Maschinenbaues in mechanische Modelle überzuführen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wiederholung Grundlagen der Dynamik (Newton´sches Gesetz, d´Alembertsches Prinzip, Energieprinzipien, mathematisches und physikalisches Pendel, Massenträgheitsmoment, Rotationsträgheit, etc.)",
+                      "Langrange´sche Gleichung 2. Art",
+                      "Doppelpendel, Kraftfahrzeuge, Raumfahrtstrukturen, Schienenfahrzeuge, Seilbahnfahrzeuge, Schwingungsdämpfersysteme, etc.",
+                      "Parametererregte Schwingungen (Stabilitätskarten)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Vorlesungen Mechanik und insbesondere Dynamik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Russel Hibbeler (Dynamik)",
+                      "Heinz Parkus (Mechanik der festen Körper)",
+                      "Franz Ziegler (Technische Mechanik der festen und flüssigen Körper)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftliche Prüfung am Ende des Semesters (2 Beispiele, 20 Punkte zu erreichen)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Die Anwesenheit wird entsprechend der derzeit gültigen COVID Verordnung der Fachhochschule Technikum Wien überprüft"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-02 14:41:59"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "lehrveranstaltung_id": "36173",
+          "kurzbz": "M23",
+          "semester": "2",
+          "bezeichnung": "Modul Mehrkörpersimulation im Maschinenbau",
+          "bezeichnung_englisch": "Module Multi-body Simulation for Mechanical Engineering",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36178",
+              "kurzbz": "MKS",
+              "semester": "2",
+              "bezeichnung": "Angewandte Mehrkörpersimulation im Maschinenbau",
+              "bezeichnung_englisch": "Applied Multi-body Simulation for Mechanical Engineering",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36175",
+          "kurzbz": "M25",
+          "semester": "2",
+          "bezeichnung": "Modul Schnittstellenkompetenzen für die Maschinenintegration",
+          "bezeichnung_englisch": "Module Competency for Machine Integration",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36180",
+              "kurzbz": "EMSR",
+              "semester": "2",
+              "bezeichnung": "Elektrotechnik, Meß-, Steuer- und Regeltechnik in Maschinen",
+              "bezeichnung_englisch": "Electrical Engineering, Measurement and Control Technology for Machines",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36181",
+              "kurzbz": "WST",
+              "semester": "2",
+              "bezeichnung": "Effektive Werkstoffauswahl",
+              "bezeichnung_englisch": "Effective Materials Selection",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Based on your Knowledge on materials from your Bachelor studies, you will learn how to systematically select the right material(s) for your application, out of over 100,000 materials. The focus is on material property charts (Ashby).\r\nYou learn the English terms and will see relevant databases.\r\n12 practical examples will show the material selection process "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "systematically select materials"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Materials selection"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Fundamentals in materials (from your Bachelor studies)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Michael Ashby, Materials Selection in Mechanical Design",
+                      "Martin Reuter, Methodik der Werkstoffauswahl: Der systematische Weg zum richtigen Material"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Written end exam (Closed book)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Compulsory (80%)"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "It does not always have to be steel..."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Aufbauend auf dem Wissen aus dem Bachelorstudium befassen wir uns mit der systematischen Auswahl von Werkstoffen, derer es über 100.000 gibt.\r\nDen Schwerpunkt bildet der Ansatz von Ashby mit Werkstoffdiagrammen.\r\nSie lernen die englischen Begriffe kennen, sowie relevante Datenbanken.\r\n12 praktische Beispiele sollen die Werkstoffauswahl verdeutlichen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorlesung"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Werkstoffe systematisch auszuwaehlen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Werkstoffauswahl"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Werkstoffe (aus dem Bachelorstudium)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Michael Ashby, Alexander Wanner und Claudia Fleck, Materials Selection in Mechanical Design: Das Original mit Übersetzungshilfen",
+                      "Martin Reuter, Methodik der Werkstoffauswahl: Der systematische Weg zum richtigen Material"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftliche Abschlussprüfung (closed book)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend (80%)"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Es muss nicht immer Stahl sein..."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36171",
+          "kurzbz": "M21",
+          "semester": "2",
+          "bezeichnung": "Modul Simulationen: Voraussetzungen 2",
+          "bezeichnung_englisch": "Module Simulations: Preconditions 2",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36176",
+              "kurzbz": "BFE",
+              "semester": "2",
+              "bezeichnung": "Berechnungsmethoden für Finite Elemente",
+              "bezeichnung_englisch": "Calculation Methods for Finite Elements",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Fundamentals of vibration engineering\r\nsingle-degree-of-freedom system\r\nmultiple-degree-of-freedom systems\r\nDiscrete and continous dynamic systems\r\nEigenfrequencies, vibration modes and structural damping\r\nFree and forced vibration, resonance\r\nDamping of vibrations\r\nDesign of vibration dampers"
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fundamentals of vibration engineering",
+                      "Single-degree-of-freedom system",
+                      "Multiple-degree-of-freedom systems",
+                      "Discrete and continous dynamic systems",
+                      "Eigenfrequencies, vibration modes and structural damping",
+                      "Damping of vibrations",
+                      "Design of vibration dampers"
+                    ]
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Schwingungstechnik\r\nEinmassenschwinger\r\nMehrmassenschwinger\r\nDiskrete und kontinuierliche dynamische Systeme\r\nEigenfrequenzen, Schwingungsformen und Systemdämpfungen\r\nFreie und erwzungene Schwingung, Resonanz\r\nSchwingungsdämpfung und Schwingungstilgung\r\nEntwurf und optimale Abstimmung von Schwingungsdämpfern"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorträge als Kombination aus Power-Point-Präsentation (Skelettskriptum) und anschauliche Darstellungen zur Hebung des Verständnisses am Whiteboard. Herleitung der Grundgleichungen, Lösen der Gleichungen und Erläuterung des Lösungsweges sowie der Lösungsgleichungen am Whiteboard. Lösen von Übungsaufgaben durch die Studierenden. Diskussion der Lösungswege."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Dynamische Berechnungen von Ingenieurkonstruktionen durchzuführen",
+                      "Freie und erzwungene Schwingungsvorgänge zu analysieren",
+                      "Eigenfrequenzen, Schwingungsformen und Systemdämpfungen zu ermitteln",
+                      "Resonanzschwingungen bei Ingenieurkonstruktionen zu identifizieren",
+                      "Maßnahmen zur Schwingungsdämpfung zu planen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen der Schwingungstechnik",
+                      "Einmassenschwinger",
+                      "Mehrmassenschwinger",
+                      "Diskrete und kontinuierliche dynamische Systeme",
+                      "Eigenfrequenzen, Schwingungsformen und Systemdämpfungen",
+                      "Schwingungsdämpfung und Schwingungstilgung",
+                      "Entwurf und optimale Abstimmung von Schwingungsdämpfern"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagenvorlesungen Mechanik\r\nMehrkörperdynamik"
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ausarbeitung einer Aufgabe zu \"Entwurf und optimale Abstimmung eines Schwingungsdämpfers für eine Ingenieurkonstruktionen\" als Gruppenarbeit"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mindestens 80% Anwesenheit ist für einen positiven Abschluss der Lehrveranstaltung erforderlich"
+                  }
+                }
+              },
+              "lastupdate": "2020-01-17 14:58:35"
+            },
+            {
+              "lehrveranstaltung_id": "36202",
+              "kurzbz": "FFE",
+              "semester": "2",
+              "bezeichnung": "Festigkeitslehre für Finite Elemente",
+              "bezeichnung_englisch": "Mechanics of Materials for Finite Elements",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This lecture focuses on the theoretical, structural mechanics related basics as basis for the finite element  method (numerical simulation tool). Sections from former lectures - e.g. mechanics - will be repeated, major parts are new.  "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "The mentioned literature covers a wide range in the area of structural mechanics. Additionally to the theoretical content examples will be calculated - partially by hand and partially using a software tool (MATLAB). One focus will be the transition from an uniaxial stress state to a multiaxial (plane) stress state."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "determine the stress- and strain state of isotropic and orthotropic structures",
+                      "check results based on the finite element method on plausibility",
+                      "and - if applicable - identify errors and correct them",
+                      "differentiate between strength problems and stability problems"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Theory of Elasticity (linear)",
+                      "Principle of Virtual Displacements",
+                      "Beam Theory (linear)",
+                      "Theory of plane load-bearing structures (linear)",
+                      "Stabilityproblems",
+                      "Failure Criteria",
+                      "Basics of Theory of Plasticity",
+                      "Isotropic & Orthotropic Material Behaviour",
+                      "Classical Laminate Theory"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Lectures Mathematics & Mechanics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "H. Mang & G. Hofstetter, Festigkeitslehre (\"Strength of Materials\"), Publisher: Springer, Vienna New York, 4th Edition 2013",
+                      "Theoretical Background of ESAComp Analyses (provided via CIS)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "a) Elaboration of Examples: 40% (= 40 Points)",
+                      "b) Written Exam: 60% (= 60 Points)",
+                      "Grades: 5: 0-49 Points,  4: 50-65 Points, 3: 66-80 Points, 2: 81-90 Points, 1: 91-100 Points",
+                      "A positive grade can only be achieved, if both parts (a and b) are positive (min. 20 Points, 30 Points, resp.)."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "required attendance: 80%"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Diese Lehrveranstaltung dient dazu, für das numerische Simulationsverfahren der Methode der Finiten Elemente die notwendigen theoretischen strukturmechanischen Grundlagen zu schaffen bzw. zu wiederholen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Die zwei angeführten Literaturquellen decken ein sehr großes Spektrum im Bereich der Strukturmechanik ab. Ergänzend zu den theoretischen Inhalten werden Beispiele gerechnet - teilweise in Form von Handrechnungen, teilweise unter der Zuhilfenahme eines Softwaretools (MATLAB). Ein Hauptaugenmerk wird auf den Übergang des einaxialen Spannungszustandes (Stabtheorie) auf einen mehraxialen (ebenen) Spannungszustand gelegt."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "den Spannungs- und Dehnungszustand von isotropen und orthotropen Strukturen zu ermitteln bzw. zu beurteilen",
+                      "Ergebnisse auf Basis der Methode der finiten Elemente auf Plausibilität zu überprüfen",
+                      "und ggf. Fehler zu identifizieren und zu beheben",
+                      "Festigkeitsprobleme von Stabilitätsproblemen zu unterscheiden"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lineare Elastizitätstheorie",
+                      "Prinzip der virtuellen Verschiebung",
+                      "Lineare Stabtheorie",
+                      "Lineare Theorie ebener Flächentragwerke",
+                      "Stabilitätsprobleme",
+                      "Versagenshypothesen & Versagenskriterien",
+                      "Grundlagen der Plastizitätstheorie",
+                      "Isotropes & orthotropes Materialverhalten",
+                      "Klassische Laminattheorie"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Lehrveranstaltungen Mathematik & Mechanik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "H. Mang & G. Hofstetter, Festigkeitslehre, Springer-Verlag, Wien New York, 4. Auflage 2013",
+                      "Theoretical Background of ESAComp Analyses (über CIS zur Verfügung gestellt)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "a) Ausarbeitung von Beispielen: 40% (= 40 Punkte)",
+                      "b) schriftliche Prüfung: 60% (= 60 Punkte)",
+                      "Notenskala:   5: 0-49 Punkte,  4: 50-65 Punkte, 3: 66-80 Punkte, 2: 81-90 Punkte, 1: 91-100 Punkte",
+                      "Für eine positive Note müssen beide Teilbereiche positiv beurteilt werden, d.h. es müssen auf den Beispielteil mind. 20 Punkte und auf die schriftliche Prüfung mind. 30 Punkte erreicht werden. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "erforderliche Anwesenheit: 80%"
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36172",
+          "kurzbz": "M22",
+          "semester": "2",
+          "bezeichnung": "Modul Technische Festigkeitsberechnung - FEM",
+          "bezeichnung_englisch": "Module Technical Strength Calculation - FEM",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36177",
+              "kurzbz": "FEM",
+              "semester": "2",
+              "bezeichnung": "Angewandte technische Festigkeitsberechnung - FEM",
+              "bezeichnung_englisch": "Applied Technical Strength Calculation - FEM",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36174",
+          "kurzbz": "M24",
+          "semester": "2",
+          "bezeichnung": "Modul Ausgewählte Maschinenbau-Themen: Vertiefungen",
+          "bezeichnung_englisch": "Module Specialisation in selected Mechanical Engineering",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36179",
+              "kurzbz": "FUE",
+              "semester": "2",
+              "bezeichnung": "Moderne Fügeverfahren in der konstruktiven Praxis (Schweißtechnik für Konstrukteure)",
+              "bezeichnung_englisch": "Standard and advanced joining processes from the design engineers point of view",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36203",
+              "kurzbz": "AZT",
+              "semester": "2",
+              "bezeichnung": "Angewandte Zerspanungstechnik: Vertiefungen",
+              "bezeichnung_englisch": "Specialisation in Applied Cutting Technologies",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die LV vermittelt Kenntnisse über alel wichtigen Zerspanungsverfahren mit geometrisch bestimmter und nicht bestimmter Schneide."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorlesung, Übung"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Die Eigenschaften und die Einsatzgebiete der in der Zerspanung verwendeten Schneidstoffe können beschrieben werden.",
+                      "Für die jeweiligen Zerspanungsverfahren können Werkzeuge und Schnittparameter in Abhängigkeit des zu bearbeitenden Werkstoffes und der geforderten Rautiefe grob festgelegt werden.",
+                      "Die Berechnung der Zerspankräfte, der Leistungen und Fertigungszeit bei den wichtigsten Zerspanungsverfahren (Drehen, Fräsen, Bohren, Schleifen) wird beherrscht.",
+                      "Die Planung von einfachen Zerspanungsprozessen unter technischen und wirtschaftlichen Gesichtspunkten kann selbstständig durchgeführt werden."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schnikraft- und Leistungsberechnung in der Zerspanung",
+                      "Winkel, Spanbildung, Werkzeugbeschichtung, Trockenzerspanung"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Mechanik, Werkstofftechnik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Zerspantechnik, Paucksch/Holsten/Linß/Tikal,  Vieweg + Teubner Verlag, ISBN 978-3-8348-0279-8",
+                      "Fertigungsverfahren (1 - 5), Wilfried König; Fritz Klocke,  Springer Verlag",
+                      "Einführung in die Fertigungstechnik, Engelbert Westkämper; Hans-Jürgen Warnecke, Teubner Verlag Wiesbaden"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Klausur, Fernlehre"
+                    ]
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        }
+      ],
+      "3": [
+        {
+          "lehrveranstaltung_id": "36183",
+          "kurzbz": "M32",
+          "semester": "3",
+          "bezeichnung": "Modul Ausgewählte Simulationsthemen: Vertiefungen",
+          "bezeichnung_englisch": "Module Specialisation in selected Simulation Topics",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36184",
+              "kurzbz": "AST",
+              "semester": "3",
+              "bezeichnung": "Ausgewählte Simulationsthemen: Vertiefungen",
+              "bezeichnung_englisch": "Specialisation in selected Simulation Topics",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36187",
+          "kurzbz": "M35",
+          "semester": "3",
+          "bezeichnung": "Modul Wirtschaft und Sozialkompetenz für Maschinenbau-Projekte",
+          "bezeichnung_englisch": "Module Economics and Social Competencies for Mechanical Engineering Projects",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36193",
+              "kurzbz": "WMM",
+              "semester": "3",
+              "bezeichnung": "Wirtschaftliche Modellierung von Maschinenbau-Projekten",
+              "bezeichnung_englisch": "Economic Modelling of Mechanical Engineering Projects",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Development of a Business Cases"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Presentation of theory, building a business case, coaching"
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "80%"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Erstellung von Business Cases"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag zur Theorie von Business Cases sowie Erstellen eines Business Case, Coaching"
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "80%"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36195",
+              "kurzbz": "FPT",
+              "semester": "3",
+              "bezeichnung": "Führen von Projektteams",
+              "bezeichnung_englisch": "Team Leading ",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the course the students get to know main principles of leading teams."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain the role of leadership in the different stages of team development (for example by Tuckman) and to derive relevant leading actions (for example directive leadership in the forming phase).",
+                      "diagnose dynamics in project teams using models (for example Rank Dynamics, Drama Triangle, TZI) and to develop and argue case-related concrete opportunities for activities (for example delegation of responsibilty, critical discussion). "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Leadership styles and actions (in leading projects teams)",
+                      "Leadership tools in project teams",
+                      "Consequences of not leading",
+                      "Role conflicts \"colleague\" and \"project leader\"",
+                      "Conflicts and difficult situations in leading project teams"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Cronenbroeck, Wolfgang (2008): Projektmanagement, Verlag Cornelsen, Berlin",
+                      "DeMarco, Tom (1998): Der Termin – Ein Roman über Projektmanagement, München: Hanser",
+                      "Kellner, Hedwig (2000): Projekte konfliktfrei führen. Wie Sie ein erfolgreiches Team aufbauen, Hanser Wirtschaft",
+                      "Majer Christian/Stabauer Luis (2010): Social competence im Projektmanagement - Projektteams führen, entwickeln, motivieren, Goldegg-Verlag, Wien"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case study with presentation (grade)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsary."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt den Studierenden grundsätzliche Prinzipien der Führung von Teams."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Rolle der Führung in den unterschiedlichen Phasen der Teamentwicklung (z. B. nach Tuckman) zu erläutern und relevante Führungshandlungen (z. B. direktive Führung in der Forming-Phase) abzuleiten.",
+                      "Dynamiken in Projektteams anhand von Modellen (z. B. Rangdynamik, Dramadreieck, TZI) zu diagnostizieren und konkrete Handungsmöglichkeiten (z.B. Delegation von Verantwortung, Kritikgespräch) fallbezogen zu entwickeln und zu begründen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Führungsstile und -handlungen (bei der Führung von Projektteams)",
+                      "Führungsinstrumente in Projektteams",
+                      "Konsequenzen des „Nicht-Führens“",
+                      "Rollenkonflikte \"Kollege/Kollegin\" und \"Projektleiter/in\"",
+                      "Konflikte und schwierige Situationen in der Führung von Projektteams"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Cronenbroeck, Wolfgang (2008): Projektmanagement, Verlag Cornelsen, Berlin",
+                      "DeMarco, Tom (1998): Der Termin – Ein Roman über Projektmanagement, München: Hanser",
+                      "Kellner, Hedwig (2000): Projekte konfliktfrei führen. Wie Sie ein erfolgreiches Team aufbauen, Hanser Wirtschaft",
+                      "Majer Christian/Stabauer Luis (2010): Social competence im Projektmanagement - Projektteams führen, entwickeln, motivieren, Goldegg-Verlag, Wien"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fallstudie mit Präsentation (Note)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-07-16 12:37:36"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36182",
+          "kurzbz": "M31",
+          "semester": "3",
+          "bezeichnung": "Modul Betriebsphase von Maschinen und Anlagen",
+          "bezeichnung_englisch": "Module Operation of Machines and Installations",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36194",
+              "kurzbz": "OPT",
+              "semester": "3",
+              "bezeichnung": "Analyse und Optimierung des Betriebs von Anlagensystemen",
+              "bezeichnung_englisch": "Analysis and Optimization of Machine/Plant Operations",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This ILV aims at walking in the shoes of an operations engineer, who has to improve production processes. Essential tasks will be discussed and required methods and tool will be presented and applied. Both, the lecture and the exercises will be held in English."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture, videos, discussions, exercises"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "Build upon tought fundamentals and work as an engineer in operations"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fundamentals of Asset Managment",
+                      "Four industrial revolutions",
+                      "Shoopfloor layout",
+                      "Process mapping",
+                      "Value stream mapping (VSM)",
+                      "Loss management incl. OEE",
+                      "Process capability and Six Sigma definition",
+                      "DMAIC approach",
+                      "Main tools in DMAIC"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Toyota production system, Taiichi Ohno, Productivity Press",
+                      "Das Praxisbuch: Der Toyota Weg, J. Liker, D.P. Meier, Finanzbuch Verlag",
+                      "OEE für das Produktionsteam, A. Koch",
+                      "Six Sigma + Lean Toolset, S. Lunau"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Activity in group exercises 20%",
+                      "Results in moodle quizzes 20%",
+                      "Results of exercises 30%",
+                      "Final exam (online, open book) 30%"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Participation in lectures (Zoom meetings)\r\nParticipation in exercises (partly on site, partly online)\r\nTotal participation at least 80%"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Ziel der ILV ist es, in die Schuhe eines Produktionsingenieurs hineinzusteigen, der die Aufgabe hat, die Fertigungsabläufe zu verbessern. Dabei werden wesentliche Aufgabenfelder und die dazu erforderlichen Methoden und Werkzeuge durchgenommen. The Vorlesung und die Übungen werden in Englisch durchgeführt."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Videos, Diskussionen, Übungen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Auf den vermittelten Grundlagen aufzubauen und in den Aufgabenbereichen eines Produktionsingenieurs tätig zu sein"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen des Asset Managements",
+                      "Industrielle Entwicklung in vier Stufen",
+                      "Fabrikslayout",
+                      "Darstellung des Produktionsflusses",
+                      "Wertstromanalyse",
+                      "Verlustmanagement inkl. OEE",
+                      "Prozessfahigkeit und Six Sigma Definition",
+                      "DMAIC Methode",
+                      "Wesentliche Werkzeuge in DMAIC"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Toyota production system, Taiichi Ohno, Productivity Press",
+                      "Das Praxisbuch: Der Toyota Weg, J. Liker, D.P. Meier, Finanzbuch Verlag",
+                      "OEE für das Produktionsteam, A. Koch",
+                      "Six Sigma + Lean Toolset, S. Lunau"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Mitarbeit in Gruppenübungen 20%",
+                      "Beantwortung von Moodle quizzes 20%",
+                      "Ausarbeitung von Übungsaufgaben 30%",
+                      "Abschlusstest (online, open book) 30%"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Teilnahme an Zoom-Meetings der Vorlesungen\r\nTeilnahme an den Übungen (tw. vor Ort und tw. online)\r\nGesamtteilnahme mind. 80%"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-08 12:17:38"
+            },
+            {
+              "lehrveranstaltung_id": "36188",
+              "kurzbz": "SVC",
+              "semester": "3",
+              "bezeichnung": "Elemente von Servicelösungen für Anlagensysteme",
+              "bezeichnung_englisch": "Elements of Service Solutions for Machines/Plants",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die LV vermittelt die Grundlagen von Asset- und Instandhaltungsmanagement und zeigt wie konkrete Aufgabenstellungen im gesamten Lebenszyklus von Anlagen in der Praxis gelöst werden können."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Grundlegende Elemente des Asset Management und der Instandhaltung sowie dere Zusammenhänge beschreiben können",
+                      "Umsetzungskonzepte skkizieren können"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Definitionen zu Asset Management und Instandhaltung",
+                      "Ziele und Strategie der IH",
+                      "Prozesse der IH",
+                      "Kosten-Nutzen",
+                      "Ersatzteilmanagement",
+                      "Planung in der IH",
+                      "Kontinuierliche Verbesserung",
+                      "EDV Unterstützung"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Prüfung"
+                    ]
+                  }
+                }
+              },
+              "lastupdate": "2020-09-10 09:58:46"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36186",
+          "kurzbz": "M34",
+          "semester": "3",
+          "bezeichnung": "Modul Maschinenbau-Projektarbeit",
+          "bezeichnung_englisch": "Module Mechanical Engineering Project",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36191",
+              "kurzbz": "SP",
+              "semester": "3",
+              "bezeichnung": "Seminar zur Projektarbeit",
+              "bezeichnung_englisch": "Seminar for Project",
+              "unterrichtssprache": "German",
+              "ects": "1.50",
+              "sws": "1.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this seminar of the master’s degree in mechanical engineering, the students work independently on project work (MMB3 projects) and create a seminar paper (SEA) on top of it. Basically, you have to choose the topics yourself. To do this, you need to submit your own project proposal. The presentation is accompanied and the way to the SEA is continuously recorded."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "seminar"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "create a project / seminar paper.",
+                      "carry out a presentation of your seminar paper."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Presentation technology",
+                      "red ribbon",
+                      "scientific work"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "scientific work"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Online teaching materials in the Moodle course"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Presentation of your coordinated MMB3-PRJ concept + progress of the work",
+                      "Presentation of the final results SEA"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "100%"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "no"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In diesem Seminar des Masterstudiengangs Maschinenbau bearbeiten die Studierenden selbstständig Projektarbeiten (MMB3-Projekte) und erstellen darüber eine Seminar-Arbeit (SEA). Die Themenstellungen dazu sind grundsätzlich selbst zu wählen. Dazu ist das Einreichen eines eigenen Projekt-Vorschlags notwendig. Die Präsentation wird begleitet und der Weg zur SEA  wird kontinuierlich festgehalten."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Seminar"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine Projekt-/Seminararbeit zu erstellen.",
+                      "einer Präsentation ihrer Seminararbeit durchzuführen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Präsentationstechnik",
+                      "roter Faden",
+                      "wissenschaftliches Arbeiten"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "wissenschaftliches Arbeiten"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Online-Lehrunterlagen im Moodle-Kurs"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Präsentation Ihres abgestimmten MMB3-PRJ-Konzeptes + Fortschritt der Arbeit",
+                      "Präsentation der finalen Ergebnisse SEA"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "100%"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-16 09:27:10"
+            },
+            {
+              "lehrveranstaltung_id": "36192",
+              "kurzbz": "MPA",
+              "semester": "3",
+              "bezeichnung": "Maschinenbau-Projektarbeit",
+              "bezeichnung_englisch": "Mechanical Engineering Project",
+              "unterrichtssprache": "German",
+              "ects": "4.50",
+              "sws": "3.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "PRJ",
+              "lastupdate": "2020-10-16 09:27:10"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36185",
+          "kurzbz": "M33",
+          "semester": "3",
+          "bezeichnung": "Modul Simulation von Anlagensystemen",
+          "bezeichnung_englisch": "Module Plant Simulation",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36189",
+              "kurzbz": "SAA",
+              "semester": "3",
+              "bezeichnung": "Simulation von Anlagensystemen: Anwendungen",
+              "bezeichnung_englisch": "Plant Simulation: Applications",
+              "unterrichtssprache": "German",
+              "ects": "4.50",
+              "sws": "3.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36190",
+              "kurzbz": "SAV",
+              "semester": "3",
+              "bezeichnung": "Simulation von Anlagensystemen: Voraussetzungen",
+              "bezeichnung_englisch": "Plant Simulation: Preconditions",
+              "unterrichtssprache": "German",
+              "ects": "1.50",
+              "sws": "1.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": ""
+            }
+          ]
+        }
+      ],
+      "4": [
+        {
+          "lehrveranstaltung_id": "36196",
+          "kurzbz": "M41",
+          "semester": "4",
+          "bezeichnung": "Modul Master-Modul",
+          "bezeichnung_englisch": "Module Master Module",
+          "unterrichtssprache": "German",
+          "ects": "30.00",
+          "sws": "4.00",
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36198",
+              "kurzbz": "DIS",
+              "semester": "4",
+              "bezeichnung": "DiplomandInnen-Seminar (inkl. Scientific Writing)",
+              "bezeichnung_englisch": "Diploma Thesis Seminar (incl. Scientific Writing)",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this seminar, the students create their MASTER THESIS (MT). The topics for this are basically to be chosen by yourself - or topics from the MMB3 projects can be continued and deepened in the quality of an MT. This requires submitting your own MT concept."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "seminar"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to create a poster about the master's thesis.",
+                      "to write a paper about your master's thesis."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "scientific work"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Preparatory work from the seminar paper in the 3rd semester."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Online teaching materials"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "paper",
+                      "poster"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "100% in the presentation"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "no"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In diesem Seminar erstellen die Studierenden ihre MASTER THESIS (MT). Die Themenstellungen dazu sind grundsätzlich selbst zu wählen - bzw. können auch Themen aus den MMB3-Projekten weitergeführt und in der Qualität einer MT vertieft werden. Dazu ist das Einreichen eines eigenen MT-Konzeptes notwendig."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Seminar"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "ein Poster über die Masterarbeit zu erstellen.",
+                      "ein Paper über ihre Masterarbeit zu erstellen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "wissenschaftliches Arbeiten"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Vorarbeiten aus der Seminararbeit im 3. Semester"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Online-Lehrunterlagen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Paper",
+                      "Poster"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "100% bei der Präsentation"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-16 09:47:40"
+            },
+            {
+              "lehrveranstaltung_id": "36199",
+              "kurzbz": "THE",
+              "semester": "4",
+              "bezeichnung": "Master Thesis",
+              "bezeichnung_englisch": "Master Thesis",
+              "unterrichtssprache": "German",
+              "ects": "24.00",
+              "sws": "0.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": " - ",
+              "lastupdate": "2020-10-16 09:47:40"
+            },
+            {
+              "lehrveranstaltung_id": "36197",
+              "kurzbz": "QRM",
+              "semester": "4",
+              "bezeichnung": "Qualitäts- und Risikomanagement in Maschinenbau-Projekten",
+              "bezeichnung_englisch": "Quality and Risk Management for Mechanical Engineering Projects",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": "2020-10-16 09:47:40"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

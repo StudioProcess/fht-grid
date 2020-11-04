@@ -1,0 +1,3478 @@
+{
+  "name": "Master Mechatronik/Robotik",
+  "url": "https://cis.technikum-wien.at/addons/lvinfo/export/export.php?studiengang_kz=331",
+  "studiengang_kz": "331",
+  "studienordnung_id": null,
+  "data": {
+    "studienordnung_id": "303",
+    "studienordnung_bezeichnung": "0331-MMR-WS2018",
+    "studienplan_id": "353",
+    "studienplan_bezeichnung": "0331-MMR-WS2018-BB",
+    "gueltig_von": "WS2018",
+    "gueltig_von_datum": "2018-09-01",
+    "regelstudiendauer": "4",
+    "lehrveranstaltungen": {
+      "1": [
+        {
+          "lehrveranstaltung_id": "34778",
+          "kurzbz": "MOD1 ",
+          "semester": "1",
+          "bezeichnung": "Modul 1 Mathematik",
+          "bezeichnung_englisch": "Module 1",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3454",
+              "kurzbz": "BIWM",
+              "semester": "1",
+              "bezeichnung": "Ingenieurwissenschaftliche Mathematik",
+              "bezeichnung_englisch": "Engineering mathematics",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course deals with mathematical topics and their applications in mechatronics."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "model and solve simple problems from statistics and probability theory using methods from combinatorics and calculus",
+                      "solve simple statistical estimation problems",
+                      "model and solve simple geometrical problems in R² and R³ using vectors",
+                      "describe and solve systems of linear equations in the framework of linear algebra",
+                      "apply methods from linear algebra in order to decompose matrices and to represent linear functions by matrices",
+                      "describe, interpret and calculate the singular value decomposition as well as the pseudoinverse of a matrix"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "part I: linear algebra ",
+                      "part II: combinatorics, probability theory and statistics"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Mathematics and robotics (bachelor level), in particular- vector spaces, matrices, elementary functions and complex numbers- sequences, (power) series, limits, differential und integral calculus- Fourier series, Fourier transformation, Laplace transformation- multivariate calculus and differential equations"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Teschl G./ Teschl S. (2008), Mathematik für Informatiker, Band 1: Diskrete Mathematik und Lineare Algebra, 3rd ed. Springer",
+                      "Teschl G./ Teschl S. (2007), Mathematik für Informatiker Band 2: Analysis und Statistik, 2nd ed. Springer",
+                      "Stingl, P., Mathematik für Fachhochschulen, 2009, Hanser",
+                      "Sachs, M., Wahrscheinlichkeitsrechnung und Statistik für Ingenieurstudenten an Fachhochschulen, Hanser",
+                      "Lang, Ch./ Pucker, N. (2005): Mathematische Methoden in der Physik, 2. Auflage, Spektrum"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Problem sessions and written exam",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance not required"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Problem sessions:- Self-study exercises must be solved and entered in the „checkmark-list“ (possible until 7:00 am, day of the problem session course). During the problem sessions exercises must be presented and explained at the Whiteboard- At least 60% of the given examples must be solved and checked in the list.\r\nGrading of the exercise part:\r\n60% - 70% - 4\r\n70% - 80% - 3\r\n80% - 90% - 2\r\n90% - 100% - 1\r\nWritten exams: Each of the two exams can be repeated once. In case of a commissional exam the whole content of the course is to be examined.\r\nFinal grading: the exercise part contributes with 20% to the final grade. The two exams contribute 40% each. In case of a failed exercise part the two exams count 50% each for the reoeat exam."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung behandelt mathematische Themen und deren Anwendung in der Mechatronik."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "einfache statistische und wahrscheinlichkeitstheoretische Problemstellungen mit Methoden der Kombinatorik sowie der Differential- und Integralrechnung in einer Variablen zu modellieren und zu lösen",
+                      "einfache statistische Schätzaufgaben zu lösen",
+                      "einfache geometrische Problemstellungen im R² und R³ mit Methoden der Vektorrechnung zu modellieren",
+                      "Systeme linearer Gleichungen mit Methoden der linearen Algebra zu beschreiben und zu lösen",
+                      "Methoden der Linearen Algebra anzuwenden, um Matrizen zu Zerlegen sowie um lineare Abbildungen als Matrizen darzustellen",
+                      "die Singulärwertzerlegung von Matrizen sowie die Pseudoinverse zu beschreiben, zu interpretieren und konkret zu bestimmen "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Teil 1: Lineare Algebra ",
+                      "Teil 2: Kombinatorik, elementare Wahrscheinlichkeitstheorie und Statistik"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Mathematik und Robotik (Bachelorniveau), insbes.- Vektorräume, Matrizen, elementare Funktionen und komplexe Zahlen- Folgen, Reihen, Differential und Integralrechnung- Fourierreihen, Fouriertransformation, Laplacetransformation- mehrdimensionale Analysis und Differentialgleichungen"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Teschl G./ Teschl S. (2008), Mathematik für Informatiker, Band 1: Diskrete Mathematik und Lineare Algebra, 3rd ed. Springer",
+                      "Teschl G./ Teschl S. (2007), Mathematik für Informatiker Band 2: Analysis und Statistik, 2nd ed. Springer",
+                      "Stingl, P., Mathematik für Fachhochschulen, 2009, Hanser",
+                      "Sachs, M., Wahrscheinlichkeitsrechnung und Statistik für Ingenieurstudenten an Fachhochschulen, Hanser",
+                      "Lang, Ch./ Pucker, N. (2005): Mathematische Methoden in der Physik, 2. Auflage, Spektrum"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Begleitende Übungsaufgaben und 2 schriftliche Teilprüfungen zu den jeweiligen Teilen",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht keine Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Übungsmodus: Die Übungsblätter mit den Beispielen sind jeweils bis um 7:00 am Übungstag freigeschaltet um angekreuzt zu werden. 60% der Beispiele des Teil 1 (Lineare Algebra) und 60% der Beispiele des Teil 2 (Wahrscheinlichkeitstheorie) müssen angekreuzt (d.h. frei vorrechenbar und erläuterbar) sein um eine positive Gesamtnote zu erhalten.\r\nNotenschlüssel des Übungsteils:\r\n60% - 70% - Genügend\r\n70% - 80% - Befriedigend\r\n80% - 90% - Gut\r\n90% - 100% - Sehr Gut\r\nTeilprüfungen:Jede Teilprüfung kann einmal wiederholt werden. Im Falle einer kommissionellen Prüfung wird der gesamte Inhalt der Lehrveranstaltung geprüft.\r\nNotengebung: der Übungsteil trägt 20% zur Gesamtnote bei, die Teilprüfungen - je 40%. Bei negativem Übungsteil fließen die beiden Teilprüfungen jeweils zu 50% in die Gesamtnote der Wiederholungsprüfung ein."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34779",
+          "kurzbz": "MOD2",
+          "semester": "1",
+          "bezeichnung": "Modul 2 Programmierkonzepte",
+          "bezeichnung_englisch": "Module 2",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3455",
+              "kurzbz": "BMPK",
+              "semester": "1",
+              "bezeichnung": "Moderne Programmierkonzepte",
+              "bezeichnung_englisch": "Modern Programming Concepts",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "A modern approach to object oriented, functional, nonlinear and logic programming"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "TBD"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "apply basic concepts of objectoriented programming methods ",
+                      "apply basic concepts of functional programming methods ",
+                      "unsterstand rule based- and knowledge-systems",
+                      "unsterstand propositional logic",
+                      "apply Predicate logic",
+                      "to create inference systems",
+                      "apply computer based planning to problems"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "OOP",
+                      "functional programming",
+                      "nonlinear programming",
+                      "logic programming"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Mathmatics, statistics and structured programming in C (C++)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schaum's Outline of Programming with C++John Hubbard Verlag: mitp; Auflage: 1. Aufl. (Januar 2003)Sprache: DeutschISBN-10: 3826609107ISBN-13: 978-3826609107",
+                      "Artificial Intelligence: A Modern Approach, Global Edition: Stuart Russell / Peter Norvig",
+                      "The Essence of Artificial Intelligence (The Essence of Computing) (Englisch) Taschenbuch, ISBN-13: 978-0135717790"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "continuous assesment in course"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "obligatory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "due to COVID-19, this lecture will be a webinar."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Moderne Programmierung: Objekt orientierte, funktionale, nichtlineare und Logik- Programmierung."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "TBD"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die grundlegenden Konzepte der objektorientierten Programmierung anzuwenden",
+                      "die grundlegenden Konzepte der funktionalen Programmierung anzuwenden",
+                      "Regelbasierte Systeme zu verstehen, anzuwenden und auch zu programmieren",
+                      "Propositionallogik zu verstehen",
+                      "Prädikatenlogische Konstrukte zu erstellen",
+                      "Schließende Systeme zu erstellen",
+                      "Planende Systeme zu erstellen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Das Klassenkonzept in OOP",
+                      "Das Konzept  der Funktionalen Programmierung",
+                      "Das Konzept der nichtlinearen Programmierung",
+                      "Das Konzept der Logischen Programmiereung"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Vorkenntnisse von Mathematik, Statistik und strukturierter Programmierung in C (C++)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schaum's Outline of Programming with C++John Hubbard Verlag: mitp; Auflage: 1. Aufl. (Januar 2003)Sprache: DeutschISBN-10: 3826609107ISBN-13: 978-3826609107",
+                      "Künstliche IntelligenzAutor: Stuart Russell / Peter Norvig ISBN: 978-3-8689-4098-5 oder aktuellere Ausgaben",
+                      "The Essence of Artificial Intelligence (The Essence of Computing) (Englisch) Taschenbuch, ISBN-13: 978-0135717790"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV immanente Beurteilung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "nicht notwendig"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Wegen COVIF-19 Maßnahmen ist dies ein Webinar"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-19 14:37:18"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37141",
+          "kurzbz": "MOD3",
+          "semester": "1",
+          "bezeichnung": "Modul 3 Leistungselektronik",
+          "bezeichnung_englisch": "Module 3",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37146",
+              "kurzbz": "BEL",
+              "semester": "1",
+              "bezeichnung": "Leistungselektronik und elektrische Antriebe",
+              "bezeichnung_englisch": "Power Electronics and Electrical Drives",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course covers specific aspects of power electronics within the application domain of electrical drives and mechatronics"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe the switching transient of active and passive switches",
+                      "calculate the voltage transformation rate of a DC/DC converter",
+                      "interpret the most important design characteristics",
+                      "construct the load voltage of rectifiers",
+                      "select and dimension driver circuits",
+                      "practically measure over-voltages which occur during the turn-off process of inductive loads and to set countermeasures in a laboratory environment",
+                      "practically measure the voltage transformation rate of a buck converter, evaluate parasitic effects and can explain their source in a laboratory environment",
+                      "explain construction and operation of following elecrical drives: DC motor, AC induction motor, synchronous motor, reluctance motor "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Power Electronics: topology, mode of operation, and important characteristics of power electronics circuits exemplary explained for rectifiers, DC-to-DC converters and inverters",
+                      "EMC (electromagnetic compatibility)",
+                      "drive and control circuits",
+                      "laboratory exercises to get more insight:  - measurement of the switching operation of devices  - measure the voltage transformation rate of a buck converter  - evaluate parasitic effects and can explain their source  - evaluate basic disturbances",
+                      "1 phase / 3 phase AC system",
+                      "DC motor, AC induction motor",
+                      "synchronous motor, reluctance motor"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics: Mathematics, Electronics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Bumiller, Horst, et al., Fachkunde Elektrotechnik, (2008), Europa Lehrmittel",
+                      "Mohan, N./ Undeland, T./ Robbins, W., Power Electronics (2002), Jon Wiley & Sons Inc.",
+                      "Zach, F., Leistungselektronik, (2009), Springer",
+                      "Specovius, J., Grundkurs Leistungselektronik, (2010), Springer - Vieweg",
+                      "Fischer R., Elektrische Maschinen, (2013), Hanser Verlag",
+                      "Spring E., Elektrische Maschinen, (2009), Springer"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "final written exam, exercises"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt den Studierenden wesentliche Elemente der Leistungselektronik im Anwendungsfeld elektrische Antriebe und Mechatronik"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "das Schaltverhalten von aktiven und passiven elektronischen Schaltern zu beschreiben",
+                      "das Spannungsübersetzungsverhältnis eines DC/DC Wandlers zu berechnen",
+                      "wichtige Auslegungskriterien von Konvertern zu interpretieren",
+                      "die Ausgangsspannung von Gleichrichtern zu konstruieren",
+                      "Treiberstufen auszuwählen und zu dimensionieren",
+                      "Überspannungen, die beim Schalten induktiver Lasten entstehen, unter Laborbedingungen zu messen und Maßnahmen zur Reduktion durchzuführen",
+                      "das Spannungsübersetzungsverhältnis eines Tiefsetzstellers unter Laborbedingungen zu messen, parasitäre Effekte zu beurteilen und deren Ursache zu erklären",
+                      "Aufbau und Betrieb folgender elektrischer Maschinen zu erklären: Gleichstrommaschine,  Asynchronmaschine, Synchronmaschine , Reluktanzmaschine"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Leistungselektronik: Aufbau, Funktion, wichtige Zusammenhänge von leistungselektronischen Konvertern beispielhaft an Gleichrichtern, Gleichspannungswandlern und Wechselrichtern",
+                      "EMV (elektromagnetische Verträglichkeit)",
+                      "Elektronik zur Ansteuerung von Konvertern",
+                      "vertiefende Laborübungen:  - Messung des Schaltverhaltens von Bauelementen  - Messung an einem Tiefsetzsteller  - Messung der Einkopplung bei Leitungen  - ursachengerechte Beurteilung parasitärer Effekte  - Beurteilung relevanter Störungen",
+                      "Wechselstrom/Drehstromsystem",
+                      "Gleichstrommaschine,  Asynchronmaschine",
+                      "Synchronmaschine , Reluktanzmaschine"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen: Mathematik, Elektronik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Bumiller, Horst, et al., Fachkunde Elektrotechnik, (2008), Europa Lehrmittel",
+                      "Mohan, N./ Undeland, T./ Robbins, W., Power Electronics (2002), Jon Wiley & Sons Inc.",
+                      "Zach, F., Leistungselektronik, (2009), Springer",
+                      "Specovius, J., Grundkurs Leistungselektronik, (2010), Springer - Vieweg",
+                      "Fischer R., Elektrische Maschinen, (2013), Hanser Verlag",
+                      "Spring E., Elektrische Maschinen, (2009), Springer"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftliche Abschlussprüfung, Übungen"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-17 11:35:37"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37142",
+          "kurzbz": "MOD4",
+          "semester": "1",
+          "bezeichnung": "Modul 4 Entwicklung mechatronischer Systeme",
+          "bezeichnung_englisch": "Module 4 ",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "6236",
+              "kurzbz": "BIRB",
+              "semester": "1",
+              "bezeichnung": "Industrierobotik",
+              "bezeichnung_englisch": "Industrial Robotics",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the context of this course the basics for the design of robots are repeated. Tools for the design of robots are presented."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture and project"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "solve the forward kinematics of robots",
+                      "solve the velocity kinematics of robots",
+                      "solve the Inverse kinematics of robots",
+                      "to model robot systems in Matlab (Simscape Multibody)",
+                      "model/control robot systems in ROS-Industrial"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Repetition of the basics",
+                      "Simscape-Multibody",
+                      "ROS-Industrial"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Design of Robots\r\n- Forward kinematics\r\n- Velocity kinematics\r\n- Inverse kinematics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Spong, M., Hutchinson, S., Vidyasagar, M. (2006), Robot Modeling and Control. Wiley & Sons; Auflage 1 ISBN-10: 0471649902",
+                      "Sciavicco, L., Siciliano, B., (2005), Modelling and Control of Robot Manipulators; Springer",
+                      "John, J. C., 2003. Introduction to robotics - Mechanics and control second edition; Addison Wesley Publishing Company ISBN 0-201-09528-9",
+                      "Murray, Richard M., 1994. A mathematical introduction to robotic manipulation Verlag: Crc Pr Inc; Auflage: 0002 ISBN-10: 0849379814",
+                      "Brillowski, K., 2004. Einführung in die Robotik. Auslegung und Steuerung serieller Roboter. Shaker Verlag ISBN-10: 3832234160"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Exam",
+                      "Project"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "No attendance requirement"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung werden die Grundlagen zur Auslegung von Robotern wiederholt. Tools zur Auslegung von Robotern werden vorgestellt."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag und Projekte"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Vorwärtskinematik eines Roboters zu berechnen",
+                      "Geschwindigkeitskinematik eines Roboters zu berechnen",
+                      "Inverse Kinematik eines Roboters zu berechnen",
+                      "Robotersysteme in Matlab (Simscape Multibody) zu modellieren",
+                      "Robotersysteme in ROS-Industrial zu modellieren/steuern"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wiederholung der Grundlagen",
+                      "Simscape-Multibody",
+                      "ROS-Industrial"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen zur Auslegung von Robotern\r\n- Vorwärtskinematik\r\n- Geschwindigkeitskinematik\r\n- Inverse Kinematik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Spong, M., Hutchinson, S., Vidyasagar, M. (2006), Robot Modeling and Control. Wiley & Sons; Auflage 1 ISBN-10: 0471649902",
+                      "Sciavicco, L., Siciliano, B., (2005), Modelling and Control of Robot Manipulators; Springer",
+                      "John, J. C., 2003. Introduction to robotics - Mechanics and control second edition; Addison Wesley Publishing Company ISBN 0-201-09528-9",
+                      "Murray, Richard M., 1994. A mathematical introduction to robotic manipulation Verlag: Crc Pr Inc; Auflage: 0002 ISBN-10: 0849379814",
+                      "Brillowski, K., 2004. Einführung in die Robotik. Auslegung und Steuerung serieller Roboter. Shaker Verlag ISBN-10: 3832234160"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Prüfung",
+                      "Projekt"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Keine Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "37145",
+              "kurzbz": "BMECH",
+              "semester": "1",
+              "bezeichnung": "Mechatronik 1",
+              "bezeichnung_englisch": "Mechatronics 1",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung lernen Studierende durch praktische Problemstellungen, mechatronische Systeme zu konzipieren. Durch den Einsatz von Vorgehensmodellen zum Planen und Durchführen von mechatronischen Systemen, erlernen Studierende die methodische Vorgehensweise dazu."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrierte Lehrveranstaltung"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die methodischen Grundlagen zur Behandlung mechatronischer Problemstellungen zu beherrschen.",
+                      "Wirkprinzipien und Zusammenhängen mechatronischer Systeme zu verstehen und diese anhand ihrer Vor- und Nachteile auszuwählen",
+                      "Vorgehensmodelle zur Entwicklung mechatronischer Systeme einzusetzen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Systemtechnische Methodik zur Entwicklung mechatronische Systeme",
+                      "Konzeption und Modellbildung mechatronischer Systeme"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der \r\nMechatronik, \r\nElektrotechnik, \r\nAntriebstechnik, \r\nund Auslegung von Roboter (Kinematik).\r\nCAD\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "H. Czichos, Mechatronik: Grundlagen und Anwendungen technischer Systeme, Wiesbaden: Vieweg+Teubner, 2008."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Individuell: Laufende Überprüfung der Teilgebiete der Mechatronik im Zusammenhang mit der Aufgabenstellung",
+                      "Projektarbeit (Gruppe)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht bei dieser ILV"
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34784",
+          "kurzbz": "MOD5",
+          "semester": "1",
+          "bezeichnung": "Modul 5 Anwendung mechatronischer Systeme",
+          "bezeichnung_englisch": "Module 5 Intelligent Manufacturing",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36273",
+              "kurzbz": "BIMS",
+              "semester": "1",
+              "bezeichnung": "Intelligent Manufacturing Systems",
+              "bezeichnung_englisch": "Intelligent Manufacturing Systems",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the course the students get to know fundamental principles, functionalities, operating modes and methods of smart manufacturing; furthermore the course covers the application of smart manufacturing concepts by means of “intelligent” manufacturing systems or concepts like a “digital factory”. Furthermore the course gives an overview about relevant engineering processes, methods and tools."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrated lecture (lecture and project)"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "•\texplain impacts, potentials, challenges and risks of industrial digitalisation and to substantiate these concepts for a specific production setting",
+                      "•\tdescribe concretely how typical production entities (worker, machine, product, tool, etc.) become „intelligent“ within smart manufacturing concepts, herewith enabling entrepreneurial prospects and challenges",
+                      "•\tcombine innovative technologies (e.g., internet of things, software agents, collaborative and cognitive robotics, data analytics, point-to-point communication between humans and machines, etc.) with strategic business models and concepts (e.g., mass customization, modularisation, adaptive and resilient production, digital factory, business process virtualisation, etc.) towards a smart manufacturing concept",
+                      "•\tlist risks and development areas of intelligent manufacturing concepts – in particular concerning security, safety and reliability, interoperability, energy management, human-machine collaboration, usability, data modeling",
+                      "•\texplain reference models and architectures concerning intelligent manufacturing and subsequently to design concrete solutions for practical applications",
+                      "•\tunderstand and describe necessary development processes for intelligent production systems and understand methods and tools for systems engineeering and their use for mechatronic product development•\tunderstand and describe necessary development processes for intelligent production systems and understand methods and tools for systems engineeering and their use for mechatronic product development"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tImpacts, potentials, challenges and risks of industrial digitalisation",
+                      "•\tIntelligence of typical production entities (worker, machine, product, tool, etc.) within smart manufacturing concepts",
+                      "•\tInnovative technologies (e.g., internet of things, software agents, collaborative and cognitive robotics, data analytics, point-to-point communication between humans and machines, etc.) as driver of business concepts (e.g., mass customization, modularisation, adaptive and resilient production, digital factory, business process virtualisation, etc.)",
+                      "•\tRisks and development areas of intelligent manufacturing concepts (security, safety and reliability, interoperability, energy management, human-machine collaboration, usability, data modelling)",
+                      "•\tReference models and architectures concerning intelligent manufacturing and subsequent solution design",
+                      "•\tSystems Engineering development processes, methods and tools"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Fundamental knowledge in the fields of production management, production engineering, informatics, automatics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tBrauckmann, O. (2014), Smart Production: Wertschöpfung durch Geschäftsmodelle, Springer",
+                      "•\tPorter, M., Heppelmann, J. (2014), Wie smarte Produkte den Wettbewerb verändern, HBM Sonderdruck 12/2014, Harvard Business Publishing",
+                      "•\tPorter, M., Heppelmann, J. (2015), Wie smarte Produkte Unternehmen verändern, HBM Sonderdruck 12/2015, Harvard Business Publishing",
+                      "•\tPorter, M., Heppelmann, J. (2017) Why every organization needs an augmented strategy, HBR Sonderdruck, Harvard Business Publishing",
+                      "•\tYusuf, Z. et al. (2020) Unleashing the power of data with IoT and Augmented Reality. BCG Sonderdruck, Boston Consulting Group."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tcourse-immanent assessment",
+                      "•\tParticipation, written assesments, final test project",
+                      "•\tWhen a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory based on FHTW guidelines"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt den Studierenden grundsätzliche Prinzipien, Funktionsweisen und Methoden der „intelligenten“ Produktion und deren Anwendung im Rahmen von „intelligenten Produktionssystemen“ bzw. einer „digitalen Fabrik“. Zudem gibt sie einen Überblick über die notwendigen Entwicklungsprozesse, Methoden und Werkzeuge."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrierte Lehveranstaltung (Vortrag und Projekt)"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "•\tAuswirkungen, Möglichkeiten, Potentiale sowie Herausforderungen und Risiken der Digitalisierung der industriellen Produktion zu erläutern und für ein spezifisches Produktionsszenario zu konkretisieren",
+                      "•\tfür typische Produktionskomponenten und -beteiligte (Mensch, Maschine, Produkt, Werkzeug, …) konkret zu beschreiben, wie diese im Rahmen von Smart Manufacturing Konzepten „intelligent“ werden und welche unternehmerischen Möglichkeiten bzw. Herausforderungen dies eröffnet",
+                      "•\tdie Möglichkeiten innovativer Technologien (z.B. Internet of Things, Agentensysteme, kollaborative bzw. kognitive Robotik, Data Analytics, Punkt-zu-Punkt Kommunikation von Menschen und Anlagen, etc.) mit strategischen Geschäftsmodellen und Konzepten (z.B. Mass Customization, Modularisierung, wandlungsfähige und resiliente Produktion, Digitale Fabrik, Virtualisierung von Geschäftsprozessen, etc.) zu einem Smart Manufacturing Konzeptentwurf zu verbinden",
+                      "•\tdie Risiken und Entwicklungsfelder von Intelligent Manufacturing Konzepten zu benennen – insbesondere in Bereichen wie Sicherheit und Zuverlässigkeit, Interoperabilität, Energiemanagement, Mensch-Maschine Kollaboration, Usability, Datenmodellierung",
+                      "•\tReferenzarchitekturmodelle für das Intelligent Manufacturing zu erläutern und anhand dessen konkrete Systemlösungen für praktische Anwendungsbeispiele zu entwerfen",
+                      "•\tdie für intelligente Produktionssysteme notwendigen Entwicklungsprozesse verstehen und beschreiben und die Methoden und Werkzeuge zur Systementwicklung und deren Einsatz zur mechatronischen Produktentwicklung verstehen "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tAuswirkungen, Möglichkeiten, Potentiale und Herausforderungen bzw. Risiken der Digitalisierung der industriellen Produktion•\tAuswirkungen, Möglichkeiten, Potentiale und Herausforderungen bzw. Risiken der Digitalisierung der industriellen Produktion",
+                      "•\tIntelligenz von Produktionskomponenten und -beteiligten (Mensch, Maschine, Produkt, Werkzeug, …) im Rahmen von Smart Manufacturing",
+                      "•\tinnovative Technologien als Enabler (z.B. Internet of Things, Agentensysteme, kollaborative bzw. kognitive Robotik, Data Analytics, Punkt-zu-Punkt Kommunikation von Menschen und Anlagen, etc.) für unternehmerische Konzepte (z.B. Mass Customization, Modularisierung, wandlungsfähige und resiliente Produktion, Digitale Fabrik, Virtualisierung von ",
+                      "•\tinnovative Technologien als Enabler (z.B. Internet of Things, Agentensysteme, kollaborative bzw. kognitive Robotik, Data Analytics, Punkt-zu-Punkt Kommunikation von Menschen und Anlagen, etc.) für unternehmerische Konzepte (z.B. Mass Customization, Modularisierung, wandlungsfähige und resiliente Produktion, Digitale Fabrik, Virtualisierung von Geschäftsprozessen, etc.)",
+                      "•\tRisiken und Entwicklungsfelder von Intelligent Manufacturing Konzepten (z.B. Sicherheit und Zuverlässigkeit, Interoperabilität, Energiemanagement, Mensch-Maschine Kollaboration, Usability, Datenmodellierung)",
+                      "•\tReferenzarchitekturmodelle für das Intelligent Manufacturing und Systementwurf",
+                      "•\tSystems Engineering Entwicklungsprozesse, Methoden und Werkzeuge"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundkenntnisse Produktionsmanagement, Produktionstechnik, Informatik, Automatisierungstechnik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tBrauckmann, O. (2014), Smart Production: Wertschöpfung durch Geschäftsmodelle, Springer",
+                      "•\tPorter, M., Heppelmann, J. (2014), Wie smarte Produkte den Wettbewerb verändern, HBM Sonderdruck 12/2014, Harvard Business Publishing",
+                      "•\tPorter, M., Heppelmann, J. (2015), Wie smarte Produkte Unternehmen verändern, HBM Sonderdruck 12/2015, Harvard Business Publishing",
+                      "•\tPorter, M., Heppelmann, J. (2017) Why every organization needs an augmented strategy, HBR Sonderdruck, Harvard Business Publishing",
+                      "•\tYusuf, Z. et al. (2020) Unleashing the power of data with IoT and Augmented Reality. BCG Sonderdruck, Boston Consulting Group."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tLV-immanente Leistungsbeurteilung",
+                      "•\tMultiple Choice Quizzes, Endabnahme Projekt",
+                      "•\tWenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht basierend auf den FHTW Richtlinien"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-18 14:13:55"
+            },
+            {
+              "lehrveranstaltung_id": "36272",
+              "kurzbz": "BFPT",
+              "semester": "1",
+              "bezeichnung": "Führen von Projektteams",
+              "bezeichnung_englisch": "Leading of project teams",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the course the students get to know main principles of leading teams."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain the role of leadership in the different stages of team development (for example by Tuckman) and to derive relevant leading actions (for example directive leadership in the forming phase).",
+                      "diagnose dynamics in project teams using models (for example Rank Dynamics, Drama Triangle, TZI) and to develop and argue case-related concrete opportunities for activities (for example delegation of responsibilty, critical discussion)."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Leadership styles and actions (in leading projects teams)",
+                      "Leadership tools in project teams",
+                      "Consequences of not leading",
+                      "Role conflicts \"colleague\" and \"project leader\"",
+                      "Conflicts and difficult situations in leading project teams"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Cronenbroeck, Wolfgang (2008): Projektmanagement, Verlag Cornelsen, Berlin",
+                      "DeMarco, Tom (1998): Der Termin – Ein Roman über Projektmanagement, München: Hanser",
+                      "Kellner, Hedwig (2000): Projekte konfliktfrei führen. Wie Sie ein erfolgreiches Team aufbauen, Hanser Wirtschaft",
+                      "Majer Christian/Stabauer Luis (2010): Social competence im Projektmanagement - Projektteams führen, entwickeln, motivieren, Goldegg-Verlag, Wien"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case study (grade)",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsary."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "none "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt den Studierenden grundsätzliche Prinzipien der Führung von Teams."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Rolle der Führung in den unterschiedlichen Phasen der Teamentwicklung (z. B. nach Tuckman) zu erläutern und relevante Führungshandlungen (z. B. direktive Führung in der Forming-Phase) abzuleiten",
+                      "Dynamiken in Projektteams anhand von Modellen (z. B. Rangdynamik, Dramadreieck, TZI) zu diagnostizieren und konkrete Handungsmöglichkeiten (z.B. Delegation von Verantwortung, Kritikgespräch) fallbezogen zu entwickeln und zu begründen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Führungsstile und -handlungen (bei der Führung von Projektteams)",
+                      "Führungsinstrumente in Projektteams",
+                      "Konsequenzen des „Nicht-Führens“",
+                      "Rollenkonflikte \"Kollege/Kollegin\" und \"Projektleiter/in\"",
+                      "Konflikte und schwierige Situationen in der Führung von Projektteams"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Cronenbroeck, Wolfgang (2008): Projektmanagement, Verlag Cornelsen, Berlin",
+                      "DeMarco, Tom (1998): Der Termin – Ein Roman über Projektmanagement, München: Hanser",
+                      "Kellner, Hedwig (2000): Projekte konfliktfrei führen. Wie Sie ein erfolgreiches Team aufbauen, Hanser Wirtschaft",
+                      " Majer Christian/Stabauer Luis (2010): Social competence im Projektmanagement - Projektteams führen, entwickeln, motivieren, Goldegg-Verlag, Wien"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fallstudie (Note)",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine "
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36274",
+              "kurzbz": "BASS",
+              "semester": "1",
+              "bezeichnung": "Advanced Sensor Systems",
+              "bezeichnung_englisch": "Advanced Sensor Systems",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Advanced principles in sensor technology, main focus on 2D/3D image-based sensor systems with applications in Autonomous Driving"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture and practical exercises"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "define and explain terms of autonomous driving.",
+                      "define and explain sensor concepts of advanced (imaging) sensors used in autonomous vehicles, such as monochrome / color cameras, infrared cameras, ToF, stereo, ultrasound, GPS or LIDAR.",
+                      "discuss and evaluate the advantages and disadvantages of using a physical sensor system for an assistance system and to select a suitable system.",
+                      "analyze a given task in the team, to design a solution and to document and discuss the achieved results in a laboratory protocol."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Motivation",
+                      "Principle of autonomous driving",
+                      "Sensors for autonomous driving",
+                      "Overview of sensor concepts",
+                      "Deepening for selected sensors",
+                      "Laboratory exercise unit with imaging sensors",
+                      "Application examples"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Mathematics\r\n- Electrical engineering\r\n- Sensor technology and metrology\r\n- Signal and image processing\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "P. Azad, T. Gockel, R. Dillmann, Computer Vision - Das Praxisbuch, Elektor-Verlag, 2007",
+                      "W. Burger, M.J. Burge, Digitale Bildverarbeitung, Springer, 2005.",
+                      "G. Bradski, A. Kaehler, Learning OpenCV, O`Reilly, 2008.",
+                      "B. Jähne, Digitale Bildverarbeitung, 6. Auflage, Springer, 2005.",
+                      "R. Siegwart, I.R. Nourbakhsh, D. Scaramuzza, Autonomous Mobile Robots, 2. Edition, MIT Press, 2011.",
+                      "S. Teschl, MATLAB -- Eine Einführung. [online] Wien: FH Technikum Wien, 2013.",
+                      "S. Thrun, W. Burgard, D. Fox, Probabilistic Robotics, Cambridge: The MIT Press, 2006."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method, examination, exercises",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": ">=80%"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Vertiefende Kenntnisse auf den Gebieten der Sensorik vermitteln, spezieller Fokus auf bildgebende 2D/3D-Sensoren im Einsatz beim Autonomen Fahren"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorlesung und praktische Übungseinheiten"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Begriffe des Autonomen Fahrens zu definieren und zu erklären.",
+                      "Sensorkonzepte der fortgeschrittenen (bildgebenden) Sensorik, die bei Autonomen Fahrzeugen vorkommen, wie Monochrom-/Farbkamera, Infrarotkamera, ToF, Stereo, Ultraschall, GPS oder LIDAR zu definieren und zu erklären.",
+                      "für ein Assistenzsystem die Vor- und Nachteile des Einsatzes eines physikalischen Sensorsystems zu diskutieren und zu bewerten und ein dafür passendes System auszuwählen.",
+                      "im Team eine vorgegebene Aufgabenstellung zu analysieren, einen Lösungsweg zu entwerfen und die erzielten Ergebnisse in einem Laborprotokoll zu dokumentieren und zu diskutieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Motivation",
+                      "Prinzip des Autonomen Fahrens",
+                      "Sensorik für Autonomes Fahren",
+                      "Übersicht über Sensorkonzepte",
+                      "Vertiefung bei ausgewählten Sensoren",
+                      "Laborübungseinheit zu bildgebenden Sensoren",
+                      "Einsatzbeispiele"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Mathematik\r\n- Elektrotechnik\r\n- Sensorik und Messtechnik\r\n- Signal- und Bildverarbeitung\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "P. Azad, T. Gockel, R. Dillmann, Computer Vision - Das Praxisbuch, Elektor-Verlag, 2007",
+                      "W. Burger, M.J. Burge, Digitale Bildverarbeitung, Springer, 2005.",
+                      "G. Bradski, A. Kaehler, Learning OpenCV, O`Reilly, 2008.",
+                      "B. Jähne, Digitale Bildverarbeitung, 6. Auflage, Springer, 2005.",
+                      "R. Siegwart, I.R. Nourbakhsh, D. Scaramuzza, Autonomous Mobile Robots, 2. Edition, MIT Press, 2011.",
+                      "S. Teschl, MATLAB -- Eine Einführung. [online] Wien: FH Technikum Wien, 2013.",
+                      "S. Thrun, W. Burgard, D. Fox, Probabilistic Robotics, Cambridge: The MIT Press, 2006."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung, Klausur, Übungsbeispiele",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mindestens 80%"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-24 16:41:13"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "lehrveranstaltung_id": "37696",
+          "kurzbz": "MOD6bb",
+          "semester": "2",
+          "bezeichnung": "Modul 6 - Regelungstechnik und CAE",
+          "bezeichnung_englisch": "Module 6 - Control Technology and CAE",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "5935",
+              "kurzbz": "BCAE",
+              "semester": "2",
+              "bezeichnung": "Computer Aided Engineering",
+              "bezeichnung_englisch": "Computer Aided Engineering",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course describes the methods of computer aided engineering (CAE) and especially the finite element method (FEM), and guides the students to perform a self-chosen FE simulation project."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "define CAE and explain relevant CAE methods including application purpose and practical application scenarios",
+                      "explain the fundamentals of FEM analysis and illustrate application examples",
+                      "able to perform an own FE-simulation project using SolidWorks Simulation or Nastran"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "CAE overview",
+                      "simulation chaining",
+                      "FEM simulation workflow",
+                      "FEM basics",
+                      "element types (integration points, functions)",
+                      "differences CAD-integrated versus stand-alone FEM tools",
+                      "simulation in product development",
+                      "result evaluation",
+                      "result interpretation",
+                      "accuracy governing factors",
+                      "discretization rules",
+                      "prerequisites for realistic simulation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Modeling, mechanics, material science, (fluid mechanics)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Um, D. (2015), Solid Modeling and Applications: Rapid Prototyping, CAD and CAE Theory, Springer"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "course-immanent assessment and final oral exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die LVA erläutert die Methoden des Computer Aided Engineering (CAE) und insbesondere die Finite Elemente Methode (FEM), und leitet die Studierenden dabei an, eine FE-Simulation als Projektarbeit selbstständig durchzuführen. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "CAE zu definieren und insbes., wesentliche Methoden des CAE zu erklären sowie Anwendungszweck und typische Einsatzgebiete zu beschreiben",
+                      "FEM Grundlagen zu erläutern und anhand von Beispielen zu veranschaulichen",
+                      "selbst eine FE Simulation mit SolidWorks Simulation oder Nastran durchzuführen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "CAE Überblick",
+                      "Simulationskette",
+                      "FEM Berechnungsablauf",
+                      "FEM Grundlagen",
+                      "Elementtypen (Integrationspunkte, Ansatzfunktionen)",
+                      "Unterschiede CAD-integrierte Berechnung versus stand-alone FEM Tools",
+                      "Simulation in der Produktentwicklung",
+                      "Beurteilung von Ergebnissen",
+                      "Ergebnisinterpretation",
+                      "Einflussfaktoren auf die Genauigkeit",
+                      "Diskretisierungsregeln",
+                      "Voraussetzungen für realistische Simulation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Modellbildung, Mechanik, Werkstoffkunde, (Strömungslehre)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Um, D. (2015), Solid Modeling and Applications: Rapid Prototyping, CAD and CAE Theory, Springer"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-immanente Leistungsbeurteilung und mündliche Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-27 11:55:29"
+            },
+            {
+              "lehrveranstaltung_id": "37694",
+              "kurzbz": "BACS",
+              "semester": "2",
+              "bezeichnung": "Advanced Control System",
+              "bezeichnung_englisch": "Advanced Control System",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": "2015-08-27 11:55:29"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34790",
+          "kurzbz": "MOD7bb",
+          "semester": "2",
+          "bezeichnung": "Modul 7 - Automatisierung mechatronischer Systeme",
+          "bezeichnung_englisch": "Module 7",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "33651",
+              "kurzbz": "BMUS",
+              "semester": "2",
+              "bezeichnung": "Mobil- und Servicerobotik 1",
+              "bezeichnung_englisch": "Mobile and Service Robotics 1",
+              "unterrichtssprache": "English",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course focus on concepts of probabilistic robotics based on data processing and movement modelling."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lectures focusing methods and mathematical concepts. The exercises implements different algorithms."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "understand math ",
+                      "understand concepts of probabilistic robotics",
+                      "write algorithms"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Probabilistic robotics (basics)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Fundamentals of mobile robotics\r\nSensor technology"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Thrun, S.; Burgard, W.; Fox, D.; Probabilistic Robotics, 2006"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Exam",
+                      "Moodle-Quiz",
+                      "Exercises"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieser Kurs beschäftigt sich mit Grundlagen der probabilistic robotics. Es wird auf die Verarbeitung von Sensordaten inklusive Bewegungsmodellierung eingegangen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Theoriekurs bezüglich Methoden und mathematischen Ansätzen. Übungen zur Vertiefung der Kenntnisse."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "mathematischen Ansätzen zu verstehen",
+                      "Konzepte zu verstehen",
+                      "Algorithmen zu implementieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen Probabilistic Robotics"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen Mobile Robotik\r\nSensorik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Thrun, S.; Burgard, W.; Fox, D.; Probabilistic Robotics, 2006"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Prüfung",
+                      "Moodel-Quiz",
+                      "Übung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-02-11 12:49:03"
+            },
+            {
+              "lehrveranstaltung_id": "32790",
+              "kurzbz": "BAAU",
+              "semester": "2",
+              "bezeichnung": "Advanced Automation",
+              "bezeichnung_englisch": "Advanced Automation",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "During the course students should apply, extend and improve their ability to model, control and simulate a mechatronic system (e.g., a car or a robot)."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "lecture, discussion, exercise, practical lab, E-Learning"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "define and explain terms of advanced control technology as state controllers, Riccati controllers, state observers, Kalman filter and robust and nonlinear control",
+                      "represent a system to be controlled in state space and design a state observer and a state controller according to different – also robust – quality criteria",
+                      "convert non-linear systems by linearization in a linear state space representation and design a state space controller for it",
+                      "apply the learned methods with MatLab/ Simulink and the Control System Toolbox to mechatronic tasks and to evaluate and compare it by means of simulation",
+                      "discuss, interpret and optimize the static and dynamic behavior of a state space controller"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "advanced control theory",
+                      "state space control",
+                      "state observers, Kalman filter",
+                      "robust control",
+                      "nonlinear control",
+                      "digital control",
+                      "MatLab/ SIMULINK, Control system toolbox",
+                      "examples (e.g., driver assistance systems)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Fundamental concepts of control theory, sensor systems, and actors (bachelor level). mathematics (bachelor level), basic knowledge of Matlab / Simulink."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "U. Kramer, Kraftfahrzeugführung, Modelle - Simulation - Regelung, Carl Hanser Verlag München, 2008. ISBN 978-3-446-40671-1",
+                      "H. Lutz, W. Wendt, Taschenbuch der Regelungstechnik: Mit MATLAB und Simulink, Verlag Harri Deutsch, 2007. ISBN 978-3817118076"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Final exam",
+                      "practical exercises"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further Details and learning materials will be provided in the associated moodle course."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung sollen die Studierenden ihre Fähigkeiten anwenden, verbessern und vertiefen, ein komplexes mechatronisches System (z.B. einen Roboter oder einen PKW) zu modellieren, zu simulieren und zu regeln."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Diskussion, Übungen, Labor, Fernlehre"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Begriffe der fortgeschrittenen Regelungstechnik wie Zustandsregler, Riccati-Regler, Zustandsbeobachter, Kalmanfilter sowie Prinzipien der robusten und nichtlinearen Regelung zu definieren und zu erklären",
+                      "eine Regelstrecke im Zustandsraum darzustellen und darauf basierend einen Zustandsbeobachter und einen Zustandsregler nach unterschiedlichen – auch robusten – Gütekriterien auszulegen",
+                      "nichtlineare Systemen durch Linearisierung in eine lineare Zustandsraumdarstellung überzuführen und dafür eine Zustandsregelung zu entwerfen",
+                      "die erlernten Methoden mit MatLab/ Simulink und der Control System Toolbox auf mechatronische Aufgabenstellungen anzuwenden und mittels Simulation zu evaluieren und zu vergleichen",
+                      "das statische und dynamische Verhalten einer Zustandsregelung zu diskutieren, zu interpretieren und zu optimieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fortgeschrittene Regelungstechnik",
+                      "Zustandsregler",
+                      "Zustandsbeobachter, Kalmanfilter",
+                      "Robuste Regelungen",
+                      "Nichtlineare Regelungen ",
+                      "Digitale Regelungen",
+                      "MatLab/ SIMULINK, Control System Toolbox",
+                      "Beispiele (z.B., aus der Längs- und Querdynamik eines PKWs oder eines Industrieroboters) "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen Regelungstechnik, Sensorik und Aktorik (auf Bachelorlevel), Mathematik (auf Bachelorlevel), Grundkenntnisse Matlab / Simulink."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "U. Kramer, Kraftfahrzeugführung, Modelle - Simulation - Regelung, Carl Hanser Verlag München, 2008. ISBN 978-3-446-40671-1",
+                      "H. Lutz, W. Wendt, Taschenbuch der Regelungstechnik: Mit MATLAB und Simulink, Verlag Harri Deutsch, 2007. ISBN 978-3817118076"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlussklausur",
+                      "Übungsaufgaben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weitere Details und Lehrmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": "2020-02-12 14:30:18"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34793",
+          "kurzbz": "MOD8bb",
+          "semester": "2",
+          "bezeichnung": "Modul 8 - Ausgewählte Vertiefungsfächer der Mechatronik",
+          "bezeichnung_englisch": "Module 8",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37796",
+              "kurzbz": "BMS",
+              "semester": "2",
+              "bezeichnung": "Modellbildung und Simulation mechatronischer Systeme",
+              "bezeichnung_englisch": "Modelling and Simulation of mechatronic Systems",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Fundamentals of time-continuous mathematical modeling and numeric simulation for mechatronic components \r\nusing standard software MATLAB/Simulink\r\n"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe the simulation of mechanical systems for mechatronic and robotics incl. principles and laws and application",
+                      "derive linear and nonlinear Differential Equations of mechatronical Systems",
+                      "program linear and nonlinear Systems of Differential Equations using MATLAB",
+                      "detect and estimate the error of linearization",
+                      "perform mechanical simulations using standard Software (MATLAB)",
+                      "estimate required processing effort, computer resources and costs for simple simulations"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "fundamentals in mechanics",
+                      "derive lineare and nonlinear differential equation of motion for mechanical systems",
+                      "simulation of mechanical nonlinear equation of motion",
+                      "linearization of differential equations",
+                      "transformation of n-th-order differential equation to systems of differential equations",
+                      "stability of nonlinear differentlial equation system",
+                      "derive equilibrium states and eigenvalues of nonlinear differential equations",
+                      "numerical solution of nonlinear differential equations including applications",
+                      "applications in MATLAB/Simulink:"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics of mechanics, mathematics, physics "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Sauer, T. (2006), Numerical Analysis, Pearson",
+                      "Bollhöfer, M./Mehrmann, V. (2004), Numerische Mathematik, Vieweg"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Written final exam ",
+                      "Simulationproject",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsary"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt Grundlagen der zeitkontinuierliche mathematischen Modellierung und Simulation mechatronischer Systeme mit kommerzieller Software MATLAB/Simulink"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "für die Mechatronik bzw. Robotik relevante Grundlagen der Simulation mechanischer Systeme incl. wesentlicher  Prinzipien und Gesetze zu erläutern sowie entsprechende Anwendungsbeispiele zu beschreiben",
+                      "lineare und nichtlineare Differentialgleichungen von mechatronischen Systemen herzuleiten",
+                      "lineare und nichtlineare Differentialgleichugssysteme in MATLAB zu programmieren",
+                      "die Fehler bei Linearisierungen zu erkennen und abzuschätzen",
+                      "einfache Bewegungssimulationen mit kommerzieller Software durchzuführen (MATLAB/Simulink) ",
+                      "den erforderlichen Rechenaufwand, benötigte Computerressourcen und Kosten für einfache Projekte abzuschätzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen der Dynamik",
+                      "lineare und nichtlineare Bewegungs-Differentialgleichungen mechanischer Systeme herleiten",
+                      "Simulation mechanischer nichtlinearer Bewegung (z.b. Doppelpendel)",
+                      "Linearisieren der hergeleiteten DGL",
+                      "Transformation von DGL n-ter Ordnung auf DGL-Systeme",
+                      "Stabilitätssatz für nichtlineare DGL Systeme",
+                      "Gleichgewichtslagen und Eigenwerte von nichtlinearen  DGL-Systemen bestimmen",
+                      "Numerische Lösung nichtlinearer DGL-Systeme incl praktischer Anwendung",
+                      "Anwendungsbeispiele mit MATLAB/Simulink:"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundkenntnisse Mechanik, Mathematik, Physik "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Sauer, T. (2006), Numerical Analysis, Pearson",
+                      "Bollhöfer, M./Mehrmann, V. (2004), Numerische Mathematik, Vieweg"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftliche Abschlussprüfung",
+                      "Simulationprojekt",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "33767",
+              "kurzbz": "BOPT",
+              "semester": "2",
+              "bezeichnung": "Optomechatronik",
+              "bezeichnung_englisch": "Optomechatronics",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course covers basics of optical systems and applications in the industry"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "The lecture optomechatronics is divided into two parts:\r\n-) Frontal lecture\r\n-) Applied simulations in Zemax\r\n\r\nThe aim of the frontal lecture is to teach theory which is later in numerical simulations applied to understand the function of optical systems."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "identify, describe and explain the functional principles of different optical systems",
+                      "evaluate the field of application for given optical systems",
+                      "Demonstration of Basic of photonics",
+                      "explain the physical principles of optical systems and devices and to illustrate these principles via typical industrial applications of optical systems"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Demonstration of Nature and Properties of Light and Light Sources",
+                      "Demonstration of Basic Geometrical & Physical Optics",
+                      "Demonstration of Basic of laser technology",
+                      "Application of Optical systems in industry"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Mechatronics, Mathematics, Optics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Bennamoun M./ Mamic G.J., (2002), Object Recognition – Fundamentals and Case Studies, Springer",
+                      "Burkhardt T./ Feinäugle A./ Fericean S./ Forkl A., (2004) Lineare Weg- und Abstandssensoren – Berührungslose Messsysteme für den industriellen Einsatz, moderne Industrie ",
+                      "Hügel H./ Graf T., (2009), Laser in der Fertigung – Strahlenquellen, Systeme, Fertigungsverfahren, 2. Auflage, Vieweg und Teubner",
+                      "Löffler-Mang M., (2012), Optische Sensorik – Lasertechnik, Experimente, Light Barriers, Vieweg und Teubner",
+                      "Losurdo M./ Hingerl K., (2013), Ellipsometry at the Nanoscale, Springer",
+                      "Ruge I./ Mader H., (1991), Halbleiter-Technologie, 3. Auflage, Springer",
+                      "Weissler G. A., (2007), Einführung in die industrielle Bildverarbeitung, Franzis",
+                      "Wirsum S., (1990), Optoelektronik – Schalten, Steuern und Übertragen mit Licht, Franzis"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "written end exam and Zemax simulation in small groups",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Compulsory attendance"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt Grundlagen optischer Systeme und Anwendungen in der Industrie."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Die Vorlesung Optomechatronik gliedert sich in 2 Teile:\r\n-) frontale Vorlesung\r\n-) angewandte Simulationen in Zemax\r\n\r\nDie gelernte Theorie in der Vorlesung wird in numerischen Simulationen umgesetzt, umso die Funktion optischer Systeme besser nachvollziehen zu können."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Funktionsprinzipen unterschiedlicher optischer Systeme zu erkennen",
+                      "die Einsatzmöglichkeiten von optischen Systemen zu beurteilen",
+                      "fundamentalen Elemente der Photonik zu erklären",
+                      "grundlegende Zusammenhänge betreffend die Funktionsweise optischer Systeme und Instrumente zu erläutern und an typischen Anwendungsbeispielen optischer Systeme in der Industrie zu veranschaulichen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Darstellung der Natur und Eigenschaften von Licht und Lichtquellen",
+                      "Darstellung der Grundlagen der geometrischen und physikalischen Optik",
+                      "Darstellung der Grundlagen der Lasertechnologie",
+                      "Anwendung optischer Systeme in der Industrie"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Mechatronik, Mathematik, Optik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Bennamoun M./ Mamic G.J., (2002), Object Recognition – Fundamentals and Case Studies, Springer",
+                      "Burkhardt T./ Feinäugle A./ Fericean S./ Forkl A., (2004) Lineare Weg- und Abstandssensoren – Berührungslose Messsysteme für den industriellen Einsatz, moderne Industrie ",
+                      "Hügel H./ Graf T., (2009), Laser in der Fertigung – Strahlenquellen, Systeme, Fertigungsverfahren, 2. Auflage, Vieweg und Teubner",
+                      "Löffler-Mang M., (2012), Optische Sensorik – Lasertechnik, Experimente, Light Barriers, Vieweg und Teubner",
+                      "Losurdo M./ Hingerl K., (2013), Ellipsometry at the Nanoscale, Springer",
+                      "Ruge I./ Mader H., (1991), Halbleiter-Technologie, 3. Auflage, Springer",
+                      "Weissler G. A., (2007), Einführung in die industrielle Bildverarbeitung, Franzis",
+                      "Wirsum S., (1990), Optoelektronik – Schalten, Steuern und Übertragen mit Licht, Franzis"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftliche Abschlussprüfung und Zemax Simulation in Kleingruppen",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34796",
+          "kurzbz": "MOD9bb",
+          "semester": "2",
+          "bezeichnung": "Modul 9 - Advanced Mechatronik",
+          "bezeichnung_englisch": "Module 9",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "34797",
+              "kurzbz": "BMECH",
+              "semester": "2",
+              "bezeichnung": "Mechatronik 2",
+              "bezeichnung_englisch": "Mechatronics 2",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "he developed mechatronic system (in the course Mechatronics 1) will be optimized, manufactured, programmed and assembled."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrated Course"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to design mechatronic systems",
+                      "develop complex technical systems or modify them",
+                      "Basic knowledge in sensor technology, computer science, mechanics (kinematics), electrical engineering, signal and image processing and control engineering"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Realization of a mechatronic system",
+                      "Efficient interaction of mechanical, electronic and information processing systems"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Programming, CAD, Matlab, Robot kinematics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "H. Czichos, Mechatronik: Grundlagen und Anwendungen technischer Systeme, Wiesbaden: Vieweg+Teubner, 2008.",
+                      "H. Berhold , P. Döring, L. Klüber, S. Nolte und R. Simon, Mechatronik: Grundlagen und Komponenten, Wiesbaden: Vieweg+Teubner Verlag, 2004. ",
+                      "H. Bernstein, Grundlagen der Mechatronik, Berlin: VDE Verlag, 2004. ",
+                      "W. Roddeck, Einführung in die Mechatronik, Wiesbaden: Vieweg+Teubner Verlag, 2012. ",
+                      "M., Husty, A. Karger, H. Sachs, W. Steinhilper, Kinematik und Robotik, Berlin Heidelberg: Springer-Verlag ,1997.",
+                      "C. Woernler, Mehrkörpersysteme: Eine Einführung in die Kinematik und Dynamik von Systemen starrer Körper, Berlin Heidelberg: Springer-Verlag , 2011.",
+                      "L. Sciavicco, B. Siciliano, Modelling and Control of Robot Manipulators, London: Springer-Verlag, 2000.",
+                      "P. Corke, Robotics Vision and Control: Fundamental Algorithms in MATLAB, Berlin Heidelberg: Springer-Verlag, 2011."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "attendance is compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die im Rahmen der Lehrveranstaltung Mechatronik 1 entwickelten mechatronische Systeme werden optimiert, gefertigt, programmiert und aufgebaut."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrierte Lehrveranstaltung"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "mechatronische Systeme auszulegen, ",
+                      "komplexe, technische Systeme zu entwickeln beziehungsweise entsprechend dem Systemkonzept zu modifizieren.",
+                      "Grundwissen in Sensorik, Informatik, Mechanik (Kinematik), Elektrotechnik, Signal- und Bildverarbeitung und Regelungstechnik zu zeigen,"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Effizientes Zusammenwirken von mechanischen, elektronischen und informationsverarbeitenden Systemen ",
+                      "Realisierung eines mechatronischen Systems"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Programmieren, Algorithmen und Datenstrukturen, CAD, Matlab"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "H. Czichos, Mechatronik: Grundlagen und Anwendungen technischer Systeme, Wiesbaden: Vieweg+Teubner, 2008.",
+                      "H. Berhold , P. Döring, L. Klüber, S. Nolte und R. Simon, Mechatronik: Grundlagen und Komponenten, Wiesbaden: Vieweg+Teubner Verlag, 2004. ",
+                      "H. Bernstein, Grundlagen der Mechatronik, Berlin: VDE Verlag, 2004. ",
+                      "W. Roddeck, Einführung in die Mechatronik, Wiesbaden: Vieweg+Teubner Verlag, 2012. ",
+                      "M., Husty, A. Karger, H. Sachs, W. Steinhilper, Kinematik und Robotik, Berlin Heidelberg: Springer-Verlag ,1997.",
+                      "C. Woernler, Mehrkörpersysteme: Eine Einführung in die Kinematik und Dynamik von Systemen starrer Körper, Berlin Heidelberg: Springer-Verlag , 2011.",
+                      "L. Sciavicco, B. Siciliano, Modelling and Control of Robot Manipulators, London: Springer-Verlag, 2000.",
+                      "P. Corke, Robotics Vision and Control: Fundamental Algorithms in MATLAB, Berlin Heidelberg: Springer-Verlag, 2011."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "aktive Mitarbeit sowie zeitgerechte Erfüllung der gestellten Aufgaben",
+                      "Laufende Überprüfung der Teilgebiete der Mechatronik im Zusammenhang mit der Aufgabenstellung",
+                      "Abschlussprüfung/ -präsentation",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34798",
+          "kurzbz": "MOD10bb",
+          "semester": "2",
+          "bezeichnung": "Modul 10 - Grundlagen Management und Betriebswirtschaft",
+          "bezeichnung_englisch": "Module 10",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "33779",
+              "kurzbz": "BIPM",
+              "semester": "2",
+              "bezeichnung": "International project management",
+              "bezeichnung_englisch": "International project management",
+              "unterrichtssprache": "English",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course is an introduction to project portfolio management and to international project management. It explains some of the critical success factors of managing projects in heterogeneous project portfolio environments and in international projects – especially those that are not present or perhaps not that critical in a domestic project."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Inverted classroom concept, preparation in writing, working on and presenting case studies, analyses, discussions, group work"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "identify, categorize, evaluate, select and prioritize the components of a project portfolio",
+                      "balance a project portfolio regarding the relevant indicators of a concrete company scenario, e.g., time patterns and schedule, regional balance, target market priorities, utilization of resources",
+                      "evaluate the influence of culture on international projects",
+                      "explain the necessity of different management styles in international projects",
+                      "analyze team management according to specific situations in international projects",
+                      "explain the challenges of collaboration in virtual teams",
+                      "identify communication problems in international projects"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "differences between projects, project portfolios and programs",
+                      "project portfolios and company strategy",
+                      "roles in project portfolios",
+                      "processes of project portfolio management",
+                      "what is culture in international projects?",
+                      "leadership in international projects",
+                      "multicultural teams in projects",
+                      "managing virtual project teams",
+                      "international communication"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic knowledge of project management"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Adler, Nancy J., Gundersen, Allison (2007): International Dimensions of Organizational Behavior, 5th edition, Ohio: Thomson South-Western",
+                      "Binder, Jean (2007): Global Project Management: Communication, Collaboration and Management Across Borders, Farnham: Ashgate Publishing",
+                      "Hofstede, Geert, Hofstede, Gert Jan (2010): Culture and Organizations: Software of the Mind, 3rd edition, New York: McGraw-Hill",
+                      "Köster, Kathrin (2009): International Project Management, London: Sage",
+                      "Lomnitz, Gero (2008): Multiprojektmanagement. Projekte erfolgreich planen, vernetzen und steuern, 4. Auflage, Frankfurt am Main: Moderne Industrie",
+                      "Martinelli, Russ J., Waddell, James M., Rahschulte, Tim J. (2017), Projects Without Boundaries: Successfully Leading Teams and Managing Projects in a Virtual World, Hoboken (New Jersey): John Wiley & Sons",
+                      "Solomon, Charlene, Schell, Michael (2009): Managing Across Cultures: The Seven Keys to Doing Business with a Global Mindset, New York: McGraw-Hill"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method (preparation in writing, case studies, contribution in discussions)",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Teaching language is English"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung bietet einen Überblick über Projektportfoliomanagement und internationales Projektmanagement. Sie zeigt einige kritische Erfolgsfaktoren, um heterogene Projekte in einem Projektportfolio und internationale Projekte zu leiten. Spezielles Augenmerk wird jenen Faktoren geschenkt, die in einem nationalen Projekt nicht auftreten oder dort weniger wichtig sind."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Inverted classroom Konzept, schriftliche Vorbereitung, Arbeit an und Präsentation von Fallstudien, Analysen, Diskussionen, Gruppenarbeit"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Bestandteile eines Projektportfolios zu identifizieren, zu kategorisieren, zu beurteilen, auszuwählen und zu priorisieren",
+                      "ein Gleichgewicht bezüglich der in einem Unternehmensszenario relevanten Parameter wie z.B. Fristigkeit, regionale Ausgewogenheit, Zielmarktpriorität, Ressourcenauslastung herzustelle",
+                      "den Einfluss von Kultur auf internationale Projekte zu bewerten",
+                      "die Notwendigkeit verschiedener Managementstile in internationalen Projekten zu erklären",
+                      "die Teamführung in internationalen Projekten situationsadäquat zu analysieren",
+                      "die Herausforderungen der Zusammenarbeit virtueller Teams zu erklären",
+                      "Kommunikationsprobleme in internationalen Projekten zu identifizieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Unterschiede zwischen Projekten, Projektportfolien und Programmen",
+                      "Zusammenhang zwischen Projektportfolien und der Unternehmensstrategie",
+                      "Rollen in Projektportfolien",
+                      "Prozesse im Projektportfolio Management",
+                      "Was bedeutet Kultur in internationalen Projekten?",
+                      "Führung in internationalen Projekten",
+                      "Multikulturelle Teams in Projekten",
+                      "Management virtueller Projektteams",
+                      "Internationale Kommunikation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlegende Kenntnisse in Projektmanagement"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Adler, Nancy J., Gundersen, Allison (2007): International Dimensions of Organizational Behavior, 5th edition, Ohio: Thomson South-Western",
+                      "Binder, Jean (2007): Global Project Management: Communication, Collaboration and Management Across Borders, Farnham: Ashgate Publishing",
+                      "Hofstede, Geert, Hofstede, Gert Jan (2010): Culture and Organizations: Software of the Mind, 3rd edition, New York: McGraw-Hill",
+                      "Köster, Kathrin (2009): International Project Management, London: Sage",
+                      "Lomnitz, Gero (2008): Multiprojektmanagement. Projekte erfolgreich planen, vernetzen und steuern, 4. Auflage, Frankfurt am Main: Moderne Industrie",
+                      "Martinelli, Russ J., Waddell, James M., Rahschulte, Tim J. (2017), Projects Without Boundaries: Successfully Leading Teams and Managing Projects in a Virtual World, Hoboken (New Jersey): John Wiley & Sons",
+                      "Solomon, Charlene, Schell, Michael (2009): Managing Across Cultures: The Seven Keys to Doing Business with a Global Mindset, New York: McGraw-Hill"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung (schriftliche Vorbereitungen, Fallstudien, Diskussionsbeiträge)",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung wird in Englisch abgehalten"
+                  }
+                }
+              },
+              "lastupdate": "2020-02-09 13:27:15"
+            },
+            {
+              "lehrveranstaltung_id": "3696",
+              "kurzbz": "BPUC",
+              "semester": "2",
+              "bezeichnung": "Planung und Controlling",
+              "bezeichnung_englisch": "Planning and controlling",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The main focus of this lecture lies in understanding and applying the most important controlling tools (e.g. SWOT-analysis, investment appraisal methods, cost accounting, budgeting, reporting etc.)."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "lecture, exercises"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to describe the different tasks of controlling",
+                      "differentiate between strategic and operating controlling",
+                      "to apply selected controlling-tools",
+                      "analyse deviations between planned and realised results"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "management",
+                      "controlling",
+                      "financial accounting",
+                      "strategic planning and control",
+                      "investment planning",
+                      "cost accounting and production program planning",
+                      "budgeting and deviation analysis",
+                      "risk controlling",
+                      "value controlling",
+                      "reporting"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "business administration basics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wala/Groblschegg (2016): Kernelemente der Unternehmensführung, Linde-Verlag.",
+                      "Eisl/Hofer/Losbichler (2015): Grundlagen der finanziellen Unternehmensführung. Band IV: Controlling, 3. Auflage, Linde-Verlag.",
+                      "Schultz (2015): Controlling. Das Basiswissen für die Praxis, 2. Auflage, dtv-Verlag."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "final written exam (100%)",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further information regarding this course as well as accompanying materials (e.g. slides, exercise book etc.) can be found on moodle."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Diese Veranstaltung zielt auf das Verständnis und die praktische Anwendung der wichtigsten Controllingtools (e.g. SWOT-Analyse, Investitionsrechnung, Kostenrechnung, Budgetierung, Berichtwesen etc.) ab."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Übungen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Aufgaben des Controllings zu beschreiben",
+                      "zwischen operativem und strategischem Controlling zu unterscheiden",
+                      "ausgewählte Controllingtools anzuwenden",
+                      "Abweichungen zwischen dem geplanten und dem tatsächlichen Ergebnis zu analysieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Management",
+                      "Controlling",
+                      "Externes Rechnungswesen",
+                      "Strategische Planung und Kontrolle",
+                      "Investitionsplanung",
+                      "Finanzplanung",
+                      "Kostenrechnung und Produktionsprogrammplanung",
+                      "Budgetierung und Abweichungsanalyse",
+                      "Risikocontrolling",
+                      "Wertorientiertes Controlling",
+                      "Berichtswesen"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "betriebswirtschaftliche Grundkenntnisse"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wala/Groblschegg (2016): Kernelemente der Unternehmensführung, Linde-Verlag.",
+                      "Eisl/Hofer/Losbichler (2015): Grundlagen der finanziellen Unternehmensführung. Band IV: Controlling, 3. Auflage, Linde-Verlag.",
+                      "Schultz (2015): Controlling. Das Basiswissen für die Praxis, 2. Auflage, dtv-Verlag."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftliche Abschlussprüfung (100%)",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weitere Hinweise und Unterlagen (z.B. Foliensatz, Beispielsammlung, Lehrvideos etc.) zum Kurs finden sich im entsprechenden Moodle-Kurs."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        }
+      ],
+      "3": [
+        {
+          "lehrveranstaltung_id": "34802",
+          "kurzbz": "MOD11bb",
+          "semester": "3",
+          "bezeichnung": "Modul 11 Produktionsmanagement",
+          "bezeichnung_englisch": "Module 11 Production Management",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37324",
+              "kurzbz": "BPZM",
+              "semester": "3",
+              "bezeichnung": "Prozessmanagement und Produktionsplanung",
+              "bezeichnung_englisch": "Processmanagement and production planning",
+              "unterrichtssprache": "German",
+              "ects": "4.50",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Industrie- und Wirtschaftsleben, aber auch Forschung, Entwicklung, Lehre und öffentliche Verwaltung basieren auf funktionierenden Geschäftsprozessen, um für ihre Kunden erfolgreich Produkte zu erzeugen bzw. Dienstleistungen zu erbringen. Vielfach sind diese Prozesse ganz oder teilweise mittels mechatronischer Systeme oder Roboter automatisiert. Die Lehrveranstaltung vermittelt daher zunächst wichtige Grundlagen des Geschäftsprozessmanagements. Aufgrund der besonderen Relevanz des Fertigungsbereiches für industrielle Mechatroniker/ Robotiker liegt ein weiterer Fokus der Lehrveranstaltung auf Prinzipien, Methoden und Anwendungsbeispielen der Produktionsplanung und -steuerung."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Basisdefinitionen, Ziele und Werkzeuge des Prozessmanagements zu beschreiben",
+                      "Grundlagen der Modellierung in beschreibenden PzM-Systemen nach BPMN 2.0",
+                      "Das Wechselspiel der horizontalen Prozessperspektive mit der vertikalen Automatisierungsperspektive anhand geeigneter Modelle zu erläutern und einschlägige Anwendungsbeispiele mit Bezug zu Mechatronik/ Robotik zu erläutern",
+                      "Prozessvisualisierungen wie insbes. Flusspläne unter Nutzung entscheidender Kenngrößen wie z.B. der First Pass Yield zutreffend zu interpretieren",
+                      "Wesentliche Prozessgrundsätze und Optimierungskonzepte zu charakterisieren, z.B. Push vs. Pull, Postponment, Kundenentkopplungspunkt, Prozesskomplexität",
+                      "Qualitative und quantitative Zielgrößen des Prozessmanagements zu nennen und ihre Zusammenhänge zu erläutern – insbesondere bezogen auf logistische Kennzahlen wie Durchlaufzeit, Durchsatz, Kapazität, Auslastung, Flussfaktor, Bestände und die zwischen diesen bestehenden Zielkonflikte in der betrieblichen Optimierung",
+                      "Diese quantitativen Zusammenhänge anhand der Konzepte Durchlaufdiagramm und Betriebskennlinie zu analysieren, auf ein praktisches Szenario anzuwenden und dieses auch hinsichtlich von Fragen im Zusammenhang mit neuen Technologien (z.B. im Zuge von Smart Manufacturing) als Erklärungsmodell zu nutzen",
+                      "Grundlagen der Modellierung realer Systeme",
+                      "Verwendung von unterschiedlichen Algorithmen wie Dijkstra, Ford-Fulkerson oder Gruskal",
+                      "Treffen von Produktionsentscheidungen (minimale Losgröße, Spaltenminimumverfahren, etc."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Basisdefinitionen, Ziele und Werkzeuge des Prozessmanagements",
+                      "Horizontalen und vertikale Prozessperspektive, Ebenenmodelle und deren Anwendung",
+                      "Prozessvisualisierungen, insbes. Flusspläne und damit verbundene Kenngrößen",
+                      "Wichtige Prozessgrundsätze und Optimierungskonzepte",
+                      "Qualitative und quantitative Zielgrößen des Prozessmanagements",
+                      "Zielkonflikte in der betrieblichen Optimierung",
+                      "Durchlaufdiagramm und Betriebskennlinie"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Kenntnis der Automatisierungsebenen (vertikales Layer-Modell); Fähigkeit, einfache Flusspläne zu lesen und selbst zu entwerfen. "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schmelzer/ Sesselmann, Prozessmanagement",
+                      "Nyhuis/ Wiendahl, Logistische Kennlinien: Grundlagen, Werkzeuge und Anwendungen",
+                      "Eiselt/ Sandblohm, Operations Research"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Die Leistungsbeurteilung besteht aus zwei gleichgewichteten Teilen: 1. Bearbeitung eines Kurzszenarios und mündliche Prüfung über diese Ausarbeitung sowie den Stoff des ersten Lehrveranstaltungsteils (Fokus: Prozessmanagement) und 2. schriftliche Klausur über den Stoff des zweiten Lehrveranstaltungsteils (Fokus: Produktionsplanung und -steuerung)"
+                    ]
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37139",
+          "kurzbz": "MOD12bb",
+          "semester": "3",
+          "bezeichnung": "Modul 12 Ausgewählte Felder der Robotik",
+          "bezeichnung_englisch": "Module 12",
+          "unterrichtssprache": "German",
+          "ects": "7.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4332",
+              "kurzbz": "BIHA",
+              "semester": "3",
+              "bezeichnung": "Industrial Handling",
+              "bezeichnung_englisch": "Industrial Handling",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course provides an overview about industrial handling with a specific emphasis on manipulators and assembly automation"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "LecturesExercisesCalculationsProblem discussion"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe, analyse and explain handling technology solutions and applications",
+                      "describe the functionality and the application of manipulator technology, beam-engines and automated assembly machines including practical examples",
+                      "explain the functionality of cam and cam indexing mechanisms"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "select problems of the conventional handling technology",
+                      "construction and use of manually controlled manipulators",
+                      "Handling in the assembly",
+                      "machine concatenation",
+                      "tape feed",
+                      "motion design",
+                      "Cam and Cam Indexing Mechanisms",
+                      "intelligent handling machines"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Fundamental knowledge in mechanics and handling technologies"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Malisa V./ Hesse, S. (2010), Taschenbuch Robotik-Montage-Handhabung; Fachbuchverlag Leipzig im Hanser Verlag",
+                      "Hesse, S., et al., (2001), Manipulatorpraxis, Vieweg, Wiesbaden",
+                      "Hesse, S. (2008), Handhabungstechnik von A bis Z. Hoppenstedt, Darmstadt",
+                      "Volmer, J., Hrsg., (1989), Kurvengetriebe. Verlag Technik, Berlin"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "written final exam",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt einen Überblick über industrielle Handhabungstechnik mit den Schwerpunkten Manipulatoren und Montageautomatisierung"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "VorlesungenDurcharbeiten von Übungsaufgaben mit ProblemdiskussionAusgewählte Berechnungen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Lösungen zum Einsatz konventioneller Handhabungstechnik zu beschreiben, zu analysieren und in ihrer Funktionsweise zu erklären",
+                      "Funktionsweise, Einsatz und Anwendungsbeispiele von Manipulator(Balancer-)technik und automatisierte Montagemaschinen zu beschreiben",
+                      "Funktionsweise und Einsatz von Kurven- und Kurvenschrittgetrieben zu erläutern"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ausgewählte Probleme konventioneller Handhabungstechnik",
+                      "Aufbau, Konstruktion und Einsatz manuell geführter Manipulatoren",
+                      "Handhabungsvorgänge in der Montage und ausgewählte Produktbeispiele",
+                      "Maschinenverkettung",
+                      "Bandzuführung",
+                      "Bewegungsdesign",
+                      "Kurven- und Kurvenschrittgetriebe",
+                      "Intelligente Handhabungsgeräte"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundkenntnisse Mechanik und Handhabungstechnik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Malisa V./ Hesse, S. (2010), Taschenbuch Robotik-Montage-Handhabung; Fachbuchverlag Leipzig im Hanser Verlag",
+                      "Hesse, S., et al., (2001), Manipulatorpraxis, Vieweg, Wiesbaden",
+                      "Hesse, S. (2008), Handhabungstechnik von A bis Z. Hoppenstedt, Darmstadt",
+                      "Volmer, J., Hrsg., (1989), Kurvengetriebe. Verlag Technik, Berlin"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftliche Abschlussprüfung",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36270",
+              "kurzbz": "BMUS2",
+              "semester": "3",
+              "bezeichnung": "Mobil- und Servicerobotik 2",
+              "bezeichnung_englisch": "Mobile and service robotics 2",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "2.50",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course is focused on image processing for mobile robotic applications. Thus, different subjects from computer vision are discussed. Further, practical implementations focusing on the “OpenCV” library are presented.\r\nThe students implement different applications and algorithms using C++.\r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lectures including exercises and a project"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "understand and implement basic concepts of computer vision, e.g., edge detection, ",
+                      "analyse methods of object recognition, implement one of these methods and test it thoroughly in an application scenario, and",
+                      "plan methods of perception for robot applications, discuss advantages and disadvantages, and implement the approach. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Basics of computer vision",
+                      "Line- and edge detection",
+                      "Features and descriptors",
+                      "Supervised and unsupervised learning for computer vision"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- basic knowledge mobile robotics \r\n- course mobile and service robotics 1\r\n- Sensor systems"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Gary Bradski and Adrian Kaehler, (2008), Learning OpenCV, O'Reilly",
+                      "C. M. Bisop, (2008), Machine Learning and Pattern Recognition, Springer"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Final Exam",
+                      "Exercises",
+                      "Project"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory in selected modules"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Diese Lehrveranstaltung beinhaltet die Verarbeitung von bildgebender Sensorik im Kontext mobile- und Servicerobotik. Es werden ausgewählte Themengebiete aus dem Bereich Computer Vision theoretisch und praktisch vorgestellt und diskutiert.\r\nDie Studierenden implementieren ausgewählte Methoden in Übungen in C++ und mit der Bildverarbeitungsbibliothek „OpenCV“. Im Zuge dieser Übungen müssen C++ Programme unter Linux entwickelt werden. \r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag inklusive Übungen und einem Projekt"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Grundkonzepte der Bildverarbeitung wie Kantenerkennung zu verstehen und zu implementieren,",
+                      "Methoden zur Objekterkennung zu analysieren und eine davon zu implementieren und in Anwendungsfällen auszutesten, und",
+                      "erste Methoden zur Wahrnehmung vom Roboter zu planen, Vor- und Nachteile abzuschätzen, und in weiterer Folge auch umzusetzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen Bildverarbeitung",
+                      "Linein- und Kantenerkennung",
+                      "Merkmale und Deskriptoren",
+                      "Unsupervised und Supervised Learning"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Grundkenntnisse mobile Robotik\r\n- LV Mobile und Service Robotik 1\r\n- Sensorik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Gary Bradski and Adrian Kaehler, (2008), Learning OpenCV, O'Reilly",
+                      "C. M. Bisop, (2008), Machine Learning and Pattern Recognition, Springer"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Prüfung",
+                      "Übungen",
+                      "Projekt"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht in ausgewählten Modulen"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-24 08:01:08"
+            },
+            {
+              "lehrveranstaltung_id": "37326",
+              "kurzbz": "BSOA",
+              "semester": "3",
+              "bezeichnung": "Service- und objektorientierte Algorithmen in der Robotik",
+              "bezeichnung_englisch": "Service-Oriented and Object-Oriented Algorithms in Robotics",
+              "unterrichtssprache": "German",
+              "ects": "1.50",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course demonstrates the use and programming of mobile robots using ROS in small groups."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Project in groups"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "implement ROS Nodes",
+                      "solve complex problems of mobile robotics",
+                      "design a ROS system"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "C++/Bash",
+                      "ROS (dynamic reconfigure, services, diagnostics)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- knowledge of the programming language C/C++\r\n- knowledge of the Bash, and a good command line handling under Linux\r\n- basics network technology\r\n- sensors/control technology"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lippman, Lajoie, Moo: C++ Primer, 5th Edition, 2013",
+                      "O'Kane: A Gentle Introduction To ROS, 2.1.6, 2018, \\href{https://www.cse.sc.edu/~jokane/agitr/}{online}",
+                      "Molloy: Introduction to CMake by Example, \\href{http://derekmolloy.ie/hello-world-introductions-to-cmake/}{online}",
+                      "\\url{http://wiki.ros.org/ROS/Tutorials}"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "100% Project"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "No attendance"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Grading >=60%: 4, >=70%: 3, >=80%: 2, >=90%: 1"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In diesem Kurs wird der Einsatz und die Programmierung von mobilen Roboter in ROS in Kleingruppen demonstriert."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Projektarbeit in Gruppen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "ROS-Nodes zu implementieren",
+                      "komplexe Probleme der mobilen Robotik in Software zu lösen",
+                      "ein ROS System auszulegen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "C++/Bash",
+                      "ROS (dynamic reconfigure, services, diagnostics)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Kenntnisse der Programmiersprache C/C++\r\n- Kenntnisse der Bash, und einen guten Umgang mit der Commandline unter Linux\r\n- Grundlagen Netzwerktechnik\r\n- Sensorik/Regelungstechnik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lippman, Lajoie, Moo: C++ Primer, 5th Edition, 2013",
+                      "O'Kane: A Gentle Introduction To ROS, 2.1.6, 2018, \\href{https://www.cse.sc.edu/~jokane/agitr/}{online}",
+                      "Molloy: Introduction to CMake by Example, \\href{http://derekmolloy.ie/hello-world-introductions-to-cmake/}{online}",
+                      "\\url{http://wiki.ros.org/ROS/Tutorials}"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "100% Projekt"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Keine Anwesenheit"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Notenschlüssel >=60%: 4, >=70%: 3, >=80%: 2, >=90%: 1"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-24 08:06:51"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34806",
+          "kurzbz": "MOD13bb",
+          "semester": "3",
+          "bezeichnung": "Modul 13 Management- und Sprachkompetenzen",
+          "bezeichnung_englisch": "Module 13",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3389",
+              "kurzbz": "BENG",
+              "semester": "3",
+              "bezeichnung": "Technical English ",
+              "bezeichnung_englisch": "Technical English ",
+              "unterrichtssprache": "English",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The students acquire skills required for their master’s studies including writing scientific abstracts and papers, and techniques for successful project presentations in English"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Seminar"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "write abstracts and scientific papers in English in compliance with given formal and language-related guidelines",
+                      "present and defend technical projects and papers such as the master’s thesis in English before an exam committee;"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "English for scientific writing",
+                      "Structure and language of an English abstract",
+                      "Writing an abstract for the 3rd semester project",
+                      "Structure of a technical project presentation",
+                      "Presentation techniques and relevant language",
+                      "Presentation of the 3rd semester project"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Göschka, M. et al (2014) Guidelines for Scientific Writing",
+                      "Handouts on current themes and topics"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "You will be assessed on the quality of your oral presentation and written abstract, and on your participation in class discussions.",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Vermittlung der für das Masterstudium erforderlichen Fertigkeiten wie das Verfassen von wissenschaftlichen Abstracts und Arbeiten sowie die Präsentation eines technischen Projektes in englischer Sprache"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Seminar"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Abstracts und wissenschaftliche Arbeiten in englischer Sprache nach den vorgegebenen formalen und sprachlichen Kriterien zu gliedern und zu verfassen",
+                      "technische Projekte und Schriften wie die Masterarbeit in englischer Sprache vor einer Prüfungskommission zu präsentieren und anschließend Fragen zu beantworten"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Englisch für wissenschaftliche Arbeiten",
+                      "Struktur und Sprache eines englischen Abstracts ",
+                      "Verfassen eines Abstracts für das 3. Semesterprojekt",
+                      "Aufbau einer technischen Projektpräsentation ",
+                      "Präsentationstechniken und sprachliche Mittel",
+                      "Präsentation des 3. Semesterprojektes"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Göschka, M. et al (2014) Guidelines for Scientific Writing",
+                      "Handouts zu aktuellen Themen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Beurteilt wird die Qualität der mündlichen und schriftlichen Arbeit, sowie die Teilnahme an Diskussionen.",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36269",
+              "kurzbz": "BINN",
+              "semester": "3",
+              "bezeichnung": "Agile Entwicklungsmethoden im Innovationszyklus",
+              "bezeichnung_englisch": "Agile development methods in the innovation cycle",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Introduction to the principles of Innovation and Technology Management, and its practice Introduction in agile developmentmethods and their application"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture and exercise"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "•\tunderstand innovation in its economic and societal dimension.",
+                      "•\tlook at innovation from a systemic view, from the vision to the implementation of innovation.",
+                      "•\tevaluate innovation strategies.",
+                      "•\tidentify different ways of technology transfer, including concepts such as Open Innovation.",
+                      "•\tdeal with the issue of IPR.",
+                      "•\tbe aware of the most important research funding programmes in Austria.",
+                      "•\tknow what innovative business models are.",
+                      "•\testimate which role digitalisation plays in R&D.",
+                      "•\tcreate new ideas, visions.",
+                      "•\texplain the difference between traditional and agile development methods",
+                      "•\tunderstand the suitabilty, advantages and disadvantages of agile methods"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tDefinitions",
+                      "•\tConcepts",
+                      "•\tInterrelations/models",
+                      "•\tPractice - by doing exercises",
+                      "•\tLearning from the best - by cases",
+                      "•\tReflections",
+                      "•\tAgile Manifesto, SCRUM, Kanban"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics of Economics and General Management"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tHauschildt, J., Salomo, S., Schultz, C., Kock, A. (2016): Innovationsmanagement, Vahlen Verlag.",
+                      "•\tVahs, D., Brem, A. (2015): Innovationsmanagement: Von der Idee bis zur erfolgreichen Vermarktung, Schäffer-Poeschel Verlag",
+                      "•\tGassmann, O., Frankenberger, K., Csik, M. (2013): Geschäftsmodelle entwickeln, Hanser Verlag",
+                      "•\tAusgewählte Fachartikel",
+                      "•\tBruce Powel Douglass: Agile Systems Engineering",
+                      "•\tJohn Caroll: Agile Project Management"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tFinal written exam, working on cases, doing exercise, as well as participation in the course work",
+                      "•\tWhen a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory according to FHTW guidelines"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Interactive work and discussion is the leading principle of the course."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Übersicht über die Grundlagen des Innovations- und Technologiemanagements sowie Übung in deren Anwendbarkeit Einführung in agile Entwicklungsmethoden und deren Anwendung"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorlesung und Übung"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "•\tInnovation in ihrer wirtschaftlichen und gesellschaftlichen Bedeutung zu verstehen.",
+                      "•\tInnovation - von der Vision bis zur Umsetzung - zu planen.",
+                      "•\tInnovationsstrategien zu beurteilen.",
+                      "•\tverschiedene Ansätze des Wissens- und Technologietransfers, wie z.B. das Open Innovation-Modell, besser zu verstehen.",
+                      "•\tbezüglich der Thematik rund um Schutzrechte (IPR) informiert und sensibilisiert zu sein.",
+                      "•\teinen Überblick über die österreichische Forschungsförderungslandschaft zu haben.",
+                      "•\toffen für neue Entwicklungen, wie z.B. im Bereich neue innovative Geschäftmodelle, zu sein.",
+                      "•\tdie Digitalisierung auch im Kontext der F&E einordnen zu können.",
+                      "•\tneue Ideen, Visionen zu haben.",
+                      "•\tden Unterschied zw. klassichen und agilen Entwicklungsmethoden zu erklären",
+                      "•\tEignung, Vorteile und Nachteile von agilen Methoden zu verstehen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tBegriffsdefinitionen",
+                      "•\tKonzepte",
+                      "•\tZusammenhänge/Modelle",
+                      "•\tAnwendbarkeit - Praxisbeispiele",
+                      "•\tLearning from the best - Cases",
+                      "•\tReflexionen",
+                      "•\tAgile Manifesto, SCRUM, Kanban"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Betriebswirtschaftslehre"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tHauschildt, J., Salomo, S., Schultz, C., Kock, A. (2016): Innovationsmanagement, Vahlen Verlag.",
+                      "•\tVahs, D., Brem, A. (2015): Innovationsmanagement: Von der Idee bis zur erfolgreichen Vermarktung, Schäffer-Poeschel Verlag",
+                      "•\tGassmann, O., Frankenberger, K., Csik, M. (2013): Geschäftsmodelle entwickeln, Hanser Verlag",
+                      "•\tAusgewählte Fachartikel",
+                      "•\tBruce Powel Douglass: Agile Systems Engineering",
+                      "•\tJohn Caroll: Agile Project Management"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tKlausur, Ausarbeitung eines Case, Vorbereitung von Übungen, sowie Mitarbeit",
+                      "•\tWenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesensheitspflicht entsprechend den FHTW Richtlinien"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Im Mittelpunkt der LV steht die Interaktion zwischen den Studierenden und den Lehrenden. Der gegenseitige Interessensaustausch gilt dabei auch für die Lehrinhalte als richtungsentscheidend."
+                  }
+                }
+              },
+              "lastupdate": "2020-08-18 22:38:08"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "34809",
+          "kurzbz": "MOD14bb",
+          "semester": "3",
+          "bezeichnung": "Modul 14 Projekt Mechatronik/Robotik",
+          "bezeichnung_englisch": "Module 14",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3924",
+              "kurzbz": "PRJ",
+              "semester": "3",
+              "bezeichnung": "Projekt",
+              "bezeichnung_englisch": "Project",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": null,
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "PRJ",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Self-dependent execution and solving of an individual project task in the field of mechatronics/ robotics"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Project work"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "define a project based on a rough conceptual assignment",
+                      "develop a concrete phase approach for the assigned project based on generic system engineering models; according to the assigned topic this may also include (rapid) prototyping methods",
+                      "create a project plan (Gantt-chart and project structure plan (PSP)) with regard to the dimensions of time, financial requirements and resource allocation",
+                      "perform a feasibility evaluation according to project progress (if applicable twice – once after having finished the logical system model, and a second time after having completed the physical system design); this includes the modification of the initial Gantt-chart and PSP according to the findings of these feasibility considerations",
+                      "implement the respective project starting with kick-off via customer requirement analysis and 1-2 progress report(s)/ -presentation(s) up to technical set-up, final project presentation and technical documentation, within the course timeframe (scheduled project presentations and meetings)"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "project definition, requirement specification, feasibility",
+                      "kick-off",
+                      "project planning und -execution",
+                      "functional model",
+                      "system design",
+                      "prototype development",
+                      "progress reports, final presentation",
+                      "writing of a scientific project report"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- basic knowledge scientific writing- project management- technical knowledge in the field of mechatronics/ robotics (depending on project topic)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Anglia Ruskin University, (2010), Guide to the Harvard Style of Referencing, 2nd edition",
+                      "Teschl S., Göschka, K.M., (2010), Leitfaden zur Verfassung einer Bachelorarbeit oder Master Thesis, Version 3.0 und Institut für Mechatronics, Änderungen zum Leitfaden, V4, August 2011",
+                      "Skern, T., (2009), Writing Scientific English: A Workbook, UTB, Stuttgart",
+                      "further topic-specific literature"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Assessment of the results of the project and of the project report.",
+                      "When a group mark is given that is identical for all team members, the lecturer and the degree programme director reserve the right to give different individual marks in cases where there is a noticeable discrepancy in the level of achievement of individual students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory\r\n(project supervisors are allowed to define individual agreements with students, they are supervising)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Selbstständiges Bearbeiten und Lösen einer individuellen Projektaufgabe im Themenfeld Mechatronik/ Robotik"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Projektarbeit"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine grob formulierte Aufgabenstellung zu als Vorbereitung für einen Projektplan zu präzisieren",
+                      "aus generischen Phasenmodellen des System Engineering ein konkretes Vorgehen abzuleiten – je nach gewähltem Thema unter Verwendung von (rapid) prototyping Methoden",
+                      "einen Projektplan in den Dimensionen Zeit, Finanzbedarf und Ressourceneinsatz bzw.-allokation aufzustellen (Gantt-Chart und Projektstrukturplan (PSP))",
+                      "zu geeignetem Projektzeitpunkt eine Machbarkeitsprüfung (nach Bedarf 2-stufig für logisches und physisches Modell) durchzuführen sowie Projektplan und PSP entsprechend anzupassen",
+                      "im Rahmen der Lehrveranstaltungstermine (vorgegebene Projektmeetings und Präsentationstermine) das Projekt vom Kick-off via Kundenbedarfsanalyse und 1-2 Zwischenbericht(e)/ -präsentation(en) bis hin zur Inbetriebnahme, Endpräsentation und Dokumentation umzusetzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projektdefinition und Präzisierung der Anforderungen, Machbarkeit",
+                      "Kick-off",
+                      "Projektplanung und -abwicklung",
+                      "Funktionsmodell",
+                      "Systementwurf",
+                      "Prototypenentwicklung",
+                      "Zwischen- und Endpräsentation",
+                      "Verfassen eines wissenschaftlichen Projektberichtes"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Grundkenntnisse wissenschaftliches Arbeiten- Projektmanagement- fachspezifisches Vorwissen Mechatronik/ Robotik (projektabhängig)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Anglia Ruskin University, (2010), Guide to the Harvard Style of Referencing, 2nd edition",
+                      "Teschl S., Göschka, K.M., (2010), Leitfaden zur Verfassung einer Bachelorarbeit oder Master Thesis, Version 3.0 und Institut für Mechatronics, Änderungen zum Leitfaden, V4, August 2011",
+                      "Skern, T., (2009), Writing Scientific English: A Workbook, UTB, Stuttgart",
+                      "weitere Literatur projektabhängig"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Beurteilung des Projektergebnisses und des Projektberichtes.",
+                      "Wenn eine Gruppennote vergeben wird, die für alle Teammitglieder identisch ist, behalten sich die LektorInnen bzw. die Studiengangsleitung vor, im Falle erkennbarer Abweichungen vom Leistungsniveau einzelner Studierender, individuell unterschiedliche Noten zu vergeben."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht\r\n(Projektbetreuer dürfen dies nach eigenem Ermessen individuell mit den von ihnen betreuten Studierenden regeln)"
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36387",
+          "kurzbz": "MOD15bb",
+          "semester": "3",
+          "bezeichnung": "Modul 15 Unternehmensführung",
+          "bezeichnung_englisch": "Module 15",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36271",
+              "kurzbz": "BUNF",
+              "semester": "3",
+              "bezeichnung": "Unternehmensführung",
+              "bezeichnung_englisch": "Business Management",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course shall provide an overview of the core concepts of Business Management in order to prepare the students for managerial tasks in practical business life. The course includes topics such as planning & goal setting, decision making processes, communication, motivation, organization and controlling. Furthermore, the students will explore leadership theories and discuss leadership in the context of business ethics and accountability. "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Ziel der Lehrveranstaltung ist es, die Studierenden mit modernen Methoden und Konzepten des Managements vertraut zu machen um sie auf Führungsaufgaben vorzubereiten bzw. diese weiterzuentwickeln. Es werden zentrale Elemente des Managements Planung & Zielsetzung, Entscheidungsfindung, Kommunikation, Motivation, Organisation und Kontrolle behandelt. Des weiteren beschäftigten sich die Studierenden mit ausgewählten Führungstheorien und diskutieren Fragen der Unternehmens- und Führungsethik."
+                  }
+                }
+              },
+              "lastupdate": "2020-08-11 14:37:19"
+            },
+            {
+              "lehrveranstaltung_id": "34812",
+              "kurzbz": "BSTR",
+              "semester": "3",
+              "bezeichnung": "Steuerrecht",
+              "bezeichnung_englisch": "Taxation Law",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "1.50",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "main features of austrian taxes and social insurance law"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "lecture"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "categorize their income according to the referable type of taxation",
+                      "determine their annual earnings and calculate the corresponding taxes and social insurance",
+                      "determine a potential value added tax liability",
+                      "differentiate between several kinds of employment, evaluate respective advantages and disadvantages and calculate the corresponding costs"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "income tax",
+                      "corporate income tax",
+                      "tax on sales/ purchases",
+                      "types of employment contracts with regard to social insurance"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "basics of company law"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lebensaft-Melwisch G./ Lebensaft G., (2020), Überblick Steuerrecht und Sozialversicherung,"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Final written exam",
+                      "in-class particiption (only possible to a limited extent at the webinar - will be discussed in the first unit)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsary"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Grundzüge des österreichischen Steuer- und Sozialversicherungsrechts"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorlesung"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "ihre Einkünfte einer Einkunftsart zuzuordnen",
+                      "einen Jahresgewinn zu ermitteln und die dazugehörige Steuer und Sozialversicherungsabgaben zu berechnen",
+                      "eine eventuelle Umsatzsteuerpflicht zu erkennen",
+                      "zwischen den verschiedenen Arten der Beschäftigung zu unterscheiden, deren Vor- und Nachteile abwägen und die dazugehörigen Kosten zu berechnen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Einkommensteuer",
+                      "Körperschaftsteuer",
+                      "Umsatzsteuer",
+                      "Arten der Arbeitsvertragsgestaltung im Bereich der Sozialversicherung"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen Gesellschaftsrecht"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lebensaft-Melwisch G./ Lebensaft G., (2020), Überblick Steuerrecht und Sozialversicherung,"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftliche Abschlussprüfung",
+                      "Mitarbeit (beim Webinar nur eingeschränkt möglich - wird in 1. Einheit besprochen)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-18 17:26:15"
+            }
+          ]
+        }
+      ],
+      "4": [
+        {
+          "lehrveranstaltung_id": "34815",
+          "kurzbz": "MOD16",
+          "semester": "4",
+          "bezeichnung": "Modul 16 Master Thesis",
+          "bezeichnung_englisch": "Module 16",
+          "unterrichtssprache": "German",
+          "ects": "30.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "34817",
+              "kurzbz": "DISbb",
+              "semester": "4",
+              "bezeichnung": "DiplomandInnenseminar",
+              "bezeichnung_englisch": "Seminar for Master´s Thesis",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course covers main principles and methods with relevance for academic thesis writing in the area of engineering, in particular on master thesis level. Furthermore, the course supports master thesis candidates as an additional support supplementary to the supervising master thesis tutors."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "define a master thesis, in particular  - identify and describe a relevant research gap  - define research questions on master thesis level  - develop a scientifically sound research design ",
+                      "further enhance this thesis outline into a 3-5page disposition based on a literature review regarding the state of the art of the chosen research field",
+                      "continue this thesis disposition toward a finalized master thesis",
+                      "present the master thesis in the final oral master exam"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "research gap, research question, research objectives",
+                      "research design, scientific methodology and methods",
+                      "chain of arguments within a master thesis",
+                      "thesis presentation, peer-feedback",
+                      "conflicts and difficult situations in leading project teams",
+                      "individual support, questions & answers"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "depending on specific topic"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Assessment at end of course"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt den Studierenden Grundsätze und Methoden für die Anfertigung ingenieurswissenschaftlicher Arbeiten, insbesondere die Masterarbeit und begleitet ergänzend zu den MasterarbeitsbetreuerInnen die Erstellung der Masterarbeiten."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine Masterarbeit zu definieren, und insbesondere  - eine relevante Forschungslücke zu formulieren  - für eine Masterarbeit angemessene Forschungsfragen zu definieren  - ein wissenschaftlich konsistentes Forschungsdesign zu entwerfen",
+                      "den Themenentwurf für eine Masterarbeit unter Einbeziehung systematisch durchgeführter Recherchen zum state of the art in eine 3-5seitige Disposition zu überführen",
+                      "die Disposition weiter zur Masterarbeit auszuarbeiten",
+                      "die Masterarbeit in der Masterprüfung zu präsentieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Forschungslücke, Forschungsfrage, Forschungsziele",
+                      "Forschungsdesign, wissenschaftliches Vorgehen und Methoden",
+                      "Argumentationsgang von Masterarbeiten",
+                      "Präsentation der Arbeit, peer-feedback",
+                      "Individuelle Unterstützung, Beantwortung individueller Fragen"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "In Abhängigkeit vom jeweiligen Thema "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Beurteilung am LVA-Ende."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-12 09:29:10"
+            },
+            {
+              "lehrveranstaltung_id": "32625",
+              "kurzbz": "MTbb",
+              "semester": "4",
+              "bezeichnung": "Master Thesis",
+              "bezeichnung_englisch": "Master's Thesis",
+              "unterrichtssprache": "German",
+              "ects": "27.00",
+              "sws": "0.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "BE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Independent writing of a master thesis, supervised by a lecturer (supervisor)"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "prepare a master thesis",
+                      "compile and present the result in different dissemination format (especially 2-sided extended abstract, scientific poster, where applicable by means of demonstrating objects, devices or mechanisms or a short exemplarily video demonstration",
+                      "present a master thesis in German or English language (defensio)"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "thesis structure, research question and research design",
+                      "literature review",
+                      "if applicable empiric fieldwork (survey design, data acquisition, data processing, interpretation, documentation of results and findings), programing, experiments, prototype development, etc., based on appropriate literature regarding the in each case applied methodology",
+                      "thesis writing including additional documents (abstract, disposition, scientific poster, demonstration models)",
+                      "presentation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "master thesis seminar"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Karmasin M./ Ribing, R., (2014), Die Gestaltung wissenschaftlicher Arbeiten: Ein Leitfaden für Seminararbeiten, Bachelor-, Master- und Magisterarbeiten sowie Dissertationen, UTB"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Assessment by supervisors, including the advisory opinion of the second supervisor"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance not required"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Eigenständige Erstellung einer Masterthesis unter Betreuung durch eine/n fachkundige/n Lektor/in"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine wissenschaftlichen Arbeit auf Masterniveau zu erstellen",
+                      "die Ergebnisse der Masterarbeit in unterschiedlichen Formen zusammenfassend darzustellen (insbes. 2-seitiges extended abstract, wissenschaftliches Poster, ggf. unter Nutzung von Demonstrationsobjekten oder -vorrichtungen bzw. kurzen Videodemonstrationen)",
+                      "diese Masterarbeit in Deutscher und Englischer Sprache im Sinne einer akademischen Defensio einer Fachkommission zu präsentieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Strukturierung der Arbeit, Forschungsfrage und Forschungsdesign",
+                      "Literaturrecherche",
+                      "ggf. empirische Arbeit (Erhebungsmethodik, Datenerhebung, Auswertung, Ergebnisdokumentation), Programmierung, Durchführung von Experimenten, Prototypenentwicklung, etc. unter Verwendung einschlägiger Methodenliteratur",
+                      "Verfassen der Arbeit und weiterer Dokumente (Abstract, Disposition, wissenschaftliches Poster, Demonstrationsaufbauten)",
+                      "Präsentation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Diplomandinnenseminar"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Karmasin M./ Ribing, R., (2014), Die Gestaltung wissenschaftlicher Arbeiten: Ein Leitfaden für Seminararbeiten, Bachelor-, Master- und Magisterarbeiten sowie Dissertationen, UTB"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Beurteilung durch den Betreuer unter Einbeziehung des Gutachtens des Zweitbetreuers"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht keine Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2015-08-12 09:29:15"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

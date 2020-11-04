@@ -1,10 +1,11 @@
 {
-  "name": "canvas-starter",
+  "name": "fht-grid",
   "version": "0.1.0",
   "description": "",
   "private": true,
   "scripts": {
     "start": "live-server --ignore=.git,node_modules .",
+    "dl-data": "node dl-data.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +20,7 @@
     "dat.gui": "^0.7.7"
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "node-fetch": "^2.6.1"
   }
 }

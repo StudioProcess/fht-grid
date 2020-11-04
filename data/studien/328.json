@@ -1,0 +1,3390 @@
+{
+  "name": "Master Sports Technology",
+  "url": "https://cis.technikum-wien.at/addons/lvinfo/export/export.php?studiengang_kz=328",
+  "studiengang_kz": "328",
+  "studienordnung_id": null,
+  "data": {
+    "studienordnung_id": "348",
+    "studienordnung_bezeichnung": "0328-MST-WS2019",
+    "studienplan_id": "403",
+    "studienplan_bezeichnung": "0328-MST-WS2019-VZ",
+    "gueltig_von": "WS2019",
+    "gueltig_von_datum": "2019-09-01",
+    "regelstudiendauer": "4",
+    "lehrveranstaltungen": {
+      "1": [
+        {
+          "lehrveranstaltung_id": "37707",
+          "kurzbz": "M11",
+          "semester": "1",
+          "bezeichnung": "Project Management",
+          "bezeichnung_englisch": "Project Management",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37708",
+              "kurzbz": "PUSTP1",
+              "semester": "1",
+              "bezeichnung": "Projekt Management and sports technology project 1",
+              "bezeichnung_englisch": "Project Management and sports technology project 1",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37743",
+          "kurzbz": "M12",
+          "semester": "1",
+          "bezeichnung": "Measurement technology 1",
+          "bezeichnung_englisch": "Measurement technology 1",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37744",
+              "kurzbz": "MBA",
+              "semester": "1",
+              "bezeichnung": "Messtechnisch unterstützte Bewegungsanalyse",
+              "bezeichnung_englisch": "Instrumented motion analysis",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "LAB",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, students learn to answer a question from the field of Sports Technology while working with different measurement systems. In addition, the students deal with data evaluation and interpretation."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lab exercises.\r\nData evaluation units."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "Recording forces and moments using 3D force plates.",
+                      "to carry out motion analysis using 2D video analysis and infrared-based 3D video analysis and to determine essential parameters of motion from marker trajectories.",
+                      "EMG measurements and evaluate the data for time-frequency analysis.",
+                      "Use pressure measuring plates and pressure measuring insoles correctly according to the task.",
+                      "to carry out a time normalization with data and to evaluate them with basic statistical methods.",
+                      "to prepare, display and interpret the parameters relevant for answering a research question."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Electromyography (using the MYON-system)",
+                      "Pressure measurement (using the Medilogic pressure measuring insoles and Zebris pressure measuring plate))",
+                      "2D video analysis (using Basler high-speed camera)",
+                      "infrared based 3D video analysis (using Nexus and Bonita cameras)",
+                      "Posturography",
+                      "Inertial Measurement Units (IMUS) (using the xsense system)",
+                      "Force plate (using 3D force plates from AMTI)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "No previous knowledge"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recent research (internet sources, literature), projectbased literature."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Presence during the laboratory exercise.",
+                      "Submission of written methods.",
+                      "Submission of written results and discussion."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung lernen die Studierenden beim praktischen Arbeiten mit verschiedenen Messsystemen eine Fragestellung aus dem Bereich Sports Technology zu beantworten. Darüberhinaus setzen sich die Studierenden mit der Datenauswertung und -interpretation auseinander."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Laborübungen.\r\nAuswerteeinheiten."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Kräfte und Momente mittels 3D Kraftmessplatten aufzuzeichnen.",
+                      "Bewegungsanalysen mittels 2D Videoanalysen und infrarotgestützter 3D Videoanalyse durchzuführen und aus Markertrajektorien wesentliche Parameter der Bewegung zu ermitteln.",
+                      "EMG Messungen durchzuführen und die Daten hinsichtlich Zeit-Frequenz-Analyse auszuwerten.",
+                      "Druckmessplatten und Druckmesssohlen entsprechend der Aufgabenstellung richtig einzusetzen.",
+                      "Messdaten aus Bewegungen einer Zeitnormalisierung zu unterziehen und diese mit grundlegenden statistischen Methoden auszuwerten.",
+                      "die zur Beantwortung einer Forschungsfrage relevanten Parameter aufzubereiten, darzustellen und zu interpretieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Elektromyographie (mittels MYON-System)",
+                      "Druckmessung (mittels Medilogic-Druckmesssohlen und Zebris-Druckmessplatte)",
+                      "2D Videoanalyse (mittels Basler High-Speed-Kamera)",
+                      "infrarotgestützte 3D Videoanalyse (mittels Nexus und Bonita-Kameras)",
+                      "Posturographie",
+                      "Inertial Measurement Units (IMUS) (mittels xsense System)",
+                      "Kraftmessplatte (mittels 3D-Kraftmessplatten der Firma AMTI)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Keine Vorkenntnisse"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Aktuelle Publikationen, Internetseiten und Projektbezogene Literatur."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Anwesenheit während der Laborübung.",
+                      "Abgabe der niedergeschriebenen Methoden.",
+                      "Abgabe der niedergeschriebenen Ergebnisse und Diskussion."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-03 10:28:39"
+            },
+            {
+              "lehrveranstaltung_id": "37745",
+              "kurzbz": "AMST",
+              "semester": "1",
+              "bezeichnung": "Angewandte Messtechnik in Sports Technology",
+              "bezeichnung_englisch": "Applied measurement technology in sports technology",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, students learn how to handle analog and digital sensors used in the field of Sports Technology. In addition to the theoretical discussion, the students also deal with different sensors in practical exercises."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lectures and laboratory exercises."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to determine the appropriate sensor to answer a question from the field of Sports Technology and to explain its functional principle.",
+                      "to put into operation the sensor suitable for answering a question from the field of Sports Technology and thus record data.",
+                      "to apply strain gages correctly and to set up the measuring circuit required for measuring with the strain gage."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Theoretical discussion of different sensors for the acquisition of various physical quantities.",
+                      "Practical working with different sensors for the acquisition of various physical quantities.",
+                      "Construction of measuring chains (from sensor to analog-digital conversion)."
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Hesse, S., Schnell, G., 2009, Sensoren für die Prozess- und Fabrikautomation, Vieweg+Teubner Verlag",
+                      "Niebuhr, J., Lindner, G., 2002, Physikalische Messtechnik mit Sensoren, Oldenbourg Industrieverlag GmbH",
+                      "Keil, S., 2017, Dehnungsmessstreifen, Springer Vieweg"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Online quizzes on the theory units.",
+                      "Online quizzes during the practical sessions."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung erlernen die Studierenden den Umgang mit analogen und digitalen Sensoren, die im Bereich Sports Technology zur Anwendung kommen. Neben der theoretischen Besprechung, setzen sich die Studierenden auch in praktischen Übungen mit verschiedenen Sensoren auseinander."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorlesungen und Laborübungen."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die zur Beantwortung einer Fragestellung aus dem Bereich Sports Technology geeignete Sensorik zu bestimmen und deren Funktionsprinzip zu erklären.",
+                      "die zur Beantwortung einer Fragestellung aus dem Bereich Sports Technology geeignete Sensorik in Betrieb zu nehmen und damit Daten aufzuzeichnen.",
+                      "Dehnungsmessstreifen korrekt zu applizieren und die, zum Messen mit dem Dehnungsmessstreifen, benötigte Messschaltung aufzubauen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Theoretische Besprechung verschiedener Sensoren zur Erfassung diverser physikalischer Größen.",
+                      "Praktisches Arbeiten mit verschiedenen Sensoren zur Erfassung diverser physikalischer Größen.",
+                      "Aufbauen von Messketten (vom Sensor bis zur Analog-Digital-Wandlung)."
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Hesse, S., Schnell, G., 2009, Sensoren für die Prozess- und Fabrikautomation, Vieweg+Teubner Verlag",
+                      "Niebuhr, J., Lindner, G., 2002, Physikalische Messtechnik mit Sensoren, Oldenbourg Industrieverlag GmbH",
+                      "Keil, S., 2017, Dehnungsmessstreifen, Springer Vieweg"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Online-Quiz zu den Theorieeinheiten.",
+                      "Online-Quiz während den Praxiseinheiten."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend."
+                  }
+                }
+              },
+              "lastupdate": "2020-09-03 15:06:08"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37749",
+          "kurzbz": "M13",
+          "semester": "1",
+          "bezeichnung": "Biomechanics",
+          "bezeichnung_englisch": "Biomechanics",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37750",
+              "kurzbz": "ABUBM",
+              "semester": "1",
+              "bezeichnung": "Angewandte Biomechanik und biomechanische Mehrkörpersimulation",
+              "bezeichnung_englisch": "Applied biomechanics and biomechanical multi-body simulation",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "After an introduction to the basics of mechanics and biomechanics, the theorie of biomechanics is prepared and in addition biomechanical multibody-simulatoin software is used. The biomechanics of different sports is developed using hands-on examples. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "ILV"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "name and discuss inner and outer forces acting on athletes during sports ",
+                      "calculate inner forces resulting from outer forces acting on athletes ",
+                      "quasi-statically calculate the center of gravity during exercise based on different anthropometric models ",
+                      "name advantages and disadvantages of biomechanical multibody-simulation software and discuss their sensible use depending on specific research questions ",
+                      "develop simple models based on anthropomtric data using multibody-simulation software ",
+                      "conduct biomechanical analyses using multibody-simulation software ",
+                      "describe phases, ground reaction forces and center of pressure for different running styles",
+                      "describe the most important elements of the mechanics and biomechanics of cycling and to calculae pedal-forces"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "calculation of Center of Gravity ",
+                      "anthrompometric models ",
+                      "basic biomechanics of different movements and sports ",
+                      "inner and outer forces ",
+                      "torque",
+                      "inertia ",
+                      "work",
+                      "power",
+                      "impulse",
+                      "current biomechanical multibody-simulation software (e.g. AnyBody, OpenSim..) ",
+                      "calculation of muscle forces ",
+                      "calculation of joint forces "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "basiic mechanics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Klein, P., Sommerfeld, P., 2004, Biomechanik der menschlichen Gelenke, Urban & Fischer ",
+                      "Richard, A.A., Kullmer, G., 2013, Biomechanik: Grundlagen und Anwendungen auf den menschlichen Bewegungsapparat, Springer Vieweg ",
+                      "Winter, D.A., 2005, Biomechanics and motor control of human movement, Hoboken ",
+                      "Bartlett, R., Introduction to Sports Biomechanics Analysing Human Movement Patterns, Second Edition, Routledge",
+                      "AnyBody Tutorials, https://anyscript.org/tutorials",
+                      "Open Sim Tutorials, https://simtk-confluence.stanford.edu/display/OpenSim/Examples+and+Tutorials",
+                      "recent scientific literature"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "exam",
+                      "different exercises"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "cf. Statute on Studies Act Provisions / Examination Regulations"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Nach einer Einführung zu den wichtigsten mechanischen und biomechnischen Grundlagen werden theoretische Inhalt der Biomechanik erarbeitet und parallel dazu biomechanische Simulationssoftware angewandt. Die Biomechanik verschiedener Sportarten wird anhand von praktischen Beispielen erarbeitet. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "ILV"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die, während der sportlichen Tätigkeit an SportlerInnen wirkenden inneren und äußeren Kräften zu benennen und zu diskutieren. ",
+                      "Die, aus den äußeren wirkenden Kräften resultierenden Belastungen für den Sportler bzw. die Sportlerin zu berechnen ",
+                      "Den Körperschwerpunkt von SportlerInnen während der sportlichen Tätigkeit anhand von unterschiedlichen anthropometrischen Modellen quasistatisch zu berechnen",
+                      "Vor- und Nachteile biomechanischer Mehrkörpersimulationssoftware zu nennen und deren sinnvollen Einsatz aufgrund einer Fragestellung zu diskutieren. ",
+                      "Anhand von anthropometrischen Daten einfache Modelle mit einer biomechanischen Mehrkörpersimulationssoftware zu erstellen ",
+                      "Mit einer biomechanischen Mehrkörpersimulationssoftware biomechanische Analysen durchzuführen",
+                      "Phasen, Bodenreaktionskräfte und Center of Pressure Verlauf unterschiedlicher Laufstile beschreiben",
+                      "Die wesentlichen Elemente der Mechanik und Biomechanik des Radfahrens bechreiben und Berechnugen der Pedalkraft durchzuführen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Berechnung des Körperschwerpunkts ",
+                      "Anthropometrische Modelle",
+                      "Biomechanische Grundlagen verschiedener Sportarten und Bewegungen",
+                      "Innere und äußere Kräfte ",
+                      "Drehmomente ",
+                      "Massenträgheitsmoment ",
+                      "Energie ",
+                      "Arbeit ",
+                      "Impuls ",
+                      "Aktuelle biomechanische Mehrkörpersimulationssoftware (z.B. Anybody, OpenSim) ",
+                      "Muskelkräfte berechnen ",
+                      "Gelenkskräfte berechnen "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "grundlegende Mechanikkenntnisse "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Klein, P., Sommerfeld, P., 2004, Biomechanik der menschlichen Gelenke, Urban & Fischer ",
+                      "Richard, A.A., Kullmer, G., 2013, Biomechanik: Grundlagen und Anwendungen auf den menschlichen Bewegungsapparat, Springer Vieweg ",
+                      "Winter, D.A., 2005, Biomechanics and motor control of human movement, Hoboken ",
+                      "Bartlett, R., Introduction to Sports Biomechanics Analysing Human Movement Patterns, Second Edition, Routledge",
+                      "AnyBody Tutorials, https://anyscript.org/tutorials",
+                      "Open Sim Tutorials, https://simtk-confluence.stanford.edu/display/OpenSim/Examples+and+Tutorials",
+                      "aktuelle wissenschaftliche Literatur"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Prüfung",
+                      "diverse Abgaben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "vgl. Studienrechltiche Bestimmungen und Prüfungsordnung"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-08 12:05:56"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37746",
+          "kurzbz": "M14",
+          "semester": "1",
+          "bezeichnung": "Sports mechanics",
+          "bezeichnung_englisch": "Sports mechanics",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37747",
+              "kurzbz": "MBIST",
+              "semester": "1",
+              "bezeichnung": "Mechanische Berechnungen in Sports Technology",
+              "bezeichnung_englisch": "Mechanical calcutlaions in sports technology",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Performing mechanical calculations in sports. Several solutions of the special field will be calculated using the computer. The software MathCAD will be used. In the field of plane kinematic graphical solution methods, which can be performed with CAD will be discussed."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Alternating report of theorie in presence or distance learning, performing the calculations using MathCAD and CAD in presence."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "solve problems of the special field out of static and mechanics of materials.",
+                      "graphical analyse of kinematic situations in the special field."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abutment loads in 3D space, internal forces and mechanical stress of beams.",
+                      "Analysis of the deformation of beams using different solution methods.",
+                      "Plane kinematics. Analysis of the movements, velocity pole, velocities an accelerations.",
+                      "Basic principles of the impact calculation."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics in static, strength calculation and dynamics."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Script with the needed previous knowledge und the calculated examples im Moodle."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Written, open book, at the and of course."
+                    ]
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Durchführen von mechanischen Berechnungen im Sport. Verschiedene Lösungswege werden an Hand von zahlreichen Beispielen aus dem Fachgebiet am Computer durchgerechnet. Als Software wird MathCAD verwendet. im Bereich der ebenen Kinematik werden graphische Lösungsmethoden, die auf CAD durchgeführt werden können, besprochen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Abwechselnd Vortrag der Theorie in Anwesenheit oder Fernlehre, und Durchführen der Berechnungen mit MathCAD und CAD in Anwesenheit. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Problemstellungen aus Statik und Festigkeitslehre  aus dem Fachgebiet mit MathCAD zu lösen. ",
+                      "Kinematische Situationen die im Fachgebiet auftreten graphisch zu analysieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Auflagerkräfte im Raum, Schnittkräfte und Spannungen in Trägern.",
+                      "Untersuchung der Verformung von Trägern mit verschiedenen Lösungsverfahren.",
+                      "Ebene Kinematik. Analyse der bewegungen, Momentanpole, Geschwindigkeiten un Beschleunigungen.",
+                      "Grundlagen der Stoßrechnung."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundkenntnisse in Statik, Festigkeitslehre und Dynamik. "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Skriptum mit den erforderlichen Vorkenntnissen und den behandelten Beipielen im Moodle."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftlich, open book,  am Ende der Lehrveranstaltung."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheit in jenen Teilen erforderlich, in denen mit lizensierter Software gearbeitet wird. "
+                  }
+                }
+              },
+              "lastupdate": "2020-09-14 13:52:38"
+            },
+            {
+              "lehrveranstaltung_id": "37748",
+              "kurzbz": "CAD",
+              "semester": "1",
+              "bezeichnung": "Computer Aided Design",
+              "bezeichnung_englisch": "Computer Aided Design",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, students have the chance to create their own designs with a market-leading CAD software (PTC - Creo 6.0) and to create drawing derivations."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "hands-on training"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "create and modify 3D components in Creo using the design elements profile and turning.",
+                      "to produce components by means of samples and copies of construction elements.",
+                      "create reference elements and work with them.",
+                      "derive and dimension drawings from the 3D parts."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Basic modelling techniques of simple shaped parts",
+                      "Create and redefine simple shaped bodies",
+                      "Creation of production drawings",
+                      "Creating assemblies"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "No previous knowledge"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Technisch Zeichnen von Susanna Labisch und Christian Weber",
+                      "Creo Parametric 2.0 - Einstiegskurs für Maschinenbauer von Robert Bongratz"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung bekommen die Studierenden die Möglichkeit mit einer marktführenden CAD Software (PTC - Creo 6.0) eigene Konstruktionen zu erstellen und Zeichnungsableitung anzufertigen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "praktische Übungen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "3D Bauteile in Creo mittels der Konstruktionselemente Profil und Drehen herzustellen und zu verändern.",
+                      "Bauteile mittels Mustern und Kopien von Konstruktionselementen herzustellen.",
+                      "Bezugselemente herzustellen und damit zu arbeiten",
+                      "Zeichnungen aus den 3D Teilen abzuleiten und zu bemaßen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlegende Modellierungstechniken von einfach geformten Teilen",
+                      "Erstellen und Umdefinieren von einfach geformten Körpern",
+                      "Erstellen von Fertigungszeichnungen",
+                      "Erstellen von Baugruppen"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Keine Vorkenntnisse"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Technisch Zeichnen von Susanna Labisch und Christian Weber",
+                      "Creo Parametric 2.0 - Einstiegskurs für Maschinenbauer von Robert Bongratz"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-28 07:45:26"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37751",
+          "kurzbz": "M15",
+          "semester": "1",
+          "bezeichnung": "Materials sciences in sports",
+          "bezeichnung_englisch": "Materials sciences in sports",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37752",
+              "kurzbz": "MWIST",
+              "semester": "1",
+              "bezeichnung": "Materialwissenschaften in Sports Technology",
+              "bezeichnung_englisch": "Materials sciences in sports",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The lecture is divided into two parts.\r\nPart 1 Basics (creditable by students of BST)\r\nMaterials testing, polymers, metals (steel, Al, Mg, Ti)\r\nPart 2 Depression\r\nStrengthening mechanisms for metals, creep of plastics and metals, nanocrystalline materials, rheology, wood  "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Presentation with PowerPoint slides\r\nCorona special regulation: The lecture is also held as an online course"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "select and develop appropriate test methods for materials and sports equipment.",
+                      "select suitable materials for sports equipment.",
+                      "use strengthening mechanisms in metals for applications.",
+                      "to assess new developments in the field of materials."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Materials testing and special test methods",
+                      "Polymers",
+                      "Steel",
+                      "Light metals (Al, Mg, Ti)",
+                      "Strengthening mechanisms for metals",
+                      "Creep of metals and plastics",
+                      "Nanocrystalline Materials",
+                      "Rheology",
+                      "Wood"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Seidel, W., 2001, Werkstofftechnik, Hanser Verlag",
+                      "Ehrenstein, G. , 2011, Polymer-Werkstoffe: Struktur - Eigenschaften - Anwendung, Hanser Verlag",
+                      "Rösler, J., Harders, H., Bäker, M., 2012, Mechanisches Verhalten der Werkstoffe, Springer Vieweg",
+                      "Weißenbach, W., Werkstoffkunde: Strukturen, Eigenschaften, Prüfung, Springer Vieweg Verlag (eBook)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Two partial tests: Part 1 multiple choice + free text (credit for BST students), Part 2 written, free text"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "mandatory\r\nCrediting of the first part for students of BST"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Vorlesung ist in zwei Teile gegliedert.\r\nTeil 1 Grundlagen (anrechenbar durch Studenten von BST)\r\nWerkstoffprüfung, Polymere, Metalle (Stahl, Al, Mg, Ti)\r\nTeil 2 Vertiefung\r\nVerfestigungsmechanismen für Metalle, Kriechen von Kunststoffen und Metallen, nanokristalline Materialien, Rheologie, Holz"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag mit PowerPoint Folien\r\nCorona Sonderegelung: Die Vorlesung wird auch als Online Lehrveranstaltung abgehalten"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "geeignete Prüfmethoden für Materialien und Sportgeräte auswählen und entwickeln.",
+                      "geeignete Materialien für Sportgeräte auswählen.",
+                      "Verfestigungsmechanismen bei Metallen für Anwendungen zu nutzen.",
+                      "neue Entwicklungen im Materialbereich zu beurteilen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Werkstoffprüfung und spezielle Prüfverfahren",
+                      "Polymere",
+                      "Stahl",
+                      "Leichtmetalle (Al, Mg, Ti)",
+                      "Verfestigungsmechanismen für Metalle",
+                      "Kriechen von Kunststoffen und Metallen",
+                      "Nanokristalline Materialien",
+                      "Rheologie",
+                      "Holz"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Seidel, W., 2001, Werkstofftechnik, Hanser Verlag",
+                      "Ehrenstein, G. , 2011, Polymer-Werkstoffe: Struktur - Eigenschaften - Anwendung, Hanser Verlag",
+                      "Rösler, J., Harders, H., Bäker, M., 2012, Mechanisches Verhalten der Werkstoffe, Springer Vieweg",
+                      "Weißenbach, W., Werkstoffkunde: Strukturen, Eigenschaften, Prüfung, Springer Vieweg Verlag (eBook)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Zwei Teilprüfungen: Teil 1 Multiple Choice + Freitext (Anrechnung für Studenten von BST), Teil 2 schriftlich, Freitext"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "verpflichtend\r\nAnrechnung des ersten Teils für StudentenInnen von BST"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-24 12:24:08"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37710",
+          "kurzbz": "M16",
+          "semester": "1",
+          "bezeichnung": "Information engineering",
+          "bezeichnung_englisch": "Information engineering",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37709",
+              "kurzbz": "DM",
+              "semester": "1",
+              "bezeichnung": "Datenmanagement",
+              "bezeichnung_englisch": "Data management",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course gives an overview of data handling (common data formats, storage and retrieval of data) as well as data processing and analysis. The goal of data processing is to gain new insights and information from the data. In addition to the use of data exchange formats (CSV, XML, JSON) and classical relational database systems, the course focuses on NoSQL database technologies. The aim is to enable participants to install a selected software product (InfluxDB) and use it as a data silo for IoT data. Subsequently, it is taught how such NoSQL databases can be filled and queried with sensor data using an exemplary REST interface and how such time series data can be analyzed using selected tools and analysis environments (Python). Finally, aspects of large data sets are discussed and their practical use is demonstrated by means of examples."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "The course is divided into more theoretical units (lectures, primarily held online) and more practical units (in classroom form). Practical exercises are carried out partly under supervision and partly independently. The goal is to deal with the topics of the course and with selected software products (MySQL, InfluxDB, Python, ...).  The course is rounded off with interactive discussions. The knowledge required for the exercises is checked with short tests at the beginning of each unit."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "… use of basic data formats (CSV, XML, JSON)",
+                      "… explain database terms and technologies and install or configure a selected NoSQL database system (InfluxDB).",
+                      "… create logical data models, map them in a database system and record sensor data.",
+                      "… apply queries to single and compound tables and perform simple calculations using SQL.",
+                      "… persist and provide IoT data (streams) and examine them with selected tools.",
+                      "… load time series and structured data into a computing environment (Python), manipulate them and display them using descriptive statistics and common diagrams.",
+                      "… configure a Big Data infrastructure for time series and use it to record, read or examine sensor data.",
+                      "… execute ready-made scripts (SQL, Python) or adapt them for predefined data management tasks."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Handling of data (data formats, types of data)",
+                      "Database basics (relational and NoSQL database systems)",
+                      "Data modelling and database creation",
+                      "Persistence and retrieval of time series data",
+                      "Tools for analyzing NoSQL-data",
+                      "Data Science for time series data",
+                      "Big Data infrastructures"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Data handling (reading and editing structured data using Matlab, Octave or Python); \r\nBasics of the Python programming language"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Slide script",
+                      "Code examples (such as SQL queries or Python notebooks)",
+                      "Various links to product documentation and in-depth documents"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Short, written tests in the exercise units",
+                      "Running practice examples",
+                      "Theory exam",
+                      "Practical exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "The course is held weekly, alternating between online and face-to-face lessons;  attendance is compulsory in face-to-face classes"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Der Kurs gibt einen Überblick über den Umgang mit Daten (gängige Datenformate, Speicherung und Abfrage von Daten) sowie deren Verarbeitung und Analyse. Ziel jeglicher Datenverarbeitung ist es, aus den Daten neue Erkenntnisse bzw. Informationen zu gewinnen. Neben der Verwendung von Datenaustauschformaten (CSV, XML, JSON) und klassischen relationalen Datenbanksystemen wird ein Schwerpunkt auf NoSQL-Datenbanktechnologien gelegt. Das zielt darauf ab, dass Teilnehmer ein ausgewähltes Softwareprodukt (InfluxDB) installieren und als Datensilo für IoT-Daten nutzen können. In weiterer Folge wird vermittelt, wie solche NoSQL-Datenbanken mit Sensordaten anhand einer beispielhaften REST-Schnittstelle gefüllt und abgefragt werden können bzw. wie solche Zeitreihendaten mittels ausgewählter Werkzeuge und Analyseumgebungen (Python) analysiert werden können. Abschließend werden Aspekte großer Datenmengen diskutiert und deren praktischer Einsatz anhand von Beispielen gezeigt."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Der Kurs ist unterteilt in eher theoretische Einheiten (Fachvorträge, wird primär online abgehalten) und stärker praktisch orientierten Einheiten (in Präsenzform). Praktischen Übungen werden teils unter Anleitung, teils selbständig durchgeführt. Ziel ist eine Auseinandersetzung mit den Themen des Kurses sowie mit exemplarisch ausgewählten Softwareprodukten (MySQL, InfluxDB, Python, …).  Abgerundet wird der Kurs durch interaktive Diskussionen. Das für die Übungen vorausgesetzte Wissen wird zu Beginn jeder Einheit mit kurzen Tests abgeprüft."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "... grundlegende Datenformate anzuwenden (CSV, XML, JSON)",
+                      "... Datenbankbegriffe und -technologien zu erklären sowie ein ausgewähltes NoSQL-Datenbanksystem (InfluxDB) zu installieren bzw. zu konfigurieren",
+                      "... logische Datenmodelle zu erstellen, diese in einem Datenbanksystem abzubilden und Sensordaten damit aufzuzeichnen",
+                      "... Abfragen auf einzelnen und zusammengesetzten Tabellen anzuwenden sowie einfache Rechenoperationen per SQL auszuführen",
+                      "... IoT Daten (Streams) zu persistieren und bereitzustellen, sowie diese mit ausgewählten Tools zu untersuchen",
+                      "... Zeitreihen und strukturierte Daten in ein Computing Environment (Python) zu laden, zu manipulieren sowie durch beschreibende Statistik und gängige Diagramme darzustellen",
+                      "... eine Big Data Infrastruktur für Zeitreihen zu konfigurieren und damit Sensordaten aufzu-zeichnen, auszulesen bzw. zu untersuchen",
+                      "... vorgefertigte Scripts (SQL, Python) auszuführen bzw. für vorgegebene Aufgabenstellun-gen im Bereich des Datenmanagements zu adaptieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Umgang mit Daten (Datenformate, Typen von Daten)",
+                      "Datenbank Grundlagen (relationale und NoSQL-Datenbanksysteme)",
+                      "Datenmodellierung und Datenbankerstellung",
+                      "Persistieren und Abfragen von Zeitreihendaten",
+                      "Analysewerkzeuge für NoSQL-Daten",
+                      "Data Science für Zeitreihendaten",
+                      "Big Data Infrastrukturen"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Datenhandling (strukturierte Daten mittels Matlab, Octave oder Python einlesen und bearbeiten);\r\nGrundlagen der Python Programmiersprache\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Folienskriptum",
+                      "Code-Beispiele (etwa SQL-Abfragen oder Python Notebooks)",
+                      "diverse Links auf Produktdokumentationen und tiefer führende Unterlagen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "kurze, schriftliche Tests in den Übungseinheiten",
+                      "laufende Übungsbeispiele",
+                      "Theorieprüfung",
+                      "Praktische Klausur"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Abhaltung wöchentlich alternierend als Online- und Präsenz-Unterricht;  \r\nim Präsenzunterricht herrscht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-09 12:13:15"
+            },
+            {
+              "lehrveranstaltung_id": "37742",
+              "kurzbz": "AIIST",
+              "semester": "1",
+              "bezeichnung": "Angewandte Informatik in Sports Technology",
+              "bezeichnung_englisch": "Applied computer science in sports technology",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Realization of measurement data analysis and visualization with Matlba/Octave and Python. Learning the concept of object-oriented programming."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lectures, Practical exercises, Interactive courses"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "Data from different measuring systems for the collection of biomechanical parameters can be read in, evaluated and subsequently visualized.",
+                      "To use both commercial and free tools to build a data analysis workflow.",
+                      "To apply the programming paradigm of object-oriented programming."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Basics of programming with Matlab/Octave.",
+                      "Consider structures of different measurement data files when importing the data",
+                      "Perform calculations with measured data.",
+                      "Presentation of results for the preparation of publications.",
+                      "Concepts of object-oriented programming for the development of own applications."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "No previous knowledge "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Franzetti C., 2019, Essenz der Informatik, Springer Verlag",
+                      "Werner M., 2019, Digitale Signalverarbeitung mit MATLAB, Springer Verlag",
+                      "Steyer R., 2018, Programmierung in Python, Springer Verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Interim submissions and examinations, Project"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Durchführung von Messdatenanalysen und Visualisierungen mit Matlba/Octave und Python. Erlernen des Konzeptes der objektorientierten Programmierung."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vorträge, Praktische Übungen, Interaktive Kurse"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Daten von unterschiedlichen Messsystemen, zur Erhebung biomechanischer Parameter, einzulesen, auszuwerten und im Anschluss zu visualisieren.",
+                      "Kommerzielle als auch kostenlose Tools dazu zu verwenden um einen Datenanalyse Workflow aufzubauen.",
+                      "Das Programmierparadigma der Objektorierntierten Programmierung anzuwenden. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen der Programmierung mit Matlab/Octave.",
+                      "Strukturen von unterschiedlichen Messdatenfiles bei der Importierung der Daten zu berücksichtigen.",
+                      "Berechnungen mit Messdaten durchführen.",
+                      "Darstellung von Ergebnissen für die Erstellung von Veröffentlichungen.",
+                      "Konzepte der Objektorientierten Programmierung für die Entwicklungen eigener Anwendungen."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Keine Vorkenntnisse "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Franzetti C., 2019, Essenz der Informatik, Springer Verlag",
+                      "Werner M., 2019, Digitale Signalverarbeitung mit MATLAB, Springer Verlag",
+                      "Steyer R., 2018, Programmierung in Python, Springer Verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abgaben und Prüfungen, Projekt"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-03 13:10:09"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "lehrveranstaltung_id": "37763",
+          "kurzbz": "M21",
+          "semester": "2",
+          "bezeichnung": "Applied sports technology 1",
+          "bezeichnung_englisch": "Applied sports technology 1",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37764",
+              "kurzbz": "SMS",
+              "semester": "2",
+              "bezeichnung": "Sportpraktische Messwoche - Sommer",
+              "bezeichnung_englisch": "Sports practice measurement week - summer",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course the students work in small groups on tasks from the summer sports area. Tasks have to include field measurements and can be chosen freely by the students. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Independent processing of a task\r\n- Field measurements at the end of the semester"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to estimate and plan the effort and the course of small projects on metrologically supported field studies in summer.",
+                      "to understand, solve and process measurement tasks for the collection of representative data sets of metrologically supported field studies in summer.",
+                      "to evaluate, interpret, analogously represent and present the measurement signals obtained during metrologically supported field studies in summer"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Planning and implementation of a field study in summer",
+                      "Selection of the suitable sensor technology",
+                      "Planning and installation of the measuring chains",
+                      "Testing of the selected methods (sensors, measuring chains) in the laboratory",
+                      "Application of the corresponding measurement technology in the field",
+                      "Discussion of the achieved measurement results under consideration of the influences and problems of a field study in summer"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "all courses of the first semester"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Reference books, articles in journals, etc. depending on the task",
+                      "Technical books, user manuals, data sheets, etc. depending on the sensor and measurement technology used"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Final report (50%)",
+                      "Final presentation (50%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory for the entire measurement week at the end of the semester.\r\n\r\nThere is no compulsory attendance for the preparation, but the laboratory is to be used primarily during the times indicated in the course schedule."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung bearbeiten die Studierenden in Kleingruppen Aufgabenstellungen aus dem Sommersport-Bereich. Die Aufgabestellungen müssen Feldtest umfassen und können von den Studierenden frei gewählt werden."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Selbständiges Bearbeiten einer Aufgabenstellung.\r\n- Feldmessungen am Ende des Semesters."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "den Aufwand und den Ablauf von Kleinprojekten zu messtechnisch unterstützten Feldstudien im Sommer abzuschätzen und zu planen.",
+                      "Messaufgaben zur Sammlung von repräsentativen Datensätzen von messtechnisch unterstützten Feldstudien im Sommer zu verstehen, zu lösen und zielgerecht zu bearbeiten.",
+                      "die bei messtechnisch unterstützten Feldstudien im Sommer erhaltenen Messsignale zu bewerten, zu interpretieren, sinngemäß darzustellen und zu präsentieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Planung und Durchführung einer Feldstudie im Sommer",
+                      "Auswahl der geeigneten Sensorik",
+                      "Planung und Aufbauen der Messketten",
+                      "Testen der ausgewählten Methoden (Sensorik, Messketten) im Labor",
+                      "Anwendung der entsprechenden Messtechnik im Feld",
+                      "Diskussion der erzielten Messergebnisse unter Berücksichtigung der Einflüsse und Problematiken einer Feldstudie im Sommer"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "sämtliche Lehrveranstaltungen des ersten Semesters"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fachbücher, Artikel in Journals, usw. abhängig von der Aufgabenstellung",
+                      "Fachbücher, Benutzerhandbücher, Datenblätter, usw. abhängig von der verwendeten Sensorik und Messtechnik"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlussbericht (50%)",
+                      "Abschlusspräsentation (50%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Für die gesamte Messwoche am Ende des Semesters besteht Anwesenheitspflicht.\r\n\r\nFür die Vorbereitung besteht keine Anwesenheitspflicht, allerdings ist das Labor primär während den angegebenen Zeiten im LVplan zu benutzen.\r\n"
+                  }
+                }
+              },
+              "lastupdate": "2020-02-14 15:17:42"
+            },
+            {
+              "lehrveranstaltung_id": "37765",
+              "kurzbz": "STP2",
+              "semester": "2",
+              "bezeichnung": "Sports technology project 2",
+              "bezeichnung_englisch": "Sports technology project 2",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the first semester, a project handbook for a project from industry was created in the course Sports technology project 1. In this semester the students develop the methods for the project and carry out first measurements."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- practical work"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to research and select the appropriate methods to answer a research question on an industry-relevant topic from the field of Sports Technology.",
+                      "to plan and conduct a field or laboratory study to answer a research question on an industry-relevant topic in the field of Sports Technology.",
+                      "scientifically evaluate the measurement data collected to answer a research question on an industry-relevant topic from the field of Sports Technology. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Application of the course contents taught in the 1st and 2nd semester to scientifically work on a research question of an industry-relevant topic from the field of Sports Technology. This includes: Planning of methods; planning and execution of measurements; evaluation of the obtained data."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Contents of the courses of the 1st semester."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Reference books, articles in journals, etc. depending on the task",
+                      "Technical books, user manuals, data sheets, etc. depending on the sensor and measurement technology used"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Final report (50%)",
+                      "Poster presentation (50%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "For preparation purposes, the obligation to attend can be suspended if a predetermined number of meetings with the supervisor are held. The use of the laboratory should primarily take place during the times indicated in the LVplan.\r\n\r\nAttendance is compulsory for the poster presentation."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im ersten Semester wurde in der Lehrveranstaltung Sports technology project 1 ein Projekthandbuch zu einem Projekt aus der Industrie erstellt. In diesem Semester entwickeln die Studierenden die Methoden zu dem Projekt und führen erste Messungen durch."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- praktisches Arbeiten"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die zur Beantwortung einer Forschungsfrage eines industrierelevanten Themas aus dem Bereich Sports Technology geeigneten Methoden zu recherchieren und auszuwählen.",
+                      "die zur Beantwortung einer Forschungsfrage eines industrierelevanten Themas aus dem Bereich Sports Technology Feld- oder Laborstudie zu planen und durchzuführen.",
+                      "die zur Beantwortung einer Forschungsfrage eines industrierelevanten Themas aus dem Bereich Sports Technology erfassten Messdaten wissenschaftlich auszuwerten. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Anwendung der im 1. und 2. Semester vermittelten Lehrinhalte um eine Forschungsfrage eines industrierelevanten Themas aus dem Bereich Sports Technology wissenschaftlich zu bearbeiten. Dies umfasst: Planung der Methoden; Planung und Durchführung der Messungen; Auswertung der erzielten Daten"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Inhalte der Lehrveranstaltungen des 1. Semesters."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fachbücher, Artikel in Journals, usw. abhängig von der Aufgabenstellung",
+                      "Fachbücher, Benutzerhandbücher, Datenblätter, usw. abhängig von der verwendeten Sensorik und Messtechnik"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlussbericht (50%)",
+                      "Posterpräsentation (50%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Für die Vorbereitung kann die Anwesenheitspflicht ausgesetzt werden, falls eine vorgegeben Anzahl an Besprechungsterminen mit der Betreuerin bzw. dem Betreuer absolviert werden. Die Benutzung des Labors sollte primär während den angegebenen Zeiten im LVplan erfolgen.\r\n\r\nFür die Posterpräsentation herrscht Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": "2020-02-14 22:01:51"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37768",
+          "kurzbz": "M22",
+          "semester": "2",
+          "bezeichnung": "Measurement technology 2",
+          "bezeichnung_englisch": "Measurement technology 2",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37769",
+              "kurzbz": "MD",
+              "semester": "2",
+              "bezeichnung": "Mobile Datenerfassung",
+              "bezeichnung_englisch": "Mobile data capturing",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course the students have the opportunity to apply and deepen the contents of the previous LV \"Applied Measurement Technology in Sports Technology\". By working out different measuring chains with different components from different manufacturers, many tasks can be independently worked on in the future. \r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- lecture \r\n- practical work"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to discuss the advantages and disadvantages of different platforms (e.g. microcontroller (Arduino), single board computer (Raspberry Pi), measurement applications (LabVIEW)) with regard to their possible use for mobile data acquisition in the field of sports technology.",
+                      "select and use the most suitable platform (e.g. Arduino, Raspberry Pi, LabVIEW) for mobile data acquisition for a measurement task in the field of sports technology.",
+                      "to define the specifications of a platform (e.g. Arduino, Raspberry Pi, LabVIEW) for mobile data acquisition in the field of sports technology according to the task"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Presentation of various current platforms, such as Arduino, Raspberry Pi and LabVIEW, which are suitable for mobile data acquisition in the field of Sports Technology",
+                      "Discussion of the requirements for a platform for mobile data acquisition in the area of Sports Technology",
+                      "Exercises for handling the different platforms, such as Arduino, Raspberry PI and Labview.",
+                      "Based on the contents of the LV Angewandte Messtechnik in Sports Technology (1st semester), the measurement chain will be extended by a suitable platform for mobile data acquisition and measurements will be performed on sports equipment and/or participant."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Content of the course \"Angewandte Messtechnik in Sports Technology\"\r\nContent of the course \"Angewandte Informatik in Sports Technology\""
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Bähring H., 2010, Anwendungsorientierte Mikroprozessoren, Springer-Verlag",
+                      "Current scripts and manuals for the platforms used"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Project incl. presentation (50%)",
+                      "Final exam (50%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung haben die Studenten die Möglichkeit die Inhalte aus der vorangegangen LV \"Angewandte Messtechnik in Sports Technology\" anzuwenden und zu vertiefen. Durch die Erarbeitung von verschiedenen Messketten mit unterschiedlichen Bauteilen von verschiedenen Herstellern können zukünftig viele Aufgabenstellungen selbstständig bearbeitet werden. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Vorlesung\r\n- praktisches Arbeiten"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Vor- und Nachteile verschiedener Plattformen (z.B. Mikrocontroller (Arduino), Einplatinencomputer (Raspberry Pi), Messanwendungen (LabVIEW)) in Bezug auf deren Einsatzmöglichkeit zur mobilen Datenerfassung im Bereich Sports Technology zu diskutieren.",
+                      "die für eine Messaufgabe im Bereich Sports Technology geeignetste Plattform (z.B. Arduino, Raspberry Pi, LabVIEW) zur mobilen Datenerfassung auszuwählen und einzusetzen",
+                      "die Spezifikationen einer Plattform (z.B. Arduino, Raspberry Pi, LabVIEW) zur mobilen Datenerfassung im Bereich Sports Technology entsprechend der Aufgabenstellung zu definieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Vorstellen verschiedener aktueller Plattformen, wie z.B. Arduino, Raspberry Pi und LabVIEW, die im Bereich Sports Technology zur mobilen Datenerfassung geeignet sind.",
+                      "Besprechen der Anforderungen an eine Plattform zur mobilen Datenerfassung im Bereich Sports Technology",
+                      "Übungen zum Umgang mit den verschiedenen Plattformen, wie z.B. Arduino, Raspberry PI und Labview.",
+                      "Aufbauend auf den Inhalten der LV Angewandte Messtechnik in Sports Technology (1. Semester) wird die Messkette um eine geeignete Plattform zur mobilen Datenerfassung erweitert und Messungen am Sportgerät und/oder ProbandIn durchgeführt."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Inhalte LV Angewandte Messtechnik in Sports Technology\r\nInhalte LV Angewandte Informatik in Sports Technology"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Bähring H., 2010, Anwendungsorientierte Mikroprozessoren, Springer-Verlag",
+                      "Aktuelle Skripten und Handbücher zu den verwendeten Plattformen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projekt inkl. Präsentation (50%)",
+                      "Abschlussprüfung (50%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": "2020-02-14 10:59:48"
+            },
+            {
+              "lehrveranstaltung_id": "37770",
+              "kurzbz": "ML",
+              "semester": "2",
+              "bezeichnung": "Machine Learning",
+              "bezeichnung_englisch": "Machine Learning",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "1.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course the learned contents from the lecture \"Applied Computer Science in Sports Technology\" and \"Applied Measurement Technology in Sports Technology\" are combined to solve own problems. Through the applied measuring technique, the students are able to record sensor data independently and process it further within the scope of this course. Further inputs for the application of ML techniques in other tasks will be developed."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "... to prepare sensor data for ML algorithms.",
+                      "... to create models in different programming environments.",
+                      "... to evaluate models with different methods."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Working with sensor data to create and validate different models for human activity recognition.",
+                      "Creating models with Matlab and Python."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Applied Computer Science in Sports Technology\r\nApplied Measurement Technology in Sports Technology"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Sturm J., 2013, Approaches to Probabilistic Model Learning for Mobile Manipulation Robots, Springer-Verlag",
+                      "Hester T., 2013, TEXPLORE: Temporal Difference Reinforcement Learning for Robots and Time-Constrained Domains, Springer-Verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanent and Final exam."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung werden die erlernten Inhalte aus der Vorlesung \"Angewandte Informatik in Sports Technology\" und \"Angewandte Messtechnik in Sports Technology\" kombiniert um eigene Aufgabenstellungen lösen zu können. Durch die angewandte Messtechnik sind die Studenten in der Lage, Sensordaten selbstständig aufzuzeichnen und im Rahmen dieser LV weiterzuverarbeiten. Es werden weitere Inputs für die Anwendung von ML Techniken bei anderen Aufgabenstellung erarbeitet."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "... Sensordaten für ML Algorithmen vorzubereiten.",
+                      "... Modelle in unterschiedlichen Programmierumgebungen zu erstellen.",
+                      "... Modelle mit verschieden Methoden zu evaluieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Arbeiten mit Sensordaten um verschiedene Modelle für die menschliche Aktivitätserkennung zu erstellen und zu validieren.",
+                      "Erstellen der Modelle mit Matlab und Python."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Angewandte Informatik in Sports Technology\r\nAngewandte Messtechnik in Sports Technology"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Sturm J., 2013, Approaches to Probabilistic Model Learning for Mobile Manipulation Robots, Springer-Verlag",
+                      "Hester T., 2013, TEXPLORE: Temporal Difference Reinforcement Learning for Robots and Time-Constrained Domains, Springer-Verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanent und Abschlussprüfung."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": "2020-02-05 08:24:13"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37766",
+          "kurzbz": "M23",
+          "semester": "2",
+          "bezeichnung": "Testing",
+          "bezeichnung_englisch": "Testing",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37767",
+              "kurzbz": "MUMP",
+              "semester": "2",
+              "bezeichnung": "Messtechnisch unterstützte Materialprüfung und Prüfsysteme",
+              "bezeichnung_englisch": "Instrumented material testing and testing systems",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the course \"Messtechnisch unterstützte Materialprüfung und Prüfsysteme\" students learn what to look for when designing a test stand and what is the advantage and disadvantage of a test in progress standard. Additionally, tests on sports equipment (at the UAS) and in sports facilities (external) are carried out and the results are discussed."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- lecture\r\n- practical work"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "carry out tests on sports equipment (e.g. skis, suspension forks, disc brakes) using test stand and determine their characteristics",
+                      "to discuss the results of a test of a sports equipment on the test stand in relation to its use under real conditions.",
+                      "to discuss the advantages and disadvantages of standard tests for sports equipment.",
+                      "to design the requirements for the construction of a test stand for testing a sports equipment under real conditions (outside the standard).",
+                      "to discuss the characteristics as well as the advantages and disadvantages of various actuators used to design a test stand for testing a sports equipment under real conditions (outside the standard)."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "practical work on several test stands",
+                      "practical examples of designed test stands"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics of mechanics\r\nBasics of material sciences\r\nBasics of physics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "S. Hesse & V. Malisa, 2010, Robotik, Montage, Handhabung, Fachbuchverlag Leipzig im Carl Hanser Verlag",
+                      "F. Wolf, J. Linser & A. Vogt, 2002, Mechatronik 1, Vogel Industrie Medien GmbH & Co. KG",
+                      "E. Kiel, 2007, Antriebslösungen, Springer-Verlag",
+                      "Standards matching the tests"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Reports"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In der Lehrveranstaltung \"Messtechnisch unterstützte Materialprüfung und Prüfsysteme\" lernen die Studierenden worauf bei der Konzeptionierung eines Prüfstandes zu achten ist und was für bzw. gegen eine Prüfung lauf Norm spricht. Zusätzlich werden Prüfungen an Sportgeräten (an der FH) und in Sportstätten (extern) durchgeführt und die Ergebnisse diskutiert."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Vorlesung\r\n- praktisches Arbeiten"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "mit Prüftischen Prüfungen an Sportgeräten (z.B. Ski, Federgabel, Scheibenbremsen) durchzuführen und deren Eigenschaften zu bestimmen.",
+                      "die Ergebnisse einer Prüfung eines Sportgerätes am Prüftisch in Bezug zu dessen Einsatz unter realen Bedingungen zu diskutieren.",
+                      "Vor- und Nachteile von Normprüfungen für Sportgeräte zu diskutieren.",
+                      "die Anforderungen an die Konstruktion eines Prüftisches zur Prüfung eines Sportgerätes unter realen Bedingungen (außerhalber der Norm) zu konzipieren.",
+                      "die Eigenschaften sowie Vor- und Nachteile verschiedener Aktoren, welche zur Konstruktion eines Prüftisches zur Prüfung eines Sportgerätes unter realen Bedingungen (außerhalb der Norm) zu nennen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Übungen an verschiedenen Prüftischen zur Prüfung von Sportgeräten",
+                      "Praktische Beispiele (inklusive entstandener Probleme) konzeptionierter Prüftische"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen Mechanik\r\nGrundlagen Materialwissenschaften\r\nGrundlagen Physik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "S. Hesse & V. Malisa, 2010, Robotik, Montage, Handhabung, Fachbuchverlag Leipzig im Carl Hanser Verlag",
+                      "F. Wolf, J. Linser & A. Vogt, 2002, Mechatronik 1, Vogel Industrie Medien GmbH & Co. KG",
+                      "E. Kiel, 2007, Antriebslösungen, Springer-Verlag",
+                      "Zu den Prüfungen passende Normen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abgabe von Prüfberichten"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": "2020-02-13 13:54:56"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37771",
+          "kurzbz": "M24",
+          "semester": "2",
+          "bezeichnung": "Production and Simulation",
+          "bezeichnung_englisch": "Production and Simulation",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37772",
+              "kurzbz": "FEMST",
+              "semester": "2",
+              "bezeichnung": "FEM in Sports Technology",
+              "bezeichnung_englisch": "FEM in Sports Technology",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The basics of FEM structural mechanics (Ansys program) and injection molding simulation (Moldflow program) are taught. Examples are calculated together. At the end the students has to solve an independent task in each area and write a report.\r\nIn the second part of the lecture, small groups work on product development projects. Main topics are\r\n- Requirements specification\r\n- 3D CAD component design\r\n- FEM simulation structural mechanics\r\n- FEM simulation manufacturing (injection moulding)\r\n- Cost calculation\r\nThe project results are presented per group and a joint report must be prepared."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture and joint work on the computer"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "use the FEM programs Ansys and Moldflow for FEM simulations.",
+                      "assess the reasonable use of  FEM methods.",
+                      "independently carry out product development."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fundamentals of FEM ",
+                      "Introduction to ANSYS Workbanch und Moldflow",
+                      "Perform and solving individual examples "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Mechanics in General\r\n- Basics of injection moulding"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "C. Gebhardt, Praxisbuch FEM mit ANSYS Workbench, Hanser 2018",
+                      "S. Tickoo, ANSYS Workbench 2019 R2: A Tutorial Approach, CADCIM Technologies 2019"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projecte",
+                      "Participation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im ersten Teil der Vorlesung werden die Grundlagen der FEM Strukturmechanik (Programm Ansys) und der Spritzgusssimulation (Programm Moldflow) vermittelt. Dafür werden gemeinsam Beispiele durchgerechnet. Am Ende muss der Student/die Studentin in jedem Bereich eine eigenständige Aufgabe lösen und einen Bericht verfassen.\r\nIm zweiten Teil der Vorlesung werden in Kleingruppen Projekte zur Produktentwicklung bearbeitet. Schwerpunkte sind\r\n- Pflichtenheft\r\n- 3D CAD Bauteilkostruktion\r\n- FEM Simulation Strukturmechanik\r\n- FEM Simulation Fertigung (Spritzguss)\r\n- Kostenkalkulation\r\nDie Projektergebnisse werden pro Gruppe präsentiert und ein gemeinsamer Bericht muss erstellt werden."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag und gemeinsames/eigenständiges Arbeiten am Computer"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die FEM Programme Ansys und Moldflow für FEM Simulationen anzuwenden.",
+                      "zu beurteilen, wo FEM Methoden sinnvoll eingesetzt werden können.",
+                      "eigenständig eine Produktentwicklung vorzunehmen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen der FEM ",
+                      "Einführung in Ansys Workbanch und Moldflow",
+                      "Durchführung von Berechnungsbeispielen ",
+                      "Lösen eigenständiger Berechnungssaufgabe "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Mechanik allgemein\r\n- Grundlagen Spritzgussverarbeitung"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "C. Gebhardt, Praxisbuch FEM mit ANSYS Workbench, Hanser 2018",
+                      "S. Tickoo, ANSYS Workbench 2019 R2: A Tutorial Approach, CADCIM Technologies 2019"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projekte",
+                      "Mitarbeit"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Für die Vorlesung besteht Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": "2020-02-09 13:47:58"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37773",
+          "kurzbz": "M25",
+          "semester": "2",
+          "bezeichnung": "Statistics and Quality management",
+          "bezeichnung_englisch": "Statistics and Quality management",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37774",
+              "kurzbz": "SUQ",
+              "semester": "2",
+              "bezeichnung": "Statistik und Qualitätssicherung",
+              "bezeichnung_englisch": "Statistics and Qualitymanagement",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "4.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37775",
+          "kurzbz": "M26",
+          "semester": "2",
+          "bezeichnung": "Mobile development",
+          "bezeichnung_englisch": "Mobile development",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37776",
+              "kurzbz": "MUF",
+              "semester": "2",
+              "bezeichnung": "Monitoring und Feedback",
+              "bezeichnung_englisch": "Monitoring and feedback",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lastupdate": ""
+            }
+          ]
+        }
+      ],
+      "3": [
+        {
+          "lehrveranstaltung_id": "37810",
+          "kurzbz": "M31",
+          "semester": "3",
+          "bezeichnung": "Applied sports technology 2",
+          "bezeichnung_englisch": "Applied sports technology 2",
+          "unterrichtssprache": "English",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37812",
+              "kurzbz": "SPMWW",
+              "semester": "3",
+              "bezeichnung": "Sports practice measurement week - winter",
+              "bezeichnung_englisch": "Sports practice measurement week - winter",
+              "unterrichtssprache": "English",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, students work in small groups on a task from the field of Sports Technology. To answer the task, field measurements have to be carried out in winter. Therefore, the students learn what to look out for in field measurements in winter and how to plan and carry them out."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Group work.\r\nPractical testing of the measurement setup in the laboratory.\r\nPractical measuring outdoors."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to estimate and plan the effort and the course of small projects on metrologically supported field studies in winter.",
+                      "to understand, solve and process measurement tasks for the collection of representative data sets of metrologically supported field studies in winter.",
+                      "to evaluate, interpret, analogously represent and present the measurement signals obtained during field studies supported by measurement technology in winter."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Planning and execution of a field study in winter.",
+                      "Selection of suitable sensor technology.",
+                      "Planning and assembly of the measuring chains.",
+                      "Testing of the selected methods (sensor technology, measuring chains) in the laboratory.",
+                      "Application of the appropriate measuring technique in the field.",
+                      "Discussion of the obtained measurement results considering the influences and problems of a field study in winter."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "All contents of the courses from the 1st and 2nd semester."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Reference books, articles in journals, etc. depending on the task.",
+                      "Technical books, user manuals, data sheets, etc. depending on the sensor and measurement technology used."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Final presentation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory during the entire measurement week.\r\nThere is no obligation to be present during the preparation."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung bearbeiten die Studierenden in Kleingruppen eine Aufgabenstellung aus dem Bereich Sports Technology, wobei zur Beantwortung der Aufgabenstellung Feldmessungen im Winter durchgeführt werden müssen. Im Zuge dessen lernen die Studierenden, worauf man bei Feldmessungen im Winter achten muss und wie man diese plant und durchführt."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Gruppenarbeit.\r\nPraktisches Testen des Messsetups im Labor.\r\nPraktisches Messen im Freien."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "den Aufwand und den Ablauf von Kleinprojekten zu messtechnisch unterstützten Feldstudien im Winter abzuschätzen und zu planen.",
+                      "Messaufgaben zur Sammlung von repräsentativen Datensätzen von messtechnisch unterstützten Feldstudien im Winter zu verstehen, zu lösen und zielgerecht zu bearbeiten.",
+                      "die bei messtechnisch unterstützten Feldstudien im Winter erhaltenen Messsignale zu bewerten, zu interpretieren, sinngemäß darzustellen und zu präsentieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Planung und Durchführung einer Feldstudie im Winter.",
+                      "Auswahl der geeigneten Sensorik.",
+                      "Planung und Aufbauen der Messketten.",
+                      "Testen der ausgewählten Methoden (Sensorik, Messketten) im Labor.",
+                      "Anwendung der entsprechenden Messtechnik im Feld.",
+                      "Diskussion der erzielten Messergebnisse unter Berücksichtigung der Einflüsse und Problematiken einer Feldstudie im Winter."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Sämtliche Inhalte der Lehrveranstaltungen aus dem 1. und 2. Semester.\r\n\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fachbücher, Artikel in Journals, usw. abhängig von der Aufgabenstellung.",
+                      "Fachbücher, Benutzerhandbücher, Datenblätter, usw. abhängig von der verwendeten Sensorik und Messtechnik."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlusspräsentation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Während der kompletten Messwoche gilt Anwesenheitspflicht.\r\nIm Zuge der Vorbereitung gilt keine Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": "2020-09-03 11:19:53"
+            },
+            {
+              "lehrveranstaltung_id": "37813",
+              "kurzbz": "STP3",
+              "semester": "3",
+              "bezeichnung": "Sports technology project 3",
+              "bezeichnung_englisch": "Sports technology project 3",
+              "unterrichtssprache": "English",
+              "ects": "2.00",
+              "sws": "1.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Based on the course Sports technology project 2 (2nd semester), the final measurements will be performed and the final report will be completed. This final report will be handed over to the supervisors, the participating company or the participating sports association."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Practical work in small groups.\r\nWriting a final report."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to scientifically present the measurement data collected to answer a research question of an industry-relevant topic in the field of Sports Technology.",
+                      "to present and discuss the study (including collected measurement data) conducted to answer a research question of an industry-relevant topic in the field of Sports Technology.",
+                      "to write a final report on a conducted study of an industry-relevant topic in the field of Sports Technology under consideration of the fundamentals of scientific writing and working (IMRAD structure)."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Based on the course Sports technology project 2, the measurement data collected in the study of an industry-relevant topic in the field of sports technology will be presented scientifically.",
+                      "Based on the course Sports technology project 2, the measurement data collected and results obtained in the study of an industry-relevant topic in the field of sports technology will be presented and discussed.",
+                      "Based on the course Sports technology project 2, the measurement data collected in the study of an industry-relevant topic in the field of sports technology will be recorded in a final report.",
+                      "Based on the course Sports technology project 2, the measurement data collected in the study of an industry-relevant topic in the field of sports technology and the results obtained will be discussed to determine whether a follow-up project makes sense and what this could look like."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "All contents of the courses from the 1st and 2nd semester."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Reference books, articles in journals, etc. depending on the task",
+                      "Technical books, user manuals, data sheets, etc. depending on the sensor and measurement technology used",
+                      "Voss, R., 2014, Wissenschaftliches Arbeiten, UVK Verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlussbericht"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Not mandatory."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "As attendance is not mandatory, students must arrange individual meeting dates with their supervisor. \r\nTo use the Sports Technology Laboratory (Lab_C1.01-C1.04), a reservation must be made. Please observe the laboratory regulations."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Aufbauend auf die Lehrveranstaltung Sports technology project 2 (2. Semester) werden in dieser Lehrveranstaltung die finalen Messungen durchgeführt und der Abschlussbericht fertiggestellt. Dieser Abschlussbericht wird, neben den BetreuerInnen, auch der beteiligten Firma bzw. dem beteiligtem Sportsverband übergeben."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Praktisches Arbeiten in Kleingruppen.\r\nSchreiben eines Abschlussberichts."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die zur Beantwortung einer Forschungsfrage eines industrierelevanten Themas aus dem Bereich Sports Technology erfassten Messdaten wissenschaftlich darzustellen.",
+                      "die zur Beantwortung einer Forschungsfrage eines industrierelevanten Themas aus dem Bereich Sports Technology durchgeführte Studie (inklusive erfassten Messdaten) zu präsentieren und zu diskutieren.",
+                      "einen Abschlussbericht zu einer durchgeführten Studie eines industrierelevanten Themas aus dem Bereich Sports Technology unter Berücksichtigung der Grundlagen des wissenschaftlichen Arbeitens und Schreibens (IMRAD-Struktur) zu verfassen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Aufbauend auf die Lehrveranstaltung Sports technology project 2 werden die, in der Studie eines industrierelevanten Themas aus dem Bereich Sports Technology erfassten Messdaten und erzielten Erkenntnisse wissenschaftlich dargestellt.",
+                      "Aufbauend auf die Lehrveranstaltung Sports technology project 2 werden die, in der Studie eines industrierelevanten Themas aus dem Bereich Sports Technology erfassten Messdaten und erzielten Erkenntnisse präsentiert und diskutiert.",
+                      "Aufbauend auf die Lehrveranstaltung Sports technology project 2 werden die, in der Studie eines industrierelevanten Themas aus dem Bereich Sports Technology erfassten Messdaten und erzielten Erkenntnisse in einem Abschlussbericht festgehalten.",
+                      "Aufbauend auf die Lehrveranstaltung Sports technology project 2 werden die, in der Studie eines industrierelevanten Themas aus dem Bereich Sports Technology erfassten Messdaten und erzielten Erkenntnisse diskutiert, ob ein Folgeprojekt Sinn macht und wie dieses aussehen könnte."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Sämtliche Inhalte der Lehrveranstaltungen aus dem 1. und 2. Semester."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fachbücher, Artikel in Journals, usw. abhängig von der Aufgabenstellung",
+                      "Fachbücher, Benutzerhandbücher, Datenblätter, usw. abhängig von der verwendeten Sensorik und Messtechnik",
+                      "Voss, R., 2014, Wissenschaftliches Arbeiten, UVK Verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlussbericht"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Nicht verpflichtend."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Nachdem keine Anwesenheitspflicht besteht, müssen die Studierenden die individuellen Besprechungstermine mit der Betreuerin bzw. dem Betreuer vereinbaren. \r\nUm das Sports Technology Labor (Lab_C1.01-C1.04) zu nutzen, muss eine Reservierung erfolgen. Beachten Sie hierzu die Laborordnung."
+                  }
+                }
+              },
+              "lastupdate": "2020-09-03 11:36:16"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37814",
+          "kurzbz": "M32",
+          "semester": "3",
+          "bezeichnung": "Sports technology - project design",
+          "bezeichnung_englisch": "Sports technology - project design",
+          "unterrichtssprache": "English",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37815",
+              "kurzbz": "CTASD",
+              "semester": "3",
+              "bezeichnung": "Creativity techniques and study design",
+              "bezeichnung_englisch": "Creativity techniques and study design",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "3.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Drafting and development of a scientific study design and the need to project management in preparation and the beginning of the Master Theses. Explanation of different methods and approaches to scientific work. In addition, creativity techniques and -solutions with regard to problems and to generate ideas are presented and implemented\r\n\r\nStudents have to prepare in groups creative solutions with regard to the master’s thesis and as an aid and support for the study design.\r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Presentations of the lecturers, explanations regarding the use of creativity techniques, differentiation between the different creativity techniques and their application under supervision. Integrated course with workshop character and subsequent presentation of the planned master's theses in seminar form\r\n"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "plan and prepare a scientific paper",
+                      "apply scientific methods in this work",
+                      "enable scientific evaluation of the data",
+                      "provide scientific answers to the question",
+                      "evaluate which creativity technique to use in terms of problems or idea-findings",
+                      "solve problems and to find ideas in teams or individually by using various creativity techniques"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Creation of the research question and hypothesis ",
+                      "Creation of the overall concept of the work",
+                      "Development of solution concepts",
+                      "Conception of the right methodology",
+                      "Correct measurement or development",
+                      "Use of the correct statistics for data preparation",
+                      "Correct analysis and interpretation",
+                      "Conclusion and discussion"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "\r\n\r\n- MBA BST 3-6- MBA MST-1- Biomechanics 1-4- Metrology- computer science- mechanics- Material Sciences- Statistics, etc.\r\n\r\n\r\n\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "relevant Literature from the subjects in \"Prerequisites\"",
+                      "Prof. Dr. K. Wiemann (Universität Wuppertal 1998) Praktische Hinweise zur Anwendung statistischer Methoden bei einfach strukturierten bewegungs- und trainingswissenschaftlichen Experimenten",
+                      "Artur, Hornung (2011): Kreativitätstechniken – Mehr Brainpower durch neue Ideen, Köln Buch und Zeit Verlagsgesellschaft ",
+                      "Artur, Hornung (2009): Kreativität im Team – Kommunikation & Kreativität, Köln Buch und Zeit Verlagsgesellschaft"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "permanent through participation and presentation of the master's thesis and presentation of group works"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory\r\n\r\n\r\n"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Acquisition of knowledge to be able to work out a scientific paper"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Erarbeitung und Entwicklung eines wissenschaftlichen Studiendesigns und des dazu notwendigen Projektmanagements als Vorbereitung und Beginn der Master Thesis. \r\nErklärung verschiedener Methoden und Herangehensweisen an das wissenschaftliche Arbeiten.\r\nBegleitend werden Kreativitätstechniken bzw. -lösungen in Hinblick auf Problemstellungen und zur Ideenfindung vorgestellt und durchgeführt. \r\n\r\nAnschließendes Erarbeiten von Kreativitätslösungen in Lerngruppen von 4-5 Studierenden in Hinblick auf die Master Thesis und als Hilfestellung und Unterstützung für das Studiendesign.\r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Präsentation der Lehrenden, Erläuterungen bzgl. des Nutzen von Kreativitätstechniken, Unterscheidung zwischen den verschiedenen Kreativitätstechniken und deren Anwendung unter Anleitung. Integrierte Lehrveranstaltung mit Workshopcharakter und anschließende Präsentation der geplanten Master Theses in Seminarform"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine wissenschaftliche Arbeit zu planen und zu erstellen",
+                      "wissenschaftliche Methoden in dieser Arbeit anzuwenden",
+                      "wissenschaftliche Auswertung der Daten zu ermöglichen",
+                      "wissenschaftliche Antworten auf die Fragestellung zu liefern",
+                      "zu bewerten welche Technik in Bezug auf eine bestimmte Problemstellung oder zur Ideenfindung angewendet werden kann",
+                      "Problemstellungen anhand von verschiedenen Kreativitätstechniken im Team und individuell zu lösen "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Erstellung der Forschungsfrage und der Hypothese",
+                      "Erstellung des Gesamtkonzeptes der Arbeit",
+                      "Erarbeiten von Lösungskompetenzen",
+                      "Konzeption der richtigen Methodik",
+                      "richtiges Messen oder Entwickeln",
+                      "Einsatz der richtigen Statistik bei der Datenaufbereitung",
+                      "korrekte Analyse und Interpretation",
+                      "Konklusion und Diskussion"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- MBA BST-3-6- MBA-MST-1- Biomechanik 1-4- Messtechnik- Informatik- Mechanik- Materialwissenschaften- Statistik, etc.\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Relevante Literatur aus den jeweiligen Lehrveranstaltungen der Vorkenntnisse",
+                      "Prof. Dr. K. Wiemann (Universität Wuppertal 1998) Praktische Hinweise zur Anwendung statistischer Methoden bei einfach strukturierten bewegungs- und trainingswissenschaftlichen Experimenten",
+                      "Artur, Hornung (2011): Kreativitätstechniken – Mehr Brainpower durch neue Ideen, Köln Buch und Zeit Verlagsgesellschaft",
+                      "Artur, Hornung (2009): Kreativität im Team – Kommunikation & Kreativität, Köln Buch und Zeit Verlagsgesellschaft"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "permanent durch Mitarbeit und Präsentation der Master Thesis und der Gruppenarbeiten"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht\r\n"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Wissenserwerb zur Durchführung einer wissenschaftlichen Arbeit"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-26 13:32:34"
+            },
+            {
+              "lehrveranstaltung_id": "37816",
+              "kurzbz": "AE",
+              "semester": "3",
+              "bezeichnung": "Academic English",
+              "bezeichnung_englisch": "Academic English",
+              "unterrichtssprache": "English",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course provides an introduction to Academic English with a particular emphasis upon speaking about and understanding topics that are relevant for your studies. To this end the course will help you comprehend and critique academic articles, critically discuss and analyse topics relevant to your scientific field as well as enhance your knowledge of academic expression and language."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- mini lectures\r\n- presentations\r\n- in-class exercises\r\n- group work"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "- use academic language to talk about their academic field",
+                      "- critically analyse academic texts in English",
+                      "- present a topic relevant to their studies in a coherent, structured and academic manner"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "(i) critical thinking (ii) analysis of academic articles (iii) critical discussions (iv) use of online tools relevant to academic English (v) structuring an academic presentation (vii) academic language and vocabulary building"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Admission in the Masters program"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lecturer provided material (see moodle)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "50% Presentation",
+                      "30% Written tasks",
+                      "20% Participation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Compulsory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "See Moodle for further information"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieser Kurs bietet eine Einführung in das akademische Englisch mit besonderem Schwerpunkt auf dem Sprechen und Verstehen von Themen, die für Ihr Studium relevant sind. Zu diesem Zweck wird der Kurs Ihnen helfen, akademische Artikel zu verstehen und zu kritisieren, Themen, die für Ihr wissenschaftliches Fachgebiet relevant sind, kritisch zu diskutieren und zu analysieren sowie Ihre Kenntnisse des akademischen Ausdrucks und der Sprache zu erweitern."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Minivorträge\r\n- Präsentationen\r\n- Übungen in der Klasse\r\n- Gruppenarbeit"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "- die akademische Sprache verwenden, um über ihr akademisches Fachgebiet zu sprechen",
+                      "- akademische Texte auf Englisch kritisch zu analysieren",
+                      "- ein für ihre Studien relevantes Thema in kohärenter, strukturierter und akademischer Weise darstellen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "(i) Kritisches Denken (ii) Analyse akademischer Artikel (iii) Kritische Diskussionen (iv) Verwendung von Online-Tools, die für das akademische Englisch relevant sind (v) Strukturierung einer akademischen Präsentation (vii) Aufbau einer akademischen Sprache und eines akademischen Vokabulars"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Zulassung zum Masterstudim "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Dozent stellte Material zur Verfügung (siehe moodle)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "50% Präsentation ",
+                      "30% Schriftliche Aufgaben ",
+                      "20% Mitarbeit"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Siehe Moodle für weitere Informationen"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-04 11:57:11"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37798",
+          "kurzbz": "M33",
+          "semester": "3",
+          "bezeichnung": "Visualization",
+          "bezeichnung_englisch": "Visualization",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37800",
+              "kurzbz": "PM",
+              "semester": "3",
+              "bezeichnung": "Product management",
+              "bezeichnung_englisch": "Product management",
+              "unterrichtssprache": "English",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course will teach basics of product management. You will learn about product stages until the launch and tools of successful brand management. \r\n"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "Knowledge of positioning and organization of product management",
+                      "Process of finding new ideas and innovative products",
+                      "Exercise methods of product management "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Basic of product management",
+                      "Internal and external tasks of product management",
+                      "Factors of success in product development",
+                      "Priorities in marketing mix ",
+                      "Approach and best practice of market leaders",
+                      "Case studies"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Cooper, 2011, Winning at new products",
+                      "Kotler, Armstrong, Wong, Saunders, 2011, Grundlagen des Marketings",
+                      "Meyer (Hrsg.), 2010, Marken-Management",
+                      "Pulizzi, 2014, Epic content marketing"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case study",
+                      "Final exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Compulsory attendance"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung zielt darauf ab, den Studierenden die Grundlagen des Produktmanagements zu vermitteln. Es werden die Stufen bis zum Launch eines Produktes, sowie die Werkzeuge erfolgreicher Markenführung erläutert. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Kenntnisse zur Positionierung und Organisation des Produktmanagements ",
+                      "Prozesse zur Ideenfindung, Innovation bzw. Produktentwicklung ",
+                      "Anwendung relevanter Methoden des Produktmanagements "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundaufgaben des Produktmanagements ",
+                      "Innerbetriebliche und außerbetriebliche Aufgaben des Produktmanagements",
+                      "Erfolg neuer Produktentwicklungen",
+                      "Prioritäten im Marketingmix",
+                      "Denkansätze und Vorgehensweisen von Marktführern",
+                      "Geschäftsfälle"
+                    ]
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Cooper, 2011, Winning at new products",
+                      "Kotler, Armstrong, Wong, Saunders, 2011, Grundlagen des Marketings",
+                      "Meyer (Hrsg.), 2010, Marken-Management",
+                      "Pulizzi, 2014, Epic content marketing"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case Study",
+                      "Abschlusstest"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-08 12:50:24"
+            },
+            {
+              "lehrveranstaltung_id": "37799",
+              "kurzbz": "DES",
+              "semester": "3",
+              "bezeichnung": "Design",
+              "bezeichnung_englisch": "Design",
+              "unterrichtssprache": "English",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course students will get an introduction to Industrial Design/Productdesign and an overview on workflow, tasks and tools a designer uses. A project will be done during the semester by each student - going through all the steps of the designprocess. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Projectwork. Introduction designhistory. Introduction Rendersoftware."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to understand the workflow, tasks and tools a designer uses",
+                      "to know the process of a complete designproject",
+                      "to visualize/render CAD files"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Complete workflow of a designproject done by each student"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "CAD software"
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Intermediate and final presentation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung erhalten die Studierenden eine Einführung in das Thema Industrial Design/Produktdesign und einen Überblick über die Arbeitsweise und  Aufgaben eines Designers anhand von Beispielen. Das Thema wird im Semester anhand eines Projektes, in dem der gesamte Designprozess durchgemacht wird, vertieft."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Prokjektarbeit. Einführung Designgeschichte. Einführung Visualisierungssoftware"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Die Aufgaben, Arbeitsmethoden und Tools eines Produktdesigners zu verstehen",
+                      "Den Ablauf eines Designprojektes zu kennen",
+                      "3D CAD Daten zu visualisieren/rendern"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Durchführung des gesamten Designprozesses anhand je eines eigenen Projektes"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "CAD Softwarekenntnisse"
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Zwischenabgaben und Abschlusspräsentation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Alle Einheiten"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-20 15:22:39"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37801",
+          "kurzbz": "M34",
+          "semester": "3",
+          "bezeichnung": "Aerodynamics and bionics",
+          "bezeichnung_englisch": "Aerodynamics and bionics",
+          "unterrichtssprache": "English",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37803",
+              "kurzbz": "AERO",
+              "semester": "3",
+              "bezeichnung": "Aerodynamics",
+              "bezeichnung_englisch": "Aerodynamics",
+              "unterrichtssprache": "English",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course aims to develop an understanding of the aerodynamical\r\nand hydrodynamical properties of sports equipment and to develop the\r\nability to change those by dedicated construction measures. To this end the basics of hydrodynamics are first introduced which are then applied to specific examples occurring in the development of sports equipment."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe the consequences of the shape of sports equipment on its aerodynamical and/or hydrodynamical behaviour.",
+                      "purposely influence the aerodynamical and/or hydrodynamical behaviour of sports equipment by measures concerning its design.",
+                      "perform basic hydrodynamical calculations.",
+                      "describe motions along stream filaments and streamlines."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "hydrostatics",
+                      "hydrodynamical basics",
+                      "motions along stream filaments and streamlines",
+                      "viscous flows",
+                      "flows with and without vorticity",
+                      "compressible flows",
+                      "inviscid flows"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Foundations of technical, natural, and applied sciences\r\n- Mathematical foundations"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Laurien, E., Oertel, H., 2013, Numerische Strömungsmechanik, Springer Vieweg",
+                      "Oertel, H., Böhle, M, Reviol, T., 2015, Strömungsmechanik für Ingenieure und Naturwissenschaftler, Springer Vieweg",
+                      "Hucho, W-H., 2012, Aerodynamik der stumpfen Körper, Springer Vieweg"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Final exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung zielt darauf ab, ein Verständnis für die aerodynamischen\r\nund hydrodynamischen Eigenschaften von Sportgeräten zu entwickeln und diese\r\nauch durch gezielte Designmassnahmen beeinflussen zu können. Dazu werden zunächst\r\nGrundkenntnisse in Hydrodynamik vermittelt, die dann in konkreten Aufgabenstellungen\r\nbei der Entwicklung von Sportgeräten zur Anwendung kommen."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Auswirkungen der Form eines Sportgerätes auf dessen aerodynamisches und/oder hydrodynamisches Verhalten zu beschreiben.",
+                      "das aerodynamische und/oder hydrodynamische Verhalten eines Sportgerätes durch konstruktive Maßnahmen gezielt zu beeinflussen.",
+                      "grundlegende hydrodynamische Berechnungen durchzuführen.",
+                      "Bewegungen entlang von Stromfäden und Stromlinien zu beschreiben."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Hydrostatik",
+                      "Hydrodynamische Grundlagen",
+                      "Bewegungen entlang von Stromfäden und Stromlinien",
+                      "Viskose Strömungen",
+                      "Strömungen mit und ohne Vortizität",
+                      "Kompressible Strömungen",
+                      "Reibungsfreie Strömungen"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Technische, naturwissenschaftliche und angewandte Grundlagen \r\n- Mathematische Grundlagen "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Laurien, E., Oertel, H., 2013, Numerische Strömungsmechanik, Springer Vieweg",
+                      "Oertel, H., Böhle, M, Reviol, T., 2015, Strömungsmechanik für Ingenieure und Naturwissenschaftler, Springer Vieweg",
+                      "Hucho, W-H., 2012, Aerodynamik der stumpfen Körper, Springer Vieweg"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-19 18:25:44"
+            },
+            {
+              "lehrveranstaltung_id": "37802",
+              "kurzbz": "BION",
+              "semester": "3",
+              "bezeichnung": "Bionics",
+              "bezeichnung_englisch": "Bionics",
+              "unterrichtssprache": "English",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Recognize natural systems as model for the developement of innovative applications in all areas of modern life. Using knowledge based on fundamental understanding of biological systems can enable materials, systems and applications with innovative properties that outperform traditional solutions significantely. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "interactive lectures. Questions and participation is asked for!"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "- use natural sciences to investigate and understand the fundamental mode of operation of biological systems",
+                      "- discuss the use of bionic for developements in sports technology",
+                      "- create knowledge on the basis of biological systems and transfer it to the developement of technical applications"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "- definition and discussion of the term \"Bionics\"",
+                      "- fuctions of biological surfaces",
+                      "- possible applications of bionics in the area of Sports Technology"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "no special prerequisites necessary"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "slides will be shared"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "written examination"
+                    ]
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Natur als mögliches Vorbild für innovative Anwendungen in allen Bereichen des modernen Lebens erkennen, untersuchen, verstehen und nachbilden lernen - das ist Bionik. Moderne Materialien können aufgrund ihrer besonderen Struktur, Oberflächenbeschaffenheit und auch Form Eigenschaften aufweisen, die traditionelle - \"Standardmaterialien\" niemals erreichen würden. Diese Materialien ermöglichen neuartige Anwendungen und weitere Innovationen in allen Bereichen des täglichen Lebens."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Interaktiver Vortrag. Mitarbeit wird ständig gefördert! \r\nLiteraturbeispiele aus aktuellen wissenschaftlichen Publikationen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "- die Grundlagen der Naturwissenschaften nutzen um die Funktionsweise von natürlichen Systemen zu untersuchen und zu verstehen",
+                      "- den Einsatz und Nutzen von Bionik im Bereich Sports Technology zu diskutieren",
+                      "- Erkenntnisse die an biologischen Vorbildern gewonnen wurden auf technische Fragestellungen aus dem Bereich Sports Technology anzuwenden"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "- Begriffserklärung und Definition Bionik",
+                      "- Funtionen biologischer Oberflächen",
+                      "- Einsatzmöglichkeiten der Bionik im Bereich der Sports Technology"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine besonderen Vorkenntnisse notwendig"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Foliensatz wird zur Verfügung gestellt"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftliche Prüfung"
+                    ]
+                  }
+                }
+              },
+              "lastupdate": "2020-09-04 07:55:18"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37808",
+          "kurzbz": "M35",
+          "semester": "3",
+          "bezeichnung": "Sports wear",
+          "bezeichnung_englisch": "Sports wear",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37809",
+              "kurzbz": "SPW",
+              "semester": "3",
+              "bezeichnung": "Sports wear",
+              "bezeichnung_englisch": "Sports wear",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "3.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37804",
+          "kurzbz": "M36",
+          "semester": "3",
+          "bezeichnung": "Management Skills 1",
+          "bezeichnung_englisch": "Management Skills 1",
+          "unterrichtssprache": "English",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37805",
+              "kurzbz": "EVMM",
+              "semester": "3",
+              "bezeichnung": "Eventmanagement",
+              "bezeichnung_englisch": "Eventmanagement",
+              "unterrichtssprache": "English",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course deals with imparting basic knowledge from the event industry. The students learn to plan / organize events, to stage them and learn practical examples from the world of sport."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "theoretical units\r\nworkshops\r\nfield trip\r\nfinal presentations"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "plan events (basic)",
+                      "organise events (basic)",
+                      "stage events (basic)",
+                      "evaluate events (basic)",
+                      "learning of strategic and operational decisions",
+                      "theory and practice with a maximum reference to sport"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "marketing / advertising (basic)",
+                      "stageing",
+                      "sponsoring",
+                      "legal / permits (based on Vienna)",
+                      "conception"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Interest in organizing and creative work."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Holzbauer et al., Eventmanagement - Veranstaltungen professionell zum Erfolg führen (2010)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "final presentation (01.2021)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "according to the University-Act (COVID situation)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Diese LV beschäftigt sich mit der Vermittlung von Basiswissen aus der Eventbranche. Die StudentInnen lernen Events zu planen/organisieren, diese zu inszenieren und erfahren praktische Beispiele aus der Welt des Sports."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Theoretische Einheiten\r\nWorkshops\r\nExkursion\r\nAbschlusspräsentationen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Events zu planen (Basis)",
+                      "Events zu organisieren (Basis)",
+                      "Events zu inszenieren (Basis)",
+                      "Events auszuwerten und zu beurteilen (Basis)",
+                      "Erlernen von Strategischen und Operativen Entscheidungen",
+                      "Theorie und Praxis mit maximalem Bezug zum Sport"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Marketing/ Werbung (Basis)",
+                      "Inszenierung",
+                      "Sponsoring",
+                      "Rechtliches/Genehmigungen (Basis für Wien)",
+                      "Konzeption"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Interesse am Organisieren und kreativen Arbeiten."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Holzbauer et al., Eventmanagement - Veranstaltungen professionell zum Erfolg führen (2010)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlußpräsentation (01.2021)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "laut Universitätsgesetz (COVID Situation)"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-03 12:22:05"
+            },
+            {
+              "lehrveranstaltung_id": "37806",
+              "kurzbz": "MTI",
+              "semester": "3",
+              "bezeichnung": "Meet the industry",
+              "bezeichnung_englisch": "Meet the industry",
+              "unterrichtssprache": "English",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Guest lectures in different sports tech related topics. Interactive guest lessons or discussion rounds at the end. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "guest lectures, discussions"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "give an overview to current R&D topics of Sports Technology ",
+                      "discuss innovative practical examples and up-to-date scientific findings of Sports Technology",
+                      "conduct conversations concerning interdisciplinary and discipline specific topics"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "excerpts of different sport technology related history and innovations ",
+                      "discussions on sport technology related topics with experts"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "technical basics: physics, mathematics, biomechanics, electronics- sports science"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "topic related"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "attendance"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser LV werden Gastvortragende zu unterschiedlichsten aktuellen Themen aus dem Bereich Sports Technology eingeladen. Sollte der Gastvortrag nicht ohnehin interaktiv gestaltet sein, wird es im Anschluss jedes Vortrages die Möglichkeit zur Diskussion geben.\r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Gastvorträge, Diskussionsrunden"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "einen Überblick über aktuelle Technologie- und/oder Forschungsthemen aus dem Bereich Sports Technology zu geben",
+                      "innovative Praxisbeispiele und aktuelle Erkenntnisse aus dem Bereich Sports Technology zu diskutieren",
+                      "zu den disziplinspezifischen und interdisziplinären Themen Fachgespräche zu führen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Praxisbericht aus dem Bereich Sports Technology durch ExpertInnen ",
+                      "Diskussion zu Themen aus dem Bereich Sports Technology mit ExpertInnen"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Technisches Basiswissen: Physik, Mathematik, Biomechanik, Elektrotechnik.- Sportwissenschaft"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Themenbezogen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Anwesenheit"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-18 22:41:46"
+            },
+            {
+              "lehrveranstaltung_id": "37807",
+              "kurzbz": "CONT",
+              "semester": "3",
+              "bezeichnung": "Controlling",
+              "bezeichnung_englisch": "Controlling",
+              "unterrichtssprache": "English",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "During the attendance period the theoretical principles/fundamentals which are necessary to understand the interplay between management accounting and finance accounting as well as the diference between strategic and operative controlling will be taught in form of doctrinal discussions. In order to consolidate the acquired knowledge after every chapter there will be a brief dicussion about current business topics related to the course. Finally a competitve business game will take place, in which the students can practically apply what they have learned in the course so far."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture, discussion, solving case studies and business simulation"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain the difference between strategic and operative Controlling",
+                      "explain the difference between management accounting and financial accounting",
+                      "analyze and interpret the reports of the financial accounting (balance sheet, profit and loss account, cash flow statement)",
+                      "To create an integrated budget (master budget) independently",
+                      "To determine the short-term price floor and break the even points in single and multi-product companies",
+                      "Recognize overall business context"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Basic concepts of controlling",
+                      "full set of financial statements",
+                      "Components of an integrated budget",
+                      "price variance vs. quantity variance",
+                      "financial statement analysis"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Set of slides, sample collection and participants manual for the business game"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "15 % quality of decisions in distance learning",
+                      "30 % performance in the business game",
+                      "55 % written final examination"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "in this course attendance of 80 % is mandatory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen der LV werden die theoretischen Grundlagen, welche für das Begreifen des Zusammenspiels von internem und externem Rechnungswesen sowie strategischem operativem Controlling notwendig sind, in Form von Lehrgesprächen erarbeitet. Um das auf diese Weise erlangte Wissen zu verfestigen wird im Anschluss jedes Kapitels ausreichend Raum für Diskussionen zu tagesaktuellen Geschehnissen aus dem Stoffgebiet eingeräumt. Abschließend findet ein kompetitives Unternehmensplanspiel statt in welchem die Studierenden in Kleingruppen die praktische Anwendung des Gelernten üben können."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Diskussion, Lösen von Beispielen und Unternehmensplanspiel"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Den Unterschied zwischen strategischem und operativem Controlling zu erklären",
+                      "Den Unterschied zwischen internem und externem Rechnungswesen zu erklären",
+                      "Die Berichte des externen Rechnungswesen (Bilanz, Gewinn- und Verlust-rechnung, Cashflow-Statement) zu analysieren und zu interpretieren",
+                      "Ein integriertes Budget (Master Budget) selbständig zu erstellen",
+                      "Kurzfristige Preisuntergrenzen und Break even points im Ein- und Mehrproduktunternehmen zu ermitteln",
+                      "Gesamtunternehmerischer Zusammenhänge zu erkennen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundbegriffe des Controlling",
+                      "Bestandteile des Jahresabschlusses",
+                      "Bestandteile eines integrierten Budgets",
+                      "Preis- versus Mengenabweichungen",
+                      "Jahresabschlussanalyse"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Foliensatz, Beipsielsamlung und  Teilnehmerhandbuch für das Planspiel"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "15 % Qualität der Entscheidungen im Rahmen des distance learning",
+                      "30 % Performance im Planspiel",
+                      "55 % schriftliche Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "in dieser LV ist 80% Anwesenheit verpflichtend"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-18 09:24:57"
+            }
+          ]
+        }
+      ],
+      "4": [
+        {
+          "lehrveranstaltung_id": "37817",
+          "kurzbz": "M41",
+          "semester": "4",
+          "bezeichnung": "Master's Thesis",
+          "bezeichnung_englisch": "Master's Thesis",
+          "unterrichtssprache": "English",
+          "ects": "25.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37818",
+              "kurzbz": "MT",
+              "semester": "4",
+              "bezeichnung": "Master's Thesis",
+              "bezeichnung_englisch": "Master's Thesis",
+              "unterrichtssprache": "English",
+              "ects": "25.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SO",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "37819",
+          "kurzbz": "M42",
+          "semester": "4",
+          "bezeichnung": "Management Skills 2",
+          "bezeichnung_englisch": "Management Skills 2",
+          "unterrichtssprache": "English",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "VZ",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "37820",
+              "kurzbz": "SUM",
+              "semester": "4",
+              "bezeichnung": "Start-up Management",
+              "bezeichnung_englisch": "Start-up management",
+              "unterrichtssprache": "English",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "37821",
+              "kurzbz": "DLANWW",
+              "semester": "4",
+              "bezeichnung": "Digital Leadership and New Worl of Work",
+              "bezeichnung_englisch": "Digital Leadership and New Worl of Work",
+              "unterrichtssprache": "English",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "VZ",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lastupdate": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

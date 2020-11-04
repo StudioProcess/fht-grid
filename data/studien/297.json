@@ -1,0 +1,2378 @@
+{
+  "name": "Master Embedded Systems",
+  "url": "https://cis.technikum-wien.at/addons/lvinfo/export/export.php?studiengang_kz=297",
+  "studiengang_kz": "297",
+  "studienordnung_id": null,
+  "data": {
+    "studienordnung_id": "92",
+    "studienordnung_bezeichnung": "0297-MES-WS2015 ",
+    "studienplan_id": "112",
+    "studienplan_bezeichnung": "0297-MES-WS2015-BB",
+    "gueltig_von": "WS2015",
+    "gueltig_von_datum": "2015-09-01",
+    "regelstudiendauer": "4",
+    "lehrveranstaltungen": {
+      "1": [
+        {
+          "lehrveranstaltung_id": "33134",
+          "kurzbz": "MOD11",
+          "semester": "1",
+          "bezeichnung": "Modul 11 Embedded Software",
+          "bezeichnung_englisch": "Module 11 Embedded Software",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4925",
+              "kurzbz": "ESW",
+              "semester": "1",
+              "bezeichnung": "Embedded Software",
+              "bezeichnung_englisch": "Embedded Software",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This module deals with important aspects of embedded real-time operating systems (RTOS). Hence, this module focusses on general basics of embedded multicore-systems (MCS). In the course of this module students are able to train embedded programming skills within the RTOS and the MCS domain. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explicate the similarities and differences of General Purpose Operating System (GPOS) and Real Time Operating System (RTOS)",
+                      "select the proper RTOS services, task models, scheduling strategies, and design patterns for an embedded software application",
+                      "utilize debugging strategies for embedded real-time operating system applications",
+                      "explicate basic terms and concepts within the field of embedded multicore-systems",
+                      "design and implement design patterns within the field of embedded multicore-systems",
+                      "apply various debugging startegies supported by the development environment and according feature"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "GPOS vs. RTOS, RTOS characteristics ",
+                      "Tasks und scheduling in RTOS",
+                      "Intertask Communication and Synchronization ",
+                      "Exception Processing (Exceptions, Interrupts)",
+                      "Timer and Timer Services",
+                      "Taskmodels, cycle-based scheduling",
+                      "Embedded Multicore System characteristics",
+                      "Intercore Communication and Synchronization",
+                      "Protection of critical Ressources to communicate with sensors"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic knowledge of computer architecture, operating systems, parallel processing, and system programming using the C language "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Q. Li (2003): Real-Time Concepts for Embedded Systems, CMP Books ",
+                      "P. Koopman (2010): Better Embedded System Software, Drumnadrochit Education ",
+                      "T. Noergaard (2012): Embedded Systems Architecture: A Comprehensive Guide for Engineers and Programmers, Newnes",
+                      "K. Yaghmour, J. Masters, Gilad Ben-Yossef, P. Gerum (2008): Building Embedded Linux Systems, O'Reilly",
+                      "B. Moyer (2013): Real World Multicore Embedded Systems",
+                      "I. Foster (2003): Designing and Building Parallel Programs"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Diese Lehrveranstaltung behandelt wesentliche Aspekte von Real-Time Operating Systems (RTOS). Ein weiterer Fokus liegt auf den Grundlagen von Embedded Multicore-Systems (MCS). In Rahmen mehrerer Projekte und Aufgaben wird hardwarenahe Programmierung von Mikrocontrollersystemen, RTOS und MCS, perfektioniert."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Gemeinsamkeiten und die Unterschiede von General Purpose Operating System (GPOS) und Real Time Operating System (RTOS) zu erklären",
+                      "die passenden RTOS-Services, Task-Modelle, Scheduling-Methoden und Entwurfsmuster für eingebettete Software-Applikationen auszuwählen",
+                      "Debuggingstrategien für Embedded Real-Time Betriebsysteme anwenden zu können",
+                      "die passenden Grundlagen und Begriffe zu dem Thema Embedded Multicore-Systeme zu erklären",
+                      "Entwurfsmuster zu dem Thema Embedded Multicore-Systeme entwerfen und umsetzen zu können",
+                      "mit den Entwicklungswerkzeugen und dessen Features Debuggingstrategien anwenden zu können"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "GPOS vs. RTOS, RTOS Charakteristika",
+                      "Tasks und Scheduling in RTOS ",
+                      "Intertask Communication und Synchronization",
+                      "Ausnahmeverarbeitung (Exceptions, Interrupts)",
+                      "Timer und Timer Services",
+                      "Task-Modelle, zyklusbasiertes Scheduling",
+                      "Embedded Multicore System Charakteristika",
+                      "Intercore Kommunikation und Synchronization",
+                      "Schutz von kritischen Ressourcen zur Kommunikation mit Sensoren"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundkenntnisse über Computerarchitektur, Betriebssysteme, Parallelverarbeitung und systemnahen Software-Entwurf in C "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Q. Li (2003): Real-Time Concepts for Embedded Systems, CMP Books ",
+                      "P. Koopman (2010): Better Embedded System Software, Drumnadrochit Education ",
+                      "T. Noergaard (2012): Embedded Systems Architecture: A Comprehensive Guide for Engineers and Programmers, Newnes",
+                      "K. Yaghmour, J. Masters, Gilad Ben-Yossef, P. Gerum (2008): Building Embedded Linux Systems, O'Reilly",
+                      "B. Moyer (2013): Real World Multicore Embedded Systems",
+                      "I. Foster (2003): Designing and Building Parallel Programs"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-07-22 16:21:39"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "33137",
+          "kurzbz": "MOD14",
+          "semester": "1",
+          "bezeichnung": "Modul 14 Grundlagen der Regelungstechnik ",
+          "bezeichnung_englisch": "Module 14 Fundamentals of Control Engineering ",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4927",
+              "kurzbz": "GDR",
+              "semester": "1",
+              "bezeichnung": "Grundlagen der Regelungstechnik",
+              "bezeichnung_englisch": "Fundamentals of Control Engineering",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The participants learn to classify control problems, to select proper control algorithms and to design, dimension and test simple analogue controllers. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "characterize various types of control loop components; ",
+                      "describe control loop components in time-, frequency-, and s-domain; ",
+                      "select and to dimension an analogue controller; ",
+                      "test and to analyze the previously designed analogue control loops. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Linear time invariant systems ",
+                      "System description with differential equations ",
+                      "System description in the time- , frequency- , and s-domain ",
+                      "Identification and analysis of plants ",
+                      "Design of various controllers (P, PI, PID, PIDT1, ...) ",
+                      "Analog implementation of controllers ",
+                      "Analysis, design and description of root locus ",
+                      "Analysis and identification of the stability of control loops "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Basic knowledge of differential calculus - Basics in electronics (circuit design, measurement engineering, operational amplifiers) - Elementary physics (measured variables and units, electricity, analytical dynamics, harmonic oscillations) "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "S. Zacher, M. Reuter (2011): Regelungstechnik für Ingenieure; Analyse, Simulation und Entwurf von Regelkreisen, Verlag Vieweg ",
+                      "R. C. Dorf, R. H. Bishop (2008): Modern Control Systems; Pearson Education Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die TeilnehmerInnen lernen regelungstechnische Aufgabe zu klassifizieren, geeignete Regelalgorithmen auszuwählen und einfache analoge Regler zu entwerfen, zu dimensionieren und zu testen. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die unterschiedlichen Typen von Regelkreisgliedern zu charakterisieren; ",
+                      "die Regelkreisglieder im Zeit-, Frequenz-, und Bildbereich zu beschreiben; ",
+                      "eine analoge Regeleinrichtung auszuwählen und zu dimensionieren; ",
+                      "die entworfenen analogen Regelkreise zu analysieren und zu testen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lineare zeitinvariante Systeme ",
+                      "Systembeschreibung mit Differentialgleichungen ",
+                      "Systembeschreibung im Zeit- , Frequenz- , Bildbereich ",
+                      "Identifikation und Analyse von Regelstrecken ",
+                      "Dimensionierung von Reglern (P, PI, PID, PIDT1, ...) ",
+                      "Analoge Implemtierung von Reglern ",
+                      "Anwendung von Reglerentwurfsverfahren ",
+                      "Analyse, Entwurf und Beschreibung von Wurzelortskurve ",
+                      "Bestimmung der Stabilität von Regelkreisen "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Grundlegende Kenntnisse der Differentialrechnung - Grundlegende Kenntnisse der Elektronik (Schaltungstechnik, Messtechnik, Operationsverstärker) - Physikalische Grundkenntnisse (Messgrößen und Maßeinheiten, Elektrizität , Kinetik, Schwingungslehre) "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "S. Zacher, M. Reuter (2011): Regelungstechnik für Ingenieure; Analyse, Simulation und Entwurf von Regelkreisen, Verlag Vieweg ",
+                      "R. C. Dorf, R. H. Bishop (2008): Modern Control Systems; Pearson Education Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "33136",
+          "kurzbz": "MOD13",
+          "semester": "1",
+          "bezeichnung": "Modul 13 Zuverlässige Systeme",
+          "bezeichnung_englisch": "Module 13 Dependable Systems",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4926",
+              "kurzbz": "ZVS",
+              "semester": "1",
+              "bezeichnung": "Zuverlässige Systeme",
+              "bezeichnung_englisch": "Dependable Systems",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course provides an introduction into the development and analysis of embedded systems with high dependability and security requirements. After working on terminology and basic methods for reliability calculation methods for risk analysis, architecture and design principles as well as methods for the evaluation of dependable systems will be presented.Furthermore means for the protection of the system against malicious attacks are discussed. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe the properties of dependable systems, typical fault types and failure modes as well as to calculate the reliability of simple systems; ",
+                      "describe the basic design principles for dependable systems based on application examples; ",
+                      "execute a hazard and risk analysis (ASIL classification according to ISO 26262) of an E/E system; ",
+                      "specify failure modes of core E/E hardware components and to execute a quantitative reliability calculation (FMEDA) on hardware ; ",
+                      "describe methods for software development of dependable systems based on application examples and to implement these methods; ",
+                      "describe the basic principles to achieve freedom from interference from software in mixed critical systems and to implement them; ",
+                      "identify hazards caused by an external attack and to describe methods to protect against these attacks. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Introduction (Definition of Dependability, taxonomy of faults, failure modes) ",
+                      "Reliability calculation of systems (including probability theory refresher) ",
+                      "Dependability Means (Fault Tolerance ...) ",
+                      "Hazard- and Risk analysis (ASIL determination according to ISO 26262) ",
+                      "Basic Building Blocks of dependable systems including examples (fail safe vs. fail operational systems etc.) ",
+                      "E/E-Hardware reliability (failure modes of core components) ",
+                      "Quantitative reliability calculation (FMEDA) on hardware ",
+                      "Software development of dependable systems ",
+                      "Freedom from interference of software in mixed critical systems  ",
+                      "Definition, attributes and attack types ",
+                      "selected methods for the protection against malicious attacks "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic knowledge of probability theory; basic knowledge of software development as well as basic programming skills. "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "A. Avizienis, J.C. Laprie, B. Randell, C. Landwehr (2004): Basic Concepts and Taxonomy of Dependable and Secure Computing, IEEE Transactions on Dependable and Secure Computing, Vol. 1, N. 1 ",
+                      "D. P. Bertsekas, J. N. Tsitsiklis (2000): Introduction to Probability, Athena Scientific ",
+                      "ISO 26262 1st Ed 2011, Road vehicles – Functional safety ",
+                      "P. Löw (2012): Funktionale Sicherheit in der Praxis: Anwendungen von DIN EN 61508 und ISO/DIS 26262 bei der Entwicklung von Serienprodukten, dpunkt verlag ",
+                      "MISRA C-2004, Guidelines for the use of the C language in critical systems ",
+                      "M. Werdich (2012): FMEA - Einführung und Moderation, Vieweg+Teubner Verlag Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung ist eine Einführung in die Entwicklung und Analyse von Embedded Systems, an die hohe Anforderungen an Verlässlichkeit und Sicherheit gestellt werden. Neben der Erarbeitung der Terminologie und grundlegender Methoden zur Zuverlässigkeitsberechnung werden Methoden der Risikoanalyse, Architektur- und Designprinzipien zum Entwurf zuverlässiger Systeme, sowie Analysemethoden zur Bewertung solcher Systeme vorgestellt. Darüber hinaus wird auf den Schutz der Systeme vor Angriffen von außen eingegangen. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Eigenschaften Zuverlässiger Systeme, typische Fehlerursachen und Systemausfallsarten zu benennen sowie die Zuverlässigkeit von einfachen Systemen zu berechnen; ",
+                      "die Grundkonzepte zum Entwurf zuverlässiger Systeme anhand von konkreten Anwendungsbeispielen zu erklären; ",
+                      "eine Gefahren- und Risikoanalyse zur Klassifizierung (ASIL-Einstufung gemäß ISO 26262) eines elektronischen Systems durchzuführen; ",
+                      "die Ausfallsarten der Grundkomponenten einer E/E-Hardware zu benennen und eine quantitative Zuverlässigkeitsanalyse (FMEDA) über die Hardware eines elektronischen Systems durchzuführen; ",
+                      "Methoden für die Softwareentwicklung Zuverlässiger Systeme zu erklären und anzuwenden; ",
+                      "die Grundkonzepte zur Sicherstellung der Rückwirkungsfreiheit von Software in Systemen mit heterogenen Sicherheitsanforderungen anhand konkreter Anwendungsbeispiele zu erklären und anzuwenden; ",
+                      "die grundsätzliche Gefährdung durch einen bewussten Angriff von außen an ein System zu erkennen und Methoden zum Schutz dagegen zu benennen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Dependable Systems Einführung (Definition, Eigenschaften, Fehlerursachen und Systemausfallsarten) ",
+                      "Berechnung der Zuverlässigkeit von Systemen (inkl. Auffrischung relevanter Teile aus der Wahrscheinlichkeitsrechnung) ",
+                      "Grundkonzepte für zuverlässige Systeme (Fehlertoleranz ...) ",
+                      "Gefahren- und Risikoanalyse (ASIL-Einstufung gemäß ISO 26262) ",
+                      "Systementwurf zuverlässiger Systeme inkl. Beispiele (fail safe vs. fail operational systems etc.) ",
+                      "E/E-Hardware Zuverlässigkeit (Ausfallsraten der Grundkomponenten) ",
+                      "Quantitative Zuverlässigkeitsanalyse (FMEDA) ",
+                      "Softwareentwurf und Implementierung zuverlässige Systeme ",
+                      "Rückwirkungsfreiheit von Software in Systemen mit heterogenen Sicherheitsanforderungen ",
+                      "Definition, Eigenschaften, Angriffsarten (Beispiele) ",
+                      "Ausgewählte Methoden zum Schutz gegen Angriffe von außen "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundkenntnisse der Wahrscheinlichkeitstheorie; Grundkenntnisse der Softwareentwicklung sowie Programmiererfahrung. "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "A. Avizienis, J.C. Laprie, B. Randell, C. Landwehr (2004): Basic Concepts and Taxonomy of Dependable and Secure Computing, IEEE Transactions on Dependable and Secure Computing, Vol. 1, N. 1 ",
+                      "D. P. Bertsekas, J. N. Tsitsiklis (2000): Introduction to Probability, Athena Scientific ",
+                      "ISO 26262 1st Ed 2011, Road vehicles – Functional safety ",
+                      "P. Löw (2012): Funktionale Sicherheit in der Praxis: Anwendungen von DIN EN 61508 und ISO/DIS 26262 bei der Entwicklung von Serienprodukten, dpunkt verlag ",
+                      "MISRA C-2004, Guidelines for the use of the C language in critical systems ",
+                      "M. Werdich (2012): FMEA - Einführung und Moderation, Vieweg+Teubner Verlag Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "33135",
+          "kurzbz": "MOD12",
+          "semester": "1",
+          "bezeichnung": "Modul 12 Chip Design",
+          "bezeichnung_englisch": "Module 12 Chip Design",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "4928",
+              "kurzbz": "CHD",
+              "semester": "1",
+              "bezeichnung": "Chip Design",
+              "bezeichnung_englisch": "Chip Design",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Participants of this course will obtain profound knowledge on how to design, manufacture, test and verify the proper functionality of application-specific integrated circuit (ASICs), including an overview about today’s available technologies as well as economic background information, with a focus on standard-cell based digital ASICs. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "apply the basic concepts of a modeling language for complex integrated circuits, like System C; ",
+                      "make use of verification languages for digital integrated circuits (PSL, SystemC, SystemVerilog, ...); ",
+                      "select the most suitable technology for a specific application from today’s available technologies for integrated circuits under consideration of economic constraints; ",
+                      "explain the basic design and manufacturing steps of standard-cell based ASICs, like logic synthesis, backend design, fabrication or manufacturing test; ",
+                      "use selected design and verification tools for digital integrated circuits; ",
+                      "name future challenges when designing integrated circuits. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Terminology and basics of Application-Specific Integrated Circuits (ASICs) ",
+                      "Modeling of complex ASIC designs by using SystemC ",
+                      "Digital ASIC verification by using verification languages  like PSL, SystemC, SystemVerilog, ... ",
+                      "ASIC design options and process technologies ",
+                      "Design flow of standard-cell based ASICs (logic synthesis, backend design, manufacturing test, ...) ",
+                      "ASIC fabrication ",
+                      "Economics of ASICs ",
+                      "International Technology Roadmap for Semiconductors (ITRS) "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Detailed knowledge about modeling of combinatorial and sequential logic with VHDL under consideration of coding guidelines and the synchronous design methodology - Detailed knowledge on how to verify the proper functionality of digital circuits and systems by using an industrial logic simulator - Detailed knowledge about PLD technologies as well as synthesis and implementation of digital circuits and systems to FPGA devices as target technology by using industrial tools "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "D. C. Black, J. Donovan, B. Bunton, A. Keist (2010): SystemC: From the Ground Up, Springer, Second Edition ",
+                      "C. Eisner, D. Fisman (2006): A Practical Introduction to PSL, Springer ",
+                      " H. Kaeslin (2014): Top-Down Digital VLSIDesign, Morgan Kaufmann ",
+                      "M. J. S. Smith (1997): Application-Specific Integrated Circuits, Addison Wesley (content of the book freely available over the internet) Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt profunde Kenntnisse über Entwurf, Verifikation, Fertigung und Test von anwendungsspezifischen integrierten Schaltungen (ASICs) samt einem Überblick über heutzutage zur Verfügung stehende Technologien und wirtschaftlichen Hintergrundinformationen, mit Schwerpunkt auf Standard-Zellen-basierte digitale ASICs. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die grundlegenden Konzepte einer Modellierungssprache für komplexe integrierte Schaltungen, wie SystemC, umzusetzen; ",
+                      "Verifikationssprachen für digitale integrierte Schaltungen (PSL, SystemC, SystemVerilog, ...) anzuwenden; ",
+                      "aus heutzutage verfügbaren Technologien für integrierte Schaltungen, die für einen bestimmten Anwendungsfall geeignetste Technologie, unter wirtschaftlichen Rahmenbedingungen, auszuwählen; ",
+                      "die grundlegenden Schritte zur Entwicklung und Fertigung eines Standard-Zellen-basierten ASICs, wie Logiksynthese, Backend Design, Fabrication,Fertigungstest etc. zu erklären; ",
+                      "ausgewählte Tools für den Entwurf von digitalen integrierten Schaltungen zu bedienen; ",
+                      "die Herausforderung beim Entwurf zukünftiger integrierter Schaltungen zu benennen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Terminologie und Basics von anwendungsspezifischen integrierten Schaltungen (ASICs) ",
+                      "Modellierung komplexer ASIC-Designs mit SystemC ",
+                      "Verifikation digitaler ASIC-Designs mit Verifikationssprachen wie PSL, SystemC, SystemVerilog, ... ",
+                      "Optionen für den Entwurf von ASICs und Prozesstechnologien ",
+                      "Entwurfsablauf von Standard-Zellen-basierten ASICs (Logiksynthese, Backend Design, Fertigungstest, ...) ",
+                      "Fertigung von ASICs ",
+                      "Wirtschaftliche Hintergründe bei der Entwicklung von ASICs ",
+                      "International Technology Roadmap for Semiconductors (ITRS) "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Detaillierte Kenntnisse zur Beschreibung von kombinatorischer und sequentieller Logik mit VHDL unter Berücksichtigung von Coding Guidelines und der synchronen Design-Methodik - Detaillierte Kenntnisse zur Verifikation digitaler Schaltungen und Systeme mittels eines industriellen Digitalsimulators - Detaillierte Kenntnisse über PLD-Technologien sowie Synthese und Implementierung digitaler Schaltungen und Systeme mittels industrieller Tools auf FPGA-Bausteinen als Zieltechnologie "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "D. C. Black, J. Donovan, B. Bunton, A. Keist (2010): SystemC: From the Ground Up, Springer, Second Edition ",
+                      "C. Eisner, D. Fisman (2006): A Practical Introduction to PSL, Springer ",
+                      " H. Kaeslin (2014): Top-Down Digital VLSIDesign, Morgan Kaufmann ",
+                      "M. J. S. Smith (1997): Application-Specific Integrated Circuits, Addison Wesley (content of the book freely available over the internet) Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "33138",
+          "kurzbz": "MOD15",
+          "semester": "1",
+          "bezeichnung": "Modul 15 Ausgewählte Kapitel aus Embedded Systems",
+          "bezeichnung_englisch": "Module 15 Selected Topics in Embedded Systems",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "33139",
+              "kurzbz": "AET",
+              "semester": "1",
+              "bezeichnung": "Ausgewählte Kapitel aus Embedded Systems",
+              "bezeichnung_englisch": "Selected Topics in Embedded Systems ",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This module is organized as a sequence of elective short courses dedicated to selected topics in embedded systems technologies. The main objective is to sensitize for a particular topic and to impart basic knowledge in order to fulfil the required prerequisites for other modules. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "individually deepen their knowledge in terms of the course contents; ",
+                      "fulfil the prerequisites of designated courses. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Selected topics, e.g., ",
+                      "GIT Introduction",
+                      "JAVA Basics",
+                      "Embedded Security Teaser ",
+                      "Embedded Software Testing",
+                      " ... "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "Course dependent Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course dependent, usually course immanent assessment method "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieses Modul setzt sich aus einer Serie von kompakten Kursen in ausgewählten Bereichen der Embedded Systems Technologien zusammen, um primär für die entsprechende Thematik zu sensibilisieren sowie Einstiegs- bzw. Überblickskenntnisse zu vermitteln um so die erforderlichen Vorkenntnisse für andere Module zu realisieren. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "sich selbständig in der Thematik des jeweiligen Kurses zu vertiefen; ",
+                      "die geforderten Vorkenntnisse relevanter Lehrveranstaltungen zu erfüllen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ausgewählte Kapitel, bspw.: ",
+                      "Einführung in GIT",
+                      "Einführung in JAVA",
+                      "Embedded Security",
+                      "Testen von Embedded Software",
+                      "   ... "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "Kursabhängig Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Kursabhängig, i.A. LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "lehrveranstaltung_id": "33143",
+          "kurzbz": "MOD24",
+          "semester": "2",
+          "bezeichnung": "Modul 24 Digitale Regelungstechnik ",
+          "bezeichnung_englisch": "Module 24 Digital Control Engineering ",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "5041",
+              "kurzbz": "DC2",
+              "semester": "2",
+              "bezeichnung": "Digitale Regelungstechnik",
+              "bezeichnung_englisch": "Digital Control Engineering",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The participants learn to classify control problems, to select adequate control algorithms and to design and implement discrete time controllers. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe control loops with complex structure as well as multi input multi output (MIMO) systems; ",
+                      "describe concepts of digital control systems; ",
+                      "implement digital controllers based on microcontrollers; ",
+                      "analyze the transfer behavior (step response) of complex control systems; ",
+                      "analyze and to test the previously designed controllers; ",
+                      "design embedded computing systems for control applications and to integrate them into the environment. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Identification of meshed control loops and multi input multi output systems ",
+                      "Implementation of digital controllers ",
+                      "Identification of control loops with instable plants",
+                      "State space system description and state space controllers ",
+                      "Identification and implementation of observers for existing control loops ",
+                      "Final project (e.g., inverse pendulum) "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Embedded control systems basics - Algebra of matrices - Embedded software development "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "S. Zacher, M. Reuter (2011): Regelungstechnik für Ingenieure; Analyse, Simulation und Entwurf von Regelkreisen, Verlag Vieweg ",
+                      "R. C. Dorf, R. H. Bishop (2008): Modern Control Systems; Pearson Education ",
+                      "J. Lunze (2008): Regelungstechnik 1, Springer ",
+                      "J. Lunze (2008): Regelungstechnik 2, Springer Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die TeilnehmerInnen lernen regelungstechnische Aufgaben zu klassifizieren, geeignete Regelalgorithmen auszuwählen und zeitdiskrete Regler zu entwerfen und zu dimensionieren. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Regelkreise mit komplexer Struktur und Mehrgrößenregelungen zu erklären; ",
+                      "Konzepte der digitalen Regelung zu beschreiben; ",
+                      "digitale Regler auf Mikrocontrollerbasis zu implementieren; ",
+                      "das Übertragungsverhalten komplexer Regelstrecken zu analysieren; ",
+                      "die entworfenen digitalen Regelkreise zu analysieren und zu testen; ",
+                      "Embedded Systems für Anwendungen der Steuerungs- und Regelungstechnik zu entwerfen und in die Umgebung zu integrieren. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Dimensionierung und Identifikation von vermaschten Regelungen und Mehrgrößenregelungen ",
+                      "Implementierung von digitalen Reglern ",
+                      "Identifikation von Regelkreise mit instabilen Strecken ",
+                      "Beschreibung von Systemen im Zustandsraum und Zustandsregler ",
+                      "Dimensionierung von Beobachtern für bestehende Regelstrecken ",
+                      "Abschlussprojekt (z.B. Inverses Pendel) "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Grundlagen der Regelungstechnik - Matrizenrechnung - Software-Entwicklung für Embedded Systems "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "S. Zacher, M. Reuter (2011): Regelungstechnik für Ingenieure; Analyse, Simulation und Entwurf von Regelkreisen, Verlag Vieweg ",
+                      "R. C. Dorf, R. H. Bishop (2008): Modern Control Systems; Pearson Education ",
+                      "J. Lunze (2008): Regelungstechnik 1, Springer ",
+                      "J. Lunze (2008): Regelungstechnik 2, Springer Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "33142",
+          "kurzbz": "MOD23",
+          "semester": "2",
+          "bezeichnung": "Modul 23 Verteilte Echtzeitsysteme",
+          "bezeichnung_englisch": "Module 23 Distributed Real-Time Systems",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "5040",
+              "kurzbz": "SAE",
+              "semester": "2",
+              "bezeichnung": "Verteilte Echtzeitsysteme",
+              "bezeichnung_englisch": "Distributed Real-Time Systems",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This module deals with important aspects regarding the architecture of distributed real-time systems for both best effort and safety-critical applications. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "characterize real-time requirements with respect to the system specification; ",
+                      "design a system architecture for a distributed (real-time) application; ",
+                      "select/adapt the proper communication subsystem (architecture) with regard to the required overall system behavior (best effort vs. guaranteed response); ",
+                      "integrate and configure an operating system for embedded systems efficiently;",
+                      "implement a suitable clock synchronization for distributed (real-time) systems; ",
+                      "model the behavior of real-time data (e.g., sensor readings) both in the value- and the time-domain; ",
+                      "describe the correlation in time between messages and tasks in a distributed system; ",
+                      "design a FlexRay cycle and an OS cycle for each node of a distributed system. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Intorduction to Distriubted Systems",
+                      "Intorduction to Distriubted Real-Time Systems",
+                      "Operating Systems for Embedded Systems",
+                      "Communication Subsystems ",
+                      "Time and Order ",
+                      "Modelling Real-Time Systems",
+                      "Case Study: FlexRay ",
+                      "Review: Communication Networks",
+                      "Workshop: Design of a distributed real-time application ",
+                      "Overview and application of parameters for a FlexRay cycle ",
+                      "Design guide for building a configuration for a distributed system ",
+                      "Error sources in a distributed system ",
+                      "Redundancy mechanisms to find and eliminate errors "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Profound knowledge of computer architecture especially embedded computing systems, multitasking operating systems, real-time operating systems, and parallel processing. "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "H. Kopetz (2011): Real-Time Systems: Design Principles for Distributed Embedded Applications, Springer ",
+                      "Q. Li (2003): Real Time Concepts for Embedded Systems, CMP",
+                      "M. Rausch (2008): FlexRay – Grundlagen, Funktionsweise, Anwendung, Hanser Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieses Modul behandelt Architekturaspekte von verteilten Echtzeitsystemen für sicherheitskritische und nicht-sicherheitskritische Anwendungen. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Echtzeitanforderungen zu charakterisieren und in der Systemspezifikation zu berücksichtigen; ",
+                      "die Systemarchitektur einer verteilten (Echtzeit-) Anwendung zu erstellen; ",
+                      "abhängig von Systemrahmenbedingungen („Best Effort“ vs. „Guaranteed Response“) die geeignete Architektur desKommunikations(sub)systems auszuwählen; ",
+                      "die Möglichkeiten eines Betriebssystems für Embedded Systems richtig anzuwenden;",
+                      "für ein verteiltes (Echtzeit-) System die passende Uhrensynchronisation zu implementieren; ",
+                      "das Verhalten von (Echtzeit-) Objekten (z.B. Sensordaten) im Werte- und im Zeitbereich korrekt zu modellieren; ",
+                      "die zeitlichen Abhängigkeiten zwischen Nachrichten und Tasks in einem verteilten System zu beschreiben; ",
+                      "einen FlexRay Systemzyklus und einen Betriebssystemzyklus für die einzelnen Knoten eines verteilten Systems zu planen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Einführung in die Verteilten Systeme",
+                      "Einführung in die Verteilten Echtzeitsystems",
+                      "Betriebssysteme für Embedded Systems",
+                      "Kommunikations(sub)systeme",
+                      "Zeit und Ordnung ",
+                      "Modellierung von Echtzeitsystemen",
+                      "Fallstudie: FlexRay ",
+                      "Rückblcik: Kommunikationsnetzwerke",
+                      "Workshop: Entwurf einer verteilten Echtzeitapplikation ",
+                      "Überblick über die Parameter und deren Anwendung zur Planung eines FlexRay Zyklus ",
+                      "Designschritte für die Konfiguration eines verteilten Systems ",
+                      "Fehlerquellen in einem verteilten System ",
+                      "Redundanzmechanismen zur Fehlerdetektion und Fehlerbehebung "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Fundierte Kenntnisse über Computerarchitektur, speziell Embedded Computing Systems, Multitasking-Betriebssysteme, Echtzeit-Betriebssysteme und Parallelverarbeitung. "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "H. Kopetz (2011): Real-Time Systems: Design Principles for Distributed Embedded Applications, Springer ",
+                      "Q. Li (2003): Real Time Concepts for Embedded Systems, CMP",
+                      "M. Rausch (2008): FlexRay – Grundlagen, Funktionsweise, Anwendung, Hanser Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "33144",
+          "kurzbz": "MOD25",
+          "semester": "2",
+          "bezeichnung": "Modul 25 Ausgewählte Kapitel aus Embedded Engineering",
+          "bezeichnung_englisch": "Module 25 Selected Topics in Embedded Engineering",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "33147",
+              "kurzbz": "STE",
+              "semester": "2",
+              "bezeichnung": "Ausgewählte Kapitel aus Embedded Engineering",
+              "bezeichnung_englisch": "Selected Topics in Embedded Engineering",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This module is dedicated to reflect on selected topics related to contemporary embedded systems technologies and applications in terms of the current scientific state-of-the-art as well as the industrial practice to lay the groundwork for 3rd term projects and 4th term master-theses. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "report current trends in embedded systems technologies and applications; ",
+                      "identify the basic types of scientific publications and differentiate between them, especially original papers, review papers, conference articles, journals and books;",
+                      "evaluate subject specific literature sources (also in English) regarding confirmability, dependability, plausibility, and transferability of insights for comparable problems or contexts and use and reference these in their own work;",
+                      "justify a research question after identifying the current state of the art with regard to scientific considerations, formulate the question comprehensibly and to define verifiable target criteria."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Talks, presentations, workshops, etc., of last semester ́s projects (R&D activities, industrial projects) and work-in-progress master theses by current 4th term students and their academic advisors. ",
+                      "Talks, presentations, workshops, etc., to selected topics ",
+                      "Individual preparation for the upcoming 3rd term project and the 4th term master thesis. "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "n/a"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "Topic dependent Learning materials: ",
+                      "Optional: dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In diesem Modul werden ausgewählte Themen rund um Embedded Systems Technologien und Anwendungen gemäß dem aktuellen Stand der Wissenschaft sowie der industriellen Praxis behandelt um so Anknüpfungspunkte für das 3.-semestrige Embedded Systems Projekt und die 4.-semestrige Masterarbeit zu schaffen. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "über aktuelle Trends der Embedded Systems Technologien und Anwendungen zu berichten; ",
+                      "Typen wissenschaftlicher Veröffentlichungen zu nennen, zu beschreiben und zu unterscheiden, insbesondere Originalarbeiten, Review Papers, Konferenzbeiträge, Journal Papers und Buchbeiträge;",
+                      "facheinschlägige (auch englischsprachige) Literaturquellen hinsichtlich Nachvollziehbarkeit, Verlässlichkeit, Plausibilität und Übertragbarkeit der Erkenntnisse auf vergleichbare Problemlagen oder Kontexte zu bewerten und in der eigenen Arbeit geeignet zu verwenden bzw. zu referenzieren;",
+                      "eine fachrelevante Forschungsfrage anhand des nach wissenschaftlichen Gesichtspunkten erhobenen State-of-the-Art zu begründen, nachvollziehbar zu formulieren, sowie überprüfbare Zielerreichungskriterien zu definieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Vorträge, Präsentationen, Workshops etc. aus letztsemestrigen Embedded Systems Projekten (F&E-Aktivitäten, Industrieprojekte) bzw. aktuell in Bearbeitung befindlichen Masterarbeiten durch die 4.-semestrigen Studierenden und deren BetreuerInnen. ",
+                      "Vorträge, Präsentationen, Workshops etc. zu ausgewählten Themen ",
+                      "Individuelle Vorbereitung auf das 3.-semestrige Embedded Systems Projekt und die 4.-semestrige Masterarbeit "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "n/a"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "Themenabhängig Lernunterlagen: ",
+                      "Optional: Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "33141",
+          "kurzbz": "MOD22",
+          "semester": "2",
+          "bezeichnung": "Modul 22 System-on-Chip Design",
+          "bezeichnung_englisch": "Module 22 System-on-Chip Design",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "5039",
+              "kurzbz": "SOC",
+              "semester": "2",
+              "bezeichnung": "System-on-Chip Design",
+              "bezeichnung_englisch": "System-on-Chip Design",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "4.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Participants of this course will obtain profound  knowledge on how to design, implement  and  test a system-on-chip, including an overview  about today’s application areas as well as   options for (multi-core) system-on-chip architectures, with a focus on programmable system-on-chips. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain the term “System-on-Chip” as well as to name basic components and applications of system-on-chips; ",
+                      "explain the fundamental design steps of system-on-chips, by applying basic principles like design reuse, Hardware/Software Co-Design and Hardware/Software Co-Verification; ",
+                      "compare (multi-core) system-on-chip architectures for advantages and drawbacks under consideration of the design space (hardware/software trade-off) and the internal communication structure (on-chip bus systems, network-on-chip); ",
+                      "name resources of today’s FPGA devices in context to programmable system-on-chips; ",
+                      "use selected design, verification and test tools in order to build up a basic programmable system-on-chip, consisting of one or multiple processing cores, several types of memories and peripherals; ",
+                      "name future challenges when designing system-on-chips. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Introduction and motivation for system-on-chip design ",
+                      "System-on-chip design flow by applying basic principles like Design Reuse, Hardware/Software Co-Design and Hardware/Software Co-Verification  ",
+                      "Multi-core system-on-chips ",
+                      "Internal communication structures of system-on-chips (on-chip bus systems, network-on-chips) ",
+                      "Options for system-on-chip architectures by considering the design space ",
+                      "Resources of today’s FPGA devices in context to programmable system-on-chips ",
+                      "Final project (tools, design, implementation, verification and bring-up of hardware & software parts of a simple system-on-chip) "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Detailed knowledge about modeling of digital systems with VHDL (including basic knowledge about Verilog) as well as modeling of complex integrated circuits with SystemC - Detailed knowledge on how to verify the proper functionality of digital circuits and systems with VHDL, PSL, SystemC, ... by using an industrial logic simulator - Detailed knowledge about available technologies for integrated circuits (PLDs, standard-cell based ASICs, ...) including their design and manufacturing flow as well as profound knowledge about the usage of industrial FPGA tools "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "H. Chang, L. R. Cooke, M. Hunt, G. Martin (1999): Surviving the SOC Revolution, Springer ",
+                      "A. Jerraya, W. Wolf (2004): Multiprocessor Systems-on-Chips, Morgan Kaufmann ",
+                      "P. Rashinkar (2002): System-on-a-Chip Verification: Methodology And Techniques, Springer ",
+                      "P. Schaumont (2010): A Practical Introduction to Hardware/Software Codesign, Springer Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt profunde    Kenntnisse über Entwurf, Verifikation und Test von System-on-Chips samt einem Überblick über aktuelle Anwendungen und Optionen für die  Realisierung von (Multi-core) System-on-Chip-Architekturen, mit Schwerpunkt auf programmierbare System-on-Chips. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "den Begriff „System-on-Chip“ zu definieren sowie Grundkomponenten und Anwendungen von System-on-Chips zu nennen; ",
+                      "grundlegende Entwurfsschritte eines System-on-Chip unter Verwendung von Prinzipien wie Design Reuse, Hardware/Software Co-Design und Hardware/Software Co-Verifikation zu erklären; ",
+                      "Optionen für die Realisierung von (Multi-core) System-on-Chip-Architekturen unter Einbeziehung des Entwurfsraums (Hardware/Software Trade-Off) und interner Kommunikationsmechanismen (On-Chip Bussysteme, Network-on-Chip)gegenüberzustellen; ",
+                      "Ressourcen zeitgemäßer FPGA-Bausteine zur Realisierung eines „Programmable System-on-Chip“ zu benennen; ",
+                      "ausgewählte Tools für Entwurf, Verifikation und Test eines „Programmable System-on-Chip“ zu bedienen und damit ein Basissystem, bestehend aus einem oder mehreren Rechenkernen, verschiedenen Arten von Speichertechnologien und Peripherieelementen zu entwickeln; ",
+                      "die Herausforderungen bei der Entwicklung heutiger und zukünftiger System-on-Chips zu benennen; "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Einführung und Motivation für den System-on-Chip-Entwurf ",
+                      "System-on-Chip-Entwurfsablauf unter Verwendung von Prinzipien wie Design Reuse, Hardware/Software Co-Design oder Hardware/Software Co-Verifikation ",
+                      "Multi-core System-on-Chips ",
+                      "Interne Kommunikationsstrukturen von System-on-Chips (On-chip Bussysteme, Network-on-Chips) ",
+                      "Optionen zur Realisierung von System-on-Chip-Architekturen unter Berücksichtigung des Entwurfsraums ",
+                      "Ressourcen zeitgemäßer FPGA-Bausteine zur Realisierung von Programmable System-on-Chips ",
+                      "Abschlussprojekt (Tools, Entwurf, Implementierung, Verifikation und Bring-up von Hardware- und Softwareteilen eines einfachenSystem-on-Chip) "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Detaillierte Kenntnisse zur Beschreibung von digitalen Systemen mit VHDL (und überblicksmäßig mit Verilog) sowie der Modellierung komplexer integrierter Systeme mit SystemC - Detaillierte Kenntnisse zur Verifikation digitaler Schaltungen und Systeme mittels VHDL, PSL, SystemC, ... unter Verwendung eines industriellen Digitalsimulators - Detaillierte Kenntnisse über Technologien, Fertigung und den Entwurfsablauf von integrierten Schaltungen (PLDs, Standard-Zellen-basierte ASICs, ...) und speziell profunde Kenntnisse in der Bedienung von industriellen FPGA-Tools "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "H. Chang, L. R. Cooke, M. Hunt, G. Martin (1999): Surviving the SOC Revolution, Springer ",
+                      "A. Jerraya, W. Wolf (2004): Multiprocessor Systems-on-Chips, Morgan Kaufmann ",
+                      "P. Rashinkar (2002): System-on-a-Chip Verification: Methodology And Techniques, Springer ",
+                      "P. Schaumont (2010): A Practical Introduction to Hardware/Software Codesign, Springer Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "33140",
+          "kurzbz": "MOD21",
+          "semester": "2",
+          "bezeichnung": "Modul 21 Simulation und Verifikation",
+          "bezeichnung_englisch": "Module 21 Simulation and Verification",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "33145",
+              "kurzbz": "EHS",
+              "semester": "2",
+              "bezeichnung": "Embedded Hardware Simulation",
+              "bezeichnung_englisch": "Embedded Hardware Simulation",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Students learn to simulate and optimize microcontroller based analog and digital circuits including firmware with a SPICE based tool (e.g., Proteus VSM). "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "design analog and digital circuits using a tool (e.g., Proteus VSM); ",
+                      "optimize those circuits and the used component models (analog, digital) regarding their simulatability; ",
+                      "use the simulation to optimize certain circuit properties; ",
+                      "create or modify simulation models of parts. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Introduction to a HW/SW co-simulation tool (e.g., Proteus VSM) ",
+                      "mixed digital and analog circuit design with Proteus VSM ",
+                      "HW/SW co-simulation of analog and digital embedded systems "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Basic knowledge about electronics. - Basic knowledge about circuit design - Programming embedded systems software using the C language.  "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "B. Beetz (2008): Elektroniksimulation mit PSPICE, Vieweg ",
+                      "H. Göble (2008): Einführung in die Halbleiterschaltungstechnik, Springer Lehrbuch Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Studierende lernen mit einem SPICE basierten Tool (z.B. Proteus VSM) analoge und digitale Mikrocontroller Schaltungen inkl. Firmware zu simulieren und zu optimieren. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "analoge und digitale Schaltungen toolbasiert (z.B. Proteus VSM) zu entwerfen; ",
+                      "diese Schaltungen und die verwendeten Bauteilmodelle (analog, digital) hinsichtlich ihrer Simulierbarkeit zu optimieren; ",
+                      "mit Hilfe der Simulation bestimmte Schaltungseigenschaften zu optimieren; ",
+                      "Simulationsmodelle von Bauteilen zu erstellen bzw. zu verändern. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Arbeiten mit einem HW/SW Co-Simulationstool (z.B. Proteus VSM) ",
+                      "Gemischter digitaler und analoger Schaltungsentwurf ",
+                      "HW/SW Co-Simulation analoger und digitaler Embedded Systeme "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Grundwissen über Elektronik - Grundwissen über Schaltungstechnik  - Programmieren von Embedded Systemen in der Sprache C "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "B. Beetz (2008): Elektroniksimulation mit PSPICE, Vieweg ",
+                      "H. Göble (2008): Einführung in die Halbleiterschaltungstechnik, Springer Lehrbuch Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "33146",
+              "kurzbz": "ESV",
+              "semester": "2",
+              "bezeichnung": "Embedded Software Verifikation",
+              "bezeichnung_englisch": "Embedded Software Verification",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course deals with some formal verification approaches for embedded systems software, especially model-checking, static code analysis, and deductive verification."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "model simple systems, formulate various system properties (functional, liveness, safety, etc.), and verify the latter using a model-checker; ",
+                      "make use of various static code analyses and know how to interpret the results (e.g., value analysis, weakest precondition analysis); ",
+                      "write ANSI/ISO C Specification Language (ACSL) annotations for functions and verify them in order to conduct deductive verification for small code fragments. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Introduction to formal verification for software ",
+                      "Modeling and simulation using Uppaal, specification of system properties using TCTL, model-checking and analysis ",
+                      "Modeling and verification of a simple task (e.g.,elevator control, railway crossing, mutual exclusion) ",
+                      "Introduction to static source-code analysis techniques and tools (e.g., Frama-C/Value) ",
+                      "Deductive verification using Frama-C/WP by annotating source code using the ANSI/ISO C Specification Language (ACSL) ",
+                      "Annotation and verification of small code fragments/functions "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Logic basics - C programming basics - Basic knowledge of software testing "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "St. Kleuker (2009): Formale Modelle der Softwareentwicklung: Model-Checking, Verifikation, Analyse und Simulation, Vieweg+Teubner Verlag ",
+                      "J. Burghart, J. Gerlach (2015): ACSL by example, Fraunhofer Fokus ",
+                      "Uppaal Documentation and Tutorials     available from http://www.uppaal.org/ ",
+                      "Frama-C and ACSL Documentation and Tutorials     available from http://frama-c.com/ Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung beschäftigt sich mit formalen Verifikationsmethoden für Embedded Systems, konkret mit den beiden Schwerpunkten Model-Checking sowie Statische Code Analyse und Deduktive Verifikation. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "einfache Systeme zu modellieren, sowie verschiedenste Eigenschaften (intendierte Funktion, Liveness, Safety etc.) eines Systems mittels einer temporalen Logik zu spezifizieren und mit Hilfe eines Model-Checkers zu verifizieren; ",
+                      "verschiedene statische Code-Analysen (Value Analyse, Weakest Precondition Analyse etc.) durchzuführen und die Ergebnisse zu interpretieren; ",
+                      "ANSI/ISO C Specification Language (ACSL) Annotationen für Funktionen, Blöcke oder Statements zu erstellen und eine deduktive Verifikation für einfache Funktionen durchzuführen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Einführung in formale Methoden zur Verifikation von Software ",
+                      "Modellierung und Simulation mit Uppaal, Spezifikation von Modell-Eigenschaften unter Verwendung von TCTL, Model-Checking und Analyse mit Uppaal ",
+                      "Durchführen einer Übungsaufgabe (bspw. Modellierung und Verifikation einer Aufzugssteuerung, Eisenbahnkreuzung, Mutual Exclusion) ",
+                      "Einführung in statische Source-Code Analyse (bspw. Value Analyse mit Frama-C/Value) ",
+                      "Deduktive Verifikation mit Frama-C/WP mittels Annotationen unter Verwendung der ANSI/ISO C Specification Language (ACSL) ",
+                      "Durchführen einfacher Übungsaufgaben "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Grundkenntnisse über Logik - C-Grundkenntnisse - Grundkenntnisse über Testen von Software "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "St. Kleuker (2009): Formale Modelle der Softwareentwicklung: Model-Checking, Verifikation, Analyse und Simulation, Vieweg+Teubner Verlag ",
+                      "J. Burghart, J. Gerlach (2015): ACSL by example, Fraunhofer Fokus ",
+                      "Uppaal Documentation and Tutorials     available from http://www.uppaal.org/ ",
+                      "Frama-C and ACSL Documentation and Tutorials     available from http://frama-c.com/ Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        }
+      ],
+      "3": [
+        {
+          "lehrveranstaltung_id": "32392",
+          "kurzbz": "MOD32",
+          "semester": "3",
+          "bezeichnung": "Modul 32 Management",
+          "bezeichnung_englisch": "Module 32 Management ",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "5283",
+              "kurzbz": "QSM",
+              "semester": "3",
+              "bezeichnung": "Qualitäts- und Sicherheitsmanagement",
+              "bezeichnung_englisch": "Quality and Safety Management",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Good quality management is an indispensable activity in the development of hardware- and software systems. Embedded systems are often used in safety-related domains (transportation, medical, communication, power sector,...), where quality management alone is not enough, but where safety engineering and safety management is required. This lecture will start with the basics of quality management, and then focus on safety engineering and management. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe the basics of quality management according to the ISO 9000 series; ",
+                      "carry out a qualitative risk analysis for a given planned safety related system; ",
+                      "propose and plan an adequate safety process for the development of a given safety related system. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Quality Management, Terms and Standards, ISO 9000 Series ",
+                      "Software Quality Management ",
+                      "Safety Management ",
+                      "Safety Lifecycle ",
+                      "Safety Engineering Methods (Fault Trees, Safety Cases) ",
+                      "Basics of IEC 61508, ISO 26262 "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Basics of probability theory - Basic terminology of dependability theory - Basics of (embedded) systems development"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "T. Pfeifer, R. Schmitt (2010): Qualitätsmanagement: Strategien, Methoden, Techniken, Carl Hanser Verlag ",
+                      "P. Löw, R. Pabst, E. Petry (2010): Funktionale Sicherheit in der Praxis: Anwendung vonDIN EN 61508 und ISO 26262 bei der Entwicklung von Serienprodukten, d-punkt Verlag ",
+                      "Diverse Normen und Standards (ISO 9000 Familie, IEC 61508, ISO 26262,...) Learning materials: ",
+                      "Dedicated scripts and lecture notes "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Gutes Qualitätsmanagement ist ein unverzichtbarer Bestandteil der Entwicklung von Hardware- und Softwaresystemen. Embedded Systems werden oft im sicherheitsrelevanten Umfeld benutzt (Transport, Medizin, Kommunikation, Energieerzeugung,...), wo Qualitätsmanagement alleine nicht ausreichend ist, sondern außerdem Safety Engineering und Safety Management gefordert ist. Diese Vorlesung wird zuerst auf Qualitätsmanagement eingehen und danach eine Fokus auf Safety Engineering und Management legen. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Grundlagen des Qualitätsmanagements laut ISO 9000 Serie wiederzugeben; ",
+                      "eine qualitative Risikoanalyse in einem geplanten sicherheitskritischen System durchzuführen; ",
+                      "eine adäquate Vorgehensweise zur Entwicklung eines gegebenen sicherheitskritischen Systems vorzuschlagen und zu planen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Quality Management, Terms and Standards, ISO 9000 Series ",
+                      "Software Quality Management ",
+                      "Safety Management ",
+                      "Safety Lifecycle ",
+                      "Safety Engineering Methods (Fault Trees, Safety Cases) ",
+                      "Grundlagen von IEC 61508, ISO 26262 "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Grundlagen der Wahrscheinlichkeitsrechnung - Grundbegriffe der Dependability Theory - Grundlagen zur Entwicklung von (Embedded) Systems"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "T. Pfeifer, R. Schmitt (2010): Qualitätsmanagement: Strategien, Methoden, Techniken, Carl Hanser Verlag ",
+                      "P. Löw, R. Pabst, E. Petry (2010): Funktionale Sicherheit in der Praxis: Anwendung vonDIN EN 61508 und ISO 26262 bei der Entwicklung von Serienprodukten, d-punkt Verlag ",
+                      "Diverse Normen und Standards (ISO 9000 Familie, IEC 61508, ISO 26262,...) Lernunterlagen: ",
+                      "Studienbriefe "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "5282",
+              "kurzbz": "PJM",
+              "semester": "3",
+              "bezeichnung": "Projekt- und Prozessmanagement",
+              "bezeichnung_englisch": "Project and Process Management",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course conveys a goal-oriented preparation and systematic application of basic principles, concepts, methods, and tools of project, quality, and process management for a work-sharing, engineering-centered development and application of embedded software (software engineering)."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain and interpret basic principles, procedures, concepts and methods of relevant software engineering disciplines (e.g., project, quality, configuration, change management; requirements engineering, and test);",
+                      "select adequate process models (e.g., V-model, SCRUM) for concrete application areas, adapt processes regarding general conditions (process tailoring, reference models) as well as compile well-founded project-specific workflows, activities, results, roles, etc. (project tailoring, project structure);",
+                      "identify, evaluate and select appropriate software engineering methods and tools (e.g., in requirements, change, or test management) as well as recommend adequate solutions"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Software engineering basics",
+                      "Process models, software lifecycle",
+                      "Requirements management, traceability",
+                      "Test management",
+                      "Configuration management, application lifecycle management",
+                      "Problem and change management"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics of project management - Basics of (embedded) software development (design, implementation, test)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations:",
+                      "H. Balzert (1999): Lehrbuch Grundlagen der Informatik, Spektrum Akademischer Verlag",
+                      "K. Pohl, C. Rupp (2015): Basiswissen Requirements Engineering, dpunkt.verlag",
+                      "J. Schäuffele, T. Zurawka (2013): Automotive Software Engineering, Springer Vieweg",
+                      "T. Reiß (2014): Ein Referenzmodell für die Serienentwicklung mechatronischer Systeme in der Automobilindustrie, Cuvillier Verlag",
+                      "M. Eigner, F. Gerhardt, T. Gilz, F. Mogo Nem (2012): Informationstechnologie für Ingenieure, Springer Lernunterlagen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt die zielorientierte Bereitstellung und systematische Anwendung von grundlegenden Prinzipien, Konzepten, Methoden und Werkzeugen des Projekt-, Qualitäts- und Prozessmanagements für die arbeitsteilige, ingenieurmäßige Entwicklung und Anwendung von Embedded Software (\"Software Engineering\")."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "grundlegende Prinzipien, Verfahren, Konzepte und Methoden zu relevanten Software Engineering Disziplinen (wie z.B. Projekt-, Qualitäts-, Konfigurations-, Änderungsmanagement, Requirements Engineering und Test) zu erklären und zu interpretieren;",
+                      "adäquate SW-Vorgehensmodelle (wie z.B. V-Modell, SCRUM) für konkrete Anwendungsgebiete auszuwählen, Prozessabläufe unter Berücksichtigung allgemeiner Rahmenbedingungen anzupassen (Prozess-Tailoring, Referenzmodell) und daraus projektspezifische Abläufe, Aktivitäten, Ergebnisse, Rollen, usw. begründet zusammenzustellen (Projekt-Tailoring, Projektstruktur);",
+                      "für spezifische Anwendungsfälle in der Embedded Softwareentwicklung geeignete Software Engineering Methoden und Werkzeuge (z.B. im Requirements-, Änderungs- bzw. Testmanagement) zu identifizieren, evaluieren und bewerten sowie auszuwählen und adäquate Lösungen vorzuschlagen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen Software Engineering",
+                      "Vorgehensmodelle, Software Lifecycle",
+                      "Requirements Management, Nachverfolgbarkeit",
+                      "Testmanagement",
+                      "Konfigurationsmanagement, Application Lifecycle Management",
+                      "Problem- und Änderungsmanagement"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagenwissen zu Projektmanagement, Grundlagenwissen zu (Embedded) Softwareentwicklung (Design, Programmierung, Test)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen:",
+                      "H. Balzert (1999): Lehrbuch Grundlagen der Informatik, Spektrum Akademischer Verlag",
+                      "K. Pohl, C. Rupp (2015): Basiswissen Requirements Engineering, dpunkt.verlag",
+                      "J. Schäuffele, T. Zurawka (2013): Automotive Software Engineering, Springer Vieweg",
+                      "T. Reiß (2014): Ein Referenzmodell für die Serienentwicklung mechatronischer Systeme in der Automobilindustrie, Cuvillier Verlag",
+                      "M. Eigner, F. Gerhardt, T. Gilz, F. Mogo Nem (2012): Informationstechnologie für Ingenieure, Springer Lernunterlagen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-05 16:59:54"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "32393",
+          "kurzbz": "MOD33",
+          "semester": "3",
+          "bezeichnung": "Modul 33 Sozialkompetenz",
+          "bezeichnung_englisch": "Module 33 Soft Skills",
+          "unterrichtssprache": "German",
+          "ects": "6.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "2905",
+              "kurzbz": "FVP",
+              "semester": "3",
+              "bezeichnung": "Führen von Projektteams",
+              "bezeichnung_englisch": "Leadership Training",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the course the students get to know main principles of leading teams."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain the role of leadership in the different stages of team development (for example by Tuckman) and to derive relevant leading actions (for example directive leadership in the forming phase).",
+                      "diagnose dynamics in project teams using models (for example Rank Dynamics, Drama Triangle, TZI) and to develop and argue case-related concrete opportunities for activities (for example delegation of responsibilty, critical discussion)"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Leadership styles and actions (in leading projects teams)",
+                      "Leadership tools in project teams",
+                      "Consequences of not leading",
+                      "Role conflicts \"colleague\" and \"project leader\"",
+                      "Conflicts and difficult situations in leading project teams"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Cronenbroeck, Wolfgang (2008): Projektmanagement, Verlag Cornelsen, Berlin",
+                      "DeMarco, Tom (1998): Der Termin – Ein Roman über Projektmanagement, München: Hanser",
+                      "Kellner, Hedwig (2000): Projekte konfliktfrei führen. Wie Sie ein erfolgreiches Team aufbauen, Hanser Wirtschaft",
+                      "Majer Christian/Stabauer Luis (2010): Social competence im Projektmanagement - Projektteams führen, entwickeln, motivieren, Goldegg-Verlag, Wien"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case study with presentation (grade)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsary."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt den Studierenden grundsätzliche Prinzipien der Führung von Teams."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Rolle der Führung in den unterschiedlichen Phasen der Teamentwicklung (z. B. nach Tuckman) zu erläutern und relevante Führungshandlungen (z. B. direktive Führung in der Forming-Phase) abzuleiten.",
+                      "Dynamiken in Projektteams anhand von Modellen (z. B. Rangdynamik, Dramadreieck, TZI) zu diagnostizieren und konkrete Handungsmöglichkeiten (z.B. Delegation von Verantwortung, Kritikgespräch) fallbezogen zu entwickeln und zu begründen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Führungsstile und -handlungen (bei der Führung von Projektteams)",
+                      "Führungsinstrumente in Projektteams",
+                      "Konsequenzen des „Nicht-Führens“",
+                      "Rollenkonflikte \"Kollege/Kollegin\" und \"Projektleiter/in\"",
+                      "Konflikte und schwierige Situationen in der Führung von Projektteams"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Cronenbroeck, Wolfgang (2008): Projektmanagement, Verlag Cornelsen, Berlin",
+                      "DeMarco, Tom (1998): Der Termin – Ein Roman über Projektmanagement, München: Hanser",
+                      "Kellner, Hedwig (2000): Projekte konfliktfrei führen. Wie Sie ein erfolgreiches Team aufbauen, Hanser Wirtschaft",
+                      "Majer Christian/Stabauer Luis (2010): Social competence im Projektmanagement - Projektteams führen, entwickeln, motivieren, Goldegg-Verlag, Wien"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fallstudie mit Präsentation (Note)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-07-16 11:27:43"
+            },
+            {
+              "lehrveranstaltung_id": "2908",
+              "kurzbz": "SIS",
+              "semester": "3",
+              "bezeichnung": "Societal Impact Studies",
+              "bezeichnung_englisch": "Societal Impact Studies",
+              "unterrichtssprache": "English",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "We aim at assessing problem areas in a society which increasingly depends on electronic communication systems."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "ILV-SE"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "recognize potential sources of error in electronic systems and to evaluate their impacts on safety; ",
+                      "analyze the opportunities and limitations of automation; ",
+                      "evaluate the loss of privacy in electronic communication systems; ",
+                      "propose countermeasures to government surveillance. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Case studies of safety in aviation and public transport systems ",
+                      "Automation of aviation and rail transport ",
+                      "Autonomous vehicles ",
+                      "Smart Homes – Internet of Things ",
+                      "Case studies of government surveillance ",
+                      "Limitation of privacy and citizen’s rights "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Listening, reading and speaking skills at level C1 of the Common European Framework of Reference for Languages.- Knowledge and skills necessary to write short scientific papers in English. "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "I. Asimov (1983): The Complete Robot, Harper Collins",
+                      "J. C. Augusto, Hg. (2012): Handbook of Ambient Assisted Living: Technology for Healthcare, Rehabilitation and Well-Being, Ios Press ",
+                      "M. Rausand (2014): Reliability of Safety-CriticalSystems: Theory and Applications, John Wiley & Sons Learning materials: ",
+                      "Dedicated scripts and lecture notes ",
+                      "O. Maderdonner et al. (2014): Privacy, Skriptum "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Kritische Auseinandersetzung mit den Problemfeldern einer zunehmend von elektronischen Kommunikationssystemen abhängigen Gesellschaft."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "ILV-SE"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "potentielle Fehlerquellen in elektronischen Systemen zu erkennen und deren Auswirkungen auf die Sicherheit einzuschätzen; ",
+                      "Möglichkeiten und Grenzen der Automatisierung zu analysieren; ",
+                      "den Verlust der Privatsphäre durch Verwendung elektronischer Kommunikationseinrichtungen zu beurteilen; ",
+                      "Gegenstrategien zum Überwachungsstaat vorzuschlagen. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fallstudien zur Sicherheit im öffentlichen Verkehr ",
+                      "Automatisierung in Luftfahrt und Schienenverkehr ",
+                      "Selbstfahrende Straßenfahrzeuge ",
+                      "Automatisierung des Haushalts – Internet of Things ",
+                      "Fallstudien zur Überwachung durch staatliche Einrichtung ",
+                      "Einschränkung der Privatsphäre und Bürgerrechte"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "- Englischkenntnisse auf Niveau C1 in den Fertigkeiten Hör- und Leseverstehen sowie Sprechen. - Kenntnisse und Fertigkeiten zum Verfassen kurzer wissenschaftlicher Arbeiten in englischer Sprache. "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "I. Asimov (1983): The Complete Robot, Harper Collins",
+                      "J. C. Augusto, Hg. (2012): Handbook of Ambient Assisted Living: Technology for Healthcare, Rehabilitation and Well-Being, Ios Press ",
+                      "M. Rausand (2014): Reliability of Safety-CriticalSystems: Theory and Applications, John Wiley & Sons Lernunterlagen: ",
+                      "Studienbriefe ",
+                      "O. Maderdonner et al. (2014): Privacy, Skriptum "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Bei dieser Lehrveranstaltung besteht Anwesenheitspflicht "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "33148",
+          "kurzbz": "MOD31",
+          "semester": "3",
+          "bezeichnung": "Modul 31 Embedded Systems Projekt",
+          "bezeichnung_englisch": "Module 31 Embedded Systems Project",
+          "unterrichtssprache": "German",
+          "ects": "18.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "2906",
+              "kurzbz": "ESP",
+              "semester": "3",
+              "bezeichnung": "Embedded Systems Projekt",
+              "bezeichnung_englisch": "Embedded Systems Project",
+              "unterrichtssprache": "German",
+              "ects": "18.00",
+              "sws": "6.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "PRJ",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Students work individually or in small groups on projects in the field of embedded systems technologies and applications close to University ́s R&D-activities or in the course of students ́ individual occupation. These projects provide the basis for the master theses. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "implement a medium complex project (approx. 3 person months) in the field of embedded systems technologies and applications;",
+                      "plan the phases of a scientific study, conduct it precisely, document it comprehensibly, and to ensure the comprehensibility, dependability, plausibility and transferability other problems areas and contexts."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Project implementation "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Project dependent "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Recommendations: ",
+                      "Project dependent Learning materials: ",
+                      "Project dependent "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Project progress, proof of function, project presentation "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Project dependent "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Studierende arbeiten individuell oder in Kleingruppen an Projekten mit Bezug zu Embedded Systems Technologien und Anwendungen im Kontext hochschulischer F&E-Aktivitäten oder im Rahmen ihrer individuellen Berufstätigkeit. Diese Projekte stellen i.A. die praxisrelevante Basis für die Masterarbeiten dar. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "komplexere Projekte (ca. 3 Personenmonate) im Bereich der Embedded Systems Technologien und Anwendungen praktisch umzusetzen;",
+                      "die Phasen einer wissenschaftlichen Entwicklung oder Untersuchung mittels fachüblicher Methoden selbständig zu planen, zielgerichtet durchzuführen, nachvollziehbar zu dokumentieren, und dabei systematisch Nachvollziehbarkeit, Verlässlichkeit, Plausibilität und Übertragbarkeit der Erkenntnisse auf vergleichbare Problemlagen oder Kontexte sicherzustellen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projektdurchführung "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Projektabhängig "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Empfehlungen: ",
+                      "Projektabhängig Lernunterlagen: ",
+                      "Projektabhängig"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projektfortschritt, Funktionsnachweis, Projektpräsentation "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Projektabhängig "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        }
+      ],
+      "4": [
+        {
+          "lehrveranstaltung_id": "33149",
+          "kurzbz": "MOD41",
+          "semester": "4",
+          "bezeichnung": "Modul 41 Embedded Systems Mastermodul",
+          "bezeichnung_englisch": "Module 41 Embedded Systems Master Module",
+          "unterrichtssprache": "German",
+          "ects": "30.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "3283",
+              "kurzbz": "DA",
+              "semester": "4",
+              "bezeichnung": "Diplomarbeit",
+              "bezeichnung_englisch": "Master Thesis ",
+              "unterrichtssprache": "German",
+              "ects": "24.00",
+              "sws": "0.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SO",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Elaboration of the master thesis "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "chose and apply relevant methods for the research question and compose the structure, a proposal and the Master thesis, especially...",
+                      "...engineering modelling, development and test methods;",
+                      "...experimental research methods;",
+                      "...empirical methods of data collection;",
+                      "relate research results to industry, society, the economy or the environment."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "n/a"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "n/a"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "n/a"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Master thesis approbation "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "n/a "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Ausarbeitung der Masterarbeit "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "für die jeweilige Fragestellung geeignete Methoden auszuwählen und anzuwenden, und dementsprechend die Struktur einer Masterarbeit, ein Proposal und nachfolgend die Masterarbeit zu verfassen, insbesondere...",
+                      "...ingenieurwissenschaftlicher Modellierungs-, Entwicklungs- und Testmethoden;",
+                      "...experimentelle Forschungsmethoden;",
+                      "...empirische Erhebungsmethoden;",
+                      "•\tForschungsergebnisse in einen übergreifenden (z.B. branchenbezogenen, gesellschaftlichen, wirtschaftlichen oder ökologischen) Zusammenhang zu stellen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "n/a"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "n/a"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "n/a"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Approbation der Masterarbeit "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "n/a "
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "3282",
+              "kurzbz": "DIS",
+              "semester": "4",
+              "bezeichnung": "DiplomandInnenseminar",
+              "bezeichnung_englisch": "Master´s Thesis Seminar",
+              "unterrichtssprache": "German",
+              "ects": "6.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This accompanying seminar for students working primarily on their master theses supports (i) the communication amongst these students working in the same field of interest together with their supervisors and establishes (ii) a platform where 2nd term students can get detailed information for their next year projects and master theses (see also M25 Selected Topics in Embedded Systems). "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "relate research results to industry, society, the economy or the environment;",
+                      "present own or other scientific publications comprehensibly, evaluate them and formulate suggestions for further development."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "n/a "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "n/a "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "n/a "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Presentation of 3rd term embedded systems project and 4th term master thesis including the quality of the self-assessment based on the feedback from the 2nd term students. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "n/a "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Das begleitende Seminar für Studierende parallel zur Ausarbeitung ihrer Masterarbeit dient (i) dem Austausch zwischen DiplomandInnen und ihren BetreuerInnen, die im selben Umfeld arbeiten und (ii) als Plattform für Informationen an 2.-semestrige Studierende in deren Vorbereitung auf das 3.-semestrige Projekt und die 4.-semestrige Masterarbeit (siehe auch M25 Ausgewählte Kapitel aus Embedded Systems) "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Forschungsergebnisse in einen übergreifenden (z.B. branchenbezogenen, gesellschaftlichen, wirtschaftlichen oder ökologischen) Zusammenhang zu stellen;",
+                      "eigene oder fremde wissenschaftlichen Publikation nachvollziehbar zu präsentieren, zu bewerten, und substantielle Vorschläge für die Weiterentwicklung zu formulieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "n/a "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "n/a "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "n/a "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Präsentation über das 3.-semestrigen Embedded Systems Projekts und die 4.-semestrige Masterarbeit inkl. Qualität der Selbstevaluierung durch die Feedbacks der 2.-semestrigen Studierenden. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "n/a "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

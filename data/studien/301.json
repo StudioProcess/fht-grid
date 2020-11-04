@@ -1,0 +1,3348 @@
+{
+  "name": "Master Innovations- und Technologiemanagement",
+  "url": "https://cis.technikum-wien.at/addons/lvinfo/export/export.php?studiengang_kz=301",
+  "studiengang_kz": "301",
+  "studienordnung_id": null,
+  "data": {
+    "studienordnung_id": "251",
+    "studienordnung_bezeichnung": "0301-MTM-WS2018",
+    "studienplan_id": "291",
+    "studienplan_bezeichnung": "0301-MTM-WS2018-BB",
+    "gueltig_von": "WS2018",
+    "gueltig_von_datum": "2018-09-01",
+    "regelstudiendauer": "4",
+    "lehrveranstaltungen": {
+      "1": [
+        {
+          "lehrveranstaltung_id": "36128",
+          "kurzbz": "MMTM1E",
+          "semester": "1",
+          "bezeichnung": "Innovative Informations- und Kommunikationstechnologien",
+          "bezeichnung_englisch": "Innovative Information And Communication Technologies",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36129",
+              "kurzbz": "KOMM",
+              "semester": "1",
+              "bezeichnung": "Innovative Informations- und Kommunikationstechnologien",
+              "bezeichnung_englisch": "Innovative Information And Communication Technologies",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this lecture students acquire knowledge and develop Competences in the field of information- and communication-technology"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "self-study, lecture, Discussion, E-Learning"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to explain the importance of Informationstechnologie for enterprises",
+                      "to list the potential harms of cyber crime and discuss appropriate countermeasures",
+                      "to list typical tasks of an IT-departmant in a company",
+                      "to discuss areas of application for new information technologies (eg IoT, Big Data, Blockchain etc.)",
+                      "to contribute to the development of the digitals strategy of a company"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Informationstechnologie n general",
+                      "enterprise ressource planning",
+                      "business intelligence",
+                      "cloud computing",
+                      "cyber crime",
+                      "IT-management",
+                      "E-Commerce",
+                      "Big Data",
+                      "Artificial Intelligence",
+                      "Internet of Things",
+                      "Virtual Reality",
+                      "Blockchain",
+                      "Digital office"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "key concepts in IT and electronics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Turban et al, Information Technology for Management"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "final written exam (80%), projekt work and studies (20 %)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "There is mandatory attendance in this course.with 60 %"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further information regarding this course is provided via the accompanying moodle-course."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung erhalten die Studierenden einen ersten Überblick über innovative Informations- und Kommunikationstechnologien."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Praxisbeispiele, Diskussion, Gastvorträge, E-Learning"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Die Bedeutung der Infromationstechnologie für ein Unternehmen zu erklären",
+                      "die Gefahren von Cyber Crime richtig einzuschätzen und geeignete Abwehrstrategien zu diskutieren",
+                      "die Aufgaben der IT-Abteilung eines Unternehmens zu skizzieren",
+                      "die Einsatzgebiete sowie den Nutzen innovativer Informationstechnologien (z.B. IoT, Virtual Reality, Blockchain etc.) zu skizzieren",
+                      "an der Digitalisierungsstrategie eines Unternehmens mitzuarbeiten"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Informationstechnolgie Allgemein",
+                      "ERP-Systeme (z.B. SAP R/3)",
+                      "Business Intelligence",
+                      "Bürodigitalisierung",
+                      "Datenspeicherung und Cloud Computing",
+                      "Cyber Crime",
+                      "IT-Management in Unternehmen",
+                      "E-Commerce",
+                      "Digitale Transformation",
+                      "Big Data Analytics",
+                      "Künstliche Intelligenz",
+                      "Internet of Things",
+                      "Virtual Reality",
+                      "Blockchain"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Informatik und Elektronik wie sie in den Vorbereitungskursen zum Studium vermittelt werden."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Turban et al, Information Technology for Management"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftliche Abschlussprüfung (80 %), Mitarbeit und Projektarbeit (20 %)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht eine 60 %ige Anwesenheitspflicht. "
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Unterrichtsmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36130",
+          "kurzbz": "MMTM1A",
+          "semester": "1",
+          "bezeichnung": "Internationale Unternehmensführung und Entrepreneurship",
+          "bezeichnung_englisch": "International Management and Entrepreneurship",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "2018-10-03 10:31:19",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36131",
+              "kurzbz": "INUF",
+              "semester": "1",
+              "bezeichnung": "Internationale Unternehmensführung und Entrepreneurship",
+              "bezeichnung_englisch": "International Management and Entrepreneurship",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The aim of this module is to enable students to understand basic concepts in the area of international management as well as gaining the competence to apply them."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Blended Learning - lectures, discussions, exercises, case studies and distance learning elements combined"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "differentiate between various business objectives",
+                      "define basic elements of business strategies",
+                      "ponder the pros and cons of different organisational forms",
+                      "differentiate between intrinsic and extrinsic motivation",
+                      "outline the functions and instruments of an HR management",
+                      "evaluate different, specific management styles",
+                      "analyse the concept of entrepreneurship as business method",
+                      "evaluate different management duties in an international environment",
+                      "apply the learned content on practical examples."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Management",
+                      "Strategy",
+                      "Culture and Organisation",
+                      "Controlling",
+                      "Leadership and Motivation",
+                      "Human Resource Management",
+                      "Entrepreneurship",
+                      "International Management"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics of business administration"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wala/Groblschegg: Kernelemente der Unternehmensführung",
+                      "Büter: Internationale Unternehmensführung. Entscheidungsorientierte Einführung"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "E-Learning Modules (10%) + Case Study Group Work (20%) + Written Exam (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "attendance is not mandatory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "This course is set up as a flipped-classroom concept. Content for self-studying sessions (i.e. Videos,..) is being provided via the Moodle platform."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieses Moduls erwerben die Studierenden grundlegende Kenntnisse und Kompetenzen auf dem Gebiet der Unternehmensführung"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Blended Learning - Vortrag, Diskussion, Übungen, Fallstudien, Webinare"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "zwischen verschiedenen Arten von Unternehmenszielen zu unterscheiden",
+                      "die Grundelemente einer Unternehmensstrategie zu umschreiben",
+                      "die Vor- und Nachteile verschiedener Organisationsformen abzuwägen",
+                      " Aufgaben und Instrumente der Personalwirtschaft zu skizzieren",
+                      "zwischen intrinsischer und extrinsischer Motivation zu unterscheiden",
+                      "einen situationsadäquaten Führungsstil zu praktizieren",
+                      "Stellhebel für eine unternehmerische Grundhaltung der Mitarbeiter zu identifizieren",
+                      "besondere Managementaufgaben im internationalen Kontext zu skizzieren",
+                      "den gelernten Inhalt an praktischen Beispielen anwenden."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Strategische Planung und Kontrolle",
+                      "Organisation",
+                      "Unternehmenskultur",
+                      "Personalmanagement",
+                      "Motivation und Personalführung",
+                      "Personalmanagement",
+                      "Entrepreneurship",
+                      "Internationales Management"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Betriebswirtschaftslehre"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wala/Groblschegg: Kernelemente der Unternehmensführung",
+                      "Büter: Internationale Unternehmensführung. Entscheidungsorientierte Einführung"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftliche Zwischentests (10%) + Fallstudienausarbeitung (20%) + schriftliche Abschlussklausur (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "keine Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung wird nach dem Flipped Classroom-Konzept abgehalten. Lehrmaterialien für das vorbereitende Selbststudium (z.B. Videos etc.) werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": "2020-08-24 15:44:29"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36132",
+          "kurzbz": "MMTM1C",
+          "semester": "1",
+          "bezeichnung": "Technologie- und Wissensmanagement",
+          "bezeichnung_englisch": "Technology and Knowledge Management",
+          "unterrichtssprache": "German",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "2018-10-03 10:31:19",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36133",
+              "kurzbz": "TEWI",
+              "semester": "1",
+              "bezeichnung": "Technologie- und Wissensmanagement",
+              "bezeichnung_englisch": "Technology and Knowledge Management",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Basic knowledge in the field of technology and knowledge management is presented and deepened and, in addition, current developments are taken up and discussed."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "A mix of keynote lectures, academic and empirical findings, exercises and discussions. The main focus is the writing of a seminar paper on a topic of the participant's choice from a catalog of topics prepared by the lecturer."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to understand the basics of knowledge management.",
+                      "to see empowerment as a great potential for research, technology and innovation (RTI).",
+                      "to see RTI in a broader context.",
+                      "to get an overview of current developments and better understand them in the given context.",
+                      "to develop expertise in a selected field."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Basics of knowledge management",
+                      "Technology management in the context of research and innovation",
+                      "Current developments on national and international level"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic understanding of economics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schuh, G., Klappert, S. (2010): Handbuch Produktion und Management, 2. Auflage, Heidelberg, Dordrecht, London, New York: Springer.",
+                      "Christensen, C.M.: Innovator's Dilemma (2016): When New Technologies Cause Great Firms to Fail, Boston, Massachusetts: Harvard Business Review Press.",
+                      "Laloux, F. (2016): Reinventing Organizations visuell: Ein illustrierter Leitfaden sinnstiftender Formen der Zusammenarbeit, München: Vahlen."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Writing and presentation of a seminar paper"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is recommended. The first sessions are held in presence, the further sessions are held online."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Participation and interaction are desired."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Seminar werden Basiskenntnisse im Bereich Technologie- und Wissensmanagement dargelegt bzw. vertieft und darüber hinaus aktuelle Entwicklungen aufgegriffen und diskutiert."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Ein Mix bestehend aus Impulsvorträgen, akademischen und empirischen Befunden, Kurzaufgaben und Diskussionen. Zentral ist die Ausarbeitung einer Seminararbeit zu einem selbst gewählten Thema aus einem von der Seminarleiterin erstellten Themenkatalog."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Grundzüge des Wissensmanagements zu verstehen.",
+                      "Empowerment als großes Potential für Forschung, Technologie und Innovation (FTI) zu sehen.",
+                      "FTI in einem breiteren Kontext zu erfassen.",
+                      "aktuelle Entwicklungen zu überblicken und besser im Kontext einzuordnen.",
+                      "in einem ausgewählten Bereich Fachexpertise zu entwickeln."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundzüge des Wissensmanagements",
+                      "Technologiemanagement im Kontext von Forschung und Innovation",
+                      "Aktuelle Entwicklungen auf nationaler und internationaler Ebene"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Wirtschaftswissenschaftliches Grundverständnis"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schuh, G., Klappert, S. (2010): Handbuch Produktion und Management, 2. Auflage, Heidelberg, Dordrecht, London, New York: Springer.",
+                      "Christensen, C.M.: Innovator's Dilemma (2016): When New Technologies Cause Great Firms to Fail, Boston, Massachusetts: Harvard Business Review Press.",
+                      "Laloux, F. (2016): Reinventing Organizations visuell: Ein illustrierter Leitfaden sinnstiftender Formen der Zusammenarbeit, München: Vahlen."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Verfassung und Präsentation einer Seminararbeit"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesenheit wird empfohlen. Die ersten Einheiten finden präsent statt, die weiteren Einheiten werden online abgehalten."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Aktive Mitarbeit und Interaktion sind erwünscht."
+                  }
+                }
+              },
+              "lastupdate": "2020-09-11 09:39:23"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36134",
+          "kurzbz": "MMTM1B",
+          "semester": "1",
+          "bezeichnung": "Innovationsmanagement",
+          "bezeichnung_englisch": "Innovation Management",
+          "unterrichtssprache": "English",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "2018-10-03 10:31:19",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36135",
+              "kurzbz": "INNO",
+              "semester": "1",
+              "bezeichnung": "Innovationsmanagement",
+              "bezeichnung_englisch": "Innovation Management",
+              "unterrichtssprache": "English",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course students acquire knowledge and develop vompetences in the field of Innovation Management."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "self-study, lecture, discussion, group work, case studies, presentation, short online tests"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "distinguish between different forms of innovation",
+                      "know about different innovation strategies",
+                      "to establish an innovation-friendly corporate culture",
+                      "to apply various project selection methods",
+                      "to know about a systematic innovation process from idea finding to market entry"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Innovation",
+                      "Motivation and Relevance of Innovation Management",
+                      "Sources of Innovation",
+                      "Open Innovation",
+                      "Types of Innovation",
+                      "Innovation Diffusion",
+                      "Innovation Strategies",
+                      "Innovation process incl. Stage Gate Process",
+                      "Management of the NPD process",
+                      "R&D project selection",
+                      "Management of teams in the NPD process",
+                      "Industrial property rights (in particular patents, utility models, designs)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "key concepts in business administration"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schilling, M. A. (2020). Strategic Management of Technological Innovation. 6th ed., New York: McGraw-Hill Education.",
+                      "additional papers will be provided"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "written test (60%) + teamwork on 'methods of innovation management' (20%) + temwork 'case study' (10%) + online tests / tasks (10%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "There is no mandatoryattendance in this course."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further information and material regarding this course are provided via LMS moodle."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In diesem Modul erwerben die Studierenden Kenntnisse und Kompetenzen auf dem Gebiet des Innovationsmanagements."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Diskussion, Gruppenarbeiten, Fallstudien, Präsentation, online Kurztests"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "zwischen verschiedenen Arten von Innovationen zu unterscheiden",
+                      "verschiedene Innovationsstrategien abgrenzen zu können",
+                      "die organisatorischen und personellen Voraussetzungen für eine innovationsfreundliche Unternehmenskultur zu schaffen",
+                      "Methoden der Projektauswahl anzuwenden",
+                      "einen systematischen Innovationsprozess von der Ideenfindung bis hin zur Markteinführung zu kennen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Innovationsbegriff",
+                      "Motivation und Relevanz des Innovationsmanagements",
+                      "Quellen für Innovationen",
+                      "Open Innovation",
+                      "Innovationsarten",
+                      "Innovationsdiffusion",
+                      "Innovationsstrategien",
+                      "Innovationsprozess inkl. Stage Gate Modell",
+                      "Management des Neuproduktentwicklungsprozesses",
+                      "F&E-Projektauswahl",
+                      "Management von Teams in Neuproduktentwicklungsprozessen",
+                      "Gewerbliche Schutzrechte (insb. Patente, Gebrauchsmuster, Geschmacksmuster)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Betriebswirtschaftslehre"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schilling, M. A. (2020). Strategic Management of Technological Innovation. 6. Aufl., New York: McGraw-Hill Education.",
+                      "zusätzliche Literatur wird im Kurs bereitgestellt"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftlicher Test (60%) + Teamarbeit 'Methoden des Innovationsmanagement' (20%) + Teamarbeit 'Case Study' (10%) + online Tests / Tasks (10%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht keine Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Detailinformationen und zusätzliche Lehrmaterialien werden über die Lernplattform moodle zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": "2020-10-06 21:19:31"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36138",
+          "kurzbz": "MAFO",
+          "semester": "1",
+          "bezeichnung": "Empirische Marktforschung",
+          "bezeichnung_englisch": "Empirical Market Research",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "2018-10-03 10:31:19",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36139",
+              "kurzbz": "MAFO",
+              "semester": "1",
+              "bezeichnung": "Empirische Marktforschung",
+              "bezeichnung_englisch": "Empirical Market Research",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, students acquire basic knowledge and skills in the field of empirical marketing research."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Self-study, lecture, discussion, exercises, field work in groups (own marketing research project with interviews, survey)"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "outline objects of cognition and functions of marketing research",
+                      "plan and manage a marketing research project",
+                      "distinguish between in-house research and third-party research",
+                      "distinguish between primary and secondary research; big data, social media data",
+                      "decide whether to use quantitative or qualitative research techniques",
+                      "explain measurement concepts and design questionnaires or online-surveys",
+                      "draw a sample and distinguish sample from census",
+                      "conduct field work, i.e. run a survey and assure data quality",
+                      "analyse data, interpret and present marketing research results for decision making"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "marketing research process, functions and uses",
+                      "defining the research problem, formulating research objectives, research proposal",
+                      "research design and application: exploratory, descriptive or causal research",
+                      "in-house research versus third-party research",
+                      "primary versus secondary data; big data, social media data",
+                      "research techniques: quantitative versus qualitative; marketing research online-communities",
+                      "basic modes and types for gathering survey data: personal interviews, telephone interviews, online surveys, focus groups",
+                      "data measurement (nominal, ordnial, scale measures) and questionnaire development",
+                      "basic concepts involved with sampling and axioms about sample size",
+                      "field work and data quality issues",
+                      "data analysis: qualitative (analysis of topics, grounded theory) and quantitative (descriptive statistics, inference analysis) methods",
+                      "marketing research report, visuals, oral presentation and discussion of results"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic knowledge in scientific work"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Burns/Veek/Bush: Marketing Research, 9th Global Edition, Pearson Education Ltd. 2020",
+                      "Pecher: Marketing Research - Script on Approaches, Research Concepts, Quantitative and Qualitative Methods as well as Analysis Techniques, V02 of August 2020"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "written test (30%) + elaboration of a marketing research study (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "In general, attendance is not mandatory."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In dieser Lehrveranstaltung erwerben die Studierenden grundlegende Kenntnisse und Kompetenzen auf dem Gebiet der empirischen Marktforschung."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Diskussion, Übungen (Fallbeispiele), Feldarbeit in Gruppen (eigenes Marktforschungsprojekt mit Interviews, Befragung)"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Erkenntnisobjekte und Funktionen der Marktforschung zu skizzieren",
+                      "ein Marktforschungsprojekt zu planen und zu leiten",
+                      "zu unterscheiden zwischen Eigen- und Fremdforschung",
+                      "zu unterscheiden zwischen Primär- und Sekundärforschung; Big Data, Social Media Data ",
+                      "zu entscheiden, ob quantitative oder qualitative Forschungstechniken zur Anwendung kommen ",
+                      "Messkonzepte zu erklären und Fragebögen oder online-Umfragen zu entwerfen ",
+                      "eine Stichprobe zu ziehen und Stichprobe von Zensus zu unterscheiden",
+                      "Feldforschung durchzuführen, d. h. eine Umfrage anzuleiten und die Datenqualität abzusichern",
+                      "Daten zu analysieren, Marktforschungsergebnisse für die Entscheidungsfindung zu interpretieren und zu präsentieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Marktforschungsprozess, Funktionen und Anwendungen",
+                      "Definieren des Forschungsproblems, formulieren der Forschungsziele, Forschungsangebot",
+                      "Forschungsdesign und Anwendungen: explorative, deskriptive oder kausale Forschung",
+                      "Eigenforschung versus Fremdforschung",
+                      "Primäre versus sekundäre Daten; Big Data; Social Media Data",
+                      "Forschungstechniken: quantitativ versus qualitativ; Marktforschung in online-communities",
+                      "Grundlegende Arten und Typen der Datenerhebung: persönliche Interviews, Telefoninterviews, Online-Befragung, Fokusgruppen ",
+                      "Datenmessung (nominal, ordinal, skaliert) und Fragebogenentwicklung",
+                      "Grundlagen der Stichprobenziehung und Axiome zur Stichprobengröße",
+                      "Feldarbeit und Datenqualität",
+                      "Datenanalyse: qualitative (Themenanalyse, Grounded Theory) und quantitative (deskriptive Statistik, Inferenzanalyse) Methoden",
+                      "Marktforschungsbericht, Visualisierung, mündliche Präsentation und Diskussion der Ergebnisse"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlegende Kenntnisse des wissenschaftlichen Arbeitens"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Burns/Veek/Bush: Marketing Research, 9th Global Edition, Pearson Education Ltd. 2020",
+                      "Pecher: Marketing Research - Script on Approaches, Research Concepts, Quantitative and Qualitative Methods as well as Analysis Techniques, V02 of August 2020"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Moodle-Test (30%) + Erstellung einer Marktforschungsstudie (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich keine Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": "2020-07-27 12:41:15"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36146",
+          "kurzbz": "MMTM1G",
+          "semester": "1",
+          "bezeichnung": "Kreativitäts- und Problemlösungstechniken",
+          "bezeichnung_englisch": "Creativity and Problem Solving Techniques",
+          "unterrichtssprache": "German",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "2018-10-03 10:31:19",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36147",
+              "kurzbz": "KREA",
+              "semester": "1",
+              "bezeichnung": "Kreativitäts- und Problemlösungstechniken",
+              "bezeichnung_englisch": "Creativity and Problem Solving Techniques",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course prepares the students to utilize relevant methods of supporting creativity within an innovation process: Understanding customers’ needs and getting to know the problem, developing perspectives, finding ideas for innovations, evaluating, selecting and finding solutions"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "put their self’s in the customer's situation",
+                      "apply questioning techniques to develop perspectives",
+                      "select creativity techniques for a specific problem and defend their selection",
+                      "document the evaluation / selection and apply the entire creative process in simple case studies"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "lateral thinking, vertical thinking",
+                      "relevant questioning techniques in order to be able to better understand customers",
+                      "intuitive, discursive and combined creativity techniques",
+                      "advanced brainstorming techniques and systematic problem-solving methods"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Boos, Evelyn (2011): Das große Buch der Kreativitätstechniken, Compact"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Birkenbihl, Vera F. (2007): ABC-Kreativ / Techniken zur kreativen Problemlösung, Ariston",
+                      "Boos, Evelyn (2011): Das große Buch der Kreativitätstechniken, Compact",
+                      "Schnetzler, Nadja (2004): Die Ideenmaschine: Methode statt Geistesblitz - wie Ideen industriell produziert werden, Wiley-VCH",
+                      "Zobel, Dietmar (2001): Systematisches Erfinden / Methoden und Beispiele für den Praktiker, expert-Verl"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method inclusive distance-learning"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is compulsory according to the statutes \r\n"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung bereitet die Studierenden auf die Phase der Ideenfindung innerhalb eines Innovationsprozesses vor. Inhaltlich werden das Verstehen des Kunden und seiner Probleme / seines Nutzens, die Entwicklung von Perspektiven, die Ideenfindung für Innovationen, die Bewertung und Auswahl sowie das Finden von Lösungen erarbeitet. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "sich besser in Situationen der KundInnen hineinzuversetzen",
+                      "Fragetechniken zur Entwicklung von Perspektiven anzuwenden",
+                      "Kreativitätstechniken für eine konkrete Problemstellung begründet auszuwählen",
+                      "die Bewertung und Auswahl zu dokumentieren und den gesamten Ideenfindungsprozess in einfachen Fallbeispielen anzuwenden"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Laterales Denken, vertikales Denken",
+                      "Relevante Fragetechniken um sich besser in Kund*inn*en hineinversetzen zu können",
+                      "Intuitive, diskursive und kombinierte Kreativitätstechniken",
+                      "Fortgeschrittene Ideenfindungstechniken und systematische Problemlösungsmethoden "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Boos, Evelyn (2011): Das große Buch der Kreativitätstechniken, Compact"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Birkenbihl, Vera F. (2007): ABC-Kreativ / Techniken zur kreativen Problemlösung, Ariston",
+                      "Boos, Evelyn (2011): Das große Buch der Kreativitätstechniken, Compact",
+                      "Schnetzler, Nadja (2004): Die Ideenmaschine: Methode statt Geistesblitz - wie Ideen industriell produziert werden, Wiley-VCH",
+                      "Zobel, Dietmar (2001): Systematisches Erfinden / Methoden und Beispiele für den Praktiker, expert-Verl"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-Immanente Leistungsbeurteilung inklusive Distance-Learning"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht laut Satzung\r\n"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-07-30 12:32:00"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36225",
+          "kurzbz": "MMTM1F",
+          "semester": "1",
+          "bezeichnung": "Wahlfach 1: 1) Programmierung 2) IT- und Datenschutzrecht",
+          "bezeichnung_englisch": "Elective 1) Programming 2) IT- and Data Protection-Law",
+          "unterrichtssprache": "German",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "2018-10-03 10:31:19",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36226",
+              "kurzbz": "ITRE",
+              "semester": "1",
+              "bezeichnung": "IT- und Datenschutzrecht",
+              "bezeichnung_englisch": "IT and Data Protection Law",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course provides students with basic knowledge on data protection law according to the General Data Protection Regulation. Optionally, they can receive an additional qualification as certified data protection officer (\"Datenschutzbeauftragter\") according to Austrian Standards."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture, case studies and e-learning"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "advise companies and organisations with regard to data protection",
+                      "supervise and coordinate the implementation of data protection laws",
+                      "assume the responsibilities of a data protection officer (\"Datenschutzbeauftragter\") according to Art 39 GDPR"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "development and scope of the General Data Protection Regulation",
+                      "principles relating to the processing of personal data (Lawfulness, special categories of personal data)",
+                      "obligations of controller and processor",
+                      "rights of the data subject",
+                      "ensuring of of data protection and data security (especially according to ISO 27001)",
+                      "remedies, liabilty and sanctions",
+                      "basic principles of the Austrian Data Protection Act"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic kwnoledge on private and public law"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Forgó, Grundriss Datenschutzrecht (2018)",
+                      "Marzi/Pallwein-Prettner, Datenschutzrecht (2018)",
+                      "Knyrim, Datenschutz-Grundverordnung - Das neue Datenschutzrecht in Österreich und der EU (2016)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "written exam, oral participation and e-learning"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is not compulsory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further informations will be provided via Moodle"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung erwerben die Studierenden grundlegende Kenntnisse und Kompetenzen auf dem Gebiet des Datenschutzrechts und haben die Möglichkeit zum Erwerb einer Zertifizierung als \"Datenschutzbeauftrager\" nach Austrian Standards"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Fallbeispiele und Fernlehre"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Personen und Organisationen in Bezug auf das geltende Datenschutzrecht zu beraten",
+                      "die Einhaltung der geltenden Datenschutzvorschriften zu überwachen und zu koordinieren",
+                      "die Aufgaben eines Datenschutzbeauftragen nach Art 39 DSGVO wahrzunehmen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Entstehungsgeschichte und Anwendungsbereich der Datenschutz-Grundverordnung",
+                      "Grundsätze der Datenverarbeitung des Datenschutzrechts (Rechtmäßigkeit der Datenverarbeitung, Datenkategorien)",
+                      "Pflichten von Verantwortlichen und Auftragsverarbeitern",
+                      "Betroffenenrechte",
+                      "Gewährleistung von Datenschutz und Datensicherheit (insbesondere Informationssicherheit gemäß ISO 27001)",
+                      "Rechtsbehelfe, Haftung und Strafen",
+                      "Grundzüge des Österreichischen Datenschutzgesetzes"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundzüge des Privatrechts, Grundzüge des öffentlichen Rechts"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Forgó, Grundriss Datenschutzrecht (2018)",
+                      "Marzi/Pallwein-Prettner, Datenschutzrecht (2018) und der EU (2016)",
+                      "Knyrim, Datenschutz-Grundverordnung - Das neue Datenschutzrecht in Österreich und der EU (2016)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Klausur, mündliche Mitarbeit, Fernlehraufgaben"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich keine Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Unterrichtsmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36748",
+              "kurzbz": "PROG",
+              "semester": "1",
+              "bezeichnung": "Programmierung",
+              "bezeichnung_englisch": "Programming",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, students who have no programming knowledge, acquire basic knowledge and skills in the fields of computer science and programming languages.\r\nThis course requires a RaspberryPi and a sensor/cable set for each project group."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Self-study, e-learning, lecture, practical exercises, discussion, project work"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      " understand general basics of computer science",
+                      "differentiate between various types of programming languages ​​and their application areas",
+                      " apply the basics of programming in different programming languages",
+                      " create a simple computer game using the Python programming language",
+                      " control the GPIO pins of a RaspberryPi with Python"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Computer Science (e.g., hardware, software, binary system, etc.)",
+                      "Types of programming languages ​​and pseudocode",
+                      "Variables, data types and operators",
+                      "If Else Conditions",
+                      "Functions",
+                      "Loops",
+                      "Arrays",
+                      "Python",
+                      "RaspberryPi",
+                      "CPIO control of RaspberryPi with Python",
+                      "Data analysis of measured values ​from sensors",
+                      "Linux Terminal Commands",
+                      "Python libraries"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "We recommend students without IT or programming skills to visit the Warming Up course \"Computer Science\"."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "various Lynda Courses (www.lynda.com)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Exam (30%), Project (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "No attendance mandatory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further information and teaching materials will be provided via a Moodle course."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung erwerben jene Studierenden, die über keine Programmierkenntnisse aus dem Bachelorstudium verfügen, grundlegende Kenntnisse und Kompetenzen auf den Gebieten  Informatik und Programmiersprachen. \r\nFür die Lehrveranstaltung ist ein RaspberryPi und ein Sensoren/Kabel Set pro Projektgruppe nötig."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, E-Learning, Vortrag, praktische Übungen, Diskussion, Projektarbeit"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "allgemeine Grundlagen der Informatik zu verstehen",
+                      "zwischen verschiedenen Arten und von Programmiersprachen und deren Anwendungsbereichen zu unterscheiden",
+                      "die Grundlagen der Programmierung in verschiedenen Programmiersprachen anzuwenden",
+                      "ein einfaches Computerspiel mit der Programmiersprache Python zu erstellen",
+                      "die GPIO Pins eines RaspberryPi mit Python anzusteuern"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Informatik (z.B. Hardware, Software, Binärsystem etc.)",
+                      "Arten von Programmiersprachen und Pseudocode",
+                      "Variablen, Datentypen und Operatoren",
+                      "Wenn-dann-Bedingungen",
+                      "Funktionen",
+                      "Schleifen",
+                      "Arrays",
+                      "Python",
+                      "RaspberryPi",
+                      "GPIO Steuerung des RaspberryPi mit Python",
+                      "Datenanalyse von zb. Messwerten der Sensoren",
+                      "Linux Terminal Kommandos",
+                      "Python Bibliotheken"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Studienanfängern/innen ohne Informatik- bzw. Programmierkenntnissen wird der Besuch des Warming-Up-Kurses \"Informatik\" wird dringend empfohlen."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "div. Lynda-Kurse (www.lynda.com)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftlicher Test (30%) + Projektarbeit (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Keine Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Lehrmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "lehrveranstaltung_id": "36124",
+          "kurzbz": "SOFT",
+          "semester": "2",
+          "bezeichnung": "Agile Softwareentwicklung & Lean UX",
+          "bezeichnung_englisch": "Agile Software-Development & Lean UX",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36125",
+              "kurzbz": "SOFT",
+              "semester": "2",
+              "bezeichnung": "Agile Softwareentwicklung & Lean UX",
+              "bezeichnung_englisch": "Agile Software-Development & Lean UX",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Diese Lehrveranstaltung zeigt den Studierenden das Zusammenspiel zwischen agilem Projektmanagement, User Experience Design und dessen effizienter und effektiver Integration, dem so genannten \"Lean UX\". Die erworbenen Kenntnisse werden im Rahmen mehrerer Übungen und einem abschließenden Projekt in die Praxis umgesetzt."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Diskussion, Gruppenarbeiten, Praxisbeispiele, Online-Tutorials, Projektarbeit"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Methoden des agilen Projektmanagements praktisch anzuwenden (u.a. Aufwandschätzung, User Stories, Software Requirements Specification)",
+                      "Projektteams im agilen Umfeld aufzubauen und zu koordinieren",
+                      "die wesentlichen Merkmale von state-of-the-Art User Experience Design zu erklären sowie die wichtigsten Methoden in der Praxis einzusetzen (u.a. Expert Reviews, UI-Prototyping, Discount Usability Evaluation)",
+                      "Projekte unter Betrachtung des \"Lean UX\" Aspekts zu planen und umzusetzen "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Agiles Projektmanagement (Scrum, Kanban etc.)",
+                      "User Experience",
+                      "Softwareentwicklung",
+                      "User Stories",
+                      "Aufwandsschätzung in Softwareprojekten",
+                      "Software Requirements Specification",
+                      "Einschlägige Normen",
+                      "Probanden- und Expertenbasierte Methoden",
+                      "Personas",
+                      "Prototyping",
+                      "Eyetracking",
+                      "Usability Labor",
+                      "Minimum Viable Product",
+                      "Discount Usability",
+                      "UX Canvas"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Informatik sowie Grundlagen des Projektmanagements"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Gothelf, Lean UX: Applying Lean Principles to Improve User Experience, aktuelle Auflage",
+                      "Richter/Flücker, Usability und UX kompakt: Produkte für Menschen, aktuelle Auflage",
+                      "Roock/Wolf, Scrum verstehen und erfolgreich einsetzen, aktuelle Auflage"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "immantente Leistungen (30%) + Projektarbeit (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Lehrmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36126",
+          "kurzbz": "ROBO",
+          "semester": "2",
+          "bezeichnung": "Robotik",
+          "bezeichnung_englisch": "Robotics",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36127",
+              "kurzbz": "ROBO",
+              "semester": "2",
+              "bezeichnung": "Robotik",
+              "bezeichnung_englisch": "Robotics",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Deeper Fundamentals of Robotics in Theory as well as online/offline programming of industrial robots"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "selfstudy, lecutre, dicussion, exercise, practical lab"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "control and programming of ABB IRB 120 six-axis-buckling arm robot (online and offline).",
+                      "define industrial, mobile and service robots and their components, advantage & disadvantages, usability and limits.",
+                      "analyse a given task in the field of robotics, define a solution path and solve the problem using given tools."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "State of the art in robotics and development trends",
+                      "Different types of robots (industrial, mobile, service)",
+                      "componentes of robots",
+                      "robot programming",
+                      "social, technological, economic and safety related aspects of robots",
+                      "practical exercise using industrial robots"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Fundamentals in STEM, Fundamentals in programming"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Hesse/Malisa (Hrsg.): Taschenbuch Robotik - Montage - Handhabung, aktuelle Auflage."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Robotstudio project (30%) - Online-Robot programming (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "attendance is compulsory (>80%)"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Furhter Details and learning materials will be provided in the associated moodle course"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Vertiefende Grundlagen der Robotik in der Theorie sowie Offline und Online Programmierung von Industrierobotern."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Diskussion, Übungen, Labor"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "einen ABB IRB 120 Sechs-Achs-Knickarmrobotern (Online wie Offline) zu steuern und zu programmieren.",
+                      "Industrie-, Mobil- und Serviceroboter zu definieren und Ihre Komponenten, Vor- und Nachteile, Einsatzbereiche und –grenzen zu nennen und zu erklären.",
+                      "eine vorgegebene Aufgabenstellung aus dem Themenbereich Robotik zu analysieren, einen Lösungsweg zu entwerfen und diesen mit Hilfe der zur Verfügung gestellten Tools umzusetzen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Stand der Robotik und aktuelle Entwicklungstendenzen",
+                      "Arten von Robotern (z.B. Industrieroboter, Mobiler Roboter, Serviceroboter etc.)",
+                      "Bestandteile von Robotern",
+                      "Programmierung von Robotern",
+                      "Soziale, technische, wirtschaftliche und sicherheitstechnische Aspekte des Einsatzes von Robotern",
+                      "Praktische Übungen mit Industrierobotern"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlegende technische Kenntnisse, Mathematik, Grundlegende Programmierkenntnisse"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Hesse/Malisa (Hrsg.): Taschenbuch Robotik - Montage - Handhabung, aktuelle Auflage."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projekt in Robotstudio (30%) + Online-Roboterprogrammierung (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht Anwesenheitspflicht (>80%)"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weitere Details und Lehrmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36142",
+          "kurzbz": "DATE",
+          "semester": "2",
+          "bezeichnung": "Computergestützte Datenanalyse",
+          "bezeichnung_englisch": "Data Analytics",
+          "unterrichtssprache": "German",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36143",
+              "kurzbz": "DATE",
+              "semester": "2",
+              "bezeichnung": "Computergestützte Datenanalyse",
+              "bezeichnung_englisch": "Data Analytics",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course addresses statistical methods and programming skills to handle and analyze structured data and preprocess them for applying machine learning techniques. In this context, students learn to describe datasets using descriptive statistics, to apply analysis methods such as correlation and regression analysis, and to build and assess prediction models for classification and approximation problems."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Besides lectures on subject matter, the primary focus of this course is set to practical exercises using selected tools (Excel, Tableau, Python and Jupyter Notebooks) as well as interactive discussions of data analysis methods. At the beginning of each lecture, short tests are conducted in order to examine the required knowledge."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "preprocess, visualize and analyze datasets using Excel and Tableau.",
+                      "load a dataset in a Python Notebook, work with it, and explore it using descriptive statistics and selected statistical methods.",
+                      "identify relationships between dependent and independent variables and create a prediction model using regression.",
+                      "classify data points in a multi-dimensional feature space using simple supervised machine learning techniques, such as nearest neighbor algorithms or decision trees.",
+                      "evaluate and improve the performance of classification and regression models.",
+                      "cluster data points in a multi-dimensional feature space using the kMeans algorithm and determine the optimal number of clusters.",
+                      "select and apply a machine learning model for a real-world dataset in order to create a prediction model."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Data wrangling, visualization and analysis",
+                      "Application of Python for Data Science activities",
+                      "Regression analysis",
+                      "Classification",
+                      "Performance assessment",
+                      "Cluster analysis",
+                      "Predictive analytics (case study)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Python programming, fundamentals of statistics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Slides",
+                      "Jupyter Notebooks",
+                      "Additional reading: McKinney, W. (2012). Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. O'Reilly Media."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Written exam at the beginning of each lecture (30 points, 15 to 45 minutes, no repetition possible)",
+                      "Computer-based test at the end of the course (70 points, open book, 90 minutes)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "No attendence required."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further information and course materials are available on the Moodle course."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Aufbauend auf den im Vorsemester vermittelten statistischen Grundlagen werden in diesem Kurs die notwendigen Kompetenzen erarbeitet, um strukturierte Daten handhaben, analysieren, aufbereiten sowie für einfache maschinelle Lernverfahren verwenden zu können. Hierbei wird geübt, Datensätze mittels deskriptiver Statistiken zu beschreiben, statistische Analyseverfahren wie die Korrelations- und Regressionsanalyse anzuwenden sowie Vorhersagemodelle für Klassifikations- und Approximationsaufgaben zu entwickeln und hinsichtlich der Qualität zu bewerten."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Neben Fachvorträgen zu den theoretischen Themen liegt der Schwerpunkt des Kurses auf praktischen Übungen mit ausgewählten IT-Werkzeugen (Excel, Tableau, Python bzw. Jupyter Notebooks) und interaktiven Diskussionen der Datenanalyse-Verfahren. Zudem sollen ausgewählte Themen in Fernlerneinheiten selbst erarbeitet werden. Die für die Präsenzeinheiten vorausgesetzte Wissen wird zu Beginn mit kurzen Tests abgeprüft."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "strukturierte Datenbestände mittels Excel und Tableau aufzubereiten, zu visualisieren und auszuwerten.",
+                      "einen Datensatz in ein IPython Notebook einzulesen, in dieser Entwicklungsumgebung aufzubereiten sowie anhand deskriptiver Statistiken und ausgewählter statistischer Verfahren zu explorieren.",
+                      "Beziehungen zwischen einer abhängigen und einer oder mehreren unabhängigen Varablen zu erkennen und mittels Regressionsverfahren ein Vorhersagemodell zu entwickeln.",
+                      "Datenpunkte im mehrdimensionalen Merkmalsraum mit Hilfe von einfachen und überwachten Lernverfahren zu klassifizieren (Nearest Neighbours, Entscheidungsbäume).",
+                      "die Performance von Klassifikations- und Regressionsverfahren zu evaluieren und zu verbessern.",
+                      "Datenpunkte im mehrdimensionalen Merkmalsraum mittels kMeans-Verfahrens zu clustern und die optimale Anzahl an Cluster zu ermitteln.",
+                      "ein geeignetes Lernverfahren für eine Fallstudie mit Echtdaten zu wählen, um ein Vorhersagemodell zu erstellen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Datenaufbereitung, -visualisierung und -auswertung",
+                      "Einsatz von Python in Data Science",
+                      "Regressionsanalyse",
+                      "Klassifikation",
+                      "Performanceevaluierung",
+                      "Cluster-Analyse",
+                      "Predictive Analytics (Fallstudie)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Python Programmierung, statistische Grundlagen"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Folienskriptum",
+                      "Jupyter Notebooks",
+                      "Ergänzende Literatur: McKinney, W. (2012). Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. O'Reilly Media."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Schriftlicher Test zu Beginn des Moduls (30 Punkte, 15 bis 45 Min., keine Wiederholungsmöglichkeit)",
+                      "Praktische Datenauswertungsklausur (70 Punkte, open book, 90 Min.)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich keine Anwesenheitsplicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weitere Informationen und Lehrmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36144",
+          "kurzbz": "MARK",
+          "semester": "2",
+          "bezeichnung": "Online-Marketing und E-Commerce",
+          "bezeichnung_englisch": "Online-Marketing and E-Commerce",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36145",
+              "kurzbz": "MARK",
+              "semester": "2",
+              "bezeichnung": "Online-Marketing und E-Commerce",
+              "bezeichnung_englisch": "Online-Marketing and E-Commerce",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung erwerben die Studierenden grundlegende Kenntnisse und Kompetenzen auf den Gebieten E-Commerce und Online-Marketing."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Diskussion, Gruppenarbeiten, Praxisbeispiele, Online-Tutorials"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "zwischen verschiedenen Formen des Online-Vertriebs zu unterscheiden",
+                      "Vor- und Nachteile des Online-Vertriebs im Vergleich zum stationären Handel zu evaluieren",
+                      "einen eigenen Online-Shop zu konzipieren",
+                      "die Auffindbarkeit einer Homepage bzw. eines Online-Shops mittels Suchmaschinen-Marketing zu verbessern",
+                      "soziale Netzwerke zur Kundenbindung zu verwenden",
+                      "die von Interessenten und Kunden zur Verfügung stehenden digitalen Informationen und Daten auszuwerten und für individualisierte Angebote einzusetzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Electronic Commerce",
+                      "Social Commerce",
+                      "Mobile Commerce",
+                      "Online-Marketing",
+                      "Homepage-Gestaltung",
+                      "E-Mail-Marketing",
+                      "Affiliate-Marketing",
+                      "Suchmaschinen-Marketing",
+                      "Mobile Marketing",
+                      "Social Media Marketing",
+                      "Online-Marktforschung"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Betriebswirtschaftslehre"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Olbrich/Schultz/Holsing, Electronic Commerce und Online-Marketing, aktuelle Auflage"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftlicher Test (20%) + schriftliche Ausarbeitung (80%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich keine Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Lehrmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36227",
+          "kurzbz": "WP_2",
+          "semester": "2",
+          "bezeichnung": "Wahlfach 2: 1) Machine Learning 2) Smart Homes & Assistive Technologies",
+          "bezeichnung_englisch": "Elective 2: 1) Machine Learning 2) Smart Homes & Assistive Technologies",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36749",
+              "kurzbz": "MACH",
+              "semester": "2",
+              "bezeichnung": "Machine Learning",
+              "bezeichnung_englisch": "Machine Learning",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course gives an overview of fundamentals as well as relevant formalisms and techniques of Machine Learning (ML). Thereby, traditional areas like logic or neural networks and younger streams like probabilistic models, methods of supervised and unsupervised learning, or Deep Learning approaches are addressed. The exercises focus on implementing ML techniques in Python in order to create intelligent software artefacts. Prerequisites include Python programming and statistics."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "The course consists of 5 topics, each one starting with a theoretical introduction and a practical session in which programming exercises are conducted using pre-given Python scripts (software package Anaconda as well as Jupyter Notebooks). Participants have to work on self-study units and exercises that end with a concluding test in the upcoming lecture. An integrative case study on a topical area has to be elaborated in a group project which is presented at the end of the semester."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain fundamentals of Data Mining and Machine Learning as well as select relevant formalisms and techniques for practical problems (Knowledge Engineering).",
+                      "consider uncertainity through probabilistic modeling and use reasoning based on such models (Bayes theorem, Bayesian networks, Markov models)",
+                      "apply supervised learning techniques (perceptron, nearest-neighbor, decision trees, naive bayes) for real-world data-sets",
+                      "implement techniques for unsivervised learning (clustering, principal component analysis) or reinforcement learning (robotics, AlphaZero) for sample data-sets",
+                      "detect objects and patterns in structured and unstructured data using single-, multi-layer artificial neural networks and Deep Learning architectures",
+                      "plan and realize a Machine Learning project throughout all phases (data engineering, explorative data analysis, training and validation of ML models) for a specific application scenario"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Knowledge Engineering",
+                      "Probabilistic Modeling",
+                      "Supervised Learning",
+                      "Unsupervised Learning",
+                      "Neural Networks and Deep Learning",
+                      "Application of ML techniques"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Python programming, statistics and data analysis"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Slides, Jupyter Notebooks",
+                      "Additional literature: Ertl, W. (2016). Grundkurs Künstliche Intelligenz: Eine praxisorientierte Einführung. 4. Auflage, Springer Verlag."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Practical group project (submission and presentation at the end of the semester): 30%",
+                      "Distance/self study units with test at the beginning of the upcoming lecture: 30%",
+                      "Concluding computerbased test (60 minutes): 40%"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "No compulsory attendance"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further readings and materials are provided in the Moodle course."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieser Kurs gibt einen Überblick über Grundlagen sowie die wesentlichen Formalismen und Techniken des maschinellen Lernens. Hierbei werden traditionelle Ausrichtungen wie Logik oder Neuronale Netze genauso wie neuartige Entwicklungen wie Wahrscheinlichkeitsmodelle, Methoden des überwachten und unüberwachten Lernens und Deep Learning Ansätze behandelt. In den Übungen wird anhand praktischer Beispiele mit Python gezeigt, wie Machine Learning Verfahren verwendet werden können, um intelligente Softwareartefakte zu entwickeln. Vorausgesetzt werden grundlegende Kenntnisse der Programmierung und Statistik."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Der Kurs ist in 5 Themenbereiche gegliedert, die jeweils aus Theorie und Übung bestehen. In den Übungen werden für die theoretischen Inhalte mit vorgefertigten Python Scripts (Softwarepaket Anaconda bzw. Jupyter Notebook) geübt. Es sind Selbstlernphasen und Übungsaufgaben vorgesehen, die in der Folgeeinheit mit einem kurzen Test zu Beginn des Kurses abzuschließen sind. In einem Gruppenprojekt ist eine durchgehende Fallstudie zu einem aktuellen Thema von Machine Learning zu entwickeln und in der letzten Einheit zu präsentieren."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Grundlagen des Data Mining und Machine Learning erklären sowie die wichtigsten Formalismen und Verfahren für konkrete Problemstellungen (Knowledge Engineering) auswählen",
+                      "Unsicherheit in Form von probabilistischen Modellen berücksichtigen und Schlussfolgerungen auf Basis solcher Wahrscheinlichkeitsmodelle (Satz von Bayes, Bayes-Netze, Markov-Modelle) ableiten",
+                      "Verfahren des überwachten Lernens (Perzeptron, Nearest-Neighbour, Entscheidungsbäume, Naive-Bayes, One Class Learning) für praktische Aufgabenstellungen anwenden",
+                      "Verfahren des unüberwachten Lernens (Clustering, Hauptkomponentenanalyse) sowie des Lernens durch Verstärkung (Robotik, AlphaGo) für Beispieldatensätze umsetzen",
+                      "Mustererkennungsverfahren mittels ein- und mehrschichtiger neuronaler Netze (Deep Learning mit Keras/Tensorflow) auf Echtdaten anwenden",
+                      "Ein praktisches Machine Learning Projekt durch alle Phasen (Datenaufbereitung, explorative Datenanalyse, Trainieren und Validieren von ML-Modellen) für ein konkretes Anwendungsszenario in Form einer Projektgruppenarbeit umsetzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Knowledge Engineering",
+                      "Probabilistische Modelle",
+                      "Überwachtes Lernen",
+                      "Unüberwachtes Lernen und Lernen durch Verstärkung",
+                      "Neuronale Netze und Deep Learning",
+                      "Praktische Anwendungen von ML-Verfahren"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Python Programmierung, Statistik und Datenanalyse"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Folienskriptum, Jupyter Notebooks",
+                      "Ergänzende Literatur: Ertl, W. (2016). Grundkurs Künstliche Intelligenz: Eine praxisorientierte Einführung. 4. Auflage, Springer Verlag."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Anwendungsorientiertes Gruppenprojekt (Abgabe und Präsentation in letzter Einheit): 30%",
+                      "Fernlehranteil mit kurzem Theorietest zu Beginn der Einheiten: 30%",
+                      "Abschließender computerbasierter Test (60 Minuten) = 40%",
+                      "(Wiederholung der schriftlichen Prüfung und des computerbasierten Tests bei negativer Beurteilung)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich keine Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Lehrmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "36228",
+              "kurzbz": "SMART",
+              "semester": "2",
+              "bezeichnung": "Smart Homes & Assistive Technologies",
+              "bezeichnung_englisch": "Smart Homes & Assistive Technologies",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung vermittelt den Studierenden einen praktischen Einblick in die Anwendung und Implementierung aktueller Smart Homes-Technologien in Kombination mit Assistive Technologies. Ein besonderes Augenmerk wird auf die Vereinigung beider Technologien zu Active Assisted Living gelegt, um auf den demographischen Wandel zu reagieren."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Diskussion, Labor, Gruppenübungen, Fernlehre"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "den aktuellen Stand der Technologien in den Bereichen Smart Homes und Assistive Technologies zu erklären.    ",
+                      "einfache Implementierung für Active Assisted Living umzusetzen.",
+                      "einfache Unterstützungstechniklösungen mit AsTeRICS umzusetzen.",
+                      "eine elementare Smart Home Installation auf Basis eines offenen, verdrahteten Automationsnetzes umzusetzen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Darstellung des aktuellen Standes von Active Assisted Living (AAC), Smart Homes und Assistive Technologies",
+                      "Vertiefung der theoretischen Inhalte durch praktische Laborübungen mit KNX, AsTeRICS und alternativen Eingabemethoden",
+                      "Konfiguration, Parametrierung und Inbetriebnahme drahtgebundener und drahtloser Smart Homes mittels gängiger Tools",
+                      "Visualisierungen für Smart Homes"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "grundlegende Programmierkenntnisse (z.B. Modellierung von Funktionen in grafischen Editoren), grundlegende Elektrotechnikkenntnisse (z.B. Spannung, Strom, Verkabelung)\r\n\r\n"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Merz / Hansemann / Hübner (2009): Gebäudeautomation - Kommunikationssysteme mit EIB/KNX, LON und BACnet, aktuelle Auflage",
+                      "Robitaille (2010): The Illustrated Guide to Assisitve Technology and Devices, Demos Health Publishing"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "aktive Mitarbeit (20%) + Laborübungen (80%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Lehrmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36140",
+          "kurzbz": "CHAN",
+          "semester": "2",
+          "bezeichnung": "Changemanagement",
+          "bezeichnung_englisch": "Changemanagement",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36141",
+              "kurzbz": "CHAN",
+              "semester": "2",
+              "bezeichnung": "Changemanagement",
+              "bezeichnung_englisch": "Changemanagement",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the course of the module, students will acquire basic competences in the area of organizational change management. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Presentation, self-study, group work, case study"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "distinguish types of change ",
+                      "anticipate internal and external barriers to successful change ",
+                      "identify success factors for succesful change ",
+                      "define the most important steps and measures for a concrete change project ",
+                      "understand reasons for resistance to change "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Types of change",
+                      "Phases of change",
+                      "Barriers to change",
+                      "Success factors for change",
+                      "Change Management",
+                      "Organizational learning and renewal",
+                      "Agile organizations "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics of Economics "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tStouten, J., Rousseau, D. M., de Cremer, D. (2018) Successful organizational change: Integrating the management Practice and scholarly articles . Academy of Management Annals, 12 (2), 752-788. "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tCase Work 1 (30 %) + Case Work 2 (Group Work, 40%) + Case Work 3 (30%) There will be no written exam. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Live Introduction (MS Teams): \r\n29.5.2020, 16:10-21:00\r\n\r\nOptional Coaching f. Single- and Group Work (by appointment only): \r\n05.6.2020, 16:10-21:00\r\n19.6.2020, 16:10-21:00"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further materials will be provided in the related Moodle course. "
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieses Moduls erwerben die Studierenden Kenntnisse und Kompetenzen auf dem Gebiet des Change Managements. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Selbststudium, Gruppenarbeit, Fallstudie"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Arten von organisationalen Veränderungen zu unterscheiden ",
+                      "interne und externe Barrieren für einen erfolgreichen Wandel zu antizipieren",
+                      "Erfolgsfaktoren für Veränderungsprozesse zu identifizieren",
+                      "die wichtigsten Schritte und Maßnahmen für einen konkreten Veränderungsprozess zu definieren",
+                      "Gründe für Widerstand zu verstehen "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Arten des organisationalen Wandels",
+                      "Phasen des organisationalen Wandels",
+                      "Barrieren für Veränderungen ",
+                      "Erfolgsfaktoren für Veränderungen ",
+                      "Change Management ",
+                      "Organisationales Lernen und strategische Erneuerung ",
+                      "Agile Organisationen "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Betriebswirtschaftslehre "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tStouten, J., Rousseau, D. M., de Cremer, D. (2018) Successful organizational change: Integrating the management Practice and scholarly articles . Academy of Management Annals, 12 (2), 752-788. "
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tCase Work 1 (30 %) + Case Work 2 (Group Work, 40%) + Case Work 3 (30%). Es gibt keine Prüfung. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Live Einführung (MS Teams): \r\n29.5.2020, 16:10-21:00\r\n\r\nOptionales Coaching f. Einzel- und Gruppenarbeit (nach Vereinbarung): \r\n05.6.2020, 16:10-21:00\r\n19.6.2020, 16:10-21:00\r\n"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Lehrmaterialien werden auf dem begleitenden Moodle-Kurs zur Verfügung gestellt. "
+                  }
+                }
+              },
+              "lastupdate": "2020-05-05 18:31:35"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36150",
+          "kurzbz": "WIRT",
+          "semester": "2",
+          "bezeichnung": "Wirtschaftlichkeitsrechnung und Finanzierung",
+          "bezeichnung_englisch": "Cost Management and Corporate Finance",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36151",
+              "kurzbz": "WIRT",
+              "semester": "2",
+              "bezeichnung": "Wirtschaftlichkeitsrechnung und Finanzierung",
+              "bezeichnung_englisch": "Cost Management and Corporate Finance",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "During this course, students acquire further knowledge in the fields of financial analysis, cost management, financing and company valuation."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "lecture, exercises, discussion, e-learning, self-study, flipped classroom, business game"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to assess the advantage of an investment project by means of static or dynamic investment calculation",
+                      "outline the typical contents of an investment guideline",
+                      "Identify and implement cost reduction measures",
+                      "Identify and implement measures to variabilize fixed costs",
+                      "Calculate key figures to analyze the asset, profitability and liquidity situation",
+                      "distinguish between different types of financing",
+                      "determine the value of a company using the discounted cash flow method"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Accounting",
+                      "Statement analysis",
+                      "Cost management",
+                      "capital budgeting",
+                      "corporate financing",
+                      "business valuation "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics of business administration, accounting, cost accounting"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Berk, Jonathan, and Peter DeMarzo. Corporate Finance. Actual Edition. Harlow: Pearson Education Limited",
+                      "Brealey, Richard A., Stewart C. Myers, und Franklin Allen. Principles of Corporate Finance. New York: McGraw-Hill Higher Education",
+                      "Charles T. Horngren; Srikant M. Datar; Madhav V. Rajan, Cost Accounting, Global Edition, Pearson Education Limited",
+                      "Eisl/Hofer/Losbichler, Grundlagen der finanziellen Unternehmensführung. Band IV: Controlling",
+                      "Losbichler, Grundlagen der finanziellen Unternehmensführung. Band III: Cashflow, Investition und Finanzierung"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "written final examination (50%) + points for immanent performance business game (50%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Block 1 is generally not subject to compulsory attendance, Block 2 is subject to compulsory attendance"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Further information on the course and the teaching materials used will be provided in the accompanying Moodle course."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Zuge dieser Lehrveranstaltung erwerben die Studierenden weiterführende Kenntnisse auf den Gebieten Finanzanalyse, Kostenmanagement Finanzierung und Unternehmensbewertung."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Übungen, Diskussion, E-Learning, Selbststudium, Flipped Classroom, Planspiel"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Vorteilhaftigkeit eines Investitionsprojekts mittels statischer oder dynamischer Investitionsrechnung zu beurteilen",
+                      "die typischen Inhalte einer Investitionsrichtlinie zu skizzieren",
+                      "Maßnahmen zur Kostenreduktion zu identifizieren und umzusetzen",
+                      "Maßnahmen zur Variabilisierung von fixen Kosten zu identifizieren und umzusetzen",
+                      "Kennzahlen zur Analyse der Vermögens-, Rentabilitäts- und Liquiditätslage zu berechnen",
+                      "zwischen verschiedenen Finanzierungsarten zu unterscheiden",
+                      "den Wert eines Unternehmens mittels Discounted-Cashflow-Verfahren zu ermitteln"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Bilanzierung ",
+                      "Bilanzanalyse ",
+                      "Kostenmanagement",
+                      "Investitionsrechnung ",
+                      "Finanzierung ",
+                      "Unternehmensbewertung "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Betriebswirtschaftslehre, Buchhaltung, Kostenrechnung"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Berk, Jonathan, and Peter DeMarzo. Corporate Finance. Actual Edition. Harlow: Pearson Education Limited",
+                      "Brealey, Richard A., Stewart C. Myers, und Franklin Allen. Principles of Corporate Finance. New York: McGraw-Hill Higher Education",
+                      "Charles T. Horngren; Srikant M. Datar; Madhav V. Rajan, Cost Accounting, Global Edition, Pearson Education Limited",
+                      "Eisl/Hofer/Losbichler, Grundlagen der finanziellen Unternehmensführung. Band IV: Controlling",
+                      "Losbichler, Grundlagen der finanziellen Unternehmensführung. Band III: Cashflow, Investition und Finanzierung"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftliche Abschlussprüfung (50%) + Punkte für immanente Leistungen Planspiel (50%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Block 1 grundsätzlich keine Anwesenheitspflicht, Block 2 besteht Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen zur Lehrveranstaltung sowie verwendete Unterrichtsmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        }
+      ],
+      "3": [
+        {
+          "lehrveranstaltung_id": "36152",
+          "kurzbz": "PROJ",
+          "semester": "3",
+          "bezeichnung": "Praxisprojekt Innovations -und Technologieprojekt",
+          "bezeichnung_englisch": "Innovation and Technology Project",
+          "unterrichtssprache": "German",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36153",
+              "kurzbz": "PROJ",
+              "semester": "3",
+              "bezeichnung": "Praxisprojekt Innovations -und Technologieprojekt",
+              "bezeichnung_englisch": "Innovation and Technology Project",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "PRJ",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Studierenden bearbeiten eine von einem Unternehmen beauftragte reale Aufgabenstellung unter Einhaltung eines limitierten Zeitbudgets von maximal einem Semester und haben einen qualitativ hochwertigen Abschlussbericht zu verfassen sowie daraus abgeleitete Handlungsempfehlungen professionell zu präsentieren und zu verteidigen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Projektbearbeitung in Gruppen, Coaching, Projektbericht, Präsentation und Diskussion der Projektergebnisse"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die in den vorangegangenen Lehrveranstaltungen bzw. im Vorstudium erworbenen betriebswirtschaftlichen und technischen Kenntnisse und Kompetenzen praktisch anzuwenden",
+                      "die Einsatzmöglichkeiten und -grenzen von Modellen, Methoden, Technologien und Instrumenten kritisch zu reflektieren",
+                      "Informationen zur Bearbeitung von komplexen Aufgabenstellungen zu recherchieren und auszuheben, auf ihre Relevanz zu prüfen, entsprechend den Erfordernissen aufzubereiten und schließlich bei der Problemlösung einzusetzen",
+                      "die in selbst organisierter Teamarbeit ausgearbeiteten Lösungen bzw. Empfehlungen in einem inhaltlich und formal hochwertigen schriftlichen Abschlussbericht zu dokumentieren und die Kerninhalte dieses Berichts vor dem Auftraggeber zu präsentieren und in einer abschließenden Diskussion zu verteidigen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projektmanagement",
+                      "Unternehmensberatung",
+                      "Präsentationstechnik"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Unternehmensführung, Innovationsmanagement, Technologiemanagement, Kreativitäts- und Problemlösungstechniken"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Portny, Projektmanagement für Dummies, aktuelle Auflage"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Die Beurteilung der Studierenden erfolgt durch die/den Lektor/in, wobei diese/r auch das Feedback der Ansprechperson des beauftragenden Unternehmens zu den Projektergebnissen zu berücksichtigen hat. Als Beurteilungskriterien werden die inhaltliche und formale Qualität von Zwischenpräsentationen (10%), der Abschlusspräsentation (20%) und des Abschlussberichts (70%) herangezogen."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Die Studierenden können eines aus insgesamt 4 Projekten auswählen. "
+                  }
+                }
+              },
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36154",
+          "kurzbz": "MANU",
+          "semester": "3",
+          "bezeichnung": "Smart Manufacturing",
+          "bezeichnung_englisch": "Smart Manufacturing",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36155",
+              "kurzbz": "MANU",
+              "semester": "3",
+              "bezeichnung": "Smart Manufacturing",
+              "bezeichnung_englisch": "Smart Manufacturing",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "During this course selected technologies focusing on automatization, digitalisation and Industry 4.0 as well as intelligent manufacturing systems are introduced and discussed. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Self study, lecture, discussions, lab exercise "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "•\tUnderstand simple automation-related relationships, analyze elementary automation systems and recognize their functional dependencies.",
+                      "•\t• Define Industry 4.0 and Smart Automation and outline their manifestations, advantages and disadvantages, areas of application.",
+                      "•\tTo discuss and evaluate the advantages and disadvantages of using a smart manufacturing system for a given problem and to select suitable system components.",
+                      "•\tTo define and delimit intelligent manufacturing systems as well as essential aspects in this subject area.",
+                      "•\tDescribe key elements of Intelligent Manufacturing Systems.",
+                      "to work on selected challenges as part of a practice-related case study"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•  fundamental concepts of modenr automatisation systems ",
+                      "• Digitalisation in the course of Industry 4.0 shown on an example of the digital factory",
+                      "•  Elements of intelligent manufacturing systems ",
+                      "Challenges and developments in the field of innovative intelligent manufacturing systems"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic technical skills, robotics, math, basics of programming"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•  Favre-Bulle: Automatisierung Komplexer Industrieprozesse: Systeme, Verfahren und Informationsmanagement, aktuelle Auflage.",
+                      "•\tOrsolits H., Lackner M., 2020. Virtual Reality und Augmented Reality in der Digitalen Produktion. Gabler Verlag. 2020",
+                      "•  Hesse/Malisa (Hrsg.): Taschenbuch Robotik - Montage - Handhabung, aktuelle Auflage."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Multiple Choice, Project"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory according to FHTW guidelines"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung beschäftigen sich die Studierenden mit ausgewählten Gebieten moderner Automatisierungstechniken. Aktuelle Schwerpunkte bilden die Themen „Industrie 4.0“ sowie „Intelligent Manufacturing Systems“."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Diskussion, Labor, Übungen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "•  einfache automatisierungstechnische Beziehungen zu verstehen, elementare Automatisierungssysteme zu analysieren und ihre funktionalen Abhängigkeiten zu erkennen.",
+                      "•  Industrie 4.0 sowie Smart Automation zu definieren und deren Erscheinungsformen, Vor- und Nachteile, Einsatzgebiete zu skizzieren.",
+                      "•  für eine gegebene Problemstellung die Vor- und Nachteile des Einsatzes eines Smart Manufacturing Systems zu diskutieren und zu bewerten und dafür passendes Systemkomponenten auszuwählen.",
+                      "•  Intelligent Manufacturing Systems sowie wesentliche Aspekte in diesem Themenfeld zu definieren und abzugrenzen.",
+                      "•  zentrale Elemente von Intelligent Manufacturing Systems zu beschreiben.",
+                      "ausgewählte Herausforderungen im Rahmen einer praxisbezogenen Fallstudie zu bearbeiten"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•  Grundkonzepte moderner Automatisierungssysteme",
+                      "•  Digitalisierung im Rahmen von Industrie 4.0 am Beispiel einer Digitalen Fabrik",
+                      "•  Elemente von Intelligent Manufacturing Systems",
+                      "Herausforderungen und Entwicklungen im Bereich innovativer Intelligent Manufacturing Systems"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlegende technische Kompetenzen, Robotik, Mathematik, Grundlagen der Programmierung"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•  Favre-Bulle: Automatisierung Komplexer Industrieprozesse: Systeme, Verfahren und Informationsmanagement, aktuelle Auflage.",
+                      "•\tOrsolits H., Lackner M., 2020. Virtual Reality und Augmented Reality in der Digitalen Produktion. Gabler Verlag. 2020",
+                      "•  Hesse/Malisa (Hrsg.): Taschenbuch Robotik - Montage - Handhabung, aktuelle Auflage."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "•\tMultiple Choice, Projekt"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Anwesensheitspflicht entsprechend den FHTW Richtlinien"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-19 16:45:11"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36210",
+          "kurzbz": "LEAD",
+          "semester": "3",
+          "bezeichnung": "Digital Leadership & New World of Work",
+          "bezeichnung_englisch": "Digital Leadership & New World Of Work",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36211",
+              "kurzbz": "LEAD",
+              "semester": "3",
+              "bezeichnung": "Digital Leadership & New World of Work",
+              "bezeichnung_englisch": "Digital Leadership & New World Of Work",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36214",
+          "kurzbz": "DISPO",
+          "semester": "3",
+          "bezeichnung": "Disposition Masterarbeit und Wissenschaftliches Schreiben",
+          "bezeichnung_englisch": "Master´s Thesis Proposal and Scientific Writing",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36215",
+              "kurzbz": "DISPO",
+              "semester": "3",
+              "bezeichnung": "Disposition Masterarbeit und Wissenschaftliches Schreiben",
+              "bezeichnung_englisch": "Master`s Thesis Proposal and Scientific Writing",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In the first block of the diploma seminar the basics of scientific work as well as the formal and methodical requirements for Master's theses are communicated. In the second block of the diploma seminar, a presentation and defence of the disposition for the Master's thesis will be given."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "presentation, feedback, academic discourse, defence, peer feedback"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "professionally plan their Master's thesis project in terms of content, methodology, organisation and time",
+                      "select a topic suitable for a Master's thesis",
+                      "formulate a research question of practical relevance within the selected topic",
+                      "to answer the research question in a scientifically sound manner, taking into account relevant literature and using the results obtained in a separate empirical (qualitative or quantitative) study",
+                      "to present the results and defend them in a subsequent discussion"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "The course content is based on the topics of the Master's theses presented and discussed in the diploma seminar and is therefore variable."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Innovation and technology management, project management, word processing, scientific work, quantitative and qualitative research methods, presentation techniques"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Froehlich, Wissen schaffen für Ingenieure. Der Wegweiser durch deine Masterarbeit, aktuelle Auflage, ",
+                      "Beller, Empirisch forschen lernen. Konzepte, Methoden, Fallbeispiele, aktuelle Auflage.",
+                      "Mayer, Interview und schriftliche Befragung. Grundlagen und Methoden empirischer Sozialforschung, aktuelle Auflage",
+                      "Karmasin/Ribing, Die Gestaltung wissenschaftlicher Arbeiten, aktuelle Auflage",
+                      "Zepke, Lust auf qualitative Forschung, aktuelle Auflage.",
+                      "Haslehner/Wala/Springler, Bachelor- und Masterarbeiten an Fachhochschulen, aktuelle Auflage"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "In the event of a positive assessment of the diploma student, this will read \"participated successfully\". "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance at the seminar is generally compulsory."
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im ersten Block des Diplomanden/innenseminars werden die Grundlagen des wissenschaftlichen Arbeitens sowie die formalen und methodischen Anforderungen an Masterarbeiten kommuniziert. Im zweiten Block des Diplomanden/innenseminars erfolgen eine Präsentation und Verteidigung der Disposition zur Masterarbeit."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Präsentation, Feedback, akademischer Diskurs, Verteidigung, Peer-Feedback"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "ihr Masterarbeitsprojekt in inhaltlicher, methodischer, organisatorischer und zeitlicher Hinsicht professionell zu planen",
+                      "ein für die Bearbeitung im Rahmen einer Masterarbeit geeignetes Thema auszuwählen",
+                      "innerhalb des ausgewählten Themas eine praxisrelevante Forschungsfrage zu formulieren",
+                      "die Forschungsfrage unter Einbeziehung einschlägiger Literatur und Verwendung der in einer eigenen empirischen (qualitativen oder quantitativen) Untersuchung erzielten Ergebnisse wissenschaftlich fundiert zu beantworten",
+                      "die Ergebnisse zu präsentieren und in einer nachfolgenden Diskussion zu verteidigen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Die Lehrinhalte richten sich nach den Themen der im Diplomanden/innenseminar präsentierten und diskutierten Masterarbeiten und sind insofern variabel."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Innovations- und Technologiemanagement, Projektmanagement, Textverarbeitung, Wissenschafftliches Arbeiten, Quantitative und Qualitative Forschungsmethoden, Präsentationstechnik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Froehlich, Wissen schaffen für Ingenieure. Der Wegweiser durch deine Masterarbeit, aktuelle Auflage, ",
+                      "Beller, Empirisch forschen lernen. Konzepte, Methoden, Fallbeispiele, aktuelle Auflage.",
+                      "Mayer, Interview und schriftliche Befragung. Grundlagen und Methoden empirischer Sozialforschung, aktuelle Auflage",
+                      "Karmasin/Ribing, Die Gestaltung wissenschaftlicher Arbeiten, aktuelle Auflage",
+                      "Zepke, Lust auf qualitative Forschung, aktuelle Auflage.",
+                      "Haslehner/Wala/Springler, Bachelor- und Masterarbeiten an Fachhochschulen, aktuelle Auflage"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Im Falle einer positiven Beurteilung des Diplomanden/innenseminars lautet diese „mit Erfolg teilgenommen“. "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Im Seminar besteht grundsätzlich Anwesenheitspflicht."
+                  }
+                }
+              },
+              "lastupdate": "2020-08-24 15:28:22"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36136",
+          "kurzbz": "SOZIO",
+          "semester": "3",
+          "bezeichnung": "Techniksoziologie und Technologiefolgenabschätzung",
+          "bezeichnung_englisch": "Technical Sociology and Technology Assessment",
+          "unterrichtssprache": "German",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36137",
+              "kurzbz": "SOZIO",
+              "semester": "3",
+              "bezeichnung": "Techniksoziologie und Technologiefolgenabschätzung",
+              "bezeichnung_englisch": "Technical Sociology and Technology Assessment",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "SE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, concepts of sociology of technology and technology assessment are introduced, critically discussed and applied to selected areas of practice. Selected areas of practice will be evaluated in detail under the aspects of technology assessments (e.g. societal, economic, ethical, legal aspects). The areas of practice include Smart Care (Care 4.0) and mediatized or eFitness. This course further deals with presentation and discussion of various approaches, methods and intensities of presuming and end-user involvement."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "lecture; webinar; presentations; various discussion formats in small groups and in plenary; group work\r\n"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "critically discuss concepts of sociology of technology and technology assessment",
+                      "reflect upon areas of practice such as care and fitness in the context of technology assessment",
+                      "explain models to design and manage user-centered and user-triggered Innovation Processes (e.g. prosuming)"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Introduction to theoretical concepts of sociology of technology, and technology assessment",
+                      "Development and effect of technologies at a macro and a micro level: Tension between technology and society",
+                      "Discussion of selected areas of practice e.g. eSports / Mediatized Fitness, Smart Care",
+                      "Key terms and definitions (e.g. end-user, stakeholder, prosumer, participatory design, inclusive design)",
+                      "Presentation of various approaches and intensities of end-user involvement"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "No specific requirements needed."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Bauchspies, W., Croissant, J., Restivo, S. (2005): Science, Technology and Society. A sociological approach.  Wiley-Blackwell. (selected chapters)",
+                      "Kaabi-Linke Timo. „Technik im Ausnahmezustand: Wenn Dinge widerspenstig werden.“ In: Zeitschrift für Erziehungswissenschaften, 2013. 16(2). 267-285",
+                      "Pavitt, Keith. The process of innovation. Vol. 89. SPRU, 2003.",
+                      "Friesacher, Heiner. „Pflege und Technik – eine kritische Analyse“. In: Pflege und Gesellschaft, 2010. 15(4). 293 – 313",
+                      "Assistive Technologien Ethische Aspekte der Entwicklung und des Einsatzes Assistiver Technologien Stellungnahme der Bioethikkommission beim Bundeskanzleramt (2009). URL: https://www.bka.gv.at/DocView.axd?CobId=39411",
+                      "Blättel-Mink; B.; Hellmann, K. U. (Hrsg.) (2010). Prosumer Revisited. Zur Aktualität einer Debatte. VS. (S.13-48).  ",
+                      "Neven, L. (2010). ‘But obviously not for me’: robots, laboratories and the defiant identity of elder test users. In: Sociology of Health & Illness, 32 (2), 335–347."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Discussion paper (80%) + Presentation of discussion paper (20%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "80% Attendance\r\n"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Literature and further materials for the course will be uploaded on Moodle.\r\n"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-25 14:03:34"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36148",
+          "kurzbz": "PATR",
+          "semester": "3",
+          "bezeichnung": "Internationales Lizenz- und Patentrecht",
+          "bezeichnung_englisch": "International Intellectual Property Law",
+          "unterrichtssprache": "German",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36149",
+              "kurzbz": "PATR",
+              "semester": "3",
+              "bezeichnung": "Internationales Lizenz- und Patentrecht",
+              "bezeichnung_englisch": "International Intellectual Property Law",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This lecture provides an introduction to IP law, in particular patent law, trade mark law and design law. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "lecture, discussion and exercise. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "understand and read patent documents",
+                      "carry out patent searches",
+                      "understand patent proceedings",
+                      "assessment of the patentability of inventions",
+                      "answer basic questions relating to transfer and licensing of patents"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "intellectual property rights",
+                      "patent documents",
+                      "scope of protection of patents",
+                      "novelty, state of the art, inventive step",
+                      "further requirements of patentability",
+                      "patent application proceedings",
+                      "patent infringement and infringement/nullity proceedings",
+                      "international patent protection",
+                      "private law aspects of patents, in particular patent license agreements",
+                      "design law",
+                      "trade mark law"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "none"
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Written homework examples: patent search; assessment of inventive step; infringement case",
+                      "written examination"
+                    ]
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung bietet eine Einführung in das Immaterialgüterrecht, insbesondere in das Patentrecht, Markenrecht und Musterschutzrecht (Designschutz)."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrags-, Diskussions- und Übungseinheiten. "
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Verstehen und Lesen von Patentschriften",
+                      "Durchführen von Patentrecherchen",
+                      "Verstehen von Anmeldeverfahren und Patentstreitverfahren ",
+                      "Beurteilen der Patentfähigkeit von Erfindungen",
+                      "grundsätzliche Fragen zur Übertragbarkeit und Lizenzierung von Immaterialgüterrechten zu beantworten"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Gewerbliche Schutzrechte",
+                      "Patentschriften",
+                      "Schutzbereich von Patenten",
+                      "Neuheit und Stand der Technik; Erfinderische Tätigkeit",
+                      " Weitere Patentierbarkeitsvoraussetzungen",
+                      "Patentanmeldeverfahren",
+                      "Patentverletzung und Verletzungs-/Nichtigkeitsverfahren",
+                      "Internationaler Patentschutz",
+                      "Privatrechtliche Aspekte des Patentschutzes, insbesondere Lizenzverträge",
+                      "Designrecht",
+                      "Markenrecht"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "keine"
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Hausarbeitsbeispiele: Recherche; Beurteilung der erfinderischenTätigkeit; Ausarbeitung eines Patentverletzungsfalls",
+                      "Schriftliche Abschlussprüfung"
+                    ]
+                  }
+                }
+              },
+              "lastupdate": "2020-09-02 23:32:11"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36223",
+          "kurzbz": "GEMO",
+          "semester": "3",
+          "bezeichnung": "Geschäftsmodellentwicklung",
+          "bezeichnung_englisch": "Business Modelling",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36224",
+              "kurzbz": "GEMO",
+              "semester": "3",
+              "bezeichnung": "Geschäftsmodellentwicklung",
+              "bezeichnung_englisch": "Business Modelling",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung erwerben die Studierenden grundlegende Kenntnisse und\r\nKompetenzen auf dem Gebiet der Geschäftsmodellentwicklung."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Fallstudien, Gruppenarbeiten, Diskussion, schriftliche Ausarbeitungen,\r\nPräsentationen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Bestandteile eines Geschäftsmodells zu benennen und zu beschreiben",
+                      "Geschäftsmodelle hinsichtlich Stärken, Schwächen, Chancen und Risiken zu analysieren",
+                      "neue Geschäftsmodelle / Geschäftsmodellsinnovationen auf Basis von Trends und Kundenbedürfnissen zu entwickeln",
+                      "neue Geschäftsmodelle / Geschäftsmodellinnovationen systematisch umzusetzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Geschäftsmodellelemente und –darstellung",
+                      "Geschäftsmodellmuster",
+                      "Digitale Geschäftsmodelle",
+                      "Geschäftsmodellinnovation",
+                      "Design Thinking",
+                      "Lean Start Up",
+                      "Geschäftsmodellanalyse",
+                      "Geschäftsmodelltransformation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Betriebswirtschaftslehre"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Gassmann et al, Geschäftsmodelle entwickeln (aktuelle Auflage)",
+                      "Schallmo, Digitale Transformation von Geschäftsmodellen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ausarbeitung und Präsentation von Gruppenarbeiten (100%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich keine Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und\r\nUnterrichtsmaterialien werden über den begleitenden\r\nMoodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": "2020-07-28 14:46:56"
+            }
+          ]
+        }
+      ],
+      "4": [
+        {
+          "lehrveranstaltung_id": "36206",
+          "kurzbz": "STAR",
+          "semester": "4",
+          "bezeichnung": "Start-up-Management & Corporate Venturing",
+          "bezeichnung_englisch": "Start-up-Management & Corporate Venturing",
+          "unterrichtssprache": "German",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36207",
+              "kurzbz": "STAR",
+              "semester": "4",
+              "bezeichnung": "Start-up-Management & Corporate Venturing",
+              "bezeichnung_englisch": "Start-up-Management & Corporate Venturing",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieses Moduls erwerben die Studierende die für eine Unternehmensgründung nötigen Kenntnisse und Kompetenzen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Gastvorträge, Praxisbeispiele, Diskussion, Gruppenarbeiten, Lehrausgänge, E-Learning"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine innovative Geschäftsidee zu entwickeln",
+                      "eine Gründungsstrategie samt Marketingplan zu entwerfen",
+                      "die für eine Unternehmensgründung notwendigen Eigen- und Fremdmittel aufzutreiben",
+                      "Vor- und Nachteile verschiedener Rechtsformen gegeneinander abzuwägen",
+                      "die aus einer Unternehmensgründung resultierenden Verpflichtungen (z.B. Gewerberecht, Sozialversicherung, Steuern etc.) einzuhalten",
+                      "einen Business Plan zu erstellen und zu präsentieren",
+                      "ein Gründungsprojekt in einem Elevator Pitch überzeugend vorzustellen",
+                      "die beiderseitigen Vorteile von Kooperationen zwischen etablierten Unternehmen und Start Ups zu erkennen",
+                      "die volkswirtschaftliche Bedeutung von Start Ups zu skizzieren",
+                      "die Vor- und Nachteile einer selbstständigen gegenüber ein unsselbständigen Tätigkeit gegeneinander abzuwägen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Volkswirtschaftliche Bedeutung von Start-Ups",
+                      "Entrepreneurship",
+                      "Entwicklung von Geschäftsideen",
+                      "Gründungsstrategien und Marketingplanung",
+                      "Gründungsfinanzieung und -förderungen",
+                      "Gründungsberatung und standortpolitische Initiativen (z.B. Gründerzentren, Inkubatoren, Business Plan-Wettbewerbe etc.)",
+                      "Gewerberechtliche Grundlagen",
+                      "Rechtsformwahl",
+                      "Finanzamt und Steuern",
+                      "Sozialversicherung",
+                      "Elevator Pitch",
+                      "Business Planning"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Betriebswirtschaftslehre"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Kailer/Weiß, Gründungsmanagement kompakt, aktuelle Auflage",
+                      "WKO, Leitfaden für Gründerinnen und Gründer"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "schriftlicher Test (30%) + Elevator Pitch (70%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Unterrichtsmaterialien werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": "2017-11-04 17:09:23"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36208",
+          "kurzbz": "DIALO",
+          "semester": "4",
+          "bezeichnung": "Praxisdialog Innovations- und Technologiemanagement",
+          "bezeichnung_englisch": "Praxis Dialogue Innovation and Technology Management",
+          "unterrichtssprache": "German",
+          "ects": "2.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36209",
+              "kurzbz": "DIALO",
+              "semester": "4",
+              "bezeichnung": "Praxisdialog Innovations- und Technologiemanagement",
+              "bezeichnung_englisch": "Praxis Dialogue Innovation and Technology Management",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "VO",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Ringvorlesung diskutieren die Studierenden mit Experten/innen aus Wissenschaft und Praxis aktuelle Themen bzw. Trends auf den Gebieten Management, Technologie und Innovation."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Gastvorträge, Diskussion, Reflexionsbericht"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "sich rasch in aktuelle Problemstellungen auf dem des Innovations- und Technologiemanagement hineinzudenken bzw. einzuarbeiten",
+                      "Chancen und Risiken aktueller Entwicklungen auf dem Gebiet des Innovations- und Technologiemanagements mit Experten/innen zu erörtern",
+                      "sich mit Experten/innen auf dem Gebiet des Innovations- und Technologiemanagements zu vernetzen",
+                      "ökologische und soziale Konsequenzen neuer Technologien kritisch zu hinterfragen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "aktuelle Entwicklungen auf den Gebieten Management, Technologie und Innovation "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Unternehmensführung, Innovationsmanagement, Technologiemanagement"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "eine Aufsatzsammlung für das jeweilige Semester wird über den begleitenden Moodle-Kurs zur Lehrveranstaltung zur Verfügung gestellt"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lessons learned-Bericht (100%); im Falle einer positiven Beurteilung lautet diese \"Mit Erfolg teilgenommen\""
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht grundsätzlich Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weitere Details und Materialien zur Lehrveranstaltung (z.B. Foliensätze, Zeitungsberichte, Videos etc.) werden über den begleitenden Moodle-Kurs zur Verfügung gestellt."
+                  }
+                }
+              },
+              "lastupdate": "2017-11-05 15:48:33"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36221",
+          "kurzbz": "MAST",
+          "semester": "4",
+          "bezeichnung": "Masterarbeit",
+          "bezeichnung_englisch": "Master´s Thesis",
+          "unterrichtssprache": "German",
+          "ects": "16.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36222",
+              "kurzbz": "MAST",
+              "semester": "4",
+              "bezeichnung": "Masterarbeit",
+              "bezeichnung_englisch": "Master´s Thesis",
+              "unterrichtssprache": "German",
+              "ects": "16.00",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "EXAM",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die einen Fachhochschul-Masterstudiengang abschließende Prüfung ist eine Gesamtprüfung, die sich aus der Abfassung einer Masterarbeit und einer kommissionellen Masterprüfung zusammensetzt. Das Thema der Masterarbeit muss einen Bezug zu den im Studium vermittelten Kompetenzen bzw. zu aktuellen Forschungsschwerpunkten des Studiengangs aufweisen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Wissenschaftliches Arbeiten, Empirisches Forschen, Coaching, Präsentation, Diskussion, Feedback"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "eine klar abgrenzbare und praxisrelevante Fragestellung (Forschungsfrage) unter Einbeziehung der einschlägigen Literatur und Verwendung der in einer eigenen empirischen (qualitativen oder quantitativen) Untersuchung erzielten Ergebnisse wissenschaftlich fundiert zu beantworten"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wissenschaftliches Schreiben (z.B. Forschungsfrage, Literaturrecherche, Gliederung, Zitation etc.)",
+                      "qualitative und quantitative Forschungsmethoden",
+                      "Digitale Literaturverwaltungstoools (z.B. Citavi, Endnote etc.)",
+                      "Disposition zur Masterarbeit",
+                      "Masterarbeit",
+                      "Präsentation und Verteidigung der Masterarbeit (im Diplomanden/innenseminar)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Innovations- und Technologiemanagement, Wissenschaftliches Arbeiten, qualitative und quantitative Forschungsmethoden, Präsentationstechnik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Beller, Empirisch forschen lernen. Konzepte, Methoden, Fallbeispiele, Tipps, aktuelle Auflage",
+                      "Mayer, Interview und schriftliche Befragung. Grundlagen und Methoden empirischer Sozialforschung, aktuelle Auflage",
+                      "Zepke, Lust auf qualitative Forschung, aktuelle Auflage",
+                      "Karmasin / Ribing, Die Gestaltung wissenschaftlicher Arbeiten, aktuelle Auflage",
+                      "Ebster / Stalzer, Wissenschaftliches Arbeiten für Wirtschafts- und Sozialwissenschaftler, aktuelle Auflage"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "inhaltliche und formale Qualität der Masterarbeit (100%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Es besteht - mit Ausnahme der Präsentation der fertigen Arbeit im Diplomanden/innenseminar - keinerlei Anwesenheitspflicht."
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Der im 3. Semester startende Masterarbeitsprozess wird über einen eigens eingerichteten Moodle-Kurs gesteuert."
+                  }
+                }
+              },
+              "lastupdate": "2017-11-03 13:35:17"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36204",
+          "kurzbz": "SIMU",
+          "semester": "4",
+          "bezeichnung": "Unternehmenssimulation",
+          "bezeichnung_englisch": "Enterprise Simulation",
+          "unterrichtssprache": "English",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36205",
+              "kurzbz": "SIMU",
+              "semester": "4",
+              "bezeichnung": "Unternehmenssimulation",
+              "bezeichnung_englisch": "Enterprise Simulation",
+              "unterrichtssprache": "English",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "UE",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "36216",
+          "kurzbz": "FTIP",
+          "semester": "4",
+          "bezeichnung": "FTI-Politik und -Förderungen",
+          "bezeichnung_englisch": "Innovation and Technology Policy and Subsidies",
+          "unterrichtssprache": "German",
+          "ects": "4.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "36220",
+              "kurzbz": "FTIP",
+              "semester": "4",
+              "bezeichnung": "FTI-Politik und -Förderungen",
+              "bezeichnung_englisch": "Innovation and Technology Policy and Subsidies",
+              "unterrichtssprache": "German",
+              "ects": "4.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV",
+              "lvinfo": {
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung gewinnen die Studierenden einen Überblick über die österreichische und europäische Forschungs-, Technologie- und Innovationspolitik sowie ihre Akteure. Zusätzlich werden die Studierenden in die unterschiedlichen Möglichkeiten der Forschungsförderung eingeführt. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Gastvorträge, Diskussion, Gruppenarbeiten"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die Bedeutung von FTI-Politik in wissenschaftlicher, wirtschaftlicher und sozialer Hinsicht zu erkennen.",
+                      "die nationale und internationale FTI-Förderlandschaft (die wichtigsten Akteure, Programme, Instrumente etc.) zu kennen.",
+                      "unterschiedliche Wege und Möglichkeiten der Forschungsförderung zu identifzieren.",
+                      "das Vorgehen bei der steuerlichen Forschungsförderung zu verstehen.",
+                      "einen Überblick zum Thema Forschungsinfrastruktur zu haben.",
+                      "Unterstützung für Wissens- und Technologietransfer sowie für F&E-Kooperationen zu verorten.",
+                      "über regionale Ansätze zur Stärkung von F&E und Innovation Bescheid zu wissen.",
+                      "den Stellenwert von Evaluierungen richtig einzuordnen.",
+                      "neue Entwicklungen und Trends zu verorten."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Europäische Forschungs-, Technologie- und Innovationspolotik (z.B. Horizon etc.) ",
+                      "Nationale Forschungs-, Technologie- und Innovationspolitik (z.B. FTI-Strategie des Bundes etc.)",
+                      "Förderinstrumente (z.B. Beratung, Zuschüsse, zinsbegünstigte Darlehen etc.)",
+                      "Fördergesellschaften auf Bundes- und Landesebene (z.B. AWS, FFG, WIBAG etc.)",
+                      "Förderprogramme auf EU-, Bundes- und Landesebene",
+                      "Förderungsrecht (z.B. FTI-Richtlinien des BMVIT)",
+                      "Herangehensweise bei der Erstellung eines Förder-/Projektantrags",
+                      "Instrument der indirekten Forschungsförderung (z.B. Forschungsprämie)",
+                      "Rolle der iInnovationsfördernden Beschaffung",
+                      "Wissens- und Technologietransfer",
+                      "Cluster- und Netzwerkinitiativen",
+                      "Landschaft der außeruniversitären Forschungseinrichtungen",
+                      "Trends/jüngste Entwicklungen in der FTI-Politik",
+                      "Intersektorale Politik"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Es sind keine besonderen Vorkenntnisse erforderlich."
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "FTI-Strategie des Bundes",
+                      "Österreichischer Forschungs- und Technologiebericht",
+                      "div. Publikationen"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Mitarbeit, Ausarbeitung und Präsentation einer Seminararbeit"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "75% Anwesenheitspflicht"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "Weiterführende Informationen und Unterrichtsmaterialien werden über den begleitenden Moodle-Kurs bereitgestellt."
+                  }
+                }
+              },
+              "lastupdate": "2020-01-20 18:15:01"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

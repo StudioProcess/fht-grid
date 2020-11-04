@@ -1,0 +1,2813 @@
+{
+  "name": "Master Data Science",
+  "url": "https://cis.technikum-wien.at/addons/lvinfo/export/export.php?studiengang_kz=854",
+  "studiengang_kz": "854",
+  "studienordnung_id": null,
+  "data": {
+    "studienordnung_id": "381",
+    "studienordnung_bezeichnung": "0854-MDS-WS2020",
+    "studienplan_id": "439",
+    "studienplan_bezeichnung": "0854-MDS-WS2020-BB",
+    "gueltig_von": "WS2020",
+    "gueltig_von_datum": "2020-09-01",
+    "regelstudiendauer": "4",
+    "lehrveranstaltungen": {
+      "1": [
+        {
+          "lehrveranstaltung_id": "38049",
+          "kurzbz": "MOD11",
+          "semester": "1",
+          "bezeichnung": "Ausgleichsmodul",
+          "bezeichnung_englisch": "Bridging Module",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38068",
+              "kurzbz": "DB",
+              "semester": "1",
+              "bezeichnung": "Datenbanken",
+              "bezeichnung_englisch": "Databases",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "38073",
+              "kurzbz": "ALD",
+              "semester": "1",
+              "bezeichnung": "Grundzüge Algorithmen & Datenstrukturen",
+              "bezeichnung_englisch": "Algorithms & Data Structures (Basics)",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "38130",
+              "kurzbz": "LIAG",
+              "semester": "1",
+              "bezeichnung": "Lineare Algebra",
+              "bezeichnung_englisch": "Linear Algebra",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course is build by a lecture part and exercises. For the exercises students fulfill mathematical tasks and present their solutions at the blackboard."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "The lectures are held as \"inverted classrooms\". This means that student read texts before the lecture sessions, so that they are given the possibility to ask their question during the lectures."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "solve basic problems in general vector spaces as well as simple geometric problems in the two- and threedimensional euclidian space.",
+                      "make basic calculations with matrices and linear maps as well as to calculate determinants and inverses.",
+                      "solve systems of linear equations with matrices with the Gaussian algorithm. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "vector spaces",
+                      "matrices and linear maps",
+                      "systems of linear equations"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "mathematics at secondary school level"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "G. Teschl und S. Teschl, Mathematik für Informatiker, Band 1, 4. Auflage, 2013, Springer Verlag",
+                      "M. Drmota et al, Mathematik für Informatik, 4. Auflage, 2014, Heldermann Verlag",
+                      "T. Arens et al, Mathematik, 4. Aufl. 2018,Springer Spektrum"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "final exam and assessment during the course",
+                      "two equally weighted parts: exercises and final exam. For each part at least 50% must be reached."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "compulsory attendance in the exercises classes  (17:50-19:20 am 17.09.2020 und 24.09.2020)"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung besteht aus einem Vorlesungs- und einem Übungsteil. Im Rahmen des Übungsteils bearbeiten Studierende Beispiele, die sie an der Tafel präsentieren."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Die Vorlesung wird nach der Methode des \"Inverted Classrooms\" gehalten. Das heißt Studierende bereiten sich anhand von zur Verfügung gestellter Literatur auf die Präsenzeinheiten vor, wo sie die Möglichkeit haben Fragen zum Vorlesungsstoff zu stellen."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "grundlegende Aufgabenstellungen in allgemeinen Vektorräumen, sowie einfache geometrische Problemstellungen im zwei- und dreidimensionalen euklidischen Raum zu lösen",
+                      "elementare Rechenoperationen mit Matrizen bzw. linearen Abbildungen durchzuführen sowie Determinanten und Inverse zu berechnen",
+                      "lineare Gleichungssysteme in Matrixschreibweise mit Hilfe des Gaußalgorithmus zu lösen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Vektorräume",
+                      "Matrizen und lineare Abbildungen",
+                      "lineare Gleichungssysteme"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Mittelschulstoff"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "G. Teschl und S. Teschl, Mathematik für Informatiker, Band 1, 4. Auflage, 2013, Springer Verlag",
+                      "M. Drmota et al, Mathematik für Informatik, 4. Auflage, 2014, Heldermann Verlag",
+                      "T. Arens et al, Mathematik, 4. Aufl. 2018,Springer Spektrum"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-immanente Leistungsbeurteilung und Abschlussprüfung",
+                      "Zwei gleichstark gewichtete Teile: Übungsbeispiele und Abschlussprüfung. In jedem Teil müssen min. 50% der Punkte erreicht werden, um die LV positiv abschließen zu können."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtende Anwesenheit in den Übungseinheiten ((17:50-19:20 am 17.09.2020 und 24.09.2020)"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-24 20:08:01"
+            },
+            {
+              "lehrveranstaltung_id": "38132",
+              "kurzbz": "ANY",
+              "semester": "1",
+              "bezeichnung": "Analysis",
+              "bezeichnung_englisch": "Analysis",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": "2020-08-24 20:08:01"
+            },
+            {
+              "lehrveranstaltung_id": "38131",
+              "kurzbz": "AWS",
+              "semester": "1",
+              "bezeichnung": "Angewandte Statistik",
+              "bezeichnung_englisch": "Applied Statistics",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, students will learn how to carry out statistical data analyses. The most important descriptive and inferential statistical methods will be reviewed and applied in practice using the statistical software R."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture\r\nComputer-based lab sessions"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "carry out hypothesis tests for one categorical or one metric variable, respectively",
+                      "test associations between two categorical or two metric variables, respectively",
+                      "establish regression model for metric variables",
+                      "perform basic time series analyses"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "One categorical variable: absolute and relative frequencies, bar charts, binomial test, chi-squared test",
+                      "Two categorical variables: contingency tables, grouped bar charts, spine plots, chi-squared tests for independence and homogeneity",
+                      "One metric variable: histogram, indicators for mean and variance, boxplots, t-test",
+                      "Two metric variables: scatter plot, correlation analysis, regression analysis",
+                      "Time series analysis: time series plots, naive forecasting",
+                      "Reproducible Scientific Research: Literate Programming with R Markdown",
+                      "Identification of the correct statistical method for a given problem"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Probability calculus and applied statistics (in particular: distributions, confidence intervals and statistical tests)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "R. Hatzinger, K. Hornik, H. Nagel, M. Maier: R – Einführung durch angewandte Statistik (2. Auflage), Springer, 2014",
+                      "Lecture notes"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "In-class exercises, final exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "-"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieser Kurs vermittelt Methoden für die Auswertung von quantitativen Erhebungen (zB Umfragen, Firmendaten oder technischen Messungen).  Inhalte sind gängige Analysemethoden der beschreibenden und schließenden Statistik, die mittels der Standardsoftware R umgesetzt werden."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag\r\nÜbungen (am Computer)"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "univariate Tests für ein kategoriales oder ein metrisches Merkmal durchzuführen",
+                      "Zusammenhänge zwischen zwei kategorialen oder zwei metrischen Merkmalen zu testen",
+                      "Regressionsmodelle für metrische Variablen aufzustellen und zu prüfen",
+                      "einfache Zeitreihenanalysen durchzuführen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Eine kategoriale Variable: absolute und relative Häufigkeiten, Balkendiagramme, Binomialtest, Chi-Quadrat-Test",
+                      "Zwei kategoriale Variablen: Kontingenztabellen, gruppierte Balkendiagramme, Spineplot, Chi-Quadrat-Test auf Unabhängigkeit und Homogenität, Paarvergleiche",
+                      "Eine metrische Variable: Histogramm, Lage- und Streumaße, Boxplot, t-Test ",
+                      "Zwei metrische Variablen: Streudiagramm, Korrelationsrechnung, partielle Korrelation, einfache und multiple Regressionsrechnung",
+                      "Zeitreihenanalyse: Zeitreihendiagramm, Kurzfristprognosen",
+                      "Reproducible Scientific Research: Literate Programming mit R Markdown",
+                      "Bestimmung der korrekten statistischen Methode für ein konkretes Problem"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Wahrscheinlichkeitsrechnung & Angewandte Statistik (insbesondere Verteilungen, Konfidenzintervalle und statistische Tests)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "R. Hatzinger, K. Hornik, H. Nagel, M. Maier: R – Einführung durch angewandte Statistik (2. Auflage), Springer, 2014",
+                      "Skriptum"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-immanente Leistungsbeurteilung und Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtende Anwesenheit"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "-"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-13 15:41:07"
+            },
+            {
+              "lehrveranstaltung_id": "38274",
+              "kurzbz": "GWS",
+              "semester": "1",
+              "bezeichnung": "Grundzüge der Wahrscheinlichkeitsrechnung & Statistik",
+              "bezeichnung_englisch": "Applied Probability & Statistics (Basics)",
+              "unterrichtssprache": "German",
+              "ects": "2.00",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, students will learn basic concepts of probability calculus and applied statistics, utilizing the R software environment."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lectures\r\nComputer-based lab sessions"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "explain the relationship between random variables and probability distributions",
+                      "explain the importance of theoretical distributions for the performance of statistical tests",
+                      "comprehend the operating mode of statistical tests, in particular to perform a simple statistical test and interpret the results",
+                      "calculate interval and point estimaters and to perform statistical tests for one categorical and one metric variable, respectively"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Random variables",
+                      "Discrete and continuous probability distributions",
+                      "Statistical tests",
+                      "Confidence intervals"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic knowledge of mathematics on high school level "
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Teschl, G., Teschl S.: Mathematik für Informatiker Band 2: Analysis und Statistik, 4. Auflage, 2013, Springer."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Final exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory "
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "-"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieser Kurs vermittelt elementare Kenntnisse der Wahrscheinlichkeitsrechnung und angewandten Statistik mit Hilfe der Statistik-Software R."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrierte Lehrveranstaltung, Fernlehre"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "den Zusammenhang zwischen Zufallsvariablen und Wahrscheinlichkeitsverteilungen zu erklären",
+                      "die Bedeutung spezieller Verteilungen für die Durchführung statistischer Tests zu erklären",
+                      "die grundlegenden Funktionsweisen statistischer Tests zu verstehen sowie einfache statistische Tests durchzuführen und zu interpretieren",
+                      "ntervall- und Punktschätzungen sowie Hypothesentests für ein kategoriales und ein metrisches Merkmal durchzuführen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Zufallsvariablen",
+                      "Diskrete und stetige Verteilungen",
+                      "Statistische Tests",
+                      "Konfidenzintervalle"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Mittelschulstoff"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Teschl, G., Teschl S.: Mathematik für Informatiker Band 2: Analysis und Statistik, 4. Auflage, 2013, Springer."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtende Anwesenheit"
+                  },
+                  "anmerkungen": {
+                    "einleitungstext": "",
+                    "data": "-"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-13 15:58:50"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38050",
+          "kurzbz": "MOD12",
+          "semester": "1",
+          "bezeichnung": "Angewandte Mathematik",
+          "bezeichnung_englisch": "Applied Mathematics",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38074",
+              "kurzbz": "MAT",
+              "semester": "1",
+              "bezeichnung": "Angewandte Mathematik",
+              "bezeichnung_englisch": "Applied Mathematics",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course „Angewandte Mathematik“ is supposed to teach basic mathematical concepts and methods that are used in the data science context, in particular in connection with optimization."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lecture and exercises."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "to explain basic notions and methods of linear algebra, in particular in connection with inner products, orthogonality, eigenvalue theory and linear optimization, and to apply them in the data science context",
+                      "to explain basic notions and methods of higher dimensional analysis, in particular gradient descent and optimization in the presence of constraints, and to apply them in the data science context"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Linear Algebra: inner product, orthogonality; eigenvalue decomposition, singular-value decomposition; linear optimization",
+                      "Calculus with functions in serveral variables: partial derivative, total differentiability; gradient, directional derivative, linear and quadratic approximation, local extrema; methods of optimization: gradient descent, method of Lagrange multipliers"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic knowledge of analysis and linear algebra"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "G. Teschl und S. Teschl, Mathematik für Informatiker, Band 1 (4. Auflage, 2013) und Band 2 (3. Auflage, 2013), Springer Verlag",
+                      "P. Hartmann:  Mathematik für Informatiker, 6. Auflage 2014, Springer Verlag",
+                      "P. Stingl: Mathematik für Fachhochschule: Technik und Informatik, 8. Auflage 2009, Hanser Verlag",
+                      "Drmota et al, Mathematik für Informatik, 4. Auflag 2014, Berliner Studienreihe zur Mathematik. Band 17, Heldermann Verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Assessment takes place during the course and in the examination"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "compulsory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Die Lehrveranstaltung „Angewandte Mathematik“ hat das Ziel, grundlegende im Data Science Kontext benötigte mathematische Konzepte und Methoden, vor allem im Zusammenhang mit Optimierung, zu vermitteln."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag und Übungen."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Grundbegriffe und Methoden der linearen Algebra, insbesondere im Zusammenhang mit inneren Produkten, Orthogonalität,  Eigenwerttheorie und linearer Optimierung zu erklären und im Data Science Kontext anzuwenden",
+                      "Grundbegriffe und Methoden der mehrdimensionalen Analysis, insbesondere Gradientenabstiegsverfahren und Optimierung mit Nebenbedingungen zu erklären und im Data Science Kontext anzuwenden "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Lineare Algebra: inneres Produkt, Orthogonalität; Eigenwert- bzw. Singulärwertzerlegung; lineare Optimierung",
+                      "Analysis von Funktionen mehrerer Veränderlicher: partielle Ableitungen, totale Differenzierbarkeit; Gradienten, Richtungsableitung, lineare und quadratische Approximation, lokale Extrema; Optimierungsverfahren: Gradientenabstiegsverfahren, Lagrange-Verfahren"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundkenntnisse der Analysis und linearen Algebra (siehe Ausgleichsmodule)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "G. Teschl und S. Teschl, Mathematik für Informatiker, Band 1 (4. Auflage, 2013) und Band 2 (3. Auflage, 2013), Springer Verlag",
+                      "P. Hartmann:  Mathematik für Informatiker, 6. Auflage 2014, Springer Verlag",
+                      "P. Stingl: Mathematik für Fachhochschule: Technik und Informatik, 8. Auflage 2009, Hanser Verlag",
+                      "Drmota et al, Mathematik für Informatik, 4. Auflag 2014, Berliner Studienreihe zur Mathematik. Band 17, Heldermann Verlag"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Leistungsbeurteilung erfolgt während der LV und im Rahmen der Modulprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtende Anwesenheit"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-13 14:42:33"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38051",
+          "kurzbz": "MOD13",
+          "semester": "1",
+          "bezeichnung": "Scripting",
+          "bezeichnung_englisch": "Scripting",
+          "unterrichtssprache": "English",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38075",
+              "kurzbz": "SCR",
+              "semester": "1",
+              "bezeichnung": "Scripting",
+              "bezeichnung_englisch": "Scripting",
+              "unterrichtssprache": "English",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The course is about understanding R and Python as a full programming languages and deepening the programming skills in R and Python. This allows for a usage that goes beyond the mere execution of ready-made functions. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "R: Lecture, computer-based lab sessions\r\nPython: Lecture, in-class exercises, remote exercises"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "manage data using the available data structures",
+                      "read, write and display data (console and files)",
+                      "use elements of structured programming (loops, conditions)",
+                      "write their own functions",
+                      "integrate and use libraries",
+                      "apply the respective object-oriented concepts",
+                      "create graphics",
+                      "use interfaces to external systems"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "R: Data structures (vectors, lists, matrices/arrays, data frames; missing values, strings). Structured programming (loops, conditions, vectorization, functionals: apply and friends). Functions. Object-oriented concepts (S3, S4, and others). Graphics (base and grid graphics). Performance and profiling.",
+                      "Python: Data structures (tuples, lists, dictionnaries, sets, strings). NumPy and Pandas: arrays, aggregation, indexing, data manipulation, handling missing data, combing data sets, pivot tables, time series data, classes, input and output, visualization using matplotlib and plotly"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basic (also object-oriented) programming skills"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wickham, 2019: Advanced R. CRC Press.",
+                      "Lutz, 2015. Learning Python. O’Reilly",
+                      "McKinney, 2017. Python for Data Analysis, O’Reilly"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "In-class exercises, final exams"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In diesem Kurs geht es darum, R und Python als vollständige Programmiersprachen zu verstehen und die Programmierkenntnisse in R und Python zu vertiefen, um damit dessen Nutzung über die reine Verwendung vorgefertigter Funktionen hinaus zu ermöglichen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "R: Vortrag, Übungen (am Computer)\r\nPython: Vortrag, Übungen vor Ort und Remote"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Daten mit den verfügbaren Datenstrukturen zu verwalten",
+                      "Daten einzulesen und auszugeben (Konsole, Dateien)",
+                      "Elemente der strukturierten Programmierung (Schleifen, Bedingungen) anzuwenden",
+                      "eigene Funktionen zu erstellen",
+                      "Bibliotheken einzubinden und zu verwenden",
+                      "die jeweiligen objektorientierten Konzepte anzuwenden",
+                      "Grafiken zu erzeugen",
+                      "Schnittstellen von und zu externen Systemen zu benutzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "R: Vektoren, Arrays, Tabellen, Listen, Data Frames. Fehlende Werte, Strings. Schleifen, Bedingungen. Funktionen, Vektorisierung. Objektorientierung: S3/S4/R6-Systeme. Input und Output. Grafiken: base graphics; grid. Grundlegende Diagramme.",
+                      "Python: Elementare Datentypen (Tuples, Lists, Dictionnaries, Strings). NumPy und Pandas: Arrays, Aggregationen, Indexing, Datenmanipulation, Umgehen mit fehlenden Daten, kombinieren von Data Sets. Pivottabellen, Zeitreihen. Klassen. Input und Output. MatPlotLib: Grafiken."
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlegende (auch objektiorientierte) Programmierkenntnisse"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wickham, 2019: Advanced R. CRC Press.",
+                      "Lutz, 2015. Learning Python. O’Reilly",
+                      "McKinney, 2017. Python for Data Analysis, O’Reilly"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Leistungsbeurteilung erfolgt während der LV und im Rahmen der Modulprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtende Anwesenheit"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-24 13:28:50"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38053",
+          "kurzbz": "MOD14",
+          "semester": "1",
+          "bezeichnung": "Data Engineering",
+          "bezeichnung_englisch": "Data Engineering",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38076",
+              "kurzbz": "DE",
+              "semester": "1",
+              "bezeichnung": "Data Engineering",
+              "bezeichnung_englisch": "Data Engineering",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course addresses the practical challenges of one of the main process steps in a data science project: the data engineering, both in R and Python."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Workshops\r\nDiscussion\r\nExercises"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe the workflow of a data science project",
+                      "access various data sources for data import (e.g., relational data bases, web data, text, pictures, videos, streams)",
+                      "perform data wrangling (import, tidy, transform)",
+                      "explore and visualize data",
+                      "assess data plausibility and quality",
+                      "use relevant tools such as TidyVerse (R) and  Pandas (Python)",
+                      "assess the usefullness of R and Python"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Design of Data Science Projects",
+                      "Data formats for structured and unstructured data (in particular data frames)",
+                      "data import, data cleansing",
+                      "data visualization",
+                      "TidyVerse, ggplot2; Pandas, Numpy",
+                      "Compare R and Python"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Scripting with R and Python, \r\nDescriptive Statistics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grolemund, Wickham, 2016. R for Data Science, O‘Reilly",
+                      "Baumer, Kaplan, Horton, 2017. Modern Data Science with R. CRC Press.",
+                      "VanderPlas, 2017. Python Data Science Handbook. O'Reilly"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Continuous assessment and final project"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieses Modul adressiert die praktischen Herausforderungen eines der wichtigsten Prozessschritte eines jeden Data Science-Projekts: die Datenaufbereitung - sowohl in R, wie auch in Python. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Workshops\r\nDiskussion\r\nÜbungen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "den Workflow eines Data Science-Projekts zu beschreiben",
+                      "auf unterschiedliche Datenquellen (z.B. relationale Datenbanken, Web-Daten, Text, Bilder, Videos, Streams) zum Datenimport zuzugreifen",
+                      "Data Wrangling zu betreiben (import, tidy, transform)",
+                      "Daten zu explorieren und zu visualisieren",
+                      "Daten hinsichtlich Plausibilität und Qualität zu bewerten",
+                      "Relevante Tools wie TidyVerse (R) und Pandas (Python) zu verwenden",
+                      "die Verwendung von R und Python bewerten"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Design von Data Science Projekten",
+                      "Datenformate für strukturierte und nicht-strukturierte Daten (insb. Data Frames)",
+                      "Datenimport, Datenbereinigung",
+                      "Datenvisualisierung",
+                      "TidyVerse, ggplot2; Pandas, Numpy",
+                      "Vergleich von R und Python"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Scripting mit R und Python, \r\nDeskriptive Statistik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grolemund, Wickham, 2016. R for Data Science, O‘Reilly",
+                      "Baumer, Kaplan, Horton, 2017. Modern Data Science with R. CRC Press.",
+                      "VanderPlas, 2017. Python Data Science Handbook. O'Reilly"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-immanente Leistungsbeurteilung und Abschlussprojekt"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtende Anwesenheit"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-28 12:05:38"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38052",
+          "kurzbz": "MOD15",
+          "semester": "1",
+          "bezeichnung": "Data Warehouse & BI",
+          "bezeichnung_englisch": "Data Warehouse & BI",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38077",
+              "kurzbz": "DWBI",
+              "semester": "1",
+              "bezeichnung": "Data Warehouse & BI",
+              "bezeichnung_englisch": "Data Warehouse & BI",
+              "unterrichtssprache": "English",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course introduces key concepts, technologies and methods of Data Warehousing and Business Intelligence. Amongst others, an overview of Analytics and Data Warehousing is given (modeling and implementation of a data warehouse). Moreover, the management of BI-related projects as well as basic techniques for data modeling and presentation and selected aspects of data management are addressed in this course. Finally and with respect to practical skills, students learn how to set up an ETL process to populate a data warehouse. An OLAP cube will be created, which will be analyzed in a BI application."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Lectures\r\n- Interactive Tutorials\r\n- Practical group work (on-site and distance)\r\n- Group presentations"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "give an overview of Business Intelligence and Data Warehousing and develop a BI-related business case and plan a project on a micro-level accordingly",
+                      "elicit requirements for a BI solution with respect to a business context",
+                      "create a data model for a BI solution and prepare the data set",
+                      "handle data sources, asses data quality and retrieve data from database systems",
+                      "explain fundamental BI operations, select appropriate BI tools and apply them to real-life data",
+                      "implement a multidimensional analysis model (OLAP) and analyze the data",
+                      "carry out a complete DWH project (planning, implementation, reports) using data from an ERP system"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Introduction to Business Intelligence (BI) and Data Warehousing (DW)",
+                      "Development of business cases and BI projects",
+                      "Business Architecture and Requirements",
+                      "Data Modeling for DWHs (Dimensional Fact Modeling, Galaxy Schema)",
+                      "Data management (data sources, data quality and databases)",
+                      "Extract-Transform-Load-process",
+                      "BI operations, tools and methods",
+                      "Data representation (scorecards, dashboards)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Knowledge on data modeling, databases, project management and statistical methods"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Haertzen, D., 2012. The Analytical Puzzle: Profitable Data Warehousing, Business Intelligence and Analytics. 1. Ausgabe. Technics Publications.",
+                      "Kimball, R., Ross, M., 2013. The Datawarehouse Toolkit (2nd Ed., Chapters 1-6)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Course immanent assessment method and end exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Required"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieser Kurs führt in grundlegende Konzepte, Technologien und Methoden von Data Warehousing und Business Intelligence ein. Unter anderem wird ein Überblick über Analytics und Data Warehousing gegeben (Modellierung und Umsetzung einer DWH-Lösung). Zudem werden die Planung von BI-bezogenen Projekten, relevante Techniken der Datenmodellierung und -präsentation sowie ausgewählte Aspekte des Datenmanagements behandelt. Hinsichtlich praktischer Fertigkeiten lernen die Kursteilnehmer, wie ein ETL-Prozess zur Generierung eines Data Warehouses implementiert wird. Basierend darauf wird ein OLAP-Würfel aufgesetzt und mittels einer BI-Anwendung analysiert.\r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "- Vortrag\r\n- Interaktive Tutorials\r\n- Praktische Gruppenarbeit (vor Ort und in Fernlehre)\r\n- Gruppenpräsentationen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "einen Überblick über Business Intelligence und Data Warehousing zu geben bzw. einen BI-bezogenen Geschäftsfall projektmäßig zu planen",
+                      "Anforderungen an eine BI Lösung für einen gegebenen Geschäftsfall abzuleiten",
+                      "ein für einen BI-Ansatz notwendiges Datenmodell zu erstellen und einen Datensatz vorzubereiten",
+                      "Datenquellen handzuhaben, die Qualität der Daten abzuschätzen und Daten aus Datenbanksystemen zu beziehen",
+                      "wesentliche BI Operationen zu erklären, passende BI Werkzeuge auszuwählen auf Echtdaten anzuwenden",
+                      "ein multidimensionales Analysemodel (OLAP) praktisch umzusetzen und damit Daten auszuwerten",
+                      "ein komplettes DWH-Projekt (Planung, Implementierung, Berichte) auf Basis von Daten eines ERP-Systems umzusetzen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Einführung zu Business Intelligence (BI) und Data Warehousing (DW)",
+                      "Entwicklung von Geschäftsfällen und BI-bezogenen Projekten",
+                      "Geschäftsmodell für und Anforderungen an Business Intelligence",
+                      "Datenmodellierung für DWHs (Dimensional Fact Modeling, Galaxy Schema)",
+                      "Datenmanagement (Datenquellen, Datenqualität und Datenbanken)",
+                      "Extract-Transform-Load-Prozess",
+                      "BI Operationen, Werkzeuge und Methoden",
+                      "Datenpräsentation (Scorecards, Dashboards)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Kenntnisse zu Datenmodellierung, Datenbanken, Projektmanagement und statistischen Methoden"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Haertzen, D., 2012. The Analytical Puzzle: Profitable Data Warehousing, Business Intelligence and Analytics. 1. Ausgabe. Technics Publications.",
+                      "Kimball, R., Ross, M., 2013. The Datawarehouse Toolkit (2nd Ed., Chapters 1-6)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-immanente Leistungsbeurteilung und Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtende Anwesenheit"
+                  }
+                }
+              },
+              "lastupdate": "2020-07-31 08:07:51"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38054",
+          "kurzbz": "MOD16",
+          "semester": "1",
+          "bezeichnung": "Data Science Infrastructure",
+          "bezeichnung_englisch": "Data Science Infrastructure",
+          "unterrichtssprache": "English",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38078",
+              "kurzbz": "DSI",
+              "semester": "1",
+              "bezeichnung": "Data Science Infrastructure",
+              "bezeichnung_englisch": "Data Science Infrastructure",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course addresses aspects of ICT infrastructure that is relevant for Data Science activities. Besides getting an overview of computational problems and technologies in the scope of Data Science, course participants will learn how to store and process the different types of data with state-of-the-art software tools and libraries. Amongst others, topics include different kind of data storages (NoSQL databases, hdfs), computing techniques (Python packages, Hadoop, Spark), performance optimization, stream data processing, or the utilization of cloud services for Big Data."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "In the on-site sessions, brief lectures on the specific topics are given. Students need to prepare for each session in which hands-on skills are practiced. In further consequences, these computing infrastructure skills should be applied in a group project. At the end of the course, each participant must pass a practical task in form of a computer-based exam."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "give an overview of computational problems in the field of Data Science and explain relevant technologies in this context.",
+                      "store and access structured, semi-structured as well as unstructured data with NoSQL database technologies.",
+                      "run data-based computations on one or more processors and using different Python libraries (pytorch, sklearn, mxnet, tensorflow).",
+                      "give an overview of dimensions and challenges of Big Data as well as store and process data in a distributed manner using the Hadoop ecosystem (hdfs, map/reduce).",
+                      "configure a Spark cluster and measure performance improvements of machine learning algorithms executed on such an infrastructure.",
+                      "manage and process data streams, such as sensor data, using InfluxDB, Kafka and Spark.",
+                      "utilize cloud services to store, process and exploit Big Data."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Computing Infrastructure for Data Science",
+                      "Data Storage: From Databases to Data Lakes",
+                      "Data Processing: From distributed computing to machine learning frameworks",
+                      "Big Data (Hadoop)",
+                      "Analytics Engine (Spark)",
+                      "Stream Data Processing (InfluxDB, Kafka)",
+                      "Cloud Services for Big Data"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Databases (SQL, NoSQL)\r\nProgramming (Python/R)\r\nOperating Systems (Linux)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "White, 2015. Hadoop: The Definitive Guide, O’Reilly",
+                      "Seidman, Shapira, Malaska, Grover, 2015. Hadoop Application Architectures. ",
+                      "Vohra, 2016. Practical Hadoop Ecosystem: A Definitive Guide to Hadoop-Related Frameworks and Tools, Apress",
+                      "Simon, 2015. Too Big To Ignore: The Business Case for Big Data , Wiley",
+                      "Kleppmann, 2017. Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, O’Reilly",
+                      "Harrisons Guy, 2015, Next Generation Databases: NoSQL, NewSQL, and Big Data, Apress"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Weekly Moodle quizzes to assess subject matter knowledge (20%)",
+                      "Computer-based exam to assess hand-on skills (40%)",
+                      "Group-based project on a realistic scenario (40%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Attendance is mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieser Kurs adressiert unterschiedliche Aspekt von IT-Infrastruktur, die für Data Science Aktivitäten relevant sind. Neben einem Überblick von algorithmischen Problemen und Technologien im Umfeld von Data Science lernen die Teilnehmer*innen, wie unterschiedliche Datenarten mit zeitgemäßen Softwarewerkzeugen abgespeichert und mit aktuellen Machine Learning Bibliotheken verarbeitet werden. Die Themen in diesem Kurs umfassen unter anderem diverse Arten von Datenspeicher (NoSQL-Datenbanken, hdfs), verschiedene Ansätze bzw. Werkzeuge zur effizienten Datenverarbeitung (Python Bibliotheken, Hadoop, Spark), Performanceoptimierung von Berechnungen, Streamdatenverarbeitung oder die Nutzung von Cloud-Diensten für große Datenmengen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "In den Präsenzeinheiten werden Impulsvorträge zu den jeweiligen Themen abgehalten. Die Teilnehmer*innen müssen sich auf die bevorstehende Einheit vorbereiten und erarbeiten sich praktische Fertigkeiten im Umgang mit Infrastrukturen für Data Science Aktivitäten. In weiterer Folge sind diese Fertigkeiten in einem Gruppenprojekt anzuwenden. Am Ende des Kurses muss jeder Teilnehmer*in eine praktische Aufgabe in Form eines computerbasierten Tests bewältigen."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "einen Überblick über algorithmische Aufgabenstellungen im Rahmen von Data Science und Big Data geben sowie relevante Technologien in diesem Umfeld erklären.",
+                      "strukturierte, semi-strukturierte und unstrukturierte Daten mittels NoSQL-Datenbanktechnologien abspeichern und abrufen.",
+                      "datenbasierte Berechnungen auf einen oder mehreren Prozessoren bzw. unter Verwendung unterschiedlicher Python Bibliotheken (pytorch, sklearn, mxnet, tensorflow) ausführen.",
+                      "einen Überblick über die Dimensionen und Herausforderungen großer Datenmengen geben sowie verteilt Daten mit dem Hadoop Ecosystem (hdfs, map/reduce) speichern und verarbeiten.",
+                      "einen Spark Rechencluster konfigurieren und die Performance-Verbesserungen bei Algorithmen des maschinellen Lernens auf dieser Infrastruktur messen.",
+                      "Datenstreams, wie etwa Sensordaten, mittels InfluxDB, Kafka und Spark verwalten und verarbeiten.",
+                      "einen Cloud-Service nutzen, um große Datenmengen zu speichern, verarbeiten und verwerten."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Computing Infrastruktur für Data Science",
+                      "Datenspeicher: Von Datenbanken bis zu Data Lakes",
+                      "Datenverarbeitung: Von verteilten Berechnungen zu Machine Learning Frameworks",
+                      "Big Data (Hadoop)",
+                      "Analytics Engine (Spark)",
+                      "Streamdatenverarbeitung",
+                      "Cloud Services für große Datenmengen (Azure, Colab)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Datenbanken (SQL, NoSQL)\r\nProgrammieren (Python/R)\r\nBetriebssysteme (Linux)"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "White, 2015. Hadoop: The Definitive Guide, O’Reilly",
+                      "Seidman, Shapira, Malaska, Grover, 2015. Hadoop Application Architectures. ",
+                      "Vohra, 2016. Practical Hadoop Ecosystem: A Definitive Guide to Hadoop-Related Frameworks and Tools, Apress",
+                      "Simon, 2015. Too Big To Ignore: The Business Case for Big Data , Wiley",
+                      "Kleppmann, 2017. Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, O’Reilly",
+                      "Harrisons Guy, 2015, Next Generation Databases: NoSQL, NewSQL, and Big Data, Apress"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wöchentliche Zwischentests zur Beurteilung des Lernfortschritts (20%)",
+                      "Computerbasierte Abschlussprüfung zur Beurteilung der praktischen Fertigkeiten (40%)",
+                      "Gruppenprojekt für ein realistisches Data Science Szenario (40%)"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "verpflichtende Anwesenheit"
+                  }
+                }
+              },
+              "lastupdate": "2020-08-03 01:56:06"
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "lehrveranstaltung_id": "38055",
+          "kurzbz": "MOD21",
+          "semester": "2",
+          "bezeichnung": "Machine Learning",
+          "bezeichnung_englisch": "Machine Learning",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38079",
+              "kurzbz": "ML",
+              "semester": "2",
+              "bezeichnung": "Machine Learning",
+              "bezeichnung_englisch": "Machine Learning",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This module provides an introduction to machine learning."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Presentations, Exercises, Discussion"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "select an appropriate Machine Lerning method for a given task",
+                      "explain the most common Machine Learning methods",
+                      "apply the methods using software, and to interpret the results",
+                      "evaluate the performance of methods and to compare them."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fundamentals of Statistical Learning",
+                      "Supervised Learning (Classification, Regression): k-Nearest Neighbour, Naive Bayes, Trees, Random Forests, Neural Networks, Support Vector Machines, Ensemble Methods (Bagging, Boosting)",
+                      "Unsupervised Learning (Clustering): k-Means, DBSCAN",
+                      "Performance Evaluation and Benchmarking of ML Algorithms (Confusion Matrix, Accuracy, Recall/Precision; ROC Curve, Lift Chart)",
+                      "Experimental Design of Benchmarking Experiments"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Applied Mathematics, Statistics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "James/Witten/Hastie/Tibshirani, 2017. An Introduction to Statistical Learning. Springer."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Exercises",
+                      "Exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieses Modul bietet eine Einführung in das maschinelle Lernen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Übungen, Diskussion"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "für ein gegebenes Problem die geeignete Methode des maschinellen Lernens auszuwählen;",
+                      "die Funktionsweise der gängigen Methoden des maschinellen Lernens zu erklären;",
+                      "die Methoden mit Computereinsatz anzuwenden und die Ergebnisse zu interpretieren;",
+                      "die Performance von Methoden zu evaluieren und mehrere Methoden zu vergleichen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen statistischen Lernens",
+                      "Überwachtes Lernen (Klassifikation, Regression): k-Nearest Neighbour, NaiveBayes, Bäume, RandomForests, Neuronale Netze, Support Vector Machines, Ensemble-Methoden (Bagging, Boosting)",
+                      "Nicht-überwachtes Lernen (Clustering): k-Means, DBSCAN",
+                      "Performance-Evaluierung und Benchmarking von Algorithmen (Confusion-Matrix, Treffergenauigkeit, Recall/Precision; ROC-Kurven, Lift-Charts)",
+                      "Experimentelles Design von Benchmarking-Experimenten"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Angewandte Mathematik, Statistik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "James/Witten/Hastie/Tibshirani, 2017. An Introduction to Statistical Learning. Springer."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Laufende Übungen",
+                      "Klausur"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-15 15:50:23"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38056",
+          "kurzbz": "MOD22",
+          "semester": "2",
+          "bezeichnung": "Multivariate Analysemethoden",
+          "bezeichnung_englisch": "Multivariate Statistics",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38081",
+              "kurzbz": "MA",
+              "semester": "2",
+              "bezeichnung": "Multivariate Analysemethoden",
+              "bezeichnung_englisch": "Multivariate Statistics",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This course covers advanced topics for the exploratory and inferential analysis of multivariate data. Applications are based on R."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Blended learning."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "preprocess and visualize multivariate data",
+                      "apply methods to reduce dimensionality (Principal Component Analysis, Multidimensional Scaling)",
+                      "fit multiple linear models (linear regression, variance and covariance analysis), do diagnostics and  apply them for prediction.",
+                      "fit generalized linear models (logistic regression, regression models for count data), do diagnostics and  apply them for prediction.",
+                      "fit simple mixed-effect models for grouped data",
+                      "carry out an hierarchical cluster analysis and assess the quality of the solution"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Distances, Covariances and Correlation",
+                      "Visualization Methods for multivariate data (Trellis, parallel coordiantes, faces ...)",
+                      "Principal Component Analysis",
+                      "Multidemensional Scaling",
+                      "Multiple Linear Regression, Analysis of Variance (ANOVA) and Analysis of Covariance (ANCOVA)",
+                      "Logistic Regression, Poisson Regression, Negative Binomial Regression",
+                      "Linear Mixed-Effects-Models",
+                      "Hierarchical Cluster Analysis"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Probability Calculus; Applied Statistics"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Everitt, Hothorn, 2011: An introduction to multivariate data analysis with R. Springer.",
+                      "Fox, Weisberg, 2019: An R Companion to Applied Regression, Third Edition. Sage."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-immanente Leistungsbeurteilung und Abschlussprüfung"
+                    ]
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dies Lehrveranstaltung vermittelt weiterführende statistische Methoden, mit denen mehrdimensionale Daten deskriptiv, explorativ und inferenzstatistisch analysiert werden können. Die praktische Umsetzung erfolgt mit Hilfe der Standardsoftware R."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Integrierte Lehrveranstaltung, Fernlehre"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "mehrdimensionale Daten vorzuverarbeiten und zu visualisieren",
+                      "Methoden der Dimensionsreduktion (Hauptkomponentenanalyse, Multidimensionale Skalierung) anzuwenden",
+                      "multiple lineare Modelle (Lineare Regression, Varianz- und Kovarianzanalyse) anzupassen und für Vorhersagen zu verwenden sowie entsprechende diagnostische Methoden anzuwenden",
+                      "generalisierte lineare Modelle (Logististische Regression, Regressionsmodelle für Zähldaten) anzupassen und für Vorhersagen zu verwenden sowie entsprechende diagnostische Methoden anzuwenden",
+                      "einfache Mixed Effects-Modelle für gruppierte Daten anzupassen",
+                      "Beobachtungen zu gruppieren/clustern und die Qualität der Lösung zu beurteilen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Distanzen, Kovarianzen und Korrelation",
+                      "Visualisierungsmethoden für multivariate Daten (Trellis, Parallel Coordinates, Faces etc.)",
+                      "Hauptkomponentenanalyse",
+                      "Multidimensionale Skalierung",
+                      "Multiple Lineare Regression, Mehrfaktorielle Varianzanalyse, Kovarianzanalyse",
+                      "Logistische Regression, Poissonregression, Negativ-Binomiale Regression",
+                      "Lineare Mixed Effects-Modelle",
+                      "Hierarchische Clusteranalyse"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Wahrscheinlichkeitsrechnung; Angewandte Statistik"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Everitt, Hothorn, 2011: An introduction to multivariate data analysis with R. Springer.",
+                      "Fox, Weisberg, 2019: An R Companion to Applied Regression, Third Edition. Sage."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "LV-immanente Leistungsbeurteilung und Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtende Anwesenheit"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-18 19:39:34"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38058",
+          "kurzbz": "MOD23",
+          "semester": "2",
+          "bezeichnung": "Business Development & Innovation",
+          "bezeichnung_englisch": "Business Development & Innovation",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38082",
+              "kurzbz": "BDI",
+              "semester": "2",
+              "bezeichnung": "Business Development & Innovation",
+              "bezeichnung_englisch": "Business Development & Innovation",
+              "unterrichtssprache": "English",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": " This course introduces to Business Model Innovation.\r\n"
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Self Study, Presentation, Case Studies, Group Workshop, Discussion, Presentations"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "describe and develop the elements of a data-driven business model",
+                      "carry out a SWOT analysis of a business model",
+                      "develop and apply a new business model based on trends and customer needs",
+                      "create a business model using Business Model Canvas",
+                      "develop creative solutions for challenging situations"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Elements of business models",
+                      "Business Model patterns",
+                      "Data-driven Business Models",
+                      "Business Model Innovation",
+                      "Design Thinking",
+                      "Lean Startup",
+                      "Business Modell Analysis",
+                      "Business Modell Transformation",
+                      "Business Model Canvas"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Fundamentals of Management"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Gassmann et al, Geschäftsmodelle entwickeln (aktuelle Auflage)",
+                      "Schallmo, Digitale Transformation von Geschäftsmodellen",
+                      "Cavanillas, Curry, Wahlster, 2016. New Horizons for a Data-Driven Economy. A Roadmap for Usage and Exploitation of Big Data in Europe.",
+                      "Glass, Callahan, 2014. The Big Data Driven Business: How to Use Big Data to Win Customers, Beat Competitors, and Boost Profits, Wiley",
+                      "Franks, 2014. The Analytics Revolution: How to Improve Your Business By Making Analytics Operational In the Big Data Era, Wiley"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Project-based group work; presentations"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieser Lehrveranstaltung erwerben die Studierenden grundlegende Kenntnisse und Kompetenzen auf dem Gebiet der Geschäftsmodellentwicklung."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Selbststudium, Vortrag, Fallstudien, Gruppenarbeiten, Diskussion, schriftliche Ausarbeitungen, Präsentationen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "datengetriebene Geschäftsmodelle zu beschreiben und im Data Science Kontext zu entwickeln",
+                      "Geschäftsmodelle hinsichtlich Stärken, Schwächen, Chancen und Risiken zu analysieren",
+                      "Ein Geschäftsmodell mittels dem Business Model Canvas zu erstellen.",
+                      "neue Geschäftsmodelle / Geschäftsmodellinnovationen zu entwicklen und systematisch umzusetzen",
+                      "Kreative Lösungen für Probleme zu entwickeln."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Geschäftsmodellelemente und –darstellung",
+                      "Geschäftsmodellmuster",
+                      "Datgengetriebene  Geschäftsmodelle",
+                      "Geschäftsmodellinnovation",
+                      "Design Thinking",
+                      "Lean Start Up",
+                      "Geschäftsmodellanalyse",
+                      "Geschäftsmodelltransformation",
+                      "Business Model Canvas"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen der Betriebswirtschaftslehre"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Gassmann et al, Geschäftsmodelle entwickeln (aktuelle Auflage)",
+                      "Schallmo, Digitale Transformation von Geschäftsmodellen",
+                      "Cavanillas, Curry, Wahlster, 2016. New Horizons for a Data-Driven Economy. A Roadmap for Usage and Exploitation of Big Data in Europe.",
+                      "Glass, Callahan, 2014. The Big Data Driven Business: How to Use Big Data to Win Customers, Beat Competitors, and Boost Profits, Wiley",
+                      "Franks, 2014. The Analytics Revolution: How to Improve Your Business By Making Analytics Operational In the Big Data Era, Wiley"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ausarbeitung und Präsentation von projektbasierten Gruppenarbeiten"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-15 14:09:10"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38057",
+          "kurzbz": "MOD24",
+          "semester": "2",
+          "bezeichnung": "Solution Engineering",
+          "bezeichnung_englisch": "Solution Engineering",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38084",
+              "kurzbz": "SOE",
+              "semester": "2",
+              "bezeichnung": "Solution Engineering",
+              "bezeichnung_englisch": "Solution Engineering",
+              "unterrichtssprache": "English",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this course, all previously acquired skills (data management, data science infrastructure, predictive modeling) will be combined to to create prototypes of solutions for data-driven tasks."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "short presentations, project work, peer review"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "combine aquired skills (data management, data science infrastructure, predictive modeling) to data-analytic tasks, in particular:",
+                      "predictive analytics, like predictive maintenance",
+                      "text- and webmining",
+                      "social network analysis",
+                      "marketing"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Predictive Analytics (zB predictive maintenance)",
+                      "Text- und Webmining",
+                      "Soziale Netzwerkanalyse",
+                      "Parallel Computing",
+                      "Big Data",
+                      "Real-Time Data (Sensor Data)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Data Management, Statistics, Multivariate Methods, Machine Learning, Data Science Infrastructure"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Baumer, Kaplan, Horton, 2017: Modern Data Science with R. CRC Press."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Presentations; Project"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In diesem Modul werden die bisherigen Kenntnisse (Datenmanagement, Infrastruktur, Modellierung) kombiniert, um prototypische Lösungen für datengetriebene Fragestellungen zu erstellen."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Impulsvorträge, Projektarbeit, Peer Review"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "die bisherigen Kenntnisse (Statistik, Machine Learning, Data Engineering) zu datenanalytischen Lösungen zu kombinieren, insb. aus den Bereichen:",
+                      "Predictive Analytics (zB predictive maintenance)",
+                      "Text- und Webmining",
+                      "Soziale Netzwerkanalyse",
+                      "technische Aspekte wie Parallel Computing zu berücksichtigen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Predictive Analytics (zB predictive maintenance)",
+                      "Text- und Webmining",
+                      "Soziale Netzwerkanalyse",
+                      "Parallel Computing",
+                      "Große Datenmengen",
+                      "Real-Time Daten (zB Sensordaten)"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Datenmanagement, Statistik, Multivariate Methoden, Machine Learning, Data Science Infrastruktur"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Baumer, Kaplan, Horton, 2017: Modern Data Science with R. CRC Press"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Vorträge; Projekt"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-15 22:29:38"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38060",
+          "kurzbz": "MOD25",
+          "semester": "2",
+          "bezeichnung": "Spezialisierung 1",
+          "bezeichnung_englisch": "Specialisation 1",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38086",
+              "kurzbz": "SP1PA",
+              "semester": "2",
+              "bezeichnung": "Process Analytics (Spezialisierung)",
+              "bezeichnung_englisch": "Process Analytics (Specialisation)",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "38087",
+              "kurzbz": "SP1ITS",
+              "semester": "2",
+              "bezeichnung": "Finance (Spezialisierung)",
+              "bezeichnung_englisch": "Finance (Specialisation)",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38059",
+          "kurzbz": "MOD26",
+          "semester": "2",
+          "bezeichnung": "Scientific Working",
+          "bezeichnung_englisch": "Scientific Working",
+          "unterrichtssprache": "English",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38093",
+              "kurzbz": "WIA",
+              "semester": "2",
+              "bezeichnung": "Scientific Working",
+              "bezeichnung_englisch": "Scientific Working",
+              "unterrichtssprache": "English",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Students get information on the formal aspects of writing a master's thesis, as well as the methodological aspects. This includes everything from finding a topic, the structure of a thesis to the actual act of writing a thesis and applying scientific methods. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "presentation by the lecturers; presentation by the students; workshop"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "identify the basic types of scientific publications and differentiate between them, especially original papers, review papers, conference articles, journals and books ",
+                      "evaluate subject specific literature sources (also in English) regarding confirmability, dependability, plausibility, and transferability of insights for comparable problems or contexts and use and reference these in their own work ",
+                      "justify a research question after identifying the current state of the art with regard to scientific considerations, formulate the question comprehensibly and to define verifiable target criteria ",
+                      "plan the phases of a scientic study, conduct it precisely, document it comprehensibly, and to ensure the comprehensibility, dependability, plausibility and transferability other problems areas and contexts",
+                      "chose and apply relevant methods for the research question and compose the structure, a proposal and the Master thesis, especially: engineering modelling, development and test methods; experimental research methods; empirical methods of data collection",
+                      "relate research results to industry, society, the economy or the environment. ",
+                      "present own or other scientific publications comprehensibly, evaluate them and formulate suggestions for further development. "
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Scientific working",
+                      "Scientific writing",
+                      "Scientific methods",
+                      "Structure of scientific works",
+                      "Literature Analysis ",
+                      "Qualitative Methods",
+                      "Engineering methods "
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Experience from writing a bachelor's thesis"
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "    Course immanent assessment method and end exam"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Den Studierenden sollen Hilfestellungen und Methoden für die Erstellung ihrer Arbeiten geliefert werden. Die beinhaltet alles von Themenfindung, Strukturierung der Arbeit bis hin zur Erstellung der Arbeit und das Anwenden von wissenschaftlichen Methoden. "
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Präsentation durch die Lektoren, Präsentationen des Status durch die Studierenden, Workshop"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "grundlegende Typen wissenschaftlicher Veröffentlichungen zu nennen, zu beschreiben und zu unterscheiden, insbesondere Originalarbeiten, Review Papers, Konferenzbeiträge, Journal Papers und Buchbeiträge.",
+                      "facheinschlägige (auch englischsprachige) Literaturquellen hinsichtlich Nachvollziehbarkeit, Verlässlichkeit, Plausibilität und Übertragbarkeit der Erkenntnisse auf vergleichbare Problemlagen oder Kontexte zu bewerten und in der eigenen Arbeit geeignet zu verwenden bzw. zu referenzieren",
+                      "eine fachrelevante Forschungsfrage anhand des nach wissenschaftlichen Gesichtspunkten erhobenen State-of-the-Art zu begründen, nachvollziehbar zu formulieren, sowie überprüfbare Zielerreichungskriterien zu definieren",
+                      "die Phasen einer wissenschaftlichen Entwicklung oder Untersuchung mittels fachüblicher Methoden selbständig zu planen, zielgerichtet durchzuführen, nachvollziehbar zu dokumentieren, und dabei systematisch Nachvollziehbarkeit, Verlässlichkeit, Plausibilität und Übertragbarkeit der Erkenntnisse auf vergleichbare Problemlagen oder Kontexte sicherzustellen",
+                      "für die jeweilige Fragestellung geeignete Methoden auszuwählen und anzuwenden, und dementsprechend die Struktur einer Masterarbeit, ein Proposal und nachfolgend die Masterarbeit zu verfassen, insbesondere: ingenieurwissenschaftlicher Modellierungs-, Entwicklungs- und Testmethoden; experimentelle Forschungsmethoden; empirische Erhebungsmethoden ",
+                      "Forschungsergebnisse in einen übergreifenden (z.B. branchenbezogenen, gesellschaftlichen, wirtschaftlichen oder ökologischen) Zusammenhang zu stellen",
+                      "eigene oder fremde wissenschaftlichen Publikation nachvollziehbar zu präsentieren, zu bewerten, und substantielle Vorschläge für die Weiterentwicklung zu formulieren"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Wissenschaftliches Arbeiten",
+                      "Wissenschaftliches Schreiben",
+                      "Wissenschaftliche Methoden",
+                      "Struktur wissenschaftlicher Arbeiten",
+                      "Struktur wissenschaftlicher Arbeiten",
+                      "Qualitative Methoden",
+                      "Ingenieurswissenschaftliche Methoden"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Erfahrungen aus der Verfassung der Bachelorarbeit"
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "    LV-Immanente Leistungsbeurteilung und Abschlussprüfung"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-15 18:41:21"
+            }
+          ]
+        }
+      ],
+      "3": [
+        {
+          "lehrveranstaltung_id": "38061",
+          "kurzbz": "MOD31",
+          "semester": "3",
+          "bezeichnung": "Artificial Intelligence",
+          "bezeichnung_englisch": "Artificial Intelligence",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38080",
+              "kurzbz": "AI",
+              "semester": "3",
+              "bezeichnung": "Artificial Intelligence",
+              "bezeichnung_englisch": "Artificial Intelligence",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "This module introduces computational methods of Artificial Intelligence."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Presentations, Exercises."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "give an overview on main directions in Artificial Intelligence, their applications and potentials/limitations",
+                      "do logic reasoning using propositional und First-Order-Logic, as well as reasoning under uncertainty, to solve simple tasks with numerical,sequential, hierarchical or geographic data.",
+                      "select and implement strategies for searching, games and problem solving, and to evaluate their time and space complexity.",
+                      "apply methods based on reenforcement learning for speech recognition",
+                      "explain deep learning networks (e.g., convolutional and recurrent neural networks) for pattern recognition problems",
+                      "explain Bayesian Belief Networks and apply them for predicitions",
+                      "adapt and apply ready-made scripts to carry out complex tasks in the field of Artificial Intelligence"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Foundations, directions and applications of AI",
+                      "Logic and reasoning under uncertainty",
+                      "Searching, Games and Problem Solving",
+                      "Neural Networks and Deep Learning",
+                      "Reenforcement Learning",
+                      "Advanced topics of Statistical & Machine Learning",
+                      "Computer Linguistics"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Machine Learning\r\nAlgorithms & Data Structures"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ertel, W., 2016. Grundkurs Künstliche Intelligenz: Eine praxisorientierte Einführung. 4. Auflage. Springer Vieweg.",
+                      "Russel, Norvig, 2015. Artificial Intelligence: A Modern Approach, Pearson."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Übungen",
+                      "Abschlussklasur"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Dieses Modul gibt eine Einführung in die Rechenmethoden der Künstlichen Intelligenz."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Übungen"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "einen Überblick über die wichtigsten Strömungen der Künstlichen Intelligenz zu geben sowie deren potentielle Einsatzgebiete und Einschränkungen zu kennen",
+                      "logische Schlussfolgerung auf Basis von Aussagen- oder Prädikatenlogik bzw. Schlussfolgerungen mit Unsicherheit zu ziehen, um einfache Problemstellung mit numerischen, sequentiellen, hierarchischen oder geographischen Daten zu lösen.",
+                      "Such-, Spiel- und Problemlösungsstrategien für Anwendungsszenarien auszuwählen, algorithmisch umzusetzen und hinsichtlich der Zielvorgabe, des Rechenaufwands und Speicherbedarfs abzuschätzen.",
+                      "ein Verfahren für Lernen durch Verstärkung und der Computerlinguistik anzuwenden.",
+                      "Deep Learning-Netzwerke (zB Convolutional NN, Recurrent NN) zu erklären und für Probleme der Mustererkennung anzuwenden",
+                      "Statistische Lernmethoden (zB Bayesian Belief Networks) zu erklären und für Vorhersagen anzuwenden",
+                      "vorgefertigte Scripts auszuführen bzw. für vorgegebene Aufgabenstellungen aus dem Bereich der KI zu adaptieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen, Ausrichtungen, Anwendungen",
+                      "Logik und Schließen mit Unsicherheit",
+                      "Suchen, Spielen und Probleme lösen",
+                      "Neuronale Netze und Deep Learning",
+                      "Lernen durch Verstärkung",
+                      "Statistisches Lernen",
+                      "Computerlinguistik"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Machine Learning\r\nAlgorithmen & Datenstrukturen"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Ertel, W., 2016. Grundkurs Künstliche Intelligenz: Eine praxisorientierte Einführung. 4. Auflage. Springer Vieweg.",
+                      "Russel, Norvig, 2015. Artificial Intelligence: A Modern Approach, Pearson."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Übungen",
+                      "Abschlussklausur"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-16 09:34:51"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38062",
+          "kurzbz": "MOD32",
+          "semester": "3",
+          "bezeichnung": "Spezialisierung 2",
+          "bezeichnung_englisch": "Specialisation 2",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38090",
+              "kurzbz": "SP2SCM",
+              "semester": "3",
+              "bezeichnung": "Smart Manufacturing (Spezialisierung)",
+              "bezeichnung_englisch": "Smart Manufacturing (Specialisation)",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "38089",
+              "kurzbz": "SP2MA",
+              "semester": "3",
+              "bezeichnung": "Fraud Detection (Spezialisierung)",
+              "bezeichnung_englisch": "Fraud Detection (Specialisation)",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38063",
+          "kurzbz": "MOD33",
+          "semester": "3",
+          "bezeichnung": "Datenschutz und Ethik",
+          "bezeichnung_englisch": "Privacy & Ethics",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38083",
+              "kurzbz": "DSE",
+              "semester": "3",
+              "bezeichnung": "Datenschutz und Ethik",
+              "bezeichnung_englisch": "Privacy & Ethics",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Students acquire basic knowledge about data privacy law and can acquire a data privacy certificate. Additionally, ethics issues will be discussed."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Lectures, Use Cases, Blended Learning, Discussion."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "advise people and organizations regarding data protection law",
+                      "controll and coordinate the compliance with existing data protection regulations",
+                      "fulfill the tasks of a data protection officer listed in Art. 39 GDPR",
+                      "discuss ethical issues regarding typical tasks of a data scientist"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "History and application field of the GDPR",
+                      "Principles of data processing according to the data protection law",
+                      "Duties of stakeholders",
+                      "Rights of concerned persons",
+                      "Warranty of data safety and data security (in particular information security according to ISO 27001)",
+                      "Legal remedies, liability and penalties",
+                      "Fundamentals of the Austrian data protection law",
+                      "Ethical issues regarding data collection and data manipulation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Basics of private and public law"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Forgó, Grundriss Datenschutzrecht (2018)",
+                      "Jahnel/Marzi/Pallwein-Prettner, Datenschutzrecht² (2018) ",
+                      "Knyrim, Datenschutz-Grundverordnung - Das neue Datenschutzrecht in Österreich und der EU (2016)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Exam, in-class participation, homework"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Im Rahmen dieses Moduls erwerben die Studierenden grundlegende Kenntnisse und Kompetenzen auf dem Gebiet des Datenschutzrechts und haben die Möglichkeit zum Erwerb einer Zertifizierung als \"Datenschutzbeauftragter\" nach Austrian Standards. Des weiteren werden ethische Fragestellungen im Zusammenhang mit Data Science diskutiert."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Vortrag, Fallbeispiele und Fernlehre. Diskussion."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Personen und Organisationen in Bezug auf das geltende Datenschutzrecht zu beraten ",
+                      "die Einhaltung der geltenden Datenschutzvorschriften zu überwachen und zu koordinieren ",
+                      "die Aufgaben eines Datenschutzbeauftragen nach Art 39 DSGVO wahrzunehmen ",
+                      "typische Aufgabenstellungen eines Data Scientists aus ethischer Sicht beurteilen"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Entstehungsgeschichte und Anwendungsbereich der Datenschutz-Grundverordnung ",
+                      "Grundsätze der Datenverarbeitung des Datenschutzrechts (Rechtmäßigkeit der Datenverarbeitung, Datenkategorien) ",
+                      "Pflichten von Verantwortlichen und Auftragsverarbeitern ",
+                      "Betroffenenrechte",
+                      "Gewährleistung von Datenschutz und Datensicherheit (insbesondere Informationssicherheit gemäß ISO 27001) ",
+                      "Rechtsbehelfe, Haftung und Strafen ",
+                      "Grundzüge des Österreichischen Datenschutzgesetzes ",
+                      "Ethische Fragestellungen im Zusammenhang mit Datenbeschaffung und Datenmanipulation"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundzüge des Privatrechts, Grundzüge des öffentlichen Rechts"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Forgó, Grundriss Datenschutzrecht (2018)",
+                      "Jahnel/Marzi/Pallwein-Prettner, Datenschutzrecht² (2018) ",
+                      "Knyrim, Datenschutz-Grundverordnung - Das neue Datenschutzrecht in Österreich und der EU (2016)"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Klausur, mündliche Mitarbeit, Fernlehraufgaben "
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-09-23 17:26:54"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38064",
+          "kurzbz": "MOD34",
+          "semester": "3",
+          "bezeichnung": "Solution Deployment & Communication",
+          "bezeichnung_englisch": "Solution Deployment & Communication",
+          "unterrichtssprache": "English",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38085",
+              "kurzbz": "SDC",
+              "semester": "3",
+              "bezeichnung": "Solution Deployment & Communication",
+              "bezeichnung_englisch": "Solution Deployment & Communication",
+              "unterrichtssprache": "English",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The prototypes obtained in \"Solutions Engioneering\" will be complemented with effective visualization components and integrated in existing IT landscapes."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Short presentations; exercises; project work"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "Crtitically assess the diagrams",
+                      "design effective diagrams for end-users",
+                      "create interactive diagrams for end-users",
+                      "design and implement creative diagrams e.g. for geospatial data",
+                      "use foreign programming languages to integrate external functionality",
+                      "call R/Python solutions from external systems",
+                      "integrate R in data bases",
+                      "embed R/Python solutions in cloud solutions",
+                      "publish R/Python solutions as web services"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Fundamentals of Information Visualization",
+                      "Graphics frameworks in R (grid, ggplot2) and Python (matpotlib)",
+                      "geospatial data; visualization of maps",
+                      "programming interfaces between R, Python, C, Java, .NET",
+                      "Embedding of Scripts in cloud platforms (Azure, Tensorflow etc.)",
+                      "create Web-Services with R/Python",
+                      "Crative Visualization"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Solution Engineering"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Few, 2013. Information Dashboard Design, Analytics Press",
+                      "Nussbaumer-Knaflic, 2015. Storytelling with Data: A Visualization Guide for Business Professionals.",
+                      "Hichert, Faisst, 2017. IBCS International Business Communication Standards, CreateSpace Independent Publishing Platform"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Übungen; Projekt"
+                    ]
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In diesem Modul werden die im Solution Engineering erstellten Lösungen um effektive Visualisierungskomponenten ergänzt und in bestehende IT-Systemlandschaften integriert."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Kurzvorträge; Übungen; Projektarbeit"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Diagramme kritisch auf ihren Informationsgehalt zu überprüfen",
+                      "Design effective diagrams for end users",
+                      "Interaktive Grafiken für Anwender zu erstellen",
+                      "Spezielle und kreative Visualisierungsmethoden wie zB für Geodaten zu entwickeln und anzuwenden",
+                      "Fremde Programmierschnittstellen zu nutzen, um externe Funktionalität einzubinden;",
+                      "R/Python-Lösungen aus externen Systemen aufzurufen",
+                      "R in Datenbanken einzubinden",
+                      "R/Python in Cloud-Lösungen einzubinden",
+                      "R/Python-Lösungen als Web-Service anzubieten"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Grundlagen der Informationsvisualisierung",
+                      "Interaktive Grafik-Frameworks in R und Python (ggobi, iplots, ggvis, shiny)",
+                      "Räumliche Daten, Darstellung von Karten",
+                      "Programmierschnittstellen zwischen R, Python, C, Java, .NET",
+                      "Einbettung von Skripts in Cloud-Plattformen (Azure, TensorFlow etc.)",
+                      "Web-Services mit R/Python",
+                      "Kreative Visualisierung"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Solution Engineering"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Few, 2013. Information Dashboard Design, Analytics Press.",
+                      "Nussbaumer-Knaflic, 2015. Storytelling with Data: A Visualization Guide for Business Professionals.",
+                      "Hichert, Faisst, 2017. IBCS International Business Communication Standards, CreateSpace Independent Publishing Platform"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Übungen; Projekt"
+                    ]
+                  }
+                }
+              },
+              "lastupdate": "2020-10-15 22:47:55"
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38065",
+          "kurzbz": "MOD35",
+          "semester": "3",
+          "bezeichnung": "Spezialisierung 3",
+          "bezeichnung_englisch": "Specialisation 3",
+          "unterrichtssprache": "German",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38088",
+              "kurzbz": "SP1KM",
+              "semester": "2",
+              "bezeichnung": "Knowledge Management (Spezialisierung)",
+              "bezeichnung_englisch": "Knowledge Management (Specialisation)",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "38092",
+              "kurzbz": "SP3EHE",
+              "semester": "3",
+              "bezeichnung": "Healthcare (Spezialisierung)",
+              "bezeichnung_englisch": "Healthcare (Specialisation)",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": ""
+            },
+            {
+              "lehrveranstaltung_id": "38091",
+              "kurzbz": "SP3I40",
+              "semester": "3",
+              "bezeichnung": "Smart City (Spezialisierung)",
+              "bezeichnung_englisch": "Smart City (Specialisation)",
+              "unterrichtssprache": "German",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": false,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lastupdate": ""
+            }
+          ]
+        },
+        {
+          "lehrveranstaltung_id": "38066",
+          "kurzbz": "MOD36",
+          "semester": "3",
+          "bezeichnung": "Data Science Project",
+          "bezeichnung_englisch": "Data Science Project",
+          "unterrichtssprache": "English",
+          "ects": "5.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "iMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38094",
+              "kurzbz": "DSP",
+              "semester": "3",
+              "bezeichnung": "Data Science Project",
+              "bezeichnung_englisch": "Data Science Project",
+              "unterrichtssprache": "English",
+              "ects": "5.00",
+              "sws": "3.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The goal of this module is to work on the practical part of the master's thesis."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Project work; prototyping; continuous evaluation; discussion"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "define data science project goals",
+                      "plan and carry out a data science project using project management methods",
+                      "prepare and deliver a data science project pitch",
+                      "integrate current research in the project",
+                      "create a project proposal for a data science project",
+                      "create sufficient project documentation for a data science project",
+                      "present the planned research to some audience"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projektmanagement",
+                      "Präsentationstechnik",
+                      "Storytelling",
+                      "Idea Selling",
+                      "Proposalerstellung",
+                      "Dokumentation von Projekten"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "All relevant course contents, in particular solution engineering"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Provost, Fawcett, 2013. Data Science for Business. O’Reilly",
+                      "Ojeda, Murphy, Bengfort, Dasgupta, 2014. Practical Data Science Cookbook – Real-World Data Science Projects to Help You Get Your Hands On Your Data"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Project report",
+                      "Presentation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Ziel dieses Moduls ist die Umsetzung des praktischen Teils der Masterthesis."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Projektarbeit; Prototyping; laufende Evaluierung; Diskussion"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "Data Science-Projektziele zu definieren.",
+                      "ein Data Science-Projekt mit Projektmanagementmethoden erfolgreich zu planen und umzusetzen",
+                      "einen Data Science-Projekt-Pitch erfolgreich vorzubereiten und durchzuführen",
+                      "aktuelle Forschungsergebnisse in die Projektarbeit zu integrieren",
+                      "ein Projekt-Proposal für ein wissenschaftliches Data Science-Projekt zu erstellen",
+                      "ein Data Science-Projekt korrekt zu dokumentieren und umzusetzen.",
+                      "Zielgruppengerecht und kreativ sein Forschungsvorhaben zu präsentieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projektmanagement",
+                      "Präsentationstechnik",
+                      "Storytelling",
+                      "Idea Selling",
+                      "Proposalerstellung",
+                      "Dokumentation von Projekten"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Alle relevanten Studieninhalte, insb. Solution Engineering"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Provost, Fawcett, 2013. Data Science for Business. O’Reilly",
+                      "Ojeda, Murphy, Bengfort, Dasgupta, 2014. Practical Data Science Cookbook – Real-World Data Science Projects to Help You Get Your Hands On Your Data"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Projektbericht",
+                      "Präsentation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-15 18:58:33"
+            }
+          ]
+        }
+      ],
+      "4": [
+        {
+          "lehrveranstaltung_id": "38067",
+          "kurzbz": "MOD41",
+          "semester": "4",
+          "bezeichnung": "Masterarbeit",
+          "bezeichnung_englisch": "Master's Thesis",
+          "unterrichtssprache": "German",
+          "ects": "30.00",
+          "sws": null,
+          "organisationsform": "BB",
+          "pflicht": true,
+          "lehrtyp": "modul",
+          "lehrform": "kMod",
+          "lastupdate": "",
+          "childs": [
+            {
+              "lehrveranstaltung_id": "38096",
+              "kurzbz": "MT",
+              "semester": "4",
+              "bezeichnung": "Masterarbeit",
+              "bezeichnung_englisch": "Master's Thesis",
+              "unterrichtssprache": "German",
+              "ects": "27.00",
+              "sws": "1.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "BE",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "The goal of this module is to write the master's thesis."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Scientific working & writing"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "create focused research questions for a relevant and complex topic.",
+                      "work on a relevant and complex research topic.",
+                      "defend the choice of appropriate scientific methods",
+                      "validate and discuss the obtained solution"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Writing of a master's thesis",
+                      "Application of scientific methods",
+                      "Elaboration of research questions",
+                      "Scientific working",
+                      "Scientific writing"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Evaluation of the thesis according to the universities' criteriae."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "None"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "Ziel dieses Moduls ist die Erstellung der Masterarbeit."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Wissenschaftliche Projektarbeit und wissenschaftliches Schreiben."
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "ein komplexes und praxisrelevantes Thema mit Hilfe von wissenschaftlichen Fragestellungen einzugrenzen.",
+                      "ein komplexes und praxisrelevantes Thema mit Hilfe von wissenschaftlichen Methoden zu bearbeiten",
+                      "die Auswahl der wissenschaftlichen Methode adäquat zu argumentieren.",
+                      "die erhaltene Lösung adäquat zu validieren und zu diskutieren."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Erstellung einer Masterarbeit",
+                      "Verwendung wissenschaftlicher Methoden",
+                      "Erarbeiten von Forschungsfragen",
+                      "Wissenschaftliches Arbeiten",
+                      "Wissenschaftliches Schreiben"
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Beurteilung der Masterarbeit lt. FHTW Vorgaben."
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Keine"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-15 19:25:03"
+            },
+            {
+              "lehrveranstaltung_id": "38097",
+              "kurzbz": "DA",
+              "semester": "4",
+              "bezeichnung": "DiplomandInnen-Seminar",
+              "bezeichnung_englisch": "Research Seminar",
+              "unterrichtssprache": "German",
+              "ects": "3.00",
+              "sws": "2.00",
+              "organisationsform": "BB",
+              "pflicht": true,
+              "lehrtyp": "lv",
+              "lehrform": "ILV, FL",
+              "lvinfo": {
+                "English": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In this module, students will be guided and supported in writing their master thesis."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Presentation; Discussion"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "After passing this course successfully students are able to ...",
+                    "data": [
+                      "formulate a research question regarding a subject-specific topic",
+                      "apply scientific methods to scientific questions",
+                      "critically reflect and improve their master's thesis",
+                      "create and structure a scientific abstract according to given criteriae",
+                      "write a scientific report according to given linguistic criteriae"
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Elaboration and discussion of deepening topics of the master's thesis",
+                      "Role, content, style and form of scientific papers",
+                      "structure of scientific papers",
+                      "linguistic criteriae for scientific papers",
+                      "Elaboration of a scientific paper"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Principles of Scientific Working"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Baltzert, Schröder, 2017. Wissenschaftliches Arbeiten: Ethik, Inhalt & Form wiss. Arbeiten, Handwerkszeug, Quellen, Projektmanagement, Präsentation, Springer."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Presentation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Mandatory"
+                  }
+                },
+                "German": {
+                  "kurzbesch": {
+                    "einleitungstext": "",
+                    "data": "In diesem Modul wird die Erstellung der Masterarbeit begleitet."
+                  },
+                  "methodik": {
+                    "einleitungstext": "",
+                    "data": "Präsentation; Diskussion"
+                  },
+                  "lernerg": {
+                    "einleitungstext": "Nach erfolgreichem Abschluss sind die Studierenden in der Lage, ...",
+                    "data": [
+                      "zu einem fachspezifischen Thema eine wissenschaftliche Fragestellung zu formulieren",
+                      "wissenschaftliche Methoden auf die wissenschaftliche Fragestellung anzuwenden",
+                      "die eigene Masterarbeit zu reflektieren und verbessern",
+                      "wissenschaftliche Abstrakte nach den vorgegebenen formalen Kriterien zu gliedern",
+                      "wissenschaftliche Abstrakte nach den vorgegebenen sprachlichen Kriterien zu verfassen."
+                    ]
+                  },
+                  "lehrinhalte": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Erarbeitung und Diskussion von vertiefenden Themen der Masterarbeit",
+                      "Rolle, Inhalte, Stil, Formen (bzw. Forschung und Review) wissenschaftlicher Papers",
+                      "Gliederung eines wissenschaftlichen Papers",
+                      "Sprachliche Kriterien einer wissenschaftlichen Arbeit",
+                      "Verfassung eines wissenschaftlichen Papers"
+                    ]
+                  },
+                  "vorkenntnisse": {
+                    "einleitungstext": "",
+                    "data": "Grundlagen wissenschaftlichen Arbeitens"
+                  },
+                  "literatur": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Baltzert, Schröder, 2017. Wissenschaftliches Arbeiten: Ethik, Inhalt & Form wiss. Arbeiten, Handwerkszeug, Quellen, Projektmanagement, Präsentation, Springer."
+                    ]
+                  },
+                  "leistungsb": {
+                    "einleitungstext": "",
+                    "data": [
+                      "Präsentation"
+                    ]
+                  },
+                  "anwesenheit": {
+                    "einleitungstext": "",
+                    "data": "Verpflichtend"
+                  }
+                }
+              },
+              "lastupdate": "2020-10-15 19:14:35"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
