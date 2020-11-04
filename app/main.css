@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  background-color: gainsboro;
+}
+
+#svg {
+  margin: auto;
+  background-color: white;
+}
