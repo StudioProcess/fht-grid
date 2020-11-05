@@ -46,6 +46,7 @@ export async function load_data() {
 }
 
 let stats = {};
+let parent_modules = [];
 
 // extract lvas from module
 function reduce_module(acc_lvas, module) {
@@ -69,8 +70,15 @@ function reduce_module(acc_lvas, module) {
     
     // lva could be a nested module
     let nested_modules = lvas.filter(lva => lva.lehrtyp === 'modul');
-    let nested_lvas = nested_modules.reduce(reduce_module, [])
+    let nested_lvas = nested_modules.reduce(reduce_module, []);
     stats.nested_modules += nested_modules.length;
+    stats.nested_lvas += nested_lvas.length;
+    if (nested_modules.length > 0) {
+      stats.parent_modules += 1;
+      let parent = Object.assign( {}, module );
+      parent['_children'] = nested_modules;
+      parent_modules.push( parent );
+    }
     
     lvas = lvas.filter(lva => lva.lehrtyp !== 'modul');
     acc_lvas = acc_lvas.concat( lvas, nested_lvas );
@@ -102,6 +110,8 @@ export async function load() {
     empty_modules: 0,
     nested_modules: 0,
     lvas_without_events: 0,
+    parent_modules: 0,
+    nested_lvas: 0,
   };
   
   // flatten dataset
@@ -122,6 +132,8 @@ export async function load() {
     if (cal.length == 0) stats.lvas_without_events += 1;
     return Object.assign(lva, {_calendar: cal});
   });
+  
+  console.log(parent_modules);
   
   return {
     raw: data,
