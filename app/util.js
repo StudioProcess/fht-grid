@@ -73,3 +73,8 @@ export async function loadSettings(url, target = {}) {
   }
   return Object.assign( target, obj );
 }
+
+
+export function mm2pt(mm) {
+  return mm / 25.4 * 72;
+}

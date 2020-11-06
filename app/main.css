@@ -10,4 +10,8 @@ body {
 #svg {
   margin: auto;
   background-color: white;
+  max-width: 95vw;
+  max-height: 95vh;
+  width: auto;
+  height: auto;
 }

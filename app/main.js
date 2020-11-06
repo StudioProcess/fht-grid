@@ -5,20 +5,36 @@ import * as gui from './gui.js';
 import * as data_loader from './data.js';
 
 export const config = {
-  WIDTH:  1000,
-  HEIGHT: 1000,
+  SINGLE_W: 205, // [mm]
+  SINGLE_H: 276,
+  SPREAD_W: 410,
+  SPREAD_H: 276,
 };
 
 export const params = {
-  format: 'single',
+  format: 'single_page',
   grid_cols: 38,
   dot_size: 4,
   save_svg: save,
 };
 
+export let W, H; // [pt]
 export let data;
-
 export const draw = SVG('#svg');
+
+function set_size() {
+  if (params.format == 'spread') {
+    W = config.SPREAD_W;
+    H = config.SPREAD_H;
+  } else {
+    W = config.SINGLE_W;
+    H = config.SINGLE_H;
+  }
+  W = util.mm2pt(W);
+  H = util.mm2pt(H);
+  draw.size(`${W}pt`, `${H}pt`);
+  draw.viewbox(0, 0, W, H); // now we can specify all values in pt, but don't have to write 'pt' all the time. also contents of svg scale when svg is resized automatically
+}
 
 function make_grid(left, top, cols, col_gap, row_gap, n) {
   let x = left, y = top;
@@ -37,14 +53,13 @@ function make_grid(left, top, cols, col_gap, row_gap, n) {
 
 export function recreate() {
   draw.clear();
-  draw.size( config.WIDTH, config.HEIGHT );
+  set_size();
   
   // let rect = draw.rect( params.rect_width, params.rect_height );
   // rect.center( config.WIDTH/2, config.HEIGHT/2 );
   // rect.attr({ fill: 'dodgerblue' });
   
   make_grid(0, 0, params.grid_cols, 10, 10, 1408);
-  
 }
 
 export function save() {
