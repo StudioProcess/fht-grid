@@ -26,9 +26,11 @@ function set_size() {
   if (params.format == 'spread') {
     W = config.SPREAD_W;
     H = config.SPREAD_H;
+    document.querySelector('#line').style.display = 'block';
   } else {
     W = config.SINGLE_W;
     H = config.SINGLE_H;
+    document.querySelector('#line').style.display = 'none';
   }
   W = util.mm2pt(W);
   H = util.mm2pt(H);
