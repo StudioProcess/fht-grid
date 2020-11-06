@@ -5,7 +5,7 @@ import * as util from './util.js';
 export function create() {
   const gui = new dat.GUI();
   
-  gui.add(main.params, 'rect_width', 0, 500).onFinishChange(main.recreate);
-  gui.add(main.params, 'rect_height', 0, 500).onFinishChange(main.recreate);
+  gui.add(main.params, 'grid_cols').onFinishChange(main.recreate);
+  gui.add(main.params, 'dot_size').onFinishChange(main.recreate);
   gui.add(main.params, 'save_svg');
 }
