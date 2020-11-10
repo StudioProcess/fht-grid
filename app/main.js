@@ -14,8 +14,8 @@ export const config = {
 export const params = {
   format: 'single_page',
   grid_cols: 38,
-  h_space: 10,
-  v_space: 10,
+  h_space: 14.5,
+  v_space: 14.5,
   dot_size: 4,
   save_svg: save,
 };
@@ -39,7 +39,6 @@ function set_size() {
   draw.size(`${W}pt`, `${H}pt`);
   draw.viewbox(0, 0, W, H); // now we can specify all values in pt, but don't have to write 'pt' all the time. also contents of svg scale when svg is resized automatically
 }
-
 
 // A grid of circles
 function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
