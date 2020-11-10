@@ -141,3 +141,36 @@ export async function load() {
     stats
   };
 }
+
+function cmp(a, b) {
+  if (a < b) return -1;
+  if (a > b) return 1;
+  return 0;
+}
+
+export function sort_lva_name(array) {
+  array = Array.from(array); // copy
+  return array.sort( (a, b) => cmp(
+    a['bezeichnung'].trim(),
+    b['bezeichnung'].trim()
+  ));
+}
+
+export function sort_lva_id(array) {
+  array = Array.from(array); // copy
+  return array.sort( (a, b) => cmp(
+    parseInt(a['lehrveranstaltung_id']),
+    parseInt(b['lehrveranstaltung_id']), 
+  ));
+}
+
+export function sort_studium_name(array) {
+  array = Array.from(array); // copy
+  // find module
+  function get_key(a) {
+    while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
+    a = a['_studium']['_name'];
+    return a;
+  }
+  return array.sort( (a, b) => cmp( get_key(a), get_key(b) ));
+}

@@ -17,6 +17,7 @@ export const params = {
   h_space: 14.5,
   v_space: 14.5,
   dot_size: 4,
+  sort: 'lva_id',
   save_svg: save,
 };
 
@@ -71,7 +72,10 @@ export function recreate() {
   // rect.center( config.WIDTH/2, config.HEIGHT/2 );
   // rect.attr({ fill: 'dodgerblue' });
   
-  make_grid(params.grid_cols, params.h_space, params.v_space, 1408);
+  let lvas = data.lvas;
+  lvas = data_loader['sort_' + params.sort](lvas);
+  console.log(lvas);
+  make_grid(params.grid_cols, params.h_space, params.v_space, lvas.length);
 }
 
 export function save() {
