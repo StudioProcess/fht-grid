@@ -63,6 +63,10 @@ function make_label(x, y, i) {
     let a = lva;
     while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
     text = a['_studium']['_name'];
+  } else if (params.labels === 'studium_id') {
+    let a = lva;
+    while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
+    text = a['_studium']['_studiengang_kz'];
   } else return;
   x = x + params.dot_size;
   y = y;
@@ -120,7 +124,7 @@ export function recreate() {
   
   lvas = data.lvas;
   lvas = data_loader['sort_' + params.sort](lvas);
-  console.log(lvas);
+  // console.log(lvas);
   make_grid(params.grid_cols, params.h_space, params.v_space, lvas.length);
   make_groups();
 }
