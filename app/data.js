@@ -133,11 +133,21 @@ export async function load() {
     return Object.assign(lva, {_calendar: cal});
   });
   
-  console.log(parent_modules);
+  // create studien grouping
+  let studien = {};
+  for (let lva of lvas.slice(0)) {
+    let a = lva;
+    while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
+    let id = a['_studium']['_studiengang_kz'];
+    if ( !studien[id] ) studien[id] = a['_studium'];
+    if ( !studien[id]['_lvas'] ) studien[id]['_lvas'] = [];
+    studien[id]['_lvas'].push(lva);
+  }
   
   return {
     raw: data,
     lvas,
+    studien,
     stats
   };
 }

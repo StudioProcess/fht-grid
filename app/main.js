@@ -16,11 +16,17 @@ export const params = {
   grid_cols: 38,
   h_space: 14.5,
   v_space: 14.5,
-  dot_size: 4,
+  dot_size: 1,
   sort: 'lva_id',
   labels: 'lva_id',
   label_every: 10,
   label_size: 6,
+  group_offset: 0,
+  group_count: 1,
+  color: '#1E90FF',
+  opacity: 0.4,
+  fill: false,
+  stroke_width: 1,
   save_svg: save,
 };
 
@@ -79,6 +85,7 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
   for (let j=0; j<rows; j++) {
     for (let i=0; i<cols; i++) {
       if ( idx == n ) break;
+      lvas[idx]['_pos'] = [x, y]; // save grid coordinates with data
       draw.circle(params.dot_size).cx(x).cy(y);
       make_label(x, y, idx);
       x += col_gap;
@@ -86,6 +93,20 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
     }
     x = left;
     y += row_gap;
+  }
+}
+
+function make_groups() {
+  let studien = Object.values(data.studien);
+  for (let i=params.group_offset; i<params.group_offset+params.group_count; i++) {
+    let lvas = studien[i % studien.length]['_lvas'];
+    let coords = lvas.map(lva => `${lva['_pos'][0]},${lva['_pos'][1]}` ).join(' ');
+    draw.polygon(coords)
+      .attr('stroke-linejoin', 'round')
+      .attr('stroke-width', params.stroke_width)
+      .attr('stroke', params.color)
+      .attr('fill', params.fill ? params.color : 'none')
+      .attr('opacity', params.opacity);
   }
 }
 
@@ -101,6 +122,7 @@ export function recreate() {
   lvas = data_loader['sort_' + params.sort](lvas);
   console.log(lvas);
   make_grid(params.grid_cols, params.h_space, params.v_space, lvas.length);
+  make_groups();
 }
 
 export function save() {

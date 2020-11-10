@@ -14,5 +14,11 @@ export function create() {
   gui.add(main.params, 'labels', ['none', 'lva_name', 'lva_id', 'studium_name']).onFinishChange(main.recreate);
   gui.add(main.params, 'label_every', 1, 20, 1).onFinishChange(main.recreate);
   gui.add(main.params, 'label_size', 1, undefined, 0.1).onFinishChange(main.recreate);
+  gui.add(main.params, 'group_offset', 0, 30, 1).onFinishChange(main.recreate);
+  gui.add(main.params, 'group_count', 1, 31, 1).onFinishChange(main.recreate);
+  gui.addColor(main.params, 'color').onFinishChange(main.recreate);
+  gui.add(main.params, 'opacity', 0, 1, 0.01).onFinishChange(main.recreate);
+  gui.add(main.params, 'stroke_width', 0).onFinishChange(main.recreate);
+  gui.add(main.params, 'fill').onFinishChange(main.recreate);
   gui.add(main.params, 'save_svg');
 }
