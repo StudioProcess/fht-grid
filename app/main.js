@@ -14,6 +14,8 @@ export const config = {
 export const params = {
   format: 'single_page',
   grid_cols: 38,
+  h_space: 10,
+  v_space: 10,
   dot_size: 4,
   save_svg: save,
 };
@@ -38,10 +40,19 @@ function set_size() {
   draw.viewbox(0, 0, W, H); // now we can specify all values in pt, but don't have to write 'pt' all the time. also contents of svg scale when svg is resized automatically
 }
 
-function make_grid(left, top, cols, col_gap, row_gap, n) {
-  let x = left, y = top;
+
+// A grid of circles
+function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
   cols = Math.floor(cols);
   let rows = Math.ceil(n / cols);
+  
+  const w = (cols-1) * col_gap; // grid witdh
+  const h = (rows-1) * row_gap; // grid height
+  
+  if (left === null) left = (W - w) / 2 ;// center horizontally
+  if (top === null) top = (H - h) / 2 ;// center horizontally
+  let x = left, y = top;
+  
   for (let j=0; j<rows; j++) {
     for (let i=0; i<cols; i++) {
       if ( j*cols + i == n ) break;
@@ -61,7 +72,7 @@ export function recreate() {
   // rect.center( config.WIDTH/2, config.HEIGHT/2 );
   // rect.attr({ fill: 'dodgerblue' });
   
-  make_grid(0, 0, params.grid_cols, 10, 10, 1408);
+  make_grid(params.grid_cols, params.h_space, params.v_space, 1408);
 }
 
 export function save() {
