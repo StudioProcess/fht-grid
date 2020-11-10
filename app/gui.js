@@ -11,5 +11,8 @@ export function create() {
   gui.add(main.params, 'v_space', 1, undefined, 0.1).onFinishChange(main.recreate);
   gui.add(main.params, 'dot_size', 0).onFinishChange(main.recreate);
   gui.add(main.params, 'sort', ['lva_name', 'lva_id', 'studium_name']).onFinishChange(main.recreate);
+  gui.add(main.params, 'labels', ['none', 'lva_name', 'lva_id', 'studium_name']).onFinishChange(main.recreate);
+  gui.add(main.params, 'label_every', 1, 20, 1).onFinishChange(main.recreate);
+  gui.add(main.params, 'label_size', 1, undefined, 0.1).onFinishChange(main.recreate);
   gui.add(main.params, 'save_svg');
 }

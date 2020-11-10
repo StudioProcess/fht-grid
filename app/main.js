@@ -18,11 +18,14 @@ export const params = {
   v_space: 14.5,
   dot_size: 4,
   sort: 'lva_id',
+  labels: 'lva_id',
+  label_every: 10,
+  label_size: 6,
   save_svg: save,
 };
 
 export let W, H; // [pt]
-export let data;
+export let data, lvas;
 export const draw = SVG('#svg');
 
 function set_size() {
@@ -41,6 +44,25 @@ function set_size() {
   draw.viewbox(0, 0, W, H); // now we can specify all values in pt, but don't have to write 'pt' all the time. also contents of svg scale when svg is resized automatically
 }
 
+function make_label(x, y, i) {
+  if (params.labels === 'none') return;
+  if (i % (params.label_every) !== 0) return;
+  let text = '';
+  let lva = lvas[i];
+  if (params.labels === 'lva_name') {
+    text = lva['bezeichnung'];
+  } else if (params.labels === 'lva_id') {
+    text = lva['lehrveranstaltung_id'];
+  } else if (params.labels === 'studium_name') {
+    let a = lva;
+    while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
+    text = a['_studium']['_name'];
+  } else return;
+  x = x + params.dot_size;
+  y = y;
+  draw.text(text).x(x).y(y).font({'family': 'system-ui', 'size': params.label_size});
+}
+
 // A grid of circles
 function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
   cols = Math.floor(cols);
@@ -53,11 +75,14 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
   if (top === null) top = (H - h) / 2 ;// center horizontally
   let x = left, y = top;
   
+  let idx = 0;
   for (let j=0; j<rows; j++) {
     for (let i=0; i<cols; i++) {
-      if ( j*cols + i == n ) break;
+      if ( idx == n ) break;
       draw.circle(params.dot_size).cx(x).cy(y);
+      make_label(x, y, idx);
       x += col_gap;
+      idx++;
     }
     x = left;
     y += row_gap;
@@ -72,7 +97,7 @@ export function recreate() {
   // rect.center( config.WIDTH/2, config.HEIGHT/2 );
   // rect.attr({ fill: 'dodgerblue' });
   
-  let lvas = data.lvas;
+  lvas = data.lvas;
   lvas = data_loader['sort_' + params.sort](lvas);
   console.log(lvas);
   make_grid(params.grid_cols, params.h_space, params.v_space, lvas.length);
