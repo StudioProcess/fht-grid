@@ -31,6 +31,7 @@ export const params = {
   fill: false,
   fill_rule: 'nonzero',
   stroke_width: 1,
+  bg_color: '#FFFFF1',
   save_svg: save,
 };
 
@@ -165,6 +166,8 @@ export function recreate() {
     make_circle(params.circle_diameter, lvas.length);
   }
   
+  document.getElementById("svg").style.backgroundColor = params.bg_color;
+    
   groups = make_groups();
   make_labels();
 }
