@@ -71,7 +71,7 @@ function make_label(x, y, i) {
   } else return;
   x = x + params.dot_size;
   y = y;
-  draw.text(text).x(x).y(y).font({'family': 'system-ui', 'size': params.label_size});
+  draw.text(text).x(x).y(y).font({'size': params.label_size});
 }
 
 // A grid of circles
@@ -118,6 +118,7 @@ function make_groups() {
 
 export function recreate() {
   draw.clear();
+  draw.attr({ 'font-family':"'GT America Mono',monospace,system-ui", 'font-weight':'normal' });
   set_size();
   
   // let rect = draw.rect( params.rect_width, params.rect_height );

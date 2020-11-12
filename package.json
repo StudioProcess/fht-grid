@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "live-server --ignore=.git,node_modules .",
+    "start": "live-server --browser='Google Chrome' --ignore=.git,node_modules .",
     "dl-data": "node dl-data.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
