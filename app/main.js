@@ -13,9 +13,11 @@ export const config = {
 
 export const params = {
   format: 'single_page',
+  arrangement: 'grid',
   grid_cols: 38,
-  h_space: 14.5,
-  v_space: 14.5,
+  grid_h_space: 14.5,
+  grid_v_space: 14.5,
+  circle_diameter: 540,
   dot_size: 1,
   sort: 'lva_id',
   labels: 'lva_id',
@@ -96,7 +98,7 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
   const h = (rows-1) * row_gap; // grid height
   
   if (left === null) left = (W - w) / 2 ;// center horizontally
-  if (top === null) top = (H - h) / 2 ;// center horizontally
+  if (top === null) top = (H - h) / 2 ;// center vertically
   let x = left, y = top;
   
   let idx = 0;
@@ -111,6 +113,19 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
     }
     x = left;
     y += row_gap;
+  }
+}
+
+function make_circle(diameter, n, cx = null, cy = null) {
+  if (cx === null) cx = W / 2 ;// center horizontally
+  if (cy === null) cy = H / 2 ;// center vertically
+  
+  for ( let [i, lva] of lvas.entries() ) {
+    let a = -Math.PI/2 + i * 2 * Math.PI / n; // angle
+    let x = cx + diameter/2 * Math.cos(a);
+    let y = cy + diameter/2 * Math.sin(a);
+    lva['_pos'] = [x, y]; // save coordinates with data
+    draw.circle(params.dot_size).cx(x).cy(y);
   }
 }
 
@@ -143,7 +158,13 @@ export function recreate() {
   
   lvas = data.lvas;
   lvas = data_loader['sort_' + params.sort](lvas);
-  make_grid(params.grid_cols, params.h_space, params.v_space, lvas.length);
+  
+  if (params.arrangement == 'grid') {
+    make_grid(params.grid_cols, params.grid_h_space, params.grid_v_space, lvas.length);
+  } else {
+    make_circle(params.circle_diameter, lvas.length);
+  }
+  
   groups = make_groups();
   make_labels();
 }
