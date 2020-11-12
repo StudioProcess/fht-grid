@@ -19,6 +19,7 @@ export const params = {
   dot_size: 1,
   sort: 'lva_id',
   labels: 'lva_id',
+  label_groups_only: true,
   label_every: 10,
   label_size: 6,
   group_offset: 0,
@@ -32,7 +33,7 @@ export const params = {
 };
 
 export let W, H; // [pt]
-export let data, lvas;
+export let data, lvas, groups;
 export const draw = SVG('#svg');
 
 function set_size() {
@@ -51,11 +52,8 @@ function set_size() {
   draw.viewbox(0, 0, W, H); // now we can specify all values in pt, but don't have to write 'pt' all the time. also contents of svg scale when svg is resized automatically
 }
 
-function make_label(x, y, i) {
-  if (params.labels === 'none') return;
-  if (i % (params.label_every) !== 0) return;
+function make_lva_label(lva) {
   let text = '';
-  let lva = lvas[i];
   if (params.labels === 'lva_name') {
     text = lva['bezeichnung'];
   } else if (params.labels === 'lva_id') {
@@ -69,9 +67,24 @@ function make_label(x, y, i) {
     while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
     text = a['_studium']['_studiengang_kz'];
   } else return;
-  x = x + params.dot_size;
-  y = y;
+  let x = lva['_pos'][0] + params.dot_size;
+  let y = lva['_pos'][1];
   draw.text(text).x(x).y(y).font({'size': params.label_size});
+}
+
+function make_labels() {
+  if (params.labels === 'none') return;
+  
+  let label_groups;
+  if (params.label_groups_only) label_groups = groups;
+  else label_groups = [ lvas ];
+  
+  for (let group of label_groups) {
+    for ( let [i, lva] of group.entries() ) {
+      if (i % params.label_every !== 0) continue;
+      make_lva_label(lva);
+    }
+  }
 }
 
 // A grid of circles
@@ -92,7 +105,7 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
       if ( idx == n ) break;
       lvas[idx]['_pos'] = [x, y]; // save grid coordinates with data
       draw.circle(params.dot_size).cx(x).cy(y);
-      make_label(x, y, idx);
+      // make_label(x, y, idx);
       x += col_gap;
       idx++;
     }
@@ -103,8 +116,10 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
 
 function make_groups() {
   let studien = Object.values(data.studien);
+  let groups = [];
   for (let i=params.group_offset; i<params.group_offset+params.group_count; i++) {
     let lvas = studien[i % studien.length]['_lvas'];
+    groups.push( lvas );
     let coords = lvas.map(lva => `${lva['_pos'][0]},${lva['_pos'][1]}` ).join(' ');
     draw.polygon(coords)
       .attr('stroke-linejoin', 'round')
@@ -114,6 +129,7 @@ function make_groups() {
       .attr('opacity', params.opacity)
       .attr('fill-rule', params.fill_rule);
   }
+  return groups;
 }
 
 export function recreate() {
@@ -127,9 +143,9 @@ export function recreate() {
   
   lvas = data.lvas;
   lvas = data_loader['sort_' + params.sort](lvas);
-  // console.log(lvas);
   make_grid(params.grid_cols, params.h_space, params.v_space, lvas.length);
-  make_groups();
+  groups = make_groups();
+  make_labels();
 }
 
 export function save() {
