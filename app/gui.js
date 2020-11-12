@@ -20,5 +20,6 @@ export function create() {
   gui.add(main.params, 'opacity', 0, 1, 0.01).onFinishChange(main.recreate);
   gui.add(main.params, 'stroke_width', 0).onFinishChange(main.recreate);
   gui.add(main.params, 'fill').onFinishChange(main.recreate);
+  gui.add(main.params, 'fill_rule', ['nonzero', 'evenodd']).onFinishChange(main.recreate);
   gui.add(main.params, 'save_svg');
 }

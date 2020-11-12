@@ -26,6 +26,7 @@ export const params = {
   color: '#1E90FF',
   opacity: 0.4,
   fill: false,
+  fill_rule: 'nonzero',
   stroke_width: 1,
   save_svg: save,
 };
@@ -110,7 +111,8 @@ function make_groups() {
       .attr('stroke-width', params.stroke_width)
       .attr('stroke', params.color)
       .attr('fill', params.fill ? params.color : 'none')
-      .attr('opacity', params.opacity);
+      .attr('opacity', params.opacity)
+      .attr('fill-rule', params.fill_rule);
   }
 }
 
