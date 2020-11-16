@@ -12,26 +12,27 @@ export const config = {
 };
 
 export const params = {
-  format: 'single_page',
-  arrangement: 'grid',
+  format: 'spread',
+  arrangement: 'circle',
   grid_cols: 38,
   grid_h_space: 14.5,
   grid_v_space: 20.0, // 14.5
   circle_diameter: 540,
-  dot_size: 1,
-  sort: 'lva_name',
+  dot_size: 1.75,
+  sort: 'lva_id',
   labels: 'lva_name',
+  label_color: '#000000',
   label_groups_only: true,
   label_every: 1,
   label_size: 6,
   group_offset: 0,
   group_count: 1,
-  color: '#1E90FF',
-  opacity: 0.4,
+  color: '#000000',
+  opacity: 0.8,
   fill: false,
   fill_rule: 'nonzero',
-  stroke_width: 1,
-  bg_color: '#FFFFF1',
+  stroke_width: 0.75,
+  bg_color: '#FFFFFa',
   save_svg: save,
 };
 
@@ -150,7 +151,8 @@ function make_groups() {
 
 export function recreate() {
   draw.clear();
-  draw.attr({ 'font-family':"'GT America Mono',monospace,system-ui", 'font-weight':'normal' });
+  draw.attr({ 'font-family':"'GT America Mono',monospace,system-ui", 'font-weight':'normal'});
+  draw.attr('fill', params.label_color)
   set_size();
   
   // let rect = draw.rect( params.rect_width, params.rect_height );
