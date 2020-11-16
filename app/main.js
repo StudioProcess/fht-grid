@@ -13,7 +13,7 @@ export const config = {
 
 export const params = {
   format: 'spread',
-  arrangement: 'circle',
+  arrangement: 'grid',
   grid_cols: 38,
   grid_h_space: 14.5,
   grid_v_space: 20.0, // 14.5
@@ -32,7 +32,9 @@ export const params = {
   fill: false,
   fill_rule: 'nonzero',
   stroke_width: 0.75,
-  bg_color: '#FFFFFa',
+  show_grid: true,
+  show_connections: true,
+  bg_color: '#FFFFFF', //#FFFFFa
   save_svg: save,
 };
 
@@ -138,13 +140,15 @@ function make_groups() {
     let lvas = studien[i % studien.length]['_lvas'];
     groups.push( lvas );
     let coords = lvas.map(lva => `${lva['_pos'][0]},${lva['_pos'][1]}` ).join(' ');
-    draw.polygon(coords)
-      .attr('stroke-linejoin', 'round')
-      .attr('stroke-width', params.stroke_width)
-      .attr('stroke', params.color)
-      .attr('fill', params.fill ? params.color : 'none')
-      .attr('opacity', params.opacity)
-      .attr('fill-rule', params.fill_rule);
+    if(params.show_connections) {
+      draw.polygon(coords)
+        .attr('stroke-linejoin', 'round')
+        .attr('stroke-width', params.stroke_width)
+        .attr('stroke', params.color)
+        .attr('fill', params.fill ? params.color : 'none')
+        .attr('opacity', params.opacity)
+        .attr('fill-rule', params.fill_rule);
+      }
   }
   return groups;
 }
@@ -162,14 +166,16 @@ export function recreate() {
   lvas = data.lvas;
   lvas = data_loader['sort_' + params.sort](lvas);
   
-  if (params.arrangement == 'grid') {
-    make_grid(params.grid_cols, params.grid_h_space, params.grid_v_space, lvas.length);
-  } else {
-    make_circle(params.circle_diameter, lvas.length);
+  if(params.show_grid) {
+    if (params.arrangement == 'grid') {
+      make_grid(params.grid_cols, params.grid_h_space, params.grid_v_space, lvas.length);
+    } else {
+      make_circle(params.circle_diameter, lvas.length);
+    }
   }
   
   document.getElementById("svg").style.backgroundColor = params.bg_color;
-    
+  
   groups = make_groups();
   make_labels();
 }

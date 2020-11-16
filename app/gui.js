@@ -23,6 +23,8 @@ export function create() {
   gui.addColor(main.params, 'color').onFinishChange(main.recreate);
   gui.add(main.params, 'opacity', 0, 1, 0.01).onFinishChange(main.recreate);
   gui.add(main.params, 'stroke_width', 0).onFinishChange(main.recreate);
+  gui.add(main.params, 'show_connections').onFinishChange(main.recreate);
+  gui.add(main.params, 'show_grid').onFinishChange(main.recreate);
   gui.add(main.params, 'fill').onFinishChange(main.recreate);
   gui.add(main.params, 'fill_rule', ['nonzero', 'evenodd']).onFinishChange(main.recreate);
   gui.addColor(main.params, 'bg_color').onFinishChange(main.recreate);
