@@ -6,11 +6,13 @@ export function create() {
   const gui = new dat.GUI();
   
   gui.add(main.params, 'format', ['single_page', 'spread']).onFinishChange(main.recreate);
-  gui.add(main.params, 'arrangement', ['grid', 'circle']).onFinishChange(main.recreate);
+  gui.add(main.params, 'arrangement', ['grid', 'circle', 'spiral']).onFinishChange(main.recreate);
   gui.add(main.params, 'grid_cols', 1).onFinishChange(main.recreate);
   gui.add(main.params, 'grid_h_space', 1, undefined, 0.1).onFinishChange(main.recreate);
   gui.add(main.params, 'grid_v_space', 1, undefined, 0.1).onFinishChange(main.recreate);
   gui.add(main.params, 'circle_diameter', 1, undefined, 1).onFinishChange(main.recreate);
+  gui.add(main.params, 'spiral_diameter', 1, undefined, 1).onFinishChange(main.recreate);
+  gui.add(main.params, 'spiral_windings', 1, undefined, 0.1).onFinishChange(main.recreate);
   gui.add(main.params, 'dot_size', 0).onFinishChange(main.recreate);
   gui.add(main.params, 'sort', ['lva_name', 'lva_id', 'studium_name', 'studium_id']).onFinishChange(main.recreate);
   gui.add(main.params, 'labels', ['none', 'lva_name', 'lva_id', 'studium_name', 'studium_id']).onFinishChange(main.recreate);

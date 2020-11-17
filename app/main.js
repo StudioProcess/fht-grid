@@ -18,6 +18,8 @@ export const params = {
   grid_h_space: 14.5,
   grid_v_space: 20.0, // 14.5
   circle_diameter: 540,
+  spiral_diameter: 540,
+  spiral_windings: 5,
   dot_size: 1.75,
   sort: 'lva_id',
   labels: 'lva_name',
@@ -133,6 +135,19 @@ function make_circle(diameter, n, cx = null, cy = null) {
   }
 }
 
+function make_spiral(diameter, windings, n, cx = null, cy = null) {
+  if (cx === null) cx = W / 2 ;// center horizontally
+  if (cy === null) cy = H / 2 ;// center vertically
+  
+  for ( let [i, lva] of lvas.entries() ) {
+    let a = -Math.PI/2 + 2 * Math.PI * windings / n * i; // angle
+    let x = cx + diameter/2/n * i * Math.cos(a);
+    let y = cy + diameter/2/n * i * Math.sin(a);
+    lva['_pos'] = [x, y]; // save coordinates with data
+    draw.circle(params.dot_size).cx(x).cy(y);
+  }
+}
+
 function make_groups() {
   let studien = Object.values(data.studien);
   let groups = [];
@@ -156,7 +171,7 @@ function make_groups() {
 export function recreate() {
   draw.clear();
   draw.attr({ 'font-family':"'GT America Mono',monospace,system-ui", 'font-weight':'normal'});
-  draw.attr('fill', params.label_color)
+  draw.attr('fill', params.label_color);
   set_size();
   
   // let rect = draw.rect( params.rect_width, params.rect_height );
@@ -169,8 +184,10 @@ export function recreate() {
   if(params.show_grid) {
     if (params.arrangement == 'grid') {
       make_grid(params.grid_cols, params.grid_h_space, params.grid_v_space, lvas.length);
-    } else {
+    } else if (params.arrangement == 'circle'){
       make_circle(params.circle_diameter, lvas.length);
+    } else {
+      make_spiral(params.spiral_diameter, params.spiral_windings, lvas.length);
     }
   }
   
