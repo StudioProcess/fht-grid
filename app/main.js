@@ -19,7 +19,8 @@ export const params = {
   grid_v_space: 20.0, // 14.5
   circle_diameter: 540,
   spiral_diameter: 540,
-  spiral_windings: 5,
+  spiral_windings: 8,
+  spiral_equidistant: false,
   dot_size: 1.75,
   sort: 'lva_id',
   labels: 'lva_name',
@@ -140,9 +141,11 @@ function make_spiral(diameter, windings, n, cx = null, cy = null) {
   if (cy === null) cy = H / 2 ;// center vertically
   
   for ( let [i, lva] of lvas.entries() ) {
-    let a = -Math.PI/2 + 2 * Math.PI * windings / n * i; // angle
-    let x = cx + diameter/2/n * i * Math.cos(a);
-    let y = cy + diameter/2/n * i * Math.sin(a);
+    let t = i / n;
+    if (params.spiral_equidistant) t = Math.sqrt(t); // https://stackoverflow.com/a/44742854
+    let a = -Math.PI/2 + 2 * Math.PI * windings * t; // angle
+    let x = cx + diameter/2 * t * Math.cos(a);
+    let y = cy + diameter/2 * t * Math.sin(a);
     lva['_pos'] = [x, y]; // save coordinates with data
     draw.circle(params.dot_size).cx(x).cy(y);
   }
