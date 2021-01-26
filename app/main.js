@@ -28,6 +28,7 @@ export const params = {
   label_color: '#000000',
   label_bgcolor: '#00b3ff',
   label_bgopacity: 1,
+  label_rotation: 0,
   label_groups_only: true,
   label_every: 1,
   label_size: 6,
@@ -81,13 +82,15 @@ function make_lva_label(lva) {
     while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
     text = a['_studium']['_studiengang_kz'];
   } else return;
-  let x = lva['_pos'][0] + params.dot_size;
-  let y = lva['_pos'][1] - params.label_size;
+  let x = lva['_pos'][0];
+  let y = lva['_pos'][1];
+  let x_offset = params.dot_size;
+  let y_offset = -params.label_size;
   if (text.length > params.label_maxlen) { text = text.slice(0, params.label_maxlen) + '…'; }
-  let g = draw.group().translate(x, y);
-  let bg = g.rect().addClass('label-bg');
-  g.text(text).font({'size': params.label_size}).addClass('label');
-  bg.size(g.width(), g.height()).move(0, params.label_size * 0.33)
+  let g = draw.group().translate(x, y).rotate(params.label_rotation);
+  let bg = g.rect().addClass('label-bg').translate(x_offset, y_offset);
+  g.text(text).font({'size': params.label_size}).addClass('label').translate(x_offset, y_offset);
+  bg.size(g.width(), g.height()).move(0, params.label_size * 0.33);
 }
 
 function make_labels() {
