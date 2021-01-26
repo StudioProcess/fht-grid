@@ -26,6 +26,8 @@ export const params = {
   sort: 'lva_id',
   labels: 'lva_name',
   label_color: '#000000',
+  label_bgcolor: '#00b3ff',
+  label_bgopacity: 1,
   label_groups_only: true,
   label_every: 1,
   label_size: 6,
@@ -80,9 +82,12 @@ function make_lva_label(lva) {
     text = a['_studium']['_studiengang_kz'];
   } else return;
   let x = lva['_pos'][0] + params.dot_size;
-  let y = lva['_pos'][1];
+  let y = lva['_pos'][1] - params.label_size;
   if (text.length > params.label_maxlen) { text = text.slice(0, params.label_maxlen) + '…'; }
-  draw.text(text).x(x).y(y).font({'size': params.label_size}).addClass('label');
+  let g = draw.group().translate(x, y);
+  let bg = g.rect().addClass('label-bg');
+  g.text(text).font({'size': params.label_size}).addClass('label');
+  bg.size(g.width(), g.height()).move(0, params.label_size * 0.33)
 }
 
 function make_labels() {
@@ -203,6 +208,7 @@ export function restyle() {
   style.clear();
   style.rule('.dot', { 'fill': params.dot_color });
   style.rule('.label', { 'fill': params.label_color });
+  style.rule('.label-bg', { 'fill': params.label_bgcolor, 'opacity': params.label_bgopacity });
   style.rule('.group', { 
     'stroke-linejoin': 'round',
     'stroke-width': params.stroke_width,
