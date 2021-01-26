@@ -114,6 +114,8 @@ export async function load() {
     lvas_without_events: 0,
     parent_modules: 0,
     nested_lvas: 0,
+    events_without_teacher: 0,
+    lvas_without_teacher: 0,
   };
   
   // flatten dataset
@@ -132,7 +134,7 @@ export async function load() {
     if (e.lehrveranstaltung_id in calendar) {
       let events = calendar[e.lehrveranstaltung_id];
       events = events.filter( x => x.datum == e.datum && x.stunde == e.stunde );
-      events = events.map( x => Object.assign({}, x, {vorname: e.vorname, nachname: e.nachname}) );
+      events.map( x => Object.assign(x, {vorname: e.vorname, nachname: e.nachname}) );
     }
   }
   
@@ -176,12 +178,43 @@ export async function load() {
     r._lvas = Object.values(r._lvas);
   }
   
+  // TODO: create lehrende grouping
+  let lehrende = {};
+  for (let lva of lvas.slice(0)) {
+    let lva_has_teacher = false;
+    for (let e of lva._calendar) {
+      if (!e.nachname) {
+        stats.events_without_teacher += 1;
+        continue;
+      }
+      let teacher_id = e.nachname;
+      lva_has_teacher = true;
+      if (e.vorname) teacher_id += ', ' + e.vorname;
+      if ( !lehrende[teacher_id] ) {
+        lehrende[teacher_id] = {
+          nachname: e.nachname,
+          vorname: e.vorname,
+          '_lvas': {},
+          '_events': []
+        }
+      }
+      let _lvas = lehrende[teacher_id]['_lvas'];
+      _lvas[lva.lehrveranstaltung_id] = lva;
+      lehrende[teacher_id]['_events'].push(e);
+    }
+    if (!lva_has_teacher) stats.lvas_without_teacher += 1;
+  }
+  // _lvas as array (not object)
+  for (let l of Object.values(lehrende)) {
+    l._lvas = Object.values(l._lvas);
+  }
   
   return {
     raw: data,
     lvas,
     studien,
     rooms,
+    lehrende,
     stats
   };
 }
