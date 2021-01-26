@@ -22,6 +22,7 @@ export const params = {
   spiral_windings: 8,
   spiral_equidistant: false,
   dot_size: 1.75,
+  dot_color: '#000000',
   sort: 'lva_id',
   labels: 'lva_name',
   label_color: '#000000',
@@ -30,7 +31,7 @@ export const params = {
   label_size: 6,
   group_offset: 0,
   group_count: 1,
-  color: '#000000',
+  group_color: '#000000',
   opacity: 0.8,
   fill: false,
   fill_rule: 'nonzero',
@@ -44,6 +45,7 @@ export const params = {
 export let W, H; // [pt]
 export let data, lvas, groups;
 export const draw = SVG('#svg');
+export let style;
 
 function set_size() {
   if (params.format == 'spread') {
@@ -78,7 +80,7 @@ function make_lva_label(lva) {
   } else return;
   let x = lva['_pos'][0] + params.dot_size;
   let y = lva['_pos'][1];
-  draw.text(text).x(x).y(y).font({'size': params.label_size});
+  draw.text(text).x(x).y(y).font({'size': params.label_size}).addClass('label');
 }
 
 function make_labels() {
@@ -113,7 +115,7 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
     for (let i=0; i<cols; i++) {
       if ( idx == n ) break;
       lvas[idx]['_pos'] = [x, y]; // save grid coordinates with data
-      draw.circle(params.dot_size).cx(x).cy(y);
+      draw.circle(params.dot_size).cx(x).cy(y).addClass('dot');
       // make_label(x, y, idx);
       x += col_gap;
       idx++;
@@ -132,7 +134,7 @@ function make_circle(diameter, n, cx = null, cy = null) {
     let x = cx + diameter/2 * Math.cos(a);
     let y = cy + diameter/2 * Math.sin(a);
     lva['_pos'] = [x, y]; // save coordinates with data
-    draw.circle(params.dot_size).cx(x).cy(y);
+    draw.circle(params.dot_size).cx(x).cy(y).addClass('dot');
   }
 }
 
@@ -147,7 +149,7 @@ function make_spiral(diameter, windings, n, cx = null, cy = null) {
     let x = cx + diameter/2 * t * Math.cos(a);
     let y = cy + diameter/2 * t * Math.sin(a);
     lva['_pos'] = [x, y]; // save coordinates with data
-    draw.circle(params.dot_size).cx(x).cy(y);
+    draw.circle(params.dot_size).cx(x).cy(y).addClass('dot');
   }
 }
 
@@ -159,22 +161,17 @@ function make_groups() {
     groups.push( lvas );
     let coords = lvas.map(lva => `${lva['_pos'][0]},${lva['_pos'][1]}` ).join(' ');
     if(params.show_connections) {
-      draw.polygon(coords)
-        .attr('stroke-linejoin', 'round')
-        .attr('stroke-width', params.stroke_width)
-        .attr('stroke', params.color)
-        .attr('fill', params.fill ? params.color : 'none')
-        .attr('opacity', params.opacity)
-        .attr('fill-rule', params.fill_rule);
-      }
+      draw.polygon(coords).addClass('group');
+    }
   }
   return groups;
 }
 
 export function recreate() {
   draw.clear();
-  draw.attr({ 'font-family':"'GT America Mono',monospace,system-ui", 'font-weight':'normal'});
-  draw.attr('fill', params.label_color);
+  style = draw.style();
+  restyle();
+  draw.attr({ 'font-family':"'GT America Mono',monospace,system-ui", 'font-weight':'normal' });
   set_size();
   
   // let rect = draw.rect( params.rect_width, params.rect_height );
@@ -198,6 +195,20 @@ export function recreate() {
   
   groups = make_groups();
   make_labels();
+}
+
+export function restyle() {
+  style.clear();
+  style.rule('.dot', { 'fill': params.dot_color });
+  style.rule('.label', { 'fill': params.label_color });
+  style.rule('.group', { 
+    'stroke-linejoin': 'round',
+    'stroke-width': params.stroke_width,
+    'stroke': params.group_color,
+    'fill': params.fill ? params.group_color : 'none',
+    'opacity': params.opacity,
+    'fill-rule': params.fill_rule,
+  });
 }
 
 export function save() {
