@@ -29,6 +29,7 @@ export const params = {
   label_groups_only: true,
   label_every: 1,
   label_size: 6,
+  label_maxlen: 100,
   group_offset: 0,
   group_count: 1,
   group_color: '#000000',
@@ -80,6 +81,7 @@ function make_lva_label(lva) {
   } else return;
   let x = lva['_pos'][0] + params.dot_size;
   let y = lva['_pos'][1];
+  if (text.length > params.label_maxlen) { text = text.slice(0, params.label_maxlen) + '…'; }
   draw.text(text).x(x).y(y).font({'size': params.label_size}).addClass('label');
 }
 
