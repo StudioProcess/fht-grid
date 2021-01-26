@@ -147,18 +147,41 @@ export async function load() {
   // create studien grouping
   let studien = {};
   for (let lva of lvas.slice(0)) {
-    let a = lva;
-    while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
-    let id = a['_studium']['_studiengang_kz'];
-    if ( !studien[id] ) studien[id] = a['_studium'];
+    let m = lva;
+    while (typeof m === 'object' && m !== null && '_modul' in m) m = m['_modul']; // find module (can be nested)
+    let id = m['_studium']['_studiengang_kz']; // studium id
+    if ( !studien[id] ) studien[id] = m['_studium'];
     if ( !studien[id]['_lvas'] ) studien[id]['_lvas'] = [];
     studien[id]['_lvas'].push(lva);
   }
+  
+  // create rooms grouping
+  let rooms = {};
+  for (let lva of lvas.slice(0)) {
+    for (let e of lva._calendar) {
+      let room_id = e.ort_kurzbz;
+      if ( !rooms[room_id] ) {
+        rooms[room_id] = {
+          '_lvas': {},
+          '_events': []
+        };
+      }
+      let _lvas = rooms[room_id]['_lvas'];
+      _lvas[lva.lehrveranstaltung_id] = lva;
+      rooms[room_id]['_events'].push(e);
+    }
+  }
+  // _lvas as array (not object)
+  for (let r of Object.values(rooms)) {
+    r._lvas = Object.values(r._lvas);
+  }
+  
   
   return {
     raw: data,
     lvas,
     studien,
+    rooms,
     stats
   };
 }
