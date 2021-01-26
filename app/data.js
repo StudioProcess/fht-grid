@@ -16,11 +16,11 @@ async function load_json(url) {
 
 async function load_csv(url) {
   let text = await load_text(url);
-  let lines = text.split(/\n|\r\n/);
+  let lines = text.split(/\n|\r\n/); // split by newline
   lines = lines.map(line => {
-    let items = line.split(',');
+    let items = line.split('","');
     items = items.map(item => {
-      return item.trim().replace(/^"+|"+$/g, '');
+      return item.trim().replace(/^"+|"+$/g, ''); // trim double quotes
     });
     return items;
   });
