@@ -1,4 +1,5 @@
 const FILE_EVENTS = '../data/lvas/Alle LVs WS2019 SS2020 mit lehrveranstaltung_id.csv';
+const FILE_LEHRENDE = '../data/lvas/Alle LVs WS2019 SS2020 mit Lehrenden.csv';
 
 const FOLDER_STUDIEN = '../data/studien';
 const STUDIEN = ['227_311', '228', '254_392', '255_4', '256_312', '257_364', '258_184', '297', '298_377', '299', '300_41', '301', '302_309', '303', '327_345', '328', '329_351', '330_320', '331', '332_292', '334', '335_352', '336_286', '476_347', '578', '585', '692', '768_80', '779_321', '804_179', '854'];
@@ -38,11 +39,12 @@ async function load_csv(url) {
 // raw data
 export async function load_data() {
   let events = await load_csv(FILE_EVENTS);
+  let events_lehrende = await load_csv(FILE_LEHRENDE);
   let studien_promises = STUDIEN.map(id => {
     return load_json(`${FOLDER_STUDIEN}/${id}.json`);
   });
   let studien = await Promise.all(studien_promises);
-  return { events, studien };
+  return { events, events_lehrende, studien };
 }
 
 let stats = {};
@@ -124,6 +126,15 @@ export async function load() {
     else if (x.lehrveranstaltung_id) cal[x.lehrveranstaltung_id] = [x];
     return cal;
   }, {});
+  
+  // add lehrende to calendar events
+  for (let e of data.events_lehrende) {
+    if (e.lehrveranstaltung_id in calendar) {
+      let events = calendar[e.lehrveranstaltung_id];
+      events = events.filter( x => x.datum == e.datum && x.stunde == e.stunde );
+      events = events.map( x => Object.assign({}, x, {vorname: e.vorname, nachname: e.nachname}) );
+    }
+  }
   
   // add calendar (veranstaltungsorte) to lvas
   lvas = lvas.map(lva => {
