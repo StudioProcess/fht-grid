@@ -47,7 +47,6 @@ export const params = {
   fill: false,
   fill_rule: 'nonzero',
   stroke_width: 0.75,
-  show_grid: true,
   show_connections: true,
   bg_color: '#FFFFFF', //#FFFFFa
   save_svg: save,
@@ -229,14 +228,12 @@ export function recreate() {
   lvas = data.lvas;
   lvas = data_loader['sort_' + params.sort](lvas);
   
-  if(params.show_grid) {
-    if (params.arrangement == 'grid') {
-      make_grid(params.grid_cols, params.grid_h_space, params.grid_v_space, lvas.length);
-    } else if (params.arrangement == 'circle'){
-      make_circle(params.circle_diameter, lvas.length);
-    } else {
-      make_spiral(params.spiral_diameter, params.spiral_windings, lvas.length);
-    }
+  if (params.arrangement == 'grid') {
+    make_grid(params.grid_cols, params.grid_h_space, params.grid_v_space, lvas.length);
+  } else if (params.arrangement == 'circle'){
+    make_circle(params.circle_diameter, lvas.length);
+  } else {
+    make_spiral(params.spiral_diameter, params.spiral_windings, lvas.length);
   }
   
   document.getElementById("svg").style.backgroundColor = params.bg_color;
