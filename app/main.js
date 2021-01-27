@@ -28,6 +28,7 @@ export const params = {
   label_color: '#000000',
   label_bgcolor: '#00b3ff',
   label_bgopacity: 1,
+  label_offset: 1,
   label_rotation: 0,
   label_orient_center: false,
   label_groups_only: true,
@@ -87,7 +88,7 @@ function make_lva_label(lva) {
   } else return;
   let x = lva['_pos'][0];
   let y = lva['_pos'][1];
-  let x_offset = params.dot_size;
+  let x_offset = params.dot_size/2 + params.label_offset;
   let y_offset = -params.label_size;
   if (text.length > params.label_maxlen) { text = text.slice(0, params.label_maxlen) + '…'; }
   let r = params.label_rotation;
