@@ -29,6 +29,8 @@ export const params = {
   label_bgcolor: '#00b3ff',
   label_bgopacity: 1,
   label_offset: 1,
+  label_padding_x: 1,
+  label_padding_y: 1,
   label_rotation: 0,
   label_orient_center: false,
   label_groups_only: true,
@@ -95,8 +97,9 @@ function make_lva_label(lva) {
   if (params.label_orient_center) { r += Math.atan2(y - H/2, x - W/2) / (2*Math.PI) * 360; }
   let g = draw.group().translate(x, y).rotate(r);
   let bg = g.rect().addClass('label-bg').translate(x_offset, y_offset);
-  g.text(text).font({'size': params.label_size}).addClass('label').translate(x_offset, y_offset);
-  bg.size(g.width(), g.height()).move(0, params.label_size * 0.33);
+  g.text(text).font({'size': params.label_size}).addClass('label').translate(x_offset + params.label_padding_x, y_offset);
+  let label_h = params.label_size + 2*params.label_padding_y;
+  bg.size(g.width() + 2*params.label_padding_x, label_h).translate(0, label_h/2 - 2*params.label_padding_y);
 }
 
 function make_labels() {
