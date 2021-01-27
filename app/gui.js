@@ -2,8 +2,10 @@ import { gui as dat } from '../node_modules/dat.gui/build/dat.gui.module.js';
 import * as main from './main.js';
 import * as util from './util.js';
 
+export let gui;
+
 export function create() {
-  const gui = new dat.GUI();
+  gui = new dat.GUI();
   
   gui.add(main.params, 'format', ['single_page', 'spread']).onFinishChange(main.recreate);
   gui.add(main.params, 'arrangement', ['grid', 'circle', 'spiral']).onFinishChange(main.recreate);
@@ -27,6 +29,7 @@ export function create() {
   gui.add(main.params, 'label_every', 1, undefined, 1).onFinishChange(main.recreate);
   gui.add(main.params, 'label_size', 1, undefined, 0.1).onFinishChange(main.recreate);
   gui.add(main.params, 'label_maxlen', 1, undefined, 1).onFinishChange(main.recreate);
+  gui.add(main.params, 'group_by', ['studien', 'rooms', 'lehrende']).onFinishChange(main.recreate);
   gui.add(main.params, 'group_offset', 0, 30, 1).onFinishChange(main.recreate);
   gui.add(main.params, 'group_count', 1, 31, 1).onFinishChange(main.recreate);
   gui.addColor(main.params, 'group_color').onFinishChange(main.restyle);

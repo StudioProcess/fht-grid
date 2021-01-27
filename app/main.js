@@ -34,6 +34,7 @@ export const params = {
   label_every: 1,
   label_size: 6,
   label_maxlen: 100,
+  group_by: 'studien',
   group_offset: 0,
   group_count: 1,
   group_color: '#000000',
@@ -167,10 +168,13 @@ function make_spiral(diameter, windings, n, cx = null, cy = null) {
 }
 
 function make_groups() {
-  let studien = Object.values(data.studien);
+  let group_data = Object.values( data[params.group_by] );
+  let group_count = Object.keys(group_data).length - 1;
+  util.getController(gui.gui, null, 'group_offset').max(group_count);
+  util.getController(gui.gui, null, 'group_count').max(group_count);
   let groups = [];
   for (let i=params.group_offset; i<params.group_offset+params.group_count; i++) {
-    let lvas = studien[i % studien.length]['_lvas'];
+    let lvas = group_data[i % group_data.length]['_lvas'];
     groups.push( lvas );
     let coords = lvas.map(lva => `${lva['_pos'][0]},${lva['_pos'][1]}` ).join(' ');
     if(params.show_connections) {
@@ -234,9 +238,9 @@ export function save() {
   data = await data_loader.load();
   console.log(data);
   
-  recreate();
-
   gui.create();
+  
+  recreate();
 
   keys.setup();
 })();

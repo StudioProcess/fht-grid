@@ -78,3 +78,12 @@ export async function loadSettings(url, target = {}) {
 export function mm2pt(mm) {
   return mm / 25.4 * 72;
 }
+
+
+export function getController(dg, obj, name) {
+  for (let c of dg.__controllers) {
+    if (obj && c.object === obj && c.property === name) return c;
+    if (!obj && c.property === name) return c;
+  }
+  return undefined;
+}
