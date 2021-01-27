@@ -43,16 +43,22 @@ export const params = {
   group_name: '',
   group_offset: 0,
   group_count: 1,
-  group_color: '#000000',
-  opacity: 0.8,
   show_connections: true,
-  fill: false,
-  fill_rule: 'nonzero',
-  stroke_width: 0.75,
+  
+  conn_color: '#000000',
+  conn_opacity: 0.8,
+  conn_fill: false,
+  conn_fill_rule: 'nonzero',
+  conn_stroke_width: 0.75,
+  
   show_hull: true,
   hull_concavity: 1,
   hull_lengthThresh: 200,
-  fill_hull: false,
+  hull_fill: false,
+  hull_color: '#000000',
+  hull_opacity: 0.8,
+  hull_stroke_width: 0.75,
+  
   bg_color: '#FFFFFF', //#FFFFFa
   save_svg: save,
 };
@@ -197,7 +203,7 @@ function make_groups() {
     
     if (params.show_hull) {
       let hull = concaveman(points, params.hull_concavity, params.hull_lengthThresh);
-      draw.polygon(hull).addClass('group').addClass('hull');
+      draw.polygon(hull).addClass('hull');
     }
   }
   let c = util.getController(gui.gui, null, 'group_name');
@@ -261,14 +267,18 @@ export function restyle() {
   style.rule('.label-bg', { 'fill': params.label_bgcolor, 'opacity': params.label_bgopacity });
   style.rule('.group', { 
     'stroke-linejoin': 'round',
-    'stroke-width': params.stroke_width,
-    'stroke': params.group_color,
-    'fill': params.fill ? params.group_color : 'none',
-    'opacity': params.opacity,
-    'fill-rule': params.fill_rule,
+    'stroke-width': params.conn_stroke_width,
+    'stroke': params.conn_color,
+    'fill': params.conn_fill ? params.conn_color : 'none',
+    'opacity': params.conn_opacity,
+    'fill-rule': params.conn_fill_rule,
   });
-  style.rule('.hull', { 
-    'fill': params.fill_hull ? params.group_color : 'none',
+  style.rule('.hull', {
+    'stroke-linejoin': 'round',
+    'stroke-width': params.hull_stroke_width,
+    'stroke': params.hull_color,
+    'fill': params.hull_fill ? params.hull_color : 'none',
+    'opacity': params.hull_opacity,
   });
   style.rule('.hidden', {'display': 'none'});
 }

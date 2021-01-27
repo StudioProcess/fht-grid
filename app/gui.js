@@ -42,16 +42,19 @@ export function create() {
   util.lockController(gui, null, 'group_name');
   f.add(main.params, 'group_offset', 0, 30, 1).onFinishChange(main.recreate);
   f.add(main.params, 'group_count', 1, 31, 1).onFinishChange(main.recreate);
-  f.addColor(main.params, 'group_color').onFinishChange(main.restyle);
-  f.add(main.params, 'opacity', 0, 1, 0.01).onFinishChange(main.restyle);
-  f.add(main.params, 'stroke_width', 0).onFinishChange(main.restyle);
   f.add(main.params, 'show_connections').onFinishChange(main.recreate);
-  f.add(main.params, 'fill').onFinishChange(main.restyle);
-  f.add(main.params, 'fill_rule', ['nonzero', 'evenodd']).onFinishChange(main.recreate);
+  f.addColor(main.params, 'conn_color').onFinishChange(main.restyle);
+  f.add(main.params, 'conn_opacity', 0, 1, 0.01).onFinishChange(main.restyle);
+  f.add(main.params, 'conn_stroke_width', 0).onFinishChange(main.restyle);
+  f.add(main.params, 'conn_fill').onFinishChange(main.restyle);
+  f.add(main.params, 'conn_fill_rule', ['nonzero', 'evenodd']).onFinishChange(main.recreate);
   f.add(main.params, 'show_hull').onFinishChange(main.recreate);
   f.add(main.params, 'hull_concavity', undefined, undefined, 0.01).onFinishChange(main.recreate);
   f.add(main.params, 'hull_lengthThresh', 0, undefined, 1).onFinishChange(main.recreate);
-  f.add(main.params, 'fill_hull').onFinishChange(main.recreate);
+  f.addColor(main.params, 'hull_color').onFinishChange(main.restyle);
+  f.add(main.params, 'hull_opacity', 0, 1, 0.01).onFinishChange(main.restyle);
+  f.add(main.params, 'hull_stroke_width', 0).onFinishChange(main.restyle);
+  f.add(main.params, 'hull_fill').onFinishChange(main.recreate);
   
   gui.addColor(main.params, 'bg_color').onFinishChange(main.recreate);
   gui.add(main.params, 'save_svg');
