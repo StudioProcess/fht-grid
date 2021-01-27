@@ -81,9 +81,15 @@ export function mm2pt(mm) {
 
 
 export function getController(dg, obj, name) {
+  let controllers = dg.__controllers.concat( dg.__groups )
   for (let c of dg.__controllers) {
     if (obj && c.object === obj && c.property === name) return c;
     if (!obj && c.property === name) return c;
+  }
+  // check folders
+  for (let folder of Object.values(dg.__folders)) {
+    let result = getController(folder, obj, name)
+    if (result) return result;
   }
   return undefined;
 }

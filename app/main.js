@@ -3,6 +3,7 @@ import * as util from './util.js';
 import * as keys from './keys.js';
 import * as gui from './gui.js';
 import * as data_loader from './data.js';
+import './concaveman-dist.js';
 
 export const config = {
   SINGLE_W: 205, // [mm]
@@ -44,10 +45,14 @@ export const params = {
   group_count: 1,
   group_color: '#000000',
   opacity: 0.8,
+  show_connections: true,
   fill: false,
   fill_rule: 'nonzero',
   stroke_width: 0.75,
-  show_connections: true,
+  show_hull: true,
+  hull_concavity: 1,
+  hull_lengthThresh: 200,
+  fill_hull: false,
   bg_color: '#FFFFFF', //#FFFFFa
   save_svg: save,
 };
@@ -184,9 +189,15 @@ function make_groups() {
   for (let i=params.group_offset; i<params.group_offset+params.group_count; i++) {
     let lvas = group_data[i % group_data.length]['_lvas'];
     groups.push( lvas );
-    let coords = lvas.map(lva => `${lva['_pos'][0]},${lva['_pos'][1]}` ).join(' ');
-    if(params.show_connections) {
-      draw.polygon(coords).addClass('group');
+    let points = lvas.map(x => x._pos);
+    
+    if (params.show_connections) {
+      draw.polygon(points).addClass('group');
+    }
+    
+    if (params.show_hull) {
+      let hull = concaveman(points, params.hull_concavity, params.hull_lengthThresh);
+      draw.polygon(hull).addClass('group').addClass('hull');
     }
   }
   let c = util.getController(gui.gui, null, 'group_name');
@@ -255,6 +266,9 @@ export function restyle() {
     'fill': params.fill ? params.group_color : 'none',
     'opacity': params.opacity,
     'fill-rule': params.fill_rule,
+  });
+  style.rule('.hull', { 
+    'fill': params.fill_hull ? params.group_color : 'none',
   });
   style.rule('.hidden', {'display': 'none'});
 }

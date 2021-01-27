@@ -6,7 +6,8 @@
   "scripts": {
     "start": "live-server --browser='Google Chrome' --ignore=.git,node_modules .",
     "dl-data": "node dl-data.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-concaveman": "browserify node_modules/concaveman/index.js --standalone concaveman > app/concaveman-dist.js"
   },
   "keywords": [],
   "author": "Martin Grödl <martin@process.studio> (https://process.studio)",
@@ -17,9 +18,11 @@
   },
   "dependencies": {
     "@svgdotjs/svg.js": "^3.0.16",
+    "concaveman": "^1.2.0",
     "dat.gui": "^0.7.7"
   },
   "devDependencies": {
+    "browserify": "^17.0.0",
     "live-server": "^1.2.1",
     "node-fetch": "^2.6.1"
   }
