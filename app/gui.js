@@ -22,6 +22,7 @@ export function create() {
   gui.addColor(main.params, 'label_bgcolor').onFinishChange(main.restyle);
   gui.add(main.params, 'label_bgopacity', 0, 1, 0.01).onFinishChange(main.restyle);
   gui.add(main.params, 'label_rotation', -180, 180, 0.1).onFinishChange(main.recreate);
+  gui.add(main.params, 'label_orient_center').onFinishChange(main.recreate);
   gui.add(main.params, 'label_groups_only').onFinishChange(main.recreate);
   gui.add(main.params, 'label_every', 1, undefined, 1).onFinishChange(main.recreate);
   gui.add(main.params, 'label_size', 1, undefined, 0.1).onFinishChange(main.recreate);
