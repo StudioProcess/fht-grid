@@ -165,7 +165,8 @@ export async function load() {
       if ( !rooms[room_id] ) {
         rooms[room_id] = {
           '_lvas': {},
-          '_events': []
+          '_events': [],
+          '_name': e.ort_kurzbz,
         };
       }
       let _lvas = rooms[room_id]['_lvas'];
@@ -178,7 +179,7 @@ export async function load() {
     r._lvas = Object.values(r._lvas);
   }
   
-  // TODO: create lehrende grouping
+  // create lehrende grouping
   let lehrende = {};
   for (let lva of lvas.slice(0)) {
     let lva_has_teacher = false;
@@ -195,7 +196,8 @@ export async function load() {
           nachname: e.nachname,
           vorname: e.vorname,
           '_lvas': {},
-          '_events': []
+          '_events': [],
+          '_name': teacher_id,
         }
       }
       let _lvas = lehrende[teacher_id]['_lvas'];

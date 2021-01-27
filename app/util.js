@@ -87,3 +87,12 @@ export function getController(dg, obj, name) {
   }
   return undefined;
 }
+
+export function lockController(dg, obj, name) {
+  let c = getController(dg, obj, name);
+  if (!c) return;
+  console.log(c);
+  let e = c.domElement.querySelector('input');
+  if (!e) return;
+  e.setAttribute('disabled', 'disabled');
+}

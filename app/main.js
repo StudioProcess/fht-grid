@@ -35,6 +35,7 @@ export const params = {
   label_size: 6,
   label_maxlen: 100,
   group_by: 'studien',
+  group_name: '',
   group_offset: 0,
   group_count: 1,
   group_color: '#000000',
@@ -181,6 +182,9 @@ function make_groups() {
       draw.polygon(coords).addClass('group');
     }
   }
+  let c = util.getController(gui.gui, null, 'group_name');
+  let d = group_data[params.group_offset % group_data.length];
+  c.setValue(d._name);
   return groups;
 }
 
