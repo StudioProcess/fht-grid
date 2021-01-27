@@ -262,3 +262,21 @@ export function sort_studium_id(array) {
   }
   return array.sort( (a, b) => cmp( get_key(a), get_key(b) ));
 }
+
+export function sort_x_y(array) {
+  array = Array.from(array); // copy
+  return array.sort((a, b) => {
+    let c = cmp( a._pos[0], b._pos[0] );
+    if (c !== 0) return c;
+    return cmp( a._pos[1], b._pos[1] );
+  });
+}
+
+export function sort_y_x(array) {
+  array = Array.from(array); // copy
+  return array.sort((a, b) => {
+    let c = cmp( a._pos[1], b._pos[1] );
+    if (c !== 0) return c;
+    return cmp( a._pos[0], b._pos[0] );
+  });
+}

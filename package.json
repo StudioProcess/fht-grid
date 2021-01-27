@@ -19,7 +19,8 @@
   "dependencies": {
     "@svgdotjs/svg.js": "^3.0.16",
     "concaveman": "^1.2.0",
-    "dat.gui": "^0.7.7"
+    "dat.gui": "^0.7.7",
+    "seedrandom": "^3.0.5"
   },
   "devDependencies": {
     "browserify": "^17.0.0",

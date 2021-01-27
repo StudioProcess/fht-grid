@@ -43,6 +43,8 @@ export function create() {
   f.add(main.params, 'group_offset', 0, 30, 1).onFinishChange(main.recreate);
   f.add(main.params, 'group_count', 1, 31, 1).onFinishChange(main.recreate);
   f.add(main.params, 'show_connections').onFinishChange(main.recreate);
+  f.add(main.params, 'conn_sort', ['default', 'lva_name', 'lva_id', 'x_y', 'y_x', 'random']).onFinishChange(main.recreate);
+  f.add(main.params, 'conn_rnd_seed', undefined, undefined, 1).onFinishChange(main.recreate);
   f.addColor(main.params, 'conn_color').onFinishChange(main.restyle);
   f.add(main.params, 'conn_opacity', 0, 1, 0.01).onFinishChange(main.restyle);
   f.add(main.params, 'conn_stroke_width', 0).onFinishChange(main.restyle);

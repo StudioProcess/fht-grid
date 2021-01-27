@@ -4,6 +4,7 @@ import * as keys from './keys.js';
 import * as gui from './gui.js';
 import * as data_loader from './data.js';
 import './concaveman-dist.js';
+import '../node_modules/seedrandom/seedrandom.js';
 
 export const config = {
   SINGLE_W: 205, // [mm]
@@ -45,13 +46,15 @@ export const params = {
   group_count: 1,
   show_connections: true,
   
+  conn_sort: 'default',
+  conn_rnd_seed: 0,
   conn_color: '#000000',
   conn_opacity: 0.8,
   conn_fill: false,
   conn_fill_rule: 'nonzero',
   conn_stroke_width: 0.75,
   
-  show_hull: true,
+  show_hull: false,
   hull_concavity: 1,
   hull_lengthThresh: 200,
   hull_fill: false,
@@ -194,6 +197,15 @@ function make_groups() {
   let groups = [];
   for (let i=params.group_offset; i<params.group_offset+params.group_count; i++) {
     let lvas = group_data[i % group_data.length]['_lvas'];
+    
+    if (params.conn_sort === 'random') {
+      Math.seedrandom(params.conn_rnd_seed)
+      lvas = util.shuffle(lvas);
+    } else if (params.conn_sort !== 'default') {
+      let sort_fn = data_loader['sort_' + params.conn_sort];
+      lvas = sort_fn(lvas);
+    }
+    
     groups.push( lvas );
     let points = lvas.map(x => x._pos);
     
@@ -258,6 +270,10 @@ export function recreate() {
   groups = make_groups();
   set_dots_visibility();
   make_labels();
+  
+  window.data = data;
+  window.lvas = lvas;
+  window.groups = groups;
 }
 
 export function restyle() {
