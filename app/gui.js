@@ -16,6 +16,7 @@ export function create() {
   gui.add(main.params, 'spiral_diameter', 1, undefined, 1).onFinishChange(main.recreate);
   gui.add(main.params, 'spiral_windings', 1, undefined, 0.1).onFinishChange(main.recreate);
   gui.add(main.params, 'spiral_equidistant').onFinishChange(main.recreate);
+  gui.add(main.params, 'dots', ['all', 'none', 'groups', 'non-groups']).onFinishChange(main.recreate);
   gui.add(main.params, 'dot_size', 0).onFinishChange(main.recreate);
   gui.addColor(main.params, 'dot_color', 0).onFinishChange(main.restyle);
   gui.add(main.params, 'sort', ['lva_name', 'lva_id', 'studium_name', 'studium_id']).onFinishChange(main.recreate);

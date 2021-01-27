@@ -21,6 +21,7 @@ export const params = {
   spiral_diameter: 540,
   spiral_windings: 8,
   spiral_equidistant: false,
+  dots: 'all',
   dot_size: 1.75,
   dot_color: '#000000',
   sort: 'lva_id',
@@ -134,7 +135,8 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
     for (let i=0; i<cols; i++) {
       if ( idx == n ) break;
       lvas[idx]['_pos'] = [x, y]; // save grid coordinates with data
-      draw.circle(params.dot_size).cx(x).cy(y).addClass('dot');
+      let dot = draw.circle(params.dot_size).cx(x).cy(y).addClass('dot');
+      lvas[idx]['_dot_element'] = dot;
       // make_label(x, y, idx);
       x += col_gap;
       idx++;
@@ -153,7 +155,8 @@ function make_circle(diameter, n, cx = null, cy = null) {
     let x = cx + diameter/2 * Math.cos(a);
     let y = cy + diameter/2 * Math.sin(a);
     lva['_pos'] = [x, y]; // save coordinates with data
-    draw.circle(params.dot_size).cx(x).cy(y).addClass('dot');
+    let dot = draw.circle(params.dot_size).cx(x).cy(y).addClass('dot');
+    lva['_dot_element'] = dot;
   }
 }
 
@@ -168,7 +171,8 @@ function make_spiral(diameter, windings, n, cx = null, cy = null) {
     let x = cx + diameter/2 * t * Math.cos(a);
     let y = cy + diameter/2 * t * Math.sin(a);
     lva['_pos'] = [x, y]; // save coordinates with data
-    draw.circle(params.dot_size).cx(x).cy(y).addClass('dot');
+    let dot = draw.circle(params.dot_size).cx(x).cy(y).addClass('dot');
+    lva['_dot_element'] = dot;
   }
 }
 
@@ -190,6 +194,25 @@ function make_groups() {
   let d = group_data[params.group_offset % group_data.length];
   c.setValue(d._name);
   return groups;
+}
+
+function set_dots_visibility() {
+  if (params.dots === 'all') { 
+    return;
+  } else if (params.dots === 'none') {
+    for (let lva of lvas) { lva._dot_element.addClass('hidden') } // hide all
+  } else if (params.dots === 'groups') {
+    for (let lva of lvas) { lva._dot_element.addClass('hidden') } // hide all
+    // un-hide groups
+    for (let g of groups) {
+      for (let lva of g) { lva._dot_element.removeClass('hidden') }
+    }
+  } else if (params.dots === 'non-groups') {
+    // hide groups
+    for (let g of groups) {
+      for (let lva of g) { lva._dot_element.addClass('hidden') }
+    }
+  }
 }
 
 export function recreate() {
@@ -219,6 +242,7 @@ export function recreate() {
   document.getElementById("svg").style.backgroundColor = params.bg_color;
   
   groups = make_groups();
+  set_dots_visibility();
   make_labels();
 }
 
@@ -235,6 +259,7 @@ export function restyle() {
     'opacity': params.opacity,
     'fill-rule': params.fill_rule,
   });
+  style.rule('.hidden', {'display': 'none'});
 }
 
 export function save() {
