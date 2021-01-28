@@ -272,7 +272,8 @@ export function recreate() {
     make_spiral(params.spiral_diameter, params.spiral_windings, lvas.length);
   }
   
-  document.getElementById("svg").style.backgroundColor = params.bg_color;
+  // document.getElementById("svg").style.backgroundColor = params.bg_color;
+  document.getElementById('svg_style').innerText = `svg { background-color:${params.bg_color} !important;}`;
   
   groups = make_groups();
   set_dots_visibility();
