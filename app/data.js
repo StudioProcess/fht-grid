@@ -146,6 +146,22 @@ export async function load() {
     return Object.assign(lva, {_calendar: cal});
   });
   
+  // add lehrende + rooms to lvas
+  for (let lva of lvas) {
+    let lehrende = new Set();
+    let rooms = new Set();
+    for (let cal of lva._calendar) {
+      let teacher_id = cal.nachname;
+      if (cal.vorname) teacher_id += ', ' + cal.vorname;
+      if (teacher_id) lehrende.add(teacher_id);
+      if (cal.ort_kurzbz) rooms.add(cal.ort_kurzbz)
+    }
+    lva['_lehrende'] = [...lehrende].sort();
+    lva['_rooms'] = [...rooms].sort();
+  }
+  
+  // add rooms to lvas
+  
   // create studien grouping
   let studien = {};
   for (let lva of lvas.slice(0)) {

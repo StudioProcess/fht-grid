@@ -22,7 +22,7 @@ export function create() {
   gui.add(main.params, 'sort', ['lva_name', 'lva_id', 'studium_name', 'studium_id']).onFinishChange(main.recreate);
   
   let f = gui.addFolder('labels');
-  f.add(main.params, 'labels', ['none', 'lva_name', 'lva_id', 'studium_name', 'studium_id']).onFinishChange(main.recreate);
+  f.add(main.params, 'labels', ['_none', 'lehrveranstaltung_id', 'bezeichnung', 'bezeichnung_englisch', 'kurzbz', 'ects', 'lehrform', 'lehrtyp', 'organisationsform', 'pflicht', 'semester', 'sws', 'unterrichtssprache', '_studium_name', '_studium_id', '_rooms', '_lehrende']).onFinishChange(main.recreate);
   f.addColor(main.params, 'label_color').onFinishChange(main.restyle);
   f.addColor(main.params, 'label_bgcolor').onFinishChange(main.restyle);
   f.add(main.params, 'label_bgopacity', 0, 1, 0.01).onFinishChange(main.restyle);

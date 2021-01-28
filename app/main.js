@@ -27,7 +27,7 @@ export const params = {
   dot_size: 1.75,
   dot_color: '#000000',
   sort: 'lva_id',
-  labels: 'lva_name',
+  labels: 'bezeichnung',
   label_color: '#000000',
   label_bgcolor: '#00b3ff',
   label_bgopacity: 1,
@@ -89,20 +89,26 @@ function set_size() {
 }
 
 function make_lva_label(lva) {
+  if (params.labels === '_none') return;
   let text = '';
-  if (params.labels === 'lva_name') {
-    text = lva['bezeichnung'];
-  } else if (params.labels === 'lva_id') {
-    text = lva['lehrveranstaltung_id'];
-  } else if (params.labels === 'studium_name') {
+  if ( !params.labels.startsWith('_') ) {
+    text = lva[params.labels];
+    if (typeof(text) === 'boolean') { text = text.toString(); }
+  } else if (params.labels === '_studium_name') {
     let a = lva;
     while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
     text = a['_studium']['_name'];
-  } else if (params.labels === 'studium_id') {
+  } else if (params.labels === '_studium_id') {
     let a = lva;
     while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
     text = a['_studium']['_studiengang_kz'];
-  } else return;
+  } else if (params.labels === '_rooms') {
+    text = lva._rooms.join(', ');
+  } else if (params.labels === '_lehrende') {
+    text = lva._lehrende.join('; ');
+  }
+  if (!text) return;
+  
   let x = lva['_pos'][0];
   let y = lva['_pos'][1];
   let x_offset = params.dot_size/2 + params.label_offset_x;
