@@ -206,12 +206,13 @@ function make_groups(draw) {
   // create group selection drop-down  
   let dropdown_data = Object.fromEntries( group_data.map( (v, i) => [v._name, i] ) ); // index the entries
   let dropdown = util.getController(gui.gui, null, 'group').options(dropdown_data);
-  if (last_group != params.group_by) { dropdown.setValue(0); }
+  if (last_group && last_group != params.group_by) { dropdown.setValue(0); }
   last_group = params.group_by;
   dropdown.onFinishChange(recreate);
   
   let groups = [];
-  for (let i=parseInt(params.group); i<parseInt(params.group)+params.group_count; i++) {
+  params.group = parseInt(params.group);
+  for (let i=params.group; i<params.group+params.group_count; i++) {
     let lvas = group_data[i % group_data.length]['_lvas'];
     
     if (params.conn_sort === '_random') {
@@ -317,11 +318,15 @@ export function restyle() {
 }
 
 export function save() {
-  util.saveSVG('#svg');
+  let filename = util.saveSVG('#svg');
+  util.saveSettings(params, filename.replace('.svg', '.json'), 2);
 }
 
 
 (async function main() {
+  // add settings from settings js
+  util.loadSettings('./settings.js', params);
+  
   data = await data_loader.load();
   console.log(data);
   

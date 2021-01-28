@@ -1,0 +1,4 @@
+export default
+// --- PASTE THE CONTENTS OS A SETTINGS JSON FILE BELOW THIS LINE ---
+
+{}

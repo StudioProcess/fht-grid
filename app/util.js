@@ -49,8 +49,8 @@ export function saveText(str, filename = '', ext = '.txt', mime = 'text/plain') 
   return filename;
 }
 
-export function saveJSON(obj, filename = '') {
-  return saveText( JSON.stringify(obj), filename, '.json', 'application/json' );
+export function saveJSON(obj, filename = '', space = 0) {
+  return saveText( JSON.stringify(obj, null, space), filename, '.json', 'application/json' );
 }
 
 export function saveSVG(selector, filename = '') {
@@ -59,17 +59,25 @@ export function saveSVG(selector, filename = '') {
 }
 
 
-export function saveSettings(obj, filename = '') {
-  return saveJSON( obj, filename );
+export function saveSettings(obj, filename = '', space = 0) {
+  return saveJSON( obj, filename, space );
 }
 
 export async function loadSettings(url, target = {}) {
-  const response = await fetch(url);
   let obj = {};
-  try {
-    obj = await response.json();
-  } catch (e) {
-    console.error(`Error parsing settings file ${url}`, e);
+  if ( url.toLowerCase().endsWith('.js') ) {
+    let settings_module = await import(url);
+    if (settings_module.default === undefined) {
+      console.error(`The settings file needs to specify a default export: ${url}`);
+    }
+    obj = settings_module.default;
+  } else {
+    const response = await fetch(url);
+    try {
+      obj = await response.json();
+    } catch (e) {
+      console.error(`Error parsing settings file ${url}`, e);
+    }
   }
   return Object.assign( target, obj );
 }
