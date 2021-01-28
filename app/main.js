@@ -26,7 +26,7 @@ export const params = {
   dots: 'all',
   dot_size: 1.75,
   dot_color: '#000000',
-  sort: 'lva_id',
+  sort: 'lehrveranstaltung_id',
   labels: 'bezeichnung',
   label_color: '#000000',
   label_bgcolor: '#00b3ff',
@@ -47,7 +47,7 @@ export const params = {
   group_count: 1,
   show_connections: true,
   
-  conn_sort: 'default',
+  conn_sort: '_default',
   conn_rnd_seed: 0,
   conn_color: '#000000',
   conn_opacity: 0.8,
@@ -205,11 +205,11 @@ function make_groups() {
   for (let i=params.group_offset; i<params.group_offset+params.group_count; i++) {
     let lvas = group_data[i % group_data.length]['_lvas'];
     
-    if (params.conn_sort === 'random') {
+    if (params.conn_sort === '_random') {
       Math.seedrandom(params.conn_rnd_seed)
       lvas = util.shuffle(lvas);
-    } else if (params.conn_sort !== 'default') {
-      let sort_fn = data_loader['sort_' + params.conn_sort];
+    } else if (params.conn_sort !== '_default') {
+      let sort_fn = data_loader.sort_lvas[params.conn_sort];
       lvas = sort_fn(lvas);
     }
     
@@ -262,7 +262,7 @@ export function recreate() {
   // rect.attr({ fill: 'dodgerblue' });
   
   lvas = data.lvas;
-  lvas = data_loader['sort_' + params.sort](lvas);
+  lvas = data_loader.sort_lvas[params.sort](lvas);
   
   if (params.arrangement == 'grid') {
     make_grid(params.grid_cols, params.grid_h_space, params.grid_v_space, lvas.length);

@@ -243,56 +243,91 @@ function cmp(a, b) {
   return 0;
 }
 
-export function sort_lva_name(array) {
+// sort an array applying a function to each element that is compared
+function sort_fn(array, fn) {
   array = Array.from(array); // copy
-  return array.sort( (a, b) => cmp(
-    a['bezeichnung'].trim(),
-    b['bezeichnung'].trim()
-  ));
+  return array.sort( (a, b) => cmp( fn(a), fn(b) ) );
 }
 
-export function sort_lva_id(array) {
-  array = Array.from(array); // copy
-  return array.sort( (a, b) => cmp(
-    parseInt(a['lehrveranstaltung_id']),
-    parseInt(b['lehrveranstaltung_id']), 
-  ));
-}
-
-export function sort_studium_name(array) {
-  array = Array.from(array); // copy
-  function get_key(a) {
-    while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
-    a = a['_studium']['_name'];
-    return a;
-  }
-  return array.sort( (a, b) => cmp( get_key(a), get_key(b) ));
-}
-
-export function sort_studium_id(array) {
-  array = Array.from(array); // copy
-  function get_key(a) {
-    while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
-    a = a['_studium']['_studiengang_kz'];
-    return a;
-  }
-  return array.sort( (a, b) => cmp( get_key(a), get_key(b) ));
-}
-
-export function sort_x_y(array) {
-  array = Array.from(array); // copy
-  return array.sort((a, b) => {
-    let c = cmp( a._pos[0], b._pos[0] );
-    if (c !== 0) return c;
-    return cmp( a._pos[1], b._pos[1] );
+// sort an array of objects by the given string property
+function sort_string_prop(array, prop) {
+  return sort_fn( array, x => {
+    x = x[prop] || '';
+    x = '' + x;
+    return x.trim();
   });
 }
 
-export function sort_y_x(array) {
-  array = Array.from(array); // copy
-  return array.sort((a, b) => {
-    let c = cmp( a._pos[1], b._pos[1] );
-    if (c !== 0) return c;
-    return cmp( a._pos[0], b._pos[0] );
-  });
+// sort an array of objects by the given integer property
+function sort_int_prop(array, prop) {
+  return sort_fn( array, x => parseInt(x[prop]) );
 }
+
+// sort an array of objects by the given float property
+function sort_float_prop(array, prop) {
+  return sort_fn( array, x => parseFloat(x[prop]) );
+}
+
+// sorting functions for LVA arrays
+export const sort_lvas = {};
+
+// add LVA sorting functions for number properties
+['lehrveranstaltung_id', 'ects', 'sws'].forEach( prop => {
+  sort_lvas[prop] = (array) => sort_float_prop(array, prop);
+});
+
+// add LVA sorting functions for string properties
+['bezeichnung', 'bezeichnung_englisch', 'kurzbz', 'lehrform', 'lehrtyp', 'organisationsform', 'pflicht', 'semester', 'unterrichtssprache'].forEach( prop => {
+  sort_lvas[prop] = (array) => sort_string_prop(array, prop);
+});
+
+// add special LVA sorting function
+Object.assign(sort_lvas, {
+
+  _studium_name(array) {
+    array = Array.from(array); // copy
+    function get_key(a) {
+      while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
+      a = a['_studium']['_name'];
+      return a;
+    }
+    return array.sort( (a, b) => cmp( get_key(a), get_key(b) ));
+  },
+  
+  _studium_id(array) {
+    array = Array.from(array); // copy
+    function get_key(a) {
+      while (typeof a === 'object' && a !== null && '_modul' in a) a = a['_modul'];
+      a = a['_studium']['_studiengang_kz'];
+      return a;
+    }
+    return array.sort( (a, b) => cmp( get_key(a), get_key(b) ));
+  },
+  
+  _x_y(array) {
+    array = Array.from(array); // copy
+    return array.sort((a, b) => {
+      let c = cmp( a._pos[0], b._pos[0] );
+      if (c !== 0) return c;
+      return cmp( a._pos[1], b._pos[1] );
+    });
+  },
+
+  _y_x(array) {
+    array = Array.from(array); // copy
+    return array.sort((a, b) => {
+      let c = cmp( a._pos[1], b._pos[1] );
+      if (c !== 0) return c;
+      return cmp( a._pos[0], b._pos[0] );
+    });
+  },
+  
+  _rooms(array) {
+    return sort_fn( array, lva => lva._rooms.join(', ') );
+  },
+  
+  _lehrende(array) {
+    return sort_fn( array, lva => lva._lehrende.join('; ') );
+  }
+
+});

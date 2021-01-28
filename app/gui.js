@@ -19,7 +19,7 @@ export function create() {
   gui.add(main.params, 'dots', ['all', 'none', 'groups', 'non-groups']).onFinishChange(main.recreate);
   gui.add(main.params, 'dot_size', 0).onFinishChange(main.recreate);
   gui.addColor(main.params, 'dot_color', 0).onFinishChange(main.restyle);
-  gui.add(main.params, 'sort', ['lva_name', 'lva_id', 'studium_name', 'studium_id']).onFinishChange(main.recreate);
+  gui.add(main.params, 'sort', ['lehrveranstaltung_id', 'bezeichnung', 'bezeichnung_englisch', 'kurzbz', 'ects', 'lehrform', 'lehrtyp', 'organisationsform', 'pflicht', 'semester', 'sws', 'unterrichtssprache', '_studium_name', '_studium_id', '_rooms', '_lehrende']).onFinishChange(main.recreate);
   
   let f = gui.addFolder('labels');
   f.add(main.params, 'labels', ['_none', 'lehrveranstaltung_id', 'bezeichnung', 'bezeichnung_englisch', 'kurzbz', 'ects', 'lehrform', 'lehrtyp', 'organisationsform', 'pflicht', 'semester', 'sws', 'unterrichtssprache', '_studium_name', '_studium_id', '_rooms', '_lehrende']).onFinishChange(main.recreate);
@@ -44,7 +44,7 @@ export function create() {
   f.add(main.params, 'group_offset', 0, 30, 1).onFinishChange(main.recreate);
   f.add(main.params, 'group_count', 1, 31, 1).onFinishChange(main.recreate);
   f.add(main.params, 'show_connections').onFinishChange(main.recreate);
-  f.add(main.params, 'conn_sort', ['default', 'lva_name', 'lva_id', 'x_y', 'y_x', 'random']).onFinishChange(main.recreate);
+  f.add(main.params, 'conn_sort', ['_default', 'bezeichnung', 'lehrveranstaltung_id', '_x_y', '_y_x', '_random']).onFinishChange(main.recreate);
   f.add(main.params, 'conn_rnd_seed', undefined, undefined, 1).onFinishChange(main.recreate);
   f.addColor(main.params, 'conn_color').onFinishChange(main.restyle);
   f.add(main.params, 'conn_opacity', 0, 1, 0.01).onFinishChange(main.restyle);
