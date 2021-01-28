@@ -39,9 +39,7 @@ export function create() {
   
   f = gui.addFolder('groups');
   f.add(main.params, 'group_by', ['studien', 'rooms', 'lehrende']).onFinishChange(main.recreate);
-  f.add(main.params, 'group_name');
-  util.lockController(gui, null, 'group_name');
-  f.add(main.params, 'group_offset', 0, 30, 1).onFinishChange(main.recreate);
+  f.add(main.params, 'group', []);
   f.add(main.params, 'group_count', 1, 31, 1).onFinishChange(main.recreate);
   f.add(main.params, 'show_connections').onFinishChange(main.recreate);
   f.add(main.params, 'conn_sort', ['_default', 'bezeichnung', 'lehrveranstaltung_id', '_x_y', '_y_x', '_random']).onFinishChange(main.recreate);

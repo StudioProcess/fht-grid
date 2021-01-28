@@ -42,11 +42,10 @@ export const params = {
   label_size: 6,
   label_maxlen: 100,
   group_by: 'studien',
-  group_name: '',
-  group_offset: 0,
+  group: 0,
   group_count: 1,
-  show_connections: true,
   
+  show_connections: true,
   conn_sort: '_default',
   conn_rnd_seed: 0,
   conn_color: '#000000',
@@ -196,13 +195,23 @@ function make_spiral(draw, diameter, windings, n, cx = null, cy = null) {
   }
 }
 
+let last_group = '';
+
 function make_groups(draw) {
   let group_data = Object.values( data[params.group_by] );
+  group_data = data_loader.sort_string_prop(group_data, '_name'); // sort data
   let group_count = Object.keys(group_data).length - 1;
-  util.getController(gui.gui, null, 'group_offset').max(group_count);
   util.getController(gui.gui, null, 'group_count').max(group_count);
+  
+  // create group selection drop-down  
+  let dropdown_data = Object.fromEntries( group_data.map( (v, i) => [v._name, i] ) ); // index the entries
+  let dropdown = util.getController(gui.gui, null, 'group').options(dropdown_data);
+  if (last_group != params.group_by) { dropdown.setValue(0); }
+  last_group = params.group_by;
+  dropdown.onFinishChange(recreate);
+  
   let groups = [];
-  for (let i=params.group_offset; i<params.group_offset+params.group_count; i++) {
+  for (let i=parseInt(params.group); i<parseInt(params.group)+params.group_count; i++) {
     let lvas = group_data[i % group_data.length]['_lvas'];
     
     if (params.conn_sort === '_random') {
@@ -225,9 +234,6 @@ function make_groups(draw) {
       draw.polygon(hull).addClass('hull');
     }
   }
-  let c = util.getController(gui.gui, null, 'group_name');
-  let d = group_data[params.group_offset % group_data.length];
-  c.setValue(d._name);
   return groups;
 }
 

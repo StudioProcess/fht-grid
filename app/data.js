@@ -227,6 +227,8 @@ export async function load() {
     l._lvas = Object.values(l._lvas);
   }
   
+  lvas = sort_lvas.bezeichnung(lvas); // initially sort by LVA name
+  
   return {
     raw: data,
     lvas,
@@ -250,7 +252,7 @@ function sort_fn(array, fn) {
 }
 
 // sort an array of objects by the given string property
-function sort_string_prop(array, prop) {
+export function sort_string_prop(array, prop) {
   return sort_fn( array, x => {
     x = x[prop] || '';
     x = '' + x;
@@ -259,12 +261,12 @@ function sort_string_prop(array, prop) {
 }
 
 // sort an array of objects by the given integer property
-function sort_int_prop(array, prop) {
+export function sort_int_prop(array, prop) {
   return sort_fn( array, x => parseInt(x[prop]) );
 }
 
 // sort an array of objects by the given float property
-function sort_float_prop(array, prop) {
+export function sort_float_prop(array, prop) {
   return sort_fn( array, x => parseFloat(x[prop]) );
 }
 
