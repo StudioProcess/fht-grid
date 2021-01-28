@@ -88,7 +88,7 @@ function set_size() {
   draw.viewbox(0, 0, W, H); // now we can specify all values in pt, but don't have to write 'pt' all the time. also contents of svg scale when svg is resized automatically
 }
 
-function make_lva_label(lva) {
+function make_lva_label(draw, lva) {
   if (params.labels === '_none') return;
   let text = '';
   if ( !params.labels.startsWith('_') ) {
@@ -123,7 +123,7 @@ function make_lva_label(lva) {
   bg.size(g.width() + 2*params.label_padding_x, label_h).translate(0, label_h/2 - 2*params.label_padding_y);
 }
 
-function make_labels() {
+function make_labels(draw) {
   if (params.labels === 'none') return;
   
   let label_groups;
@@ -133,13 +133,13 @@ function make_labels() {
   for (let group of label_groups) {
     for ( let [i, lva] of group.entries() ) {
       if (i % params.label_every !== 0) continue;
-      make_lva_label(lva);
+      make_lva_label(draw, lva);
     }
   }
 }
 
 // A grid of circles
-function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
+function make_grid(draw, cols, col_gap, row_gap, n, left = null, top = null) {
   cols = Math.floor(cols);
   let rows = Math.ceil(n / cols);
   
@@ -166,7 +166,7 @@ function make_grid(cols, col_gap, row_gap, n, left = null, top = null) {
   }
 }
 
-function make_circle(diameter, n, cx = null, cy = null) {
+function make_circle(draw, diameter, n, cx = null, cy = null) {
   if (cx === null) cx = W / 2 ;// center horizontally
   if (cy === null) cy = H / 2 ;// center vertically
   
@@ -180,7 +180,7 @@ function make_circle(diameter, n, cx = null, cy = null) {
   }
 }
 
-function make_spiral(diameter, windings, n, cx = null, cy = null) {
+function make_spiral(draw, diameter, windings, n, cx = null, cy = null) {
   if (cx === null) cx = W / 2 ;// center horizontally
   if (cy === null) cy = H / 2 ;// center vertically
   
@@ -196,7 +196,7 @@ function make_spiral(diameter, windings, n, cx = null, cy = null) {
   }
 }
 
-function make_groups() {
+function make_groups(draw) {
   let group_data = Object.values( data[params.group_by] );
   let group_count = Object.keys(group_data).length - 1;
   util.getController(gui.gui, null, 'group_offset').max(group_count);
@@ -264,20 +264,23 @@ export function recreate() {
   lvas = data.lvas;
   lvas = data_loader.sort_lvas[params.sort](lvas);
   
+  let grid = draw.group();
   if (params.arrangement == 'grid') {
-    make_grid(params.grid_cols, params.grid_h_space, params.grid_v_space, lvas.length);
+    make_grid(grid, params.grid_cols, params.grid_h_space, params.grid_v_space, lvas.length);
   } else if (params.arrangement == 'circle'){
-    make_circle(params.circle_diameter, lvas.length);
+    make_circle(grid, params.circle_diameter, lvas.length);
   } else {
-    make_spiral(params.spiral_diameter, params.spiral_windings, lvas.length);
+    make_spiral(grid, params.spiral_diameter, params.spiral_windings, lvas.length);
   }
   
   // document.getElementById("svg").style.backgroundColor = params.bg_color;
   document.getElementById('svg_style').innerText = `svg { background-color:${params.bg_color} !important;}`;
   
-  groups = make_groups();
+  groups = make_groups(draw);
   set_dots_visibility();
-  make_labels();
+  
+  let labels = draw.group();
+  make_labels(labels);
   
   window.data = data;
   window.lvas = lvas;
