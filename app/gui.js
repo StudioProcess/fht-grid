@@ -26,7 +26,8 @@ export function create() {
   f.addColor(main.params, 'label_color').onFinishChange(main.restyle);
   f.addColor(main.params, 'label_bgcolor').onFinishChange(main.restyle);
   f.add(main.params, 'label_bgopacity', 0, 1, 0.01).onFinishChange(main.restyle);
-  f.add(main.params, 'label_offset', undefined, undefined, 0.1).onFinishChange(main.recreate);
+  f.add(main.params, 'label_offset_x', undefined, undefined, 0.1).onFinishChange(main.recreate);
+  f.add(main.params, 'label_offset_y', undefined, undefined, 0.1).onFinishChange(main.recreate);
   f.add(main.params, 'label_padding_x', 0, undefined, 0.1).onFinishChange(main.recreate);
   f.add(main.params, 'label_padding_y', 0, undefined, 0.1).onFinishChange(main.recreate);
   f.add(main.params, 'label_rotation', -180, 180, 0.1).onFinishChange(main.recreate);

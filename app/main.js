@@ -31,7 +31,8 @@ export const params = {
   label_color: '#000000',
   label_bgcolor: '#00b3ff',
   label_bgopacity: 1,
-  label_offset: 1,
+  label_offset_x: 1,
+  label_offset_y: 0,
   label_padding_x: 1,
   label_padding_y: 1,
   label_rotation: 0,
@@ -104,8 +105,8 @@ function make_lva_label(lva) {
   } else return;
   let x = lva['_pos'][0];
   let y = lva['_pos'][1];
-  let x_offset = params.dot_size/2 + params.label_offset;
-  let y_offset = -params.label_size;
+  let x_offset = params.dot_size/2 + params.label_offset_x;
+  let y_offset = -params.label_size + params.label_offset_y;
   if (text.length > params.label_maxlen) { text = text.slice(0, params.label_maxlen) + '…'; }
   let r = params.label_rotation;
   if (params.label_orient_center) { r += Math.atan2(y - H/2, x - W/2) / (2*Math.PI) * 360; }
