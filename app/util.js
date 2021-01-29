@@ -63,6 +63,10 @@ export function saveSettings(obj, filename = '', space = 0) {
   return saveJSON( obj, filename, space );
 }
 
+// Loads JS and JSON files containing exported settings
+// JSON can be loaded used as exported
+// JS needs to specify a default export (Just add 'export default' as first line)
+// JS can contain comments and other code as well
 export async function loadSettings(url, target = {}) {
   let obj = {};
   if ( url.toLowerCase().endsWith('.js') ) {
@@ -88,6 +92,8 @@ export function mm2pt(mm) {
 }
 
 
+// Get dat.gui controller by name
+// obj is optional
 export function getController(dg, obj, name) {
   let controllers = dg.__controllers.concat( dg.__groups )
   for (let c of dg.__controllers) {
