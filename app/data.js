@@ -240,9 +240,7 @@ export async function load() {
 }
 
 function cmp(a, b) {
-  if (a < b) return -1;
-  if (a > b) return 1;
-  return 0;
+  return ("" + a).localeCompare(b, ['de', 'en']); // Explicitly providing locales doesn't seem to be necessary, but doing it anyway for safety
 }
 
 // sort an array applying a function to each element that is compared
